@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +15,7 @@ namespace Server.Account
         public Namelists()
         {
             InitializeComponent();
+            Server.MirForms.ServerUi.Apply(this);
             UpdateNamelists();
         }
 
@@ -225,17 +226,17 @@ namespace Server.Account
             // Ensure a namelist is selected in NamelistView
             if (NamelistView.SelectedItems.Count == 0)
             {
-                MessageBox.Show("Please select a namelist to add the player to.");
+                Server.MirForms.ServerUi.Show("Please select a namelist to add the player to.");
                 return;
             }
 
             // Prompt for the player's name
-            string playerName = Microsoft.VisualBasic.Interaction.InputBox("Enter the player's name:", "Add Player", "");
+            string playerName = Server.MirForms.ServerUi.Input("Enter the player's name:", "Add Player", "");
 
             // Check if the input was empty
             if (string.IsNullOrWhiteSpace(playerName))
             {
-                MessageBox.Show("Player name cannot be empty.");
+                Server.MirForms.ServerUi.Show("Player name cannot be empty.");
                 return;
             }
 
@@ -247,7 +248,7 @@ namespace Server.Account
             var lines = File.ReadAllLines(fullPath).ToList();
             if (lines.Contains(playerName))
             {
-                MessageBox.Show("Player is already in the selected namelist.");
+                Server.MirForms.ServerUi.Show("Player is already in the selected namelist.");
                 return;
             }
 
@@ -268,12 +269,12 @@ namespace Server.Account
         private void CreateNamelistButton_Click(object sender, EventArgs e)
         {
             // Prompt for the namelist name
-            string namelistName = Microsoft.VisualBasic.Interaction.InputBox("Enter the name for the new namelist:", "Create Namelist", "");
+            string namelistName = Server.MirForms.ServerUi.Input("Enter the name for the new namelist:", "Create Namelist", "");
 
             // Check if the input was empty
             if (string.IsNullOrWhiteSpace(namelistName))
             {
-                MessageBox.Show("Namelist name cannot be empty.");
+                Server.MirForms.ServerUi.Show("Namelist name cannot be empty.");
                 return;
             }
 
@@ -284,7 +285,7 @@ namespace Server.Account
             // Check if the file already exists
             if (File.Exists(fullPath))
             {
-                MessageBox.Show("A namelist with this name already exists.");
+                Server.MirForms.ServerUi.Show("A namelist with this name already exists.");
                 return;
             }
 
@@ -302,7 +303,7 @@ namespace Server.Account
             // Ensure a namelist is selected in NamelistView
             if (NamelistView.SelectedItems.Count == 0)
             {
-                MessageBox.Show("Please select a namelist to delete.");
+                Server.MirForms.ServerUi.Show("Please select a namelist to delete.");
                 return;
             }
 
@@ -311,7 +312,7 @@ namespace Server.Account
             string fullPath = Path.Combine("Envir", "Namelists", relativePath + ".txt");
 
             // Confirm deletion
-            var confirmResult = MessageBox.Show($"Are you sure you want to delete the namelist '{relativePath}'?",
+            var confirmResult = Server.MirForms.ServerUi.Show($"Are you sure you want to delete the namelist '{relativePath}'?",
                                                  "Confirm Delete",
                                                  MessageBoxButtons.YesNo,
                                                  MessageBoxIcon.Warning);
@@ -326,7 +327,7 @@ namespace Server.Account
                 }
                 else
                 {
-                    MessageBox.Show("Namelist file not found.");
+                    Server.MirForms.ServerUi.Show("Namelist file not found.");
                 }
             }
         }

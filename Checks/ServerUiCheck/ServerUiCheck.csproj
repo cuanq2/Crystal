@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="../../Server.MirForms/Server.csproj" />
+    <None Include="../../Server.MirForms/Localization/Interface.Chinese.json" Link="Localization/Interface.Chinese.json" CopyToOutputDirectory="Always" />
+  </ItemGroup>
+</Project>

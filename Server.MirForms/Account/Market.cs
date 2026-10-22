@@ -1,4 +1,4 @@
-﻿using Server.MirDatabase;
+using Server.MirDatabase;
 using Server.MirEnvir;
 using System.Data;
 
@@ -9,6 +9,7 @@ namespace Server.Database
         public Market()
         {
             InitializeComponent();
+            Server.MirForms.ServerUi.Apply(this);
             LoadMarket();
         }
 
@@ -69,7 +70,7 @@ namespace Server.Database
                 // Add sub-items for UID, Price, Seller, and Expiry
                 item.SubItems.Add(listing.AuctionID.ToString()); // Auction ID
                 item.SubItems.Add(listing.Price.ToString("N0")); // Gold Price
-                item.SubItems.Add(listing.SellerInfo?.Name ?? "Unknown Seller"); // Seller Name
+                item.SubItems.Add(listing.SellerInfo?.Name ?? Server.MirForms.ServerUi.T("Unknown Seller")); // Seller Name
                 item.SubItems.Add(listing.ConsignmentDate.AddDays(7).ToString("g")); // Expiry date assuming 7 days from consignment
 
                 // Add the item to the MarketListing
@@ -91,7 +92,7 @@ namespace Server.Database
             // Ensure an item is selected in the MarketListing
             if (MarketListing.SelectedItems.Count == 0)
             {
-                MessageBox.Show("Please select a listing to expire.");
+                Server.MirForms.ServerUi.Show("Please select a listing to expire.");
                 return;
             }
 
@@ -99,7 +100,7 @@ namespace Server.Database
             var selectedItem = MarketListing.SelectedItems[0];
             if (!ulong.TryParse(selectedItem.SubItems[1].Text, out ulong auctionId))
             {
-                MessageBox.Show("Invalid Auction ID selected.");
+                Server.MirForms.ServerUi.Show("Invalid Auction ID selected.");
                 return;
             }
 
@@ -107,7 +108,7 @@ namespace Server.Database
             var auction = Envir.Main.Auctions.FirstOrDefault(a => a.AuctionID == auctionId);
             if (auction == null)
             {
-                MessageBox.Show("Auction listing not found.");
+                Server.MirForms.ServerUi.Show("Auction listing not found.");
                 return;
             }
 
@@ -117,7 +118,7 @@ namespace Server.Database
             // Refresh the MarketListing to reflect the update
             LoadMarket();
 
-            MessageBox.Show("Listing marked as expired successfully.");
+            Server.MirForms.ServerUi.Show("Listing marked as expired successfully.");
         }
         #endregion
 
@@ -126,25 +127,25 @@ namespace Server.Database
         {
             if (MarketListing.SelectedItems.Count == 0)
             {
-                MessageBox.Show("Please select a listing to delete.");
+                Server.MirForms.ServerUi.Show("Please select a listing to delete.");
                 return;
             }
 
             var selectedItem = MarketListing.SelectedItems[0];
             if (!ulong.TryParse(selectedItem.SubItems[1].Text, out ulong auctionId))
             {
-                MessageBox.Show("Invalid Auction ID selected.");
+                Server.MirForms.ServerUi.Show("Invalid Auction ID selected.");
                 return;
             }
 
             var auction = Envir.Main.Auctions.FirstOrDefault(a => a.AuctionID == auctionId);
             if (auction == null)
             {
-                MessageBox.Show("Auction listing not found.");
+                Server.MirForms.ServerUi.Show("Auction listing not found.");
                 return;
             }
 
-            var confirmResult = MessageBox.Show(
+            var confirmResult = Server.MirForms.ServerUi.Show(
                 "Are you sure you want to delete this listing?\n\n" +
                 "Warning: This action is irreversible, and neither the item nor the asking price will be returned to the player.",
                 "Confirm Deletion",
@@ -166,7 +167,7 @@ namespace Server.Database
 
             LoadMarket();
 
-            MessageBox.Show("Listing deleted successfully, and the owner has been notified.");
+            Server.MirForms.ServerUi.Show("Listing deleted successfully, and the owner has been notified.");
         }
         #endregion
     }

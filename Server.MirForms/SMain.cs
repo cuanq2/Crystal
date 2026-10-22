@@ -1,4 +1,4 @@
-﻿using CustomFormControl;
+using CustomFormControl;
 using Server.Account;
 using Server.Database;
 using Server.MirDatabase;
@@ -21,6 +21,7 @@ namespace Server
         public SMain()
         {
             InitializeComponent();
+            Server.MirForms.ServerUi.Apply(this);
 
             AutoResize();
         }
@@ -159,7 +160,7 @@ namespace Server
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.ToString());
+                Server.MirForms.ServerUi.Show(ex.ToString());
             }
         }
 
@@ -169,8 +170,8 @@ namespace Server
 
             ListItem.SubItems.Add(character.Name);
             ListItem.SubItems.Add(character.Level.ToString());
-            ListItem.SubItems.Add(character.Class.ToString());
-            ListItem.SubItems.Add(character.Gender.ToString());
+            ListItem.SubItems.Add(Server.MirForms.ServerUi.T(character.Class.ToString()));
+            ListItem.SubItems.Add(Server.MirForms.ServerUi.T(character.Gender.ToString()));
 
             string mapName = MapInfo.GetMapTitleByIndex(character.CurrentMapIndex);
             ListItem.SubItems.Add($"{mapName}");
@@ -452,7 +453,7 @@ namespace Server
         {
             if (!SMain.Envir.Running)
             {
-                MessageBox.Show("Server must be running to tune monsters", "Notice",
+                Server.MirForms.ServerUi.Show("Server must be running to tune monsters", "Notice",
                 MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
                 return;
             }
@@ -528,14 +529,14 @@ namespace Server
                     }
                     else
                     {
-                        tempItem.SubItems.Add("DELETED");
+                        tempItem.SubItems.Add(Server.MirForms.ServerUi.T("DELETED"));
                         tempItem.ForeColor = Color.Red;
                     }
 
                     tempItem.SubItems.Add($"{guild.Membercount}/{guild.MemberCap}");
                     tempItem.SubItems.Add(guild.Level.ToString());
                     tempItem.SubItems.Add($"{guild.Gold}");
-                    tempItem.SubItems.Add(guild.HasGT ? guild.GTRent.ToString() : "None");
+                    tempItem.SubItems.Add(guild.HasGT ? guild.GTRent.ToString() : Server.MirForms.ServerUi.T("None"));
 
                     GuildListView.Items.Add(tempItem);
                 }
@@ -576,9 +577,9 @@ namespace Server
                 if (character != null)
                     tempItem.SubItems.Add(character.Name);
                 else if (i.UserId == -1)
-                    tempItem.SubItems.Add("Server");
+                    tempItem.SubItems.Add(Server.MirForms.ServerUi.T("Server"));
                 else
-                    tempItem.SubItems.Add("Unknown");
+                    tempItem.SubItems.Add(Server.MirForms.ServerUi.T("Unknown"));
 
                 tempItem.SubItems.Add(i.Item.FriendlyName);
                 tempItem.SubItems.Add(i.Item.Count.ToString());

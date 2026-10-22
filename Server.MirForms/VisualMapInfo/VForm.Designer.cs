@@ -1,4 +1,4 @@
-﻿namespace Server.MirForms.VisualMapInfo
+namespace Server.MirForms.VisualMapInfo
 {
     partial class VForm
     {
@@ -13,6 +13,7 @@
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
+            if (disposing) ReleaseMapResources();
             if (disposing && (components != null))
             {
                 components.Dispose();
@@ -39,7 +40,7 @@
             this.ResizeButton = new System.Windows.Forms.ToolStripButton();
             this.splitter1 = new System.Windows.Forms.Splitter();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.RespawnPanel = new System.Windows.Forms.Panel();
+            this.RespawnPanel = new Server.MirForms.VisualMapInfo.Control.RegionEntryPanel();
             this.toolStrip3 = new System.Windows.Forms.ToolStrip();
             this.RespawnsRemoveSelected = new System.Windows.Forms.ToolStripButton();
             this.ResapwnsHideRegion = new System.Windows.Forms.ToolStripButton();
@@ -578,7 +579,7 @@
         private System.Windows.Forms.Splitter splitter1;
         private System.Windows.Forms.ToolStripLabel toolStripLabel1;
         private System.Windows.Forms.TabPage tabPage2;
-        private System.Windows.Forms.Panel RespawnPanel;
+        private Server.MirForms.VisualMapInfo.Control.RegionEntryPanel RespawnPanel;
         private System.Windows.Forms.ToolStrip RespawnTools;
         private System.Windows.Forms.TabPage tabPage4;
         private System.Windows.Forms.Panel MiningPanel;

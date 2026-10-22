@@ -1,6 +1,5 @@
-﻿using Server.MirForms.VisualMapInfo.Class;
+using Server.MirForms.VisualMapInfo.Class;
 using Server.MirForms.VisualMapInfo.Control;
-using Microsoft.VisualBasic.PowerPacks;
 using Server.MirEnvir;
 using Server.MirDatabase;
 
@@ -8,67 +7,95 @@ namespace Server.MirForms.VisualMapInfo
 {
     public partial class VForm : Form
     {
-        ShapeContainer Canvas = new ShapeContainer();
+        MapRegionCanvas Canvas = new MapRegionCanvas();
 
         public Envir Envir => SMain.EditEnvir;
 
         public Point MouseDownLocation;
+        private bool _mapLoaded;
+
+        private void ReleaseMapResources()
+        {
+            VisualizerGlobal.FocusModeActivated -= FocusModeActivated;
+            Canvas.Dispose();
+            if (!_mapLoaded) return;
+            _mapLoaded = false;
+            VisualizerGlobal.FocusModeActive = false;
+            VisualizerGlobal.SelectedFocusType = VisualizerGlobal.FocusType.None;
+            VisualizerGlobal.FocusMineEntry = null;
+            VisualizerGlobal.FocusRespawnEntry = null;
+            VisualizerGlobal.SelectedTool = VisualizerGlobal.Tool.Select;
+            VisualizerGlobal.Cursor = Cursors.Arrow;
+            VisualizerGlobal.ZoomLevel = 1;
+            var image = MapImage.Image;
+            MapImage.Image = null;
+            if (image != VisualizerGlobal.ClippingMap) image?.Dispose();
+            VisualizerGlobal.ClippingMap?.Dispose();
+            VisualizerGlobal.ClippingMap = null;
+        }
 
         public VForm()
         {
-            InitializeComponent(); 
+            InitializeComponent();
+            Server.MirForms.ServerUi.Apply(this);
         }
 
         private void VForm_Load(object sender, EventArgs e)
         {
-            InitializeMap();
+            try { InitializeMap(); }
+            catch (Exception ex)
+            {
+                ServerUi.Show("无法打开地图：" + ex.Message, "地图编辑器", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                Close();
+                return;
+            }
             InitializeMineInfo();
             InitializeRespawnInfo();
+            _mapLoaded = true;
             VisualizerGlobal.FocusModeActivated += FocusModeActivated;
         }
 
         private void VForm_FormClosing(object sender, FormClosingEventArgs e)
         {
-            VisualizerGlobal.ZoomLevel = 1;
+            if (!_mapLoaded || e.Cancel) return;
+            var entries = RespawnPanel.Controls.OfType<RespawnEntry>().ToArray();
+            var values = new List<(RespawnEntry Entry, ushort Count, ushort Delay)>();
+            foreach (var entry in entries)
+            {
+                if (!ushort.TryParse(entry.Count.Text, out ushort count) ||
+                    !ushort.TryParse(entry.Delay.Text, out ushort delay))
+                {
+                    e.Cancel = true;
+                    ServerUi.Show("刷新数量和延迟必须是 0 到 65535 的整数。请修正后再关闭。", "地图编辑器",
+                        MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+                values.Add((entry, count, delay));
+            }
+
+            var respawns = new List<RespawnInfo>();
+            foreach (var (entry, count, delay) in values)
+            {
+                // Retain schedule/index fields that this editor does not expose.
+                var info = entry.Tag as RespawnInfo ?? new RespawnInfo();
+                info.Location = new Point(entry.X, entry.Y);
+                info.MonsterIndex = entry.MonsterIndex;
+                info.Spread = entry.Range;
+                info.Count = count;
+                info.Delay = delay;
+                info.RoutePath = entry.RoutePath;
+                info.Direction = entry.Direction;
+                info.RandomDelay = entry.RandomDelay;
+                respawns.Add(info);
+            }
+            var mines = MiningPanel.Controls.OfType<MineEntry>().Select(entry => new MineZone
+            {
+                Location = new Point(entry.X, entry.Y), Mine = entry.MineIndex, Size = entry.Range
+            }).ToArray();
             VisualizerGlobal.MapInfo.Respawns.Clear();
+            VisualizerGlobal.MapInfo.Respawns.AddRange(respawns);
             VisualizerGlobal.MapInfo.MineZones.Clear();
-
-            for (int i = 0; i < RespawnPanel.Controls.Count; i++)
-            {
-                try
-                {
-                    RespawnEntry RespawnControl = (RespawnEntry)RespawnPanel.Controls[i];
-                    MirDatabase.RespawnInfo NewRespawnZone = new MirDatabase.RespawnInfo();
-
-                    NewRespawnZone.Location = new Point(RespawnControl.X, RespawnControl.Y);
-                    NewRespawnZone.MonsterIndex = RespawnControl.MonsterIndex;
-                    NewRespawnZone.Spread = RespawnControl.Range;
-                    NewRespawnZone.Count = Convert.ToUInt16(RespawnControl.Count.Text);
-                    NewRespawnZone.Delay = Convert.ToUInt16(RespawnControl.Delay.Text);
-                    NewRespawnZone.RoutePath = RespawnControl.RoutePath;
-                    NewRespawnZone.Direction = RespawnControl.Direction;
-                    NewRespawnZone.RandomDelay = RespawnControl.RandomDelay;
-
-                    VisualizerGlobal.MapInfo.Respawns.Add(NewRespawnZone);
-                }
-                catch (Exception) { continue; }
-            }
-
-            for (int i = 0; i < MiningPanel.Controls.Count; i++)
-            {
-                try
-                {
-                    MineEntry MineControl = (MineEntry)MiningPanel.Controls[i];
-                    MineZone NewMineZone = new MineZone();
-
-                    NewMineZone.Location = new Point(MineControl.X, MineControl.Y);
-                    NewMineZone.Mine = MineControl.MineIndex;
-                    NewMineZone.Size = MineControl.Range;
-
-                    VisualizerGlobal.MapInfo.MineZones.Add(NewMineZone);
-                }
-                catch (Exception) { continue; }
-            }
+            VisualizerGlobal.MapInfo.MineZones.AddRange(mines);
         }
 
         private void InitializeMap()
@@ -81,6 +108,8 @@ namespace Server.MirForms.VisualMapInfo
             MapImage.Image = VisualizerGlobal.ClippingMap;
 
             Canvas.Parent = MapImage;
+            Canvas.MouseDown += MapImage_MouseDown;
+            Canvas.Click += MapImage_Click;
             Canvas.BringToFront();
 
             MapDetailsLabel.Text =
@@ -94,7 +123,7 @@ namespace Server.MirForms.VisualMapInfo
             miningFilterItems.Add("No Filter");
 
             MiningFilter.DataSource = miningFilterItems;
-            MiningFilter.Text = "No Filter";
+            MiningFilter.SelectedIndex = miningFilterItems.Count - 1;
 
             for (int i = 0; i < VisualizerGlobal.MapInfo.MineZones.Count; i++)
             {
@@ -115,16 +144,19 @@ namespace Server.MirForms.VisualMapInfo
 
         private void InitializeRespawnInfo()
         {
-            for (int i = 0; i < Envir.MonsterInfoList.Count; i++)
-                RespawnsFilter.Items.Add(Envir.MonsterInfoList[i]);
+            RespawnsFilter.BeginUpdate();
+            RespawnsFilter.Items.AddRange(Envir.MonsterInfoList.Cast<object>().ToArray());
 
             RespawnsFilter.Items.Add("No Filter");
-            RespawnsFilter.Text = "No Filter";
+            RespawnsFilter.SelectedIndex = RespawnsFilter.Items.Count - 1;
+            RespawnsFilter.EndUpdate();
 
+            var entries = new List<RespawnEntry>();
             for (int i = 0; i < VisualizerGlobal.MapInfo.Respawns.Count; i++)
             {
                 RespawnEntry RespawnRegion = new RespawnEntry();
                 RespawnRegion.Dock = DockStyle.Top;
+                RespawnRegion.Tag = VisualizerGlobal.MapInfo.Respawns[i];
                 RespawnRegion.MonsterIndex = VisualizerGlobal.MapInfo.Respawns[i].MonsterIndex;
                 RespawnRegion.X = VisualizerGlobal.MapInfo.Respawns[i].Location.X;
                 RespawnRegion.Y = VisualizerGlobal.MapInfo.Respawns[i].Location.Y;
@@ -136,10 +168,13 @@ namespace Server.MirForms.VisualMapInfo
                 RespawnRegion.RandomDelay = VisualizerGlobal.MapInfo.Respawns[i].RandomDelay;
                 RespawnRegion.HideControl();
 
-                RespawnPanel.Controls.Add(RespawnRegion);
+                entries.Add(RespawnRegion);
 
                 RespawnRegion.RegionHighlight.Parent = Canvas;
             }
+            RespawnPanel.SuspendLayout();
+            try { RespawnPanel.Controls.AddRange(entries.ToArray()); }
+            finally { RespawnPanel.ResumeLayout(true); }
         }
 
         private void RedrawMap()
@@ -154,7 +189,9 @@ namespace Server.MirForms.VisualMapInfo
                 g.DrawImage(VisualizerGlobal.ClippingMap, 0, 0, Map.Width, Map.Height);
             }
 
+            var previous = MapImage.Image;
             MapImage.Image = Map;
+            if (previous != VisualizerGlobal.ClippingMap) previous?.Dispose();
 
             if (VisualizerGlobal.SelectedFocusType == VisualizerGlobal.FocusType.Mining)
                 VisualizerGlobal.FocusMineEntry.UpdateForFocus(); 
@@ -182,13 +219,15 @@ namespace Server.MirForms.VisualMapInfo
                 {
                     RespawnEntry RespawnControl = (RespawnEntry)RespawnPanel.Controls[i];
 
-                    RespawnControl.Visible = false;
                     RespawnControl.RegionHighlight.Visible = false;
                 }
                 catch (Exception)
                 {
                     continue;
                 }
+
+            RespawnPanel.SetFilter(control => VisualizerGlobal.SelectedFocusType == VisualizerGlobal.FocusType.Respawn &&
+                ReferenceEquals(control, VisualizerGlobal.FocusRespawnEntry));
 
             if (VisualizerGlobal.SelectedFocusType == VisualizerGlobal.FocusType.Mining)
             {
@@ -198,7 +237,6 @@ namespace Server.MirForms.VisualMapInfo
             }
             if (VisualizerGlobal.SelectedFocusType == VisualizerGlobal.FocusType.Respawn)
             {
-                VisualizerGlobal.FocusRespawnEntry.Visible = true;
                 VisualizerGlobal.FocusRespawnEntry.RegionHighlight.Visible = true;
                 VisualizerGlobal.FocusRespawnEntry.UpdateForFocus();
             }
@@ -221,7 +259,7 @@ namespace Server.MirForms.VisualMapInfo
             ToolStripButton ToolSender = (ToolStripButton)sender;
             ToolSender.Checked = true;
 
-            switch (ToolSender.Text)
+            switch (Server.MirForms.ServerUi.OriginalText(ToolSender))
             {
                 case "Select Region":
                     VisualizerGlobal.SelectedTool = VisualizerGlobal.Tool.Select;
@@ -246,6 +284,7 @@ namespace Server.MirForms.VisualMapInfo
         
         private void EndFocus_Click(object sender, EventArgs e)
         {
+            VisualizerGlobal.FocusModeActive = false;
             EndFocus.Visible = false;
             FocusBreak.Visible = false;
 
@@ -270,7 +309,8 @@ namespace Server.MirForms.VisualMapInfo
 
         private void MapImage_Click(object sender, EventArgs e)
         {
-            if (RegionTabs.SelectedTab.Text == "Mining")
+            if (RegionTabs.SelectedTab == null) return;
+            if (Server.MirForms.ServerUi.OriginalText(RegionTabs.SelectedTab) == "Mining")
                 if (VisualizerGlobal.SelectedTool == VisualizerGlobal.Tool.Add)
                 {
                     MineEntry MineControl = new MineEntry()
@@ -289,7 +329,8 @@ namespace Server.MirForms.VisualMapInfo
                     ToolSelectedChanged(MoveButton, e);
                 }
 
-            if (RegionTabs.SelectedTab.Text == "Respawns")
+            if (RegionTabs.SelectedTab == null) return;
+            if (Server.MirForms.ServerUi.OriginalText(RegionTabs.SelectedTab) == "Respawns")
                 if (VisualizerGlobal.SelectedTool == VisualizerGlobal.Tool.Add)
                 {
                     RespawnEntry RespawnControl = new RespawnEntry()
@@ -311,7 +352,8 @@ namespace Server.MirForms.VisualMapInfo
 
         private void RegionTabs_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (RegionTabs.SelectedTab.Text == "Mining")
+            if (RegionTabs.SelectedTab == null) return;
+            if (Server.MirForms.ServerUi.OriginalText(RegionTabs.SelectedTab) == "Mining")
             {
                 for (int i = RespawnPanel.Controls.Count; i > -1; --i)
                     try
@@ -323,7 +365,7 @@ namespace Server.MirForms.VisualMapInfo
                 
                 MiningFilter_SelectedIndexChanged(MiningFilter, null);
             }
-            else if (RegionTabs.SelectedTab.Text == "Respawns")
+            else if (Server.MirForms.ServerUi.OriginalText(RegionTabs.SelectedTab) == "Respawns")
             {
                 for (int i = MiningPanel.Controls.Count; i > -1; --i)
                     try
@@ -512,7 +554,7 @@ namespace Server.MirForms.VisualMapInfo
         {
             if (MiningPanel.Controls.Count == 0) return;
 
-            DialogResult result = MessageBox.Show("Remove selected records?", "", MessageBoxButtons.YesNoCancel);
+            DialogResult result = Server.MirForms.ServerUi.Show("Remove selected records?", "", MessageBoxButtons.YesNoCancel);
             if (result != DialogResult.Yes) return;
 
             for (int i = MiningPanel.Controls.Count; i > -1; --i)
@@ -577,7 +619,7 @@ namespace Server.MirForms.VisualMapInfo
         {
             VisualizerGlobal.ZoomLevel = 1;
 
-            if (MiningFilter.Text == "No Filter")
+            if (Server.MirForms.ServerUi.OriginalText(MiningFilter) == "No Filter")
                 for (int i = MiningPanel.Controls.Count - 1; i > -1; i--)
                     try
                     {
@@ -642,7 +684,7 @@ namespace Server.MirForms.VisualMapInfo
         {
             if (RespawnPanel.Controls.Count == 0) return;
 
-            DialogResult result = MessageBox.Show("Remove selected records?", "", MessageBoxButtons.YesNoCancel);
+            DialogResult result = Server.MirForms.ServerUi.Show("Remove selected records?", "", MessageBoxButtons.YesNoCancel);
             if (result != DialogResult.Yes) return;
 
             for (int i = RespawnPanel.Controls.Count; i > -1; --i)
@@ -716,47 +758,12 @@ namespace Server.MirForms.VisualMapInfo
 
         private void RespawnsFilter_SelectedIndexChanged(object sender, EventArgs e)
         {
-            MonsterInfo info = RespawnsFilter.SelectedItem as MonsterInfo;
-
+            var info = RespawnsFilter.SelectedItem as MonsterInfo;
+            bool all = ServerUi.OriginalText(RespawnsFilter) == "No Filter";
             VisualizerGlobal.ZoomLevel = 1;
-
-            if (RespawnsFilter.Text == "No Filter")
-                for (int i = RespawnPanel.Controls.Count - 1; i > -1; i--)
-                    try
-                    {
-                        RespawnEntry RespawnControl = (RespawnEntry)RespawnPanel.Controls[i];
-
-                        RespawnControl.Visible = true;
-                        if (!RespawnControl.RegionHidden)
-                            RespawnControl.RegionHighlight.Visible = true;
-                    }
-                    catch (Exception)
-                    {
-                        continue;
-                    }
-            else
-                for (int i = RespawnPanel.Controls.Count - 1; i > -1; i--)
-                    try
-                    {
-                        RespawnEntry RespawnControl = (RespawnEntry)RespawnPanel.Controls[i];
-
-                        if (RespawnControl.MonsterIndex == info.Index)
-                        {
-                            RespawnControl.Visible = true;
-
-                            if (!RespawnControl.RegionHidden)
-                                RespawnControl.RegionHighlight.Visible = true;
-                        }
-                        else
-                        {
-                            RespawnControl.RegionHighlight.Visible = false;
-                            RespawnControl.Visible = false;
-                        }
-                    }
-                    catch (Exception)
-                    {
-                        continue;
-                    }
+            RespawnPanel.SetFilter(control => all || control is RespawnEntry entry && entry.MonsterIndex == info?.Index);
+            foreach (RespawnEntry entry in RespawnPanel.Controls)
+                entry.RegionHighlight.Visible = (all || entry.MonsterIndex == info?.Index) && !entry.RegionHidden;
         }
 
         #endregion "END Respawn Tool Bar

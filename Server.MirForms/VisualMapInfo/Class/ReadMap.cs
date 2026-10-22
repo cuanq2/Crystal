@@ -1,4 +1,4 @@
-﻿namespace Server.MirForms.VisualMapInfo.Class
+namespace Server.MirForms.VisualMapInfo.Class
 {
     public class ReadMap
     {
@@ -70,7 +70,6 @@
                     offSet += 10;
                 }
             BitLock.UnlockBits();
-            clippingZone.Dispose();
         }
 
         private void LoadMapCellsv1(byte[] fileBytes)
@@ -416,7 +415,13 @@
                 }
             }
 
-            catch (Exception) { }
+            catch
+            {
+                clippingZone?.Dispose();
+                throw;
+            }
+
+            if (clippingZone == null) throw new IOException("地图文件不存在或格式不受支持：" + mapFile);
 
             VisualizerGlobal.ClippingMap = clippingZone;
         }

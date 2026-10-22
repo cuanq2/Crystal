@@ -1,4 +1,4 @@
-﻿using Server.MirEnvir;
+using Server.MirEnvir;
 
 namespace Server
 {
@@ -23,6 +23,7 @@ namespace Server
         public ItemInfoForm()
         {
             InitializeComponent();
+            Server.MirForms.ServerUi.Apply(this);
 
             ITypeComboBox.Items.AddRange(Enum.GetValues(typeof (ItemType)).Cast<object>().ToArray());
             IGradeComboBox.Items.AddRange(Enum.GetValues(typeof(ItemGrade)).Cast<object>().ToArray());
@@ -495,7 +496,7 @@ namespace Server
         {
             if (_selectedItemInfos.Count == 0) return;
 
-            if (MessageBox.Show("Are you sure you want to remove the selected Items?", "Remove Items?", MessageBoxButtons.YesNo) != DialogResult.Yes) return;
+            if (Server.MirForms.ServerUi.Show("Are you sure you want to remove the selected Items?", "Remove Items?", MessageBoxButtons.YesNo) != DialogResult.Yes) return;
 
             for (int i = 0; i < _selectedItemInfos.Count; i++) Envir.Remove(_selectedItemInfos[i]);
 
@@ -1055,7 +1056,7 @@ namespace Server
 
             //if (!data.StartsWith("Item", StringComparison.OrdinalIgnoreCase))
             //{
-            //    MessageBox.Show("Cannot Paste, Copied data is not Item Information.");
+            //    Server.MirForms.ServerUi.Show("Cannot Paste, Copied data is not Item Information.");
             //    return;
             //}
 
@@ -1099,7 +1100,7 @@ namespace Server
 
             //File.WriteAllLines(ItemListPath, list);
 
-            //MessageBox.Show(itemInfos.Count() + " Items have been exported");
+            //Server.MirForms.ServerUi.Show(itemInfos.Count() + " Items have been exported");
         }
 
         private void ImportButton_Click(object sender, EventArgs e)
@@ -1108,7 +1109,7 @@ namespace Server
 
             //OpenFileDialog ofd = new OpenFileDialog();
             //ofd.Filter = "Text File|*.txt";
-            //ofd.ShowDialog();
+            //Server.MirForms.ServerUi.ShowDialog(ofd);
 
             //if (ofd.FileName == string.Empty) return;
 
@@ -1130,7 +1131,7 @@ namespace Server
             //    Envir.ItemInfoList.Add(info);
             //}
 
-            //MessageBox.Show(count + " Items have been imported");
+            //Server.MirForms.ServerUi.Show(count + " Items have been imported");
             //UpdateInterface(true);
         }
 

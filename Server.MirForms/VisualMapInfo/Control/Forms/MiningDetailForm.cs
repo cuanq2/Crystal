@@ -1,10 +1,11 @@
-﻿namespace Server.MirForms.VisualMapInfo.Control.Forms
+namespace Server.MirForms.VisualMapInfo.Control.Forms
 {
     public partial class MiningDetailForm : Form
     {
         public MiningDetailForm()
         {
             InitializeComponent();
+            Server.MirForms.ServerUi.Apply(this);
         }
 
         private void DoneButton_Click(object sender, EventArgs e)

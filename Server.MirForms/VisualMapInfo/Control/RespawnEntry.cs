@@ -1,4 +1,3 @@
-﻿using Microsoft.VisualBasic.PowerPacks;
 using Server.MirForms.VisualMapInfo.Class;
 using Server.MirEnvir;
 using Server.MirDatabase;
@@ -11,7 +10,7 @@ namespace Server.MirForms.VisualMapInfo.Control
 
         public Envir Envir => SMain.EditEnvir;
 
-        public RectangleShape RegionHighlight = new RectangleShape();
+        public MapRegion RegionHighlight = new MapRegion();
 
         public int MonsterIndex;
 
@@ -54,7 +53,9 @@ namespace Server.MirForms.VisualMapInfo.Control
         public RespawnEntry()
         {
             InitializeComponent();
+            Server.MirForms.ServerUi.Apply(this);
             InitializeRegionHighlight();
+            MonsterComboBox.DropDown += MonsterComboBox_DropDown;
         }
 
         private void InitializeRegionHighlight()
@@ -82,7 +83,7 @@ namespace Server.MirForms.VisualMapInfo.Control
                 this.BackColor = Color.Silver;
 
             RegionHighlight.BorderColor = Color.Lime;
-            RegionHighlight.FillStyle = FillStyle.Transparent;
+            RegionHighlight.FillStyle = RegionFillStyle.Transparent;
         }
 
         private void Region_MouseEnter(object sender, EventArgs e)
@@ -92,7 +93,7 @@ namespace Server.MirForms.VisualMapInfo.Control
             this.BackColor = Color.MediumOrchid;
 
             RegionHighlight.BorderColor = Color.MediumOrchid;
-            RegionHighlight.FillStyle = FillStyle.Solid;
+            RegionHighlight.FillStyle = RegionFillStyle.Solid;
             RegionHighlight.Cursor = VisualizerGlobal.Cursor;
         }
 
@@ -143,6 +144,7 @@ namespace Server.MirForms.VisualMapInfo.Control
                 VisualizerGlobal.FocusModeActive = true;
             }
 
+            if (Parent is RegionEntryPanel panel) panel.ScrollTo(this);
             MonsterComboBox.Focus();
         }
 
@@ -192,12 +194,27 @@ namespace Server.MirForms.VisualMapInfo.Control
 
         private void RespawnEntry_Load(object sender, EventArgs e)
         {
-            for (int i = 0; i < Envir.MonsterInfoList.Count; i++) MonsterComboBox.Items.Add(Envir.MonsterInfoList[i]);
-
-            MonsterComboBox.SelectedItem = Envir.MonsterInfoList.FirstOrDefault(x => x.Index == MonsterIndex);
+            // Hundreds of rows become visible together on the first tab switch.
+            // Each row needs only its current monster until its dropdown opens.
+            var selected = Envir.MonsterInfoList.FirstOrDefault(x => x.Index == MonsterIndex);
+            if (MonsterComboBox.Items.Count == 0 && selected != null) MonsterComboBox.Items.Add(selected);
+            MonsterComboBox.SelectedItem = selected;
 
             Details.Text =
                 $"C               D            X: {X.ToString()} | Y: {Y.ToString()} | Range: {Range.ToString()}";
+        }
+
+        private void MonsterComboBox_DropDown(object sender, EventArgs e)
+        {
+            var selected = Envir.MonsterInfoList.FirstOrDefault(x => x.Index == MonsterIndex);
+            MonsterComboBox.BeginUpdate();
+            try
+            {
+                MonsterComboBox.Items.Clear();
+                MonsterComboBox.Items.AddRange(Envir.MonsterInfoList.Cast<object>().ToArray());
+                MonsterComboBox.SelectedItem = selected;
+            }
+            finally { MonsterComboBox.EndUpdate(); }
         }
 
         private void MonsterComboBox_SelectedIndexChanged(object sender, EventArgs e)

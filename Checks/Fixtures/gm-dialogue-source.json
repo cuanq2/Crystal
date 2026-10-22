@@ -1,0 +1,1259 @@
+{
+  "Hello {<$USERNAME>/KHAKI}, my name is {<$NPCNAME>/KHAKI}.": [
+    "GM-Armour.txt",
+    "GM-Awakening.txt",
+    "GM-Belt.txt",
+    "GM-Book.txt",
+    "GM-Boot.txt",
+    "GM-Bracelet.txt",
+    "GM-CraftingMaterial.txt",
+    "GM-Fishing.txt",
+    "GM-Gem.txt",
+    "GM-Grocery.txt",
+    "GM-Helmet.txt",
+    "GM-Meat.txt",
+    "GM-Mount.txt",
+    "GM-Necklace.txt",
+    "GM-Nothing.txt",
+    "GM-Ore.txt",
+    "GM-Potion.txt",
+    "GM-Quest.txt",
+    "GM-Ring.txt",
+    "GM-Script.txt",
+    "GM-Stone.txt",
+    "GM-Weapon.txt"
+  ],
+  "I see you're wearing: {<$ARMOUR>/CORAL}": [
+    "GM-Armour.txt"
+  ],
+  "<Buy/@Buy> Armour": [
+    "GM-Armour.txt"
+  ],
+  "<Sell/@Sell> Armour": [
+    "GM-Armour.txt"
+  ],
+  "<Repair/@Repair> Armour": [
+    "GM-Armour.txt"
+  ],
+  "<Special Repair/@SRepair> Armour": [
+    "GM-Armour.txt"
+  ],
+  "Buy.": [
+    "GM-Armour.txt",
+    "GM-Awakening.txt",
+    "GM-Belt.txt",
+    "GM-Book.txt",
+    "GM-Boot.txt",
+    "GM-Bracelet.txt",
+    "GM-CraftingMaterial.txt",
+    "GM-Fishing.txt",
+    "GM-Gem.txt",
+    "GM-Grocery.txt",
+    "GM-Helmet.txt",
+    "GM-Meat.txt",
+    "GM-Mount.txt",
+    "GM-Necklace.txt",
+    "GM-Nothing.txt",
+    "GM-Ore.txt",
+    "GM-Potion.txt",
+    "GM-Quest.txt",
+    "GM-Ring.txt",
+    "GM-Script.txt",
+    "GM-Stone.txt",
+    "GM-Weapon.txt"
+  ],
+  "<Back/@Main>": [
+    "GM-Armour.txt",
+    "GM-Awakening.txt",
+    "GM-Belt.txt",
+    "GM-Book.txt",
+    "GM-Boot.txt",
+    "GM-Bracelet.txt",
+    "GM-CraftingMaterial.txt",
+    "GM-Fishing.txt",
+    "GM-Gem.txt",
+    "GM-Grocery.txt",
+    "GM-Helmet.txt",
+    "GM-Manager.txt",
+    "GM-Manager1.txt",
+    "GM-Meat.txt",
+    "GM-Mount.txt",
+    "GM-Necklace.txt",
+    "GM-Nothing.txt",
+    "GM-Ore.txt",
+    "GM-Potion.txt",
+    "GM-Quest.txt",
+    "GM-Ring.txt",
+    "GM-Script.txt",
+    "GM-Stone.txt",
+    "GM-Weapon.txt"
+  ],
+  "Sell.": [
+    "GM-Armour.txt",
+    "GM-Belt.txt",
+    "GM-Book.txt",
+    "GM-Boot.txt",
+    "GM-Bracelet.txt",
+    "GM-CraftingMaterial.txt",
+    "GM-Fishing.txt",
+    "GM-Gem.txt",
+    "GM-Grocery.txt",
+    "GM-Helmet.txt",
+    "GM-Meat.txt",
+    "GM-Mount.txt",
+    "GM-Necklace.txt",
+    "GM-Nothing.txt",
+    "GM-Potion.txt",
+    "GM-Ring.txt",
+    "GM-Script.txt",
+    "GM-Stone.txt",
+    "GM-Weapon.txt"
+  ],
+  "Repair.": [
+    "GM-Armour.txt",
+    "GM-Belt.txt",
+    "GM-Boot.txt",
+    "GM-Bracelet.txt",
+    "GM-Helmet.txt",
+    "GM-Necklace.txt",
+    "GM-Ring.txt",
+    "GM-Weapon.txt"
+  ],
+  "Special repair.": [
+    "GM-Armour.txt",
+    "GM-Belt.txt",
+    "GM-Boot.txt",
+    "GM-Bracelet.txt",
+    "GM-Helmet.txt",
+    "GM-Necklace.txt",
+    "GM-Ring.txt",
+    "GM-Weapon.txt"
+  ],
+  "<Look at Awakening Items/@Buy>": [
+    "GM-Awakening.txt"
+  ],
+  "I see you're wearing: {<$BELT>/CORAL}": [
+    "GM-Belt.txt"
+  ],
+  "<Buy/@Buy> Belt": [
+    "GM-Belt.txt"
+  ],
+  "<Sell/@Sell> Belt": [
+    "GM-Belt.txt"
+  ],
+  "<Repair/@Repair> Belt": [
+    "GM-Belt.txt"
+  ],
+  "<Special Repair/@SRepair> Belt": [
+    "GM-Belt.txt"
+  ],
+  "<Buy/@Buy> Book": [
+    "GM-Book.txt"
+  ],
+  "<Sell/@Sell> Book": [
+    "GM-Book.txt"
+  ],
+  "Learn all <Warrior/@Warrior> , <Wizard/@Wizard> , <Taoist/@Taoist> , <Archer/@Archer> , <Assassin/@Assassin> spells.": [
+    "GM-Book.txt"
+  ],
+  "I see you're wearing: {<$BOOTS>/CORAL}": [
+    "GM-Boot.txt"
+  ],
+  "<Buy/@Buy> Boot": [
+    "GM-Boot.txt"
+  ],
+  "<Sell/@Sell> Boot": [
+    "GM-Boot.txt"
+  ],
+  "<Repair/@Repair> Boot": [
+    "GM-Boot.txt"
+  ],
+  "<Special Repair/@SRepair> Boot": [
+    "GM-Boot.txt"
+  ],
+  "I see you're wearing: {L: <$BRACELET_L> R: <$BRACELET_R>/CORAL}": [
+    "GM-Bracelet.txt"
+  ],
+  "<Buy/@Buy> Bracelet": [
+    "GM-Bracelet.txt"
+  ],
+  "<Sell/@Sell> Bracelet": [
+    "GM-Bracelet.txt"
+  ],
+  "<Repair/@Repair> Bracelet": [
+    "GM-Bracelet.txt"
+  ],
+  "<Special Repair/@SRepair> Bracelet": [
+    "GM-Bracelet.txt"
+  ],
+  "<Buy/@Buy> Crafting Material": [
+    "GM-CraftingMaterial.txt"
+  ],
+  "<Sell/@Sell> Crafting Material": [
+    "GM-CraftingMaterial.txt"
+  ],
+  "<Craft/@Craft>": [
+    "GM-CraftingMaterial.txt"
+  ],
+  "What would you like to craft?": [
+    "GM-CraftingMaterial.txt"
+  ],
+  "<Buy/@Buy> Fishing Equipment": [
+    "GM-Fishing.txt"
+  ],
+  "<Sell/@Sell> Fishing Equipment": [
+    "GM-Fishing.txt"
+  ],
+  "<Buy/@Buy> Gem": [
+    "GM-Gem.txt"
+  ],
+  "<Sell/@Sell> Gem": [
+    "GM-Gem.txt"
+  ],
+  "I see you're holding: {<$TORCH>/CORAL}": [
+    "GM-Grocery.txt"
+  ],
+  "<Buy/@Buy> Grocery": [
+    "GM-Grocery.txt"
+  ],
+  "<Sell/@Sell> Grocery": [
+    "GM-Grocery.txt"
+  ],
+  "I see you're wearing: {<$HELMET>/CORAL}": [
+    "GM-Helmet.txt"
+  ],
+  "<Buy/@Buy> Helmet": [
+    "GM-Helmet.txt"
+  ],
+  "<Sell/@Sell> Helmet": [
+    "GM-Helmet.txt"
+  ],
+  "<Repair/@Repair> Helmet": [
+    "GM-Helmet.txt"
+  ],
+  "<Special Repair/@SRepair> Helmet": [
+    "GM-Helmet.txt"
+  ],
+  "Managing the affairs of a Game Master like you is a pleasure.": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "What function would you like me to perform today <$DATE>": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "<Guild Application/@CreateGuildCheck> , <View Market/@MARKET> , <Hero Management/@Hero>": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "<Kill my Pets/@KillPets> , <Open my Storage/@STORAGE> , <Reset Quest Flags/@ResetQuestFlags>": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "<Rebirth Panel/@RebirthPanel> , <Event Management Page/@EventManagement> , <Guild Territory/@GT>": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "<Exit/@Exit>": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt",
+    "GM-Teleporter.txt"
+  ],
+  "Your pets are now dead as you requested.": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "Trust me, I'm looking after your stuff.": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "Menu: <Main Menu/@Main> - <Exit/@Exit>": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "All quest flags have been reset.": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "This could be used for starting global events and other stuff as the": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "server develops and adds in more functionality over time.": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "<<SabukWall/@Sabuk>>": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "Sabuk Wall Management Panel": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "<Start War/End War/@StartWar>             <Statistics/@SWStatistics>": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "<Teleport to InnerWall/@InnerWall>": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "<Guard Check/@Guards>": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "<Gate/Wall Check/@Gates>": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "<Repair All/@SWReset>": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "Current Owner of SabukWall is: <$CONQUESTOWNER(1)>": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "<Back/@EventManagement>     <Exit/@Exit>": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "<Revive All/@RepairAll>": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "<$CONQUESTGUARD(1,1)>   <Repair/@Guard1>": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "<$CONQUESTGUARD(1,2)>   <Repair/@Guard2>": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "<$CONQUESTGUARD(1,3)>   <Repair/@Guard3>": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "<$CONQUESTGUARD(1,4)>   <Repair/@Guard4>": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "<$CONQUESTGUARD(1,5)>   <Repair/@Guard5>": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "<$CONQUESTGUARD(1,6)>   <Repair/@Guard6>": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "<$CONQUESTGUARD(1,7)>   <Repair/@Guard7>": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "<$CONQUESTGUARD(1,8)>   <Repair/@Guard8>": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "<$CONQUESTGUARD(1,9)>   <Repair/@Guard9>": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "<$CONQUESTGUARD(1,10)>   <Repair/@Guard10>": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "<$CONQUESTGUARD(1,11)>   <Repair/@Guard11>": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "<$CONQUESTGUARD(1,12)>   <Repair/@Guard12>": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "<Back/@Sabuk>     <Exit/@Exit>": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "<Repair All Walls/@RepairAllWalls>": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "Walls and Gates": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "<$CONQUESTWALL(1,1)>   <Repair/@Wall1>": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "<$CONQUESTWALL(1,2)>   <Repair/@Wall2>": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "<$CONQUESTWALL(1,3)>   <Repair/@Wall3>": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "<$CONQUESTGATE(1,1)>   <Repair/@Gate1>": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "<Open Gate/@OpenGate> <Close Gate/@CloseGate>": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "Gate Opened.": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "Gate Closed.": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "All Walls Repaired.": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "You have Repaired Left Wall!": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "Center Wall Repaired.": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "Right Wall Repaired.": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "Gate Repaired.": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "All Guards Revived.": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "Guard 1 Revived.": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "Guard 2 Revived.": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "Guard 3 Revived.": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "Guard 4 Revived.": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "Guard 5 Revived.": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "Guard 6 Revived.": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "Guard 7 Revived.": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "Guard 8 Revived.": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "Guard 9 Revived.": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "Guard 10 Revived.": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "Guard 11 Revived.": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "Guard 12 Revived.": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "SabukWall Walls/Gate/Guards Repaired/Revived": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "Below are some Sabuk Statistics.": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "‎": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt",
+    "GM-Teleporter.txt"
+  ],
+  "Conquest Gold Stored: <$CONQUESTGOLD(1)>": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "Conquest Intrest Rate: <$CONQUESTRATE(1)>": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "Next Conquest Date: <$CONQUESTSCHEDULE(1)>": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "Hero Management page": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "<<Create Hero/@CreateHero/Green>>": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "<<ReviveHero/@ReviveHero/Red>>": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "<<SealHero/@SealHero/Yellow>>": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "<<DeleteHero/@DeleteHero/Blue>>": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "You don't currently have a Sealed Hero.": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "Hero had now passed over to the gods.": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "Here you can set your Rebirth.": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "Apply Rebirth          Delete Rebirth             Check Rebirth": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "<Rebirth 1/@RB1>                 <Rebirth 1/@RB1DEL>                       <Rebirth 1/@RB1CHK>": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "<Rebirth 2/@RB2>                 <Rebirth 2/@RB2DEL>                       <Rebirth 2/@RB2CHK>": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "<Rebirth 3/@RB3>                 <Rebirth 3/@RB3DEL>                       <Rebirth 3/@RB3CHK>": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "<All/@RB123>                             <All/@DEL123>": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "<Check Main Rebirth Flag/@RBMAIN>      <Delete Main Rebirth Flag/@RBMAINDEL>      <Apply Main Rebirth Flag/@RBMAINADD>": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "Rebirth 1 granted.": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "<Back/@RebirthPanel>    <Exit/@Exit>": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "Rebirth 2 granted.": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "Rebirth 3 granted.": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "Main Rebirth Flag granted.": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "All rebirth flags applied.": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "Rebirth 1 cleared.": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "Rebirth 2 cleared.": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "Rebirth 3 cleared.": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "All rebirth flags cleared.": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "Main Rebirth cleared.": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "You currently have Main Rebirth Effect.": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "You do not have Main Rebirth Effect.": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "You currently have Rebirth 1.": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "You do not have Rebirth 1.": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "You currently have Rebirth 2.": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "You do not have Rebirth 2.": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "You currently have Rebirth 3.": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "You do not have Rebirth 3.": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "Welcome to the Guild Territory Panel.": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "Please select what GT you would like to teleport to.": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "<Guild Territory 1/@GT1>": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "<Guild Territory 2/@GT2>": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "<Guild Territory 3/@GT3>": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "<Guild Territory 4/@GT4>": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "<Guild Territory 5/@GT5>": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "<Guild Territory 6/@GT6>": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "<Guild Territory 7/@GT7>": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "<Guild Territory 8/@GT8>": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "<Guild Territory 9/@GT9>": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "<Guild Territory 10/@GT10>": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "<Back/@Main>  <Exit/@Exit>": [
+    "GM-Manager.txt",
+    "GM-Manager1.txt"
+  ],
+  "<Buy/@Buy> Meat": [
+    "GM-Meat.txt"
+  ],
+  "<Sell/@Sell> Meat": [
+    "GM-Meat.txt"
+  ],
+  "I see you have: {<$MOUNT>/CORAL}": [
+    "GM-Mount.txt"
+  ],
+  "Mount Loyalty: {<$MOUNTLOYALTY>/CORAL}": [
+    "GM-Mount.txt"
+  ],
+  "You need to be Lebel 22 for mounts, Your Level: {<$LEVEL>/ORANGE}": [
+    "GM-Mount.txt"
+  ],
+  "<Buy/@Buy> Mount Equipment": [
+    "GM-Mount.txt"
+  ],
+  "<Sell/@Sell> Mount Equipment": [
+    "GM-Mount.txt"
+  ],
+  "I see you're wearing: {<$NECKLACE>/CORAL}": [
+    "GM-Necklace.txt"
+  ],
+  "<Buy/@Buy> Necklace": [
+    "GM-Necklace.txt"
+  ],
+  "<Sell/@Sell> Necklace": [
+    "GM-Necklace.txt"
+  ],
+  "<Repair/@Repair> Necklace": [
+    "GM-Necklace.txt"
+  ],
+  "<Special Repair/@SRepair> Necklace": [
+    "GM-Necklace.txt"
+  ],
+  "<Buy/@Buy> Nothing!": [
+    "GM-Nothing.txt"
+  ],
+  "<Sell/@Sell> Nothing!": [
+    "GM-Nothing.txt"
+  ],
+  "<Buy/@Buy> Ore": [
+    "GM-Ore.txt"
+  ],
+  "<Sell/@Sell> Ore": [
+    "GM-Ore.txt"
+  ],
+  "Sell": [
+    "GM-Ore.txt"
+  ],
+  "I see you have {<$HP> | <$MAXHP> HP/RED} and {<$MP> | <$MAXMP> MP/ROYALBLUE}": [
+    "GM-Potion.txt"
+  ],
+  "<Buy/@Buy> Potion": [
+    "GM-Potion.txt"
+  ],
+  "<Sell/@Sell> Potion": [
+    "GM-Potion.txt"
+  ],
+  "Tip: Use {@superman/LIMEGREEN} for an infinite amount of HP and MP.": [
+    "GM-Potion.txt"
+  ],
+  "<Look at Quest Items/@Buy>": [
+    "GM-Quest.txt"
+  ],
+  "I see you're wearing: {L: <$RING_L> R: <$RING_R>/CORAL}": [
+    "GM-Ring.txt"
+  ],
+  "<Buy/@Buy> Ring": [
+    "GM-Ring.txt"
+  ],
+  "<Sell/@Sell> Ring": [
+    "GM-Ring.txt"
+  ],
+  "<Repair/@Repair> Ring": [
+    "GM-Ring.txt"
+  ],
+  "<Special Repair/@SRepair> Ring": [
+    "GM-Ring.txt"
+  ],
+  "You appear to have {<$GAMEGOLD>/ORANGE} gold coins to spend.": [
+    "GM-Script.txt"
+  ],
+  "<Buy/@Buy> Script": [
+    "GM-Script.txt"
+  ],
+  "<Sell/@Sell> Script": [
+    "GM-Script.txt"
+  ],
+  "I see you're wearing: {<$STONE>/CORAL}": [
+    "GM-Stone.txt"
+  ],
+  "<Buy/@Buy> Stone": [
+    "GM-Stone.txt"
+  ],
+  "<Sell/@Sell> Stone": [
+    "GM-Stone.txt"
+  ],
+  "To teleport back to this map: {@MOVE R001 100 100/LimeGreen} / Or use {@GM/LimeGreen}": [
+    "GM-Teleporter.txt"
+  ],
+  "Tip: {@observer/LIMEGREEN} if you want to be invisible to other players.": [
+    "GM-Teleporter.txt"
+  ],
+  "Teleport to <Towns/@TeleTownMain> , <Dungeons/@Dungeons> , <Dungeon Boss/@DungeonBoss>": [
+    "GM-Teleporter.txt"
+  ],
+  "<Ancient Dungeons/@Ancient>": [
+    "GM-Teleporter.txt"
+  ],
+  "<Bichon Province/@TeleBichonProvince> , <Border Village/@TeleBorderVillage> , <Woomyon Woods/@TeleWoomyonWoods> , <Serpent Valley/@TeleSerpentValley>": [
+    "GM-Teleporter.txt"
+  ],
+  "<Mongcon Province/@TeleMongconProvince> , <Sabuk Wall/@TeleSabukWall> , <Castle Gi-Ryoong/@TeleCastleGiRyoong> , <Prajna Island/@TelePrajnaIsland>": [
+    "GM-Teleporter.txt"
+  ],
+  "<Past Bichon/@TelePastBichon> , <Tao Village/@TeleTaoVillage> , <Waste Land/@TeleWasteLand> , <Seokcho Valley/@TeleSeokchoValley> , <White Village/@TeleWhiteVillage>": [
+    "GM-Teleporter.txt"
+  ],
+  "<Forgoten City/@ForgotenCity> , <TreePath/@TreePath>": [
+    "GM-Teleporter.txt"
+  ],
+  "<Main Menu/@Main> - <Exit/@Exit>": [
+    "GM-Teleporter.txt"
+  ],
+  "<AncientNaturalCave/@ANC> , <AncientWoomaTemple/@AWT> , <AncientStoneTomb/@AST> ,": [
+    "GM-Teleporter.txt"
+  ],
+  "<AncientZumaTemple/@AZT> , <AncientPrajnaCave/@APC>": [
+    "GM-Teleporter.txt"
+  ],
+  "<Oma Cave/@OmaCave> , <Natural Cave/@NaturalCave> , <Wooma Temple/@WoomaTemple> , <Dead Mine/@DeadMine> , <Insect Cave/@InsectCave> ,": [
+    "GM-Teleporter.txt"
+  ],
+  "<Fox Cave/@FoxCave> , <Zuma Temple/@ZumaTemple> , <Bug Cave/@BugCave> , <Stone Temple/@StoneTemple> ,": [
+    "GM-Teleporter.txt"
+  ],
+  "<Ice Hell/@IceHell> , <Mineral Mine/@MineralMine> , <Hell Cavern/@HellCavern> , <Hell Fire/@HellFire> ,": [
+    "GM-Teleporter.txt"
+  ],
+  "<Red Cavern/@RedCavern> , <Prajna Temple/@PrajnaTemple> , <Prajna Stone Cave/@PrajnaStoneCave> ,": [
+    "GM-Teleporter.txt"
+  ],
+  "<Black Dragon Dungeon/@BlackDragonDungeon> , <Ghoul Cave/@GhoulCave> , <Mystery Cave/@MysteryCave> ,": [
+    "GM-Teleporter.txt"
+  ],
+  "<Swamp/@Swamp> , <Red Valley/@RedValley> , <Lunar/@Lunar> , <Viper Path/@ViperPath> , <WhiteDragonPassage/@WDP> ,": [
+    "GM-Teleporter.txt"
+  ],
+  "<Snow Cavern/@SnowCavern>": [
+    "GM-Teleporter.txt"
+  ],
+  "Tip: {@gamemaster/LimeGreen} before you move.": [
+    "GM-Teleporter.txt"
+  ],
+  "<Oma King Spirit/@OmaKingSpirit> , <Evil Centipede/@EvilCentipede> , <Evil Snake/@EvilSnake> , <Zuma Taurus/@ZumaTaurus>": [
+    "GM-Teleporter.txt"
+  ],
+  "<Great Fox Spirit/@GreatFoxSpirit> , <Wooma Taurus/@WoomaTaurus> , <King Scorpion/@KingScorpion> , <King Hog/@KingHog>": [
+    "GM-Teleporter.txt"
+  ],
+  "<Dark Devil/@DarkDevil> , <Red Moon Evil/@RedMoonEvil> , <Minotaur King/@MinotaurKing>": [
+    "GM-Teleporter.txt"
+  ],
+  "<Weapon shop/@BWWEP>   <Armour shop/@BWCLOTHES>   <Inn/@BWINN>": [
+    "GM-Teleporter.txt"
+  ],
+  "<Accessory shop/@BWJEWL>   <Reagent Store/@BWPOT>   <Bichon Inner Wall/@BWPAL>": [
+    "GM-Teleporter.txt"
+  ],
+  "<Book store/@BWBOOK>  <Butcher's shop/@BWMEAT>   <Hairdresser/@BWHAIR>": [
+    "GM-Teleporter.txt"
+  ],
+  "<Tavern/@BWTAVERN>  <Safezone/@BWSZ>  <Contest Room/@ContestRoom>  <Prison/@Prison>": [
+    "GM-Teleporter.txt"
+  ],
+  "Caves: <Oma Cave/@OmaCave> , <Natural Cave/@NaturalCave> , <Dead Mines/@DeadMine>": [
+    "GM-Teleporter.txt"
+  ],
+  "I will guide you to the desired store.": [
+    "GM-Teleporter.txt"
+  ],
+  "Where shall I teleport you?": [
+    "GM-Teleporter.txt"
+  ],
+  "<Safezone/@WWSZ>": [
+    "GM-Teleporter.txt"
+  ],
+  "Caves: <Insect Cave/@InsectCave> , <WoomaTemple/@WoomaTemple>": [
+    "GM-Teleporter.txt"
+  ],
+  "<Weapon shop/@SVWEP>   <Reagent store/@SVPOT>  <Safezone/@SVSZ>": [
+    "GM-Teleporter.txt"
+  ],
+  "Caves: <Serpent Dead Mine/@SDeadMine>": [
+    "GM-Teleporter.txt"
+  ],
+  "I can send you several places nearby.": [
+    "GM-Teleporter.txt"
+  ],
+  "<Blacksmith/@MONWEP>   <Armour shop/@MONCLOTHES>": [
+    "GM-Teleporter.txt"
+  ],
+  "<Book store/@MONBOOK>   <Accessory shop/@MONJEWL>": [
+    "GM-Teleporter.txt"
+  ],
+  "<Inn/@MONINN>  <Safezone/@MONSZ>": [
+    "GM-Teleporter.txt"
+  ],
+  "Caves: <Bug Cave/@BugCave> , <Zuma Temple/@ZumaTemple> ,": [
+    "GM-Teleporter.txt"
+  ],
+  "<Fox Cave/@FoxCave> , <Swamp/@Swamp> , <Stone Temple/@StoneTemple>": [
+    "GM-Teleporter.txt"
+  ],
+  "MOVE 3 330 330": [
+    "GM-Teleporter.txt"
+  ],
+  "<Safezone/@CGRSZ>": [
+    "GM-Teleporter.txt"
+  ],
+  "Caves: <BlackDragonDungeon/@BlackDragonDungeon> , <White Dragon Passage/@WhiteDragonPassage>": [
+    "GM-Teleporter.txt"
+  ],
+  "<Weapon shop/@PIWEP>   <Armour shop/@PICLOTHES>": [
+    "GM-Teleporter.txt"
+  ],
+  "<Reagent store/@PIPOT>   <Accessory shop/@PIJEWL>": [
+    "GM-Teleporter.txt"
+  ],
+  "<Village Chief House/@PICHIEF>  <Safezone@PISZ>": [
+    "GM-Teleporter.txt"
+  ],
+  "Caves: <Prajna Temple/@PrajnaTemple> , <Prajna Stone Cave/@PrajnaStoneCave>": [
+    "GM-Teleporter.txt"
+  ],
+  "<Weapon shop/@TVWEP>   <Armour shop/@TVCLOTHES>": [
+    "GM-Teleporter.txt"
+  ],
+  "<Accessory shop/@TVJEWL>   <Reagent store/@TVPOT>": [
+    "GM-Teleporter.txt"
+  ],
+  "<Book store/@TVBOOK>   <Grocery store/@TVPED>  <Safezone/@TVSZ>": [
+    "GM-Teleporter.txt"
+  ],
+  "Caves: <Mineral Mines/@MineralMine> , <Dark Forest/@DarkForest> ,": [
+    "GM-Teleporter.txt"
+  ],
+  "<Red Valley/@RedValley> , <Lunar/@Lunar>": [
+    "GM-Teleporter.txt"
+  ],
+  "MOVE 11 176 327": [
+    "GM-Teleporter.txt"
+  ],
+  "<Weapon shop/@WVWEP>   <Armour shop/@WVCLOTHES>   <Accessory shop/@WVJEWL>": [
+    "GM-Teleporter.txt"
+  ],
+  "<General Store/@WVPOT>   <Book store/@WVBOOK>  <Storage/@WVINN>": [
+    "GM-Teleporter.txt"
+  ],
+  "<Safezone/@WVSZ>": [
+    "GM-Teleporter.txt"
+  ],
+  "Caves: <Snow Cavern/@SnowCavern>": [
+    "GM-Teleporter.txt"
+  ],
+  "To Do": [
+    "GM-Teleporter.txt"
+  ],
+  "TO DO": [
+    "GM-Teleporter.txt"
+  ],
+  "<OmaCave_1F/@OC1>": [
+    "GM-Teleporter.txt"
+  ],
+  "<OmaCave_2/@OC2>": [
+    "GM-Teleporter.txt"
+  ],
+  "<HiddenRoom/@OC3>": [
+    "GM-Teleporter.txt"
+  ],
+  "<KingsTomb/@OC4>": [
+    "GM-Teleporter.txt"
+  ],
+  "<OmaCave_3F/@OC5>": [
+    "GM-Teleporter.txt"
+  ],
+  "<NaturalCave_1F/@NC1>": [
+    "GM-Teleporter.txt"
+  ],
+  "<NaturalCave_2/@NC2>": [
+    "GM-Teleporter.txt"
+  ],
+  "<HiddenRoom/@NC3>": [
+    "GM-Teleporter.txt"
+  ],
+  "<InsectCave_1F/@IC1>": [
+    "GM-Teleporter.txt"
+  ],
+  "<InsectCave_2F/@IC2>": [
+    "GM-Teleporter.txt"
+  ],
+  "<InsectCave_3F/@IC3>": [
+    "GM-Teleporter.txt"
+  ],
+  "<InsectCave_4F/@IC4>": [
+    "GM-Teleporter.txt"
+  ],
+  "<WoomaTempleEntrance/@WT1>": [
+    "GM-Teleporter.txt"
+  ],
+  "<WoomaTemple_1F/@WT2>": [
+    "GM-Teleporter.txt"
+  ],
+  "<WoomaTemple_2F/@WT3>": [
+    "GM-Teleporter.txt"
+  ],
+  "<WoomaTemple (KR)/@WT4>": [
+    "GM-Teleporter.txt"
+  ],
+  "<DeadMineEntrance/@DM1>": [
+    "GM-Teleporter.txt"
+  ],
+  "<B1ofMine/@DM2>": [
+    "GM-Teleporter.txt"
+  ],
+  "<B1ofMine/@DM3>": [
+    "GM-Teleporter.txt"
+  ],
+  "<EastofDeadMine/@DM4>": [
+    "GM-Teleporter.txt"
+  ],
+  "<B1ofMine/@DM5>": [
+    "GM-Teleporter.txt"
+  ],
+  "<B2ofDeadMine/@DM6>": [
+    "GM-Teleporter.txt"
+  ],
+  "<OverPass/@DM7>": [
+    "GM-Teleporter.txt"
+  ],
+  "<1FofDeadMine/@DM8>": [
+    "GM-Teleporter.txt"
+  ],
+  "<OverPass/@DM9>": [
+    "GM-Teleporter.txt"
+  ],
+  "<OreStoragePlace/@DM10>": [
+    "GM-Teleporter.txt"
+  ],
+  "<OverPass/@DM11>": [
+    "GM-Teleporter.txt"
+  ],
+  "<SouthofDeadMine/@DM12>": [
+    "GM-Teleporter.txt"
+  ],
+  "<SealedMaze/@FC1>": [
+    "GM-Teleporter.txt"
+  ],
+  "<SacredFoxHill/@FC2>": [
+    "GM-Teleporter.txt"
+  ],
+  "<SacredFoxTemple/@FC3>": [
+    "GM-Teleporter.txt"
+  ],
+  "<LobbyofZumaTemple/@ZT1> , <ZumaTemple_1F/@ZT2> , <ZumaTemple_2F/@ZT3> , <ZumaTemple_3F/@ZT4> ,": [
+    "GM-Teleporter.txt"
+  ],
+  "<ZumaTemple_4F/@ZT5> , <ZumaTemple_5F/@ZT6> ,": [
+    "GM-Teleporter.txt"
+  ],
+  "<ZumaTempleLobby_7F/@ZT7> , <ZumaTemple_7F/@ZT8> , <ZumaTemple_7F/@ZT9> , <ZumaTemple_7F/@ZT10> ,": [
+    "GM-Teleporter.txt"
+  ],
+  "<ZumaTemple/@ZT11>": [
+    "GM-Teleporter.txt"
+  ],
+  "<S_1FofDungeon/@BC1> , <W_1FofDungeon/@BC2> , <N_1FofDungeon/@BC3> , <W_2FofDungeon/@BC4> ,": [
+    "GM-Teleporter.txt"
+  ],
+  "<N_2FofDungeon/@BC5> , <LifeDeathCoffin/@BC6> (KR) , <LostCave(MainCave)/@BC7> , <LostMiddleCave/@BC8> ,": [
+    "GM-Teleporter.txt"
+  ],
+  "<SouthernLostCave/@BC9> , <WesternLostCave/@BC10> , <NorthernLostCave/@BC11> , <EasternLostCave/@BC12> , <FatallyPoisonousCave/@BC13>": [
+    "GM-Teleporter.txt"
+  ],
+  "<StoneLanternRoom/@BC14> , <AmethystRoom/@BC15> , <StoneCarvedStream/@BC16> , <StrangeRocksRoom/@BC17> , <StrangeRocksPath/@BC18>": [
+    "GM-Teleporter.txt"
+  ],
+  "<AngledStoneTombEntrance/@ST8> , <B1_AngledStoneTomb/@ST1> , <B2_AngledStoneTomb/@ST2> ,": [
+    "GM-Teleporter.txt"
+  ],
+  "<B3_AngledStoneTomb/@ST3> , <B4_AngledStoneTomb/@ST4> , <B5_AngledStoneTomb/@ST5> ,": [
+    "GM-Teleporter.txt"
+  ],
+  "<B6_AngledStoneTomb/@ST6> , <B7_AngledStoneTomb/@ST7> (KR)": [
+    "GM-Teleporter.txt"
+  ],
+  "<IceHellCavern/@ICH1> , <IceHellTemple(S/@ICH2>) , <IceHellTemple(N)/@ICH3> ,": [
+    "GM-Teleporter.txt"
+  ],
+  "<IceHellPass/@ICH4> , <DangerousCavern/@ICH5> , <IceHellTemple_KR/@ICH6>": [
+    "GM-Teleporter.txt"
+  ],
+  "<MineralMine_1F/@MM1>": [
+    "GM-Teleporter.txt"
+  ],
+  "<MineralMine_2F/@MM2>": [
+    "GM-Teleporter.txt"
+  ],
+  "<MineralMine_3F/@MM3>": [
+    "GM-Teleporter.txt"
+  ],
+  "<MineralMine_4F/@MM4>": [
+    "GM-Teleporter.txt"
+  ],
+  "<HellCavern_1F/@HC1>": [
+    "GM-Teleporter.txt"
+  ],
+  "<HellCavern_2F/@HC2>": [
+    "GM-Teleporter.txt"
+  ],
+  "<HellOverpass/@HC3>": [
+    "GM-Teleporter.txt"
+  ],
+  "<RedCavern_1F/@RC1> , <RedCavern_2F/@RC2> , <RedCavern_3F/@RC3> , <RedCavern_4F/@RC4> ,": [
+    "GM-Teleporter.txt"
+  ],
+  "<RedCavern_5F/@RC5> , <RedCavern_6F/@RC6> , <RedCavern_7F/@RC7> , <RedCavern_8F/@RC8> ,": [
+    "GM-Teleporter.txt"
+  ],
+  "<RedCavern_9F/@RC9> , <RedCavern_10F/@RC10> , <RedCavern_11F/@RC11> , <RedCavern_12F/@RC12> ,": [
+    "GM-Teleporter.txt"
+  ],
+  "<RedCavern_KR/@RC13>": [
+    "GM-Teleporter.txt"
+  ],
+  "<PrajnaTempleLobby/@PT1> , <PrajnaTemple_1F/@PT2> , <PrajnaTemple_2F/@PT3> , <PrajnaTemple_3F/@PT4> ,": [
+    "GM-Teleporter.txt"
+  ],
+  "<PrajnaTemple_4F/@PT5> , <PrajnaTemple(E)_5F/@PT6> , <PrajnaTemple(W)_5F/@PT7> , <PrajnaTemple_6F/@PT8> ,": [
+    "GM-Teleporter.txt"
+  ],
+  "<PrajnaTemple_7F/@PT9> , <PrajnaTemple/@PT10> (KR)": [
+    "GM-Teleporter.txt"
+  ],
+  "<PrajnaStoneCave_1F/@PSC1> , <PrajnaStoneCave_2F/@PSC2> , <PrajnaStoneCave(E)_3F/@PSC3> ,": [
+    "GM-Teleporter.txt"
+  ],
+  "<PrajnaStoneCave(W)_3F/@PSC4> , <PrajnaStoneCave_4F/@PSC5> , <PrajnaStoneCave_5F/@PSC6> ,": [
+    "GM-Teleporter.txt"
+  ],
+  "<PrajnaStoneCave_6F/@PSC7> (KR)": [
+    "GM-Teleporter.txt"
+  ],
+  "<BlackDragonDungeon/@BDD1> , <BlackSnakePalace/@BDD2> ,<BlackDragonDungeon_1F/@BDD3> ,<BlackDragonDungeon_2F/@BDD4> ,": [
+    "GM-Teleporter.txt"
+  ],
+  "<PurgatoryHall/@BDD5> ,<WoomaPalace/@BDD6> ,<HwanMaJin/@BDD7> ,<NobleHogPalace/@BDD8> ,": [
+    "GM-Teleporter.txt"
+  ],
+  "<SoleSpiritHall/@BDD9> ,<HwanMaJin2/@BDD10> ,<ZumaPalace/@BDD11> ,<PrisonHall/@BDD12> ,": [
+    "GM-Teleporter.txt"
+  ],
+  "<DarkDevilPalace/@BDD13>": [
+    "GM-Teleporter.txt"
+  ],
+  "<HellFire_1F/@HF1>": [
+    "GM-Teleporter.txt"
+  ],
+  "<HellFire_2F/@HF2>": [
+    "GM-Teleporter.txt"
+  ],
+  "<HellFire_3F/@HF3>": [
+    "GM-Teleporter.txt"
+  ],
+  "<HellFire_KingsRoom/@HF4>": [
+    "GM-Teleporter.txt"
+  ],
+  "<RedValley_1F/@RV1> , <RedValley_2F/@RV2> , <RedValley_3F/@RV3> , <RedValley_4F/@RV4> ,": [
+    "GM-Teleporter.txt"
+  ],
+  "<RedValley_5F/@RV5> , <RedValley_6F/@RV6> , <RedValley_7F/@RV7> , <RedValley_8F/@RV8> ,": [
+    "GM-Teleporter.txt"
+  ],
+  "<RedValley_9F/@RV9> , <RedValley_10F/@RV10> , <RedValley_11F/@RV11> , <Great_TaoTomb/@RV12> ,": [
+    "GM-Teleporter.txt"
+  ],
+  "<RedMoonRoom/@RV13> (KR)": [
+    "GM-Teleporter.txt"
+  ],
+  "<SwampCavern_1F/@S1>": [
+    "GM-Teleporter.txt"
+  ],
+  "<SwampCavern_2F/@S2>": [
+    "GM-Teleporter.txt"
+  ],
+  "<Swamp/@S3>": [
+    "GM-Teleporter.txt"
+  ],
+  "<DarkSwamp/@S4>": [
+    "GM-Teleporter.txt"
+  ],
+  "<Lunar_1F/@L1> , <Lunar_2F/@L2> , <Lunar_3F/@L3>": [
+    "GM-Teleporter.txt"
+  ],
+  "<Lunar_4F/@L4> , <LunarRoom/@L5> (KR)": [
+    "GM-Teleporter.txt"
+  ],
+  "CHECK TRELLO BOARD.": [
+    "GM-Teleporter.txt"
+  ],
+  "(Title For Link/https://trello.com/c/9xZB8U2c/162-viperpath-cave)": [
+    "GM-Teleporter.txt"
+  ],
+  "<WhiteDragonPassage 1F/@WDP1> , <WhiteDragonPassage 2F/@WDP2> , <WhiteDragonHillSide/@WDP3> ,": [
+    "GM-Teleporter.txt"
+  ],
+  "<WhiteDragonPassage 4F/@WDP4> , <WhiteDragonPassage 5F/@WDP5>": [
+    "GM-Teleporter.txt"
+  ],
+  "<SnowCavern_1F/@SC1> , <SnowCavern_2F/@SC2> , <TheSnowLair/@SC3> (KR)": [
+    "GM-Teleporter.txt"
+  ],
+  "<AncientNaturalCave/@ANC1> , <AncientNaturalCave 2F/@ANC2> , <AncientNaturalCave 3F/@ANC3>": [
+    "GM-Teleporter.txt"
+  ],
+  "<AncientTempleEntrance/@AWT1> , <AncientTemple_1F/@AWT2> ,": [
+    "GM-Teleporter.txt"
+  ],
+  "<AncientTemple_2F/@AWT3> , <AncientTemple/@AWT4> (KR)": [
+    "GM-Teleporter.txt"
+  ],
+  "<AncientSTombEntrance/@AST1> , <AncientSTomb_1F/@AST2> ,": [
+    "GM-Teleporter.txt"
+  ],
+  "<AncientSTomb_2F/@AST3> , <AncientSTomb_3F/@AST4> (KR)": [
+    "GM-Teleporter.txt"
+  ],
+  "<AncientZumaLobby/@AZT1> , <AncientZuma_1F/@AZT2> ,": [
+    "GM-Teleporter.txt"
+  ],
+  "<AncientZuma_2F/@AZT3> , <AncientZuma_3F/@AZT4> (KR)": [
+    "GM-Teleporter.txt"
+  ],
+  "<AncientPrajna_1F/@APC1> , <AncientPrajna_2F/@APC2> , <AncientPrajna_3F/@APC3> (KR)": [
+    "GM-Teleporter.txt"
+  ],
+  "I see you're wearing: {<$WEAPON>/CORAL} and have {<$PKPOINT>/ORANGE} PK Points.": [
+    "GM-Weapon.txt"
+  ],
+  "<Buy/@Buy> Weapon": [
+    "GM-Weapon.txt"
+  ],
+  "<Sell/@Sell> Weapon": [
+    "GM-Weapon.txt"
+  ],
+  "<Repair/@Repair> Weapon": [
+    "GM-Weapon.txt"
+  ],
+  "<Special Repair/@SRepair> Weapon": [
+    "GM-Weapon.txt"
+  ]
+}

@@ -6,6 +6,18 @@ Legend of Mir 2 - Official Public Crystal Source
 
 多仓库部署入口：[cuanq2/mir2](https://github.com/cuanq2/mir2)。配套资源通过私有 [mir2-resources](https://github.com/cuanq2/mir2-resources) Release 分包发布；使用主库的版本清单获取匹配的源码、Jev 数据和资源包。本地多仓库布局下，本项目位于 `mir2/code`，下文命令均在该源码目录执行。
 
+服务端中文管理界面的启用、更新和维护见[服务端界面汉化说明](docs/SERVER-UI.zh-CN.md)。
+
+### 历史单体资源打包工具
+
+`Tools/Package-Resources.py` 保留了早期试玩资源包的生成方式，供已有独立运行目录和 Jev 数据库检出副本使用。它只读取这些目录，输出到尚不存在的 ZIP 路径：
+
+```powershell
+python Tools/Package-Resources.py --runtime 'X:\mir2-crystal-runtime' --database-source 'X:\Crystal.Database' --output 'artifacts/releases/crystal-trial-resources-new.zip'
+```
+
+该工具打包已下载的静态素材、源码词表和 Jev 初始数据，排除账号、存档、个人配置及程序/DLL；包内生成 README 和清单，并检查文件列表、大小、CRC 和 ZIP 的 SHA-256。它沿用固定 Jev 版本的来源说明，输入应为 `a19f6dca8f5e238d4ed79801820777abbf0a9ca4` 的干净检出副本。输出不等同于当前多 ZIP Release；当前分包部署和重建方式以主库及资源仓库说明为准。
+
 ## Windows 本机部署
 
 源码构建只生成程序、依赖库和语言文件。要进入游戏，还需要独立准备客户端素材、服务端数据库、地图和脚本。以下使用仓库根目录下的 `release` 作为运行目录，客户端与服务端均在本机运行。

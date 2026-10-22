@@ -1,4 +1,4 @@
-﻿using Server.MirDatabase;
+using Server.MirDatabase;
 using Server.MirEnvir;
 using Server.MirObjects;
 using System.Diagnostics;
@@ -14,11 +14,13 @@ namespace Server
         public PlayerInfoForm()
         {
             InitializeComponent();
+            Server.MirForms.ServerUi.Apply(this);
         }
 
         public PlayerInfoForm(uint playerId)
         {
             InitializeComponent();
+            Server.MirForms.ServerUi.Apply(this);
 
             PlayerObject player = SMain.Envir.GetPlayer(playerId);
 
@@ -84,7 +86,7 @@ namespace Server
                 var listItem = new ListViewItem(Pet.Name) { Tag = Pet };
                 listItem.SubItems.Add(Pet.PetLevel.ToString());
                 listItem.SubItems.Add($"{Pet.Health}/{Pet.MaxHealth}");
-                listItem.SubItems.Add($"Map: {Pet.CurrentMap.Info.Title}, X: {Pet.CurrentLocation.X}, Y: {Pet.CurrentLocation.Y}");
+                listItem.SubItems.Add(Server.MirForms.ServerUi.T($"Map: {Pet.CurrentMap.Info.Title}, X: {Pet.CurrentLocation.X}, Y: {Pet.CurrentLocation.Y}"));
 
                 PetView.Items.Add(listItem);
             }
@@ -138,7 +140,7 @@ namespace Server
                 }
                 else if (magic.Key == 0)
                 {
-                    ListItem.SubItems.Add(string.Format("No Key", magic.Key));
+                    ListItem.SubItems.Add(Server.MirForms.ServerUi.T("No Key"));
                 }
 
                 ListItem.SubItems.Add(magic.Key.ToString());
@@ -157,7 +159,7 @@ namespace Server
                 QuestInfo completedQuest = SMain.Envir.GetQuestInfo(completedQuestID);
 
                 ListViewItem item = new ListViewItem(completedQuestID.ToString());
-                item.SubItems.Add("Completed");
+                item.SubItems.Add(Server.MirForms.ServerUi.T("Completed"));
                 item.SubItems.Add(completedQuest.Name.ToString());
                 QuestInfoListViewNF.Items.Add(item);
             }
@@ -165,7 +167,7 @@ namespace Server
             foreach (QuestProgressInfo currentQuest in Character.CurrentQuests)
             {
                 ListViewItem item = new ListViewItem(currentQuest.Index.ToString());
-                item.SubItems.Add("In Progress");
+                item.SubItems.Add(Server.MirForms.ServerUi.T("In Progress"));
                 item.SubItems.Add(currentQuest.Info.Name.ToString());
                 QuestInfoListViewNF.Items.Add(item);
             }
@@ -189,15 +191,15 @@ namespace Server
 
                 if (i < 6)
                 {
-                    inventoryItemListItem.SubItems.Add($"Belt | Slot: [{i + 1}]");
+                    inventoryItemListItem.SubItems.Add(Server.MirForms.ServerUi.T($"Belt | Slot: [{i + 1}]"));
                 }
                 else if (i >= 6 && i < 46)
                 {
-                    inventoryItemListItem.SubItems.Add($"Inventory Bag I | Slot: [{i - 5}]");
+                    inventoryItemListItem.SubItems.Add(Server.MirForms.ServerUi.T($"Inventory Bag I | Slot: [{i - 5}]"));
                 }
                 else
                 {
-                    inventoryItemListItem.SubItems.Add($"Inventory Bag II | Slot: [{i - 45}]");
+                    inventoryItemListItem.SubItems.Add(Server.MirForms.ServerUi.T($"Inventory Bag II | Slot: [{i - 45}]"));
                 }
 
                 inventoryItemListItem.SubItems.Add($"{inventoryItem.FriendlyName}");
@@ -215,7 +217,7 @@ namespace Server
                 if (questItem == null) continue;
 
                 ListViewItem questItemListItem = new ListViewItem($"{questItem.UniqueID}");
-                questItemListItem.SubItems.Add($"Quest Bag | Slot: [{i + 1}]");
+                questItemListItem.SubItems.Add(Server.MirForms.ServerUi.T($"Quest Bag | Slot: [{i + 1}]"));
 
                 questItemListItem.SubItems.Add($"{questItem.FriendlyName}");
                 questItemListItem.SubItems.Add($"{questItem.Count}/{questItem.Info.StackSize}");
@@ -234,11 +236,11 @@ namespace Server
 
                 if (i < 80)
                 {
-                    storeItemListItem.SubItems.Add($"Storage I | Slot: [{i + 1}]");
+                    storeItemListItem.SubItems.Add(Server.MirForms.ServerUi.T($"Storage I | Slot: [{i + 1}]"));
                 }
                 else
                 {
-                    storeItemListItem.SubItems.Add($"Storage II | Slot: [{i - 79}]");
+                    storeItemListItem.SubItems.Add(Server.MirForms.ServerUi.T($"Storage II | Slot: [{i - 79}]"));
                 }
 
                 storeItemListItem.SubItems.Add($"{storeItem.FriendlyName}");
@@ -256,7 +258,7 @@ namespace Server
 
                 ListViewItem equipItemListItem = new ListViewItem($"{equipItem.UniqueID}");
 
-                equipItemListItem.SubItems.Add($"Equipment | Slot: [{i + 1}]");
+                equipItemListItem.SubItems.Add(Server.MirForms.ServerUi.T($"Equipment | Slot: [{i + 1}]"));
 
                 equipItemListItem.SubItems.Add($"{equipItem.FriendlyName}");
                 equipItemListItem.SubItems.Add($"{equipItem.Count}/{equipItem.Info.StackSize}");
@@ -270,7 +272,7 @@ namespace Server
         #region Buttons
         private void UpdateButton_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Are you sure you want to Update?", "Update.", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Warning) != DialogResult.Yes) return;
+            if (Server.MirForms.ServerUi.Show("Are you sure you want to Update?", "Update.", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Warning) != DialogResult.Yes) return;
 
             SaveChanges();
         }
@@ -385,7 +387,7 @@ namespace Server
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Error opening URL: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                Server.MirForms.ServerUi.Show($"Error opening URL: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -421,7 +423,7 @@ namespace Server
 
                 bool isFlagActive = flagNumber >= 0 && flagNumber < Character.Flags.Length && Character.Flags[flagNumber];
 
-                listItem.SubItems.Add(isFlagActive ? "Active" : "Not Active");
+                listItem.SubItems.Add(Server.MirForms.ServerUi.T(isFlagActive ? "Active" : "Not Active"));
 
                 listItem.ForeColor = isFlagActive ? Color.Green : Color.Red;
 
@@ -438,7 +440,7 @@ namespace Server
             {
                 bool showItem = true;
 
-                if (ActiveFlagsCheckBox.Checked && item.SubItems[1].Text != "Active")
+                if (ActiveFlagsCheckBox.Checked && item.SubItems[1].Text != Server.MirForms.ServerUi.T("Active"))
                 {
                     showItem = false;
                 }
@@ -497,7 +499,7 @@ namespace Server
                 ListViewItem selectedItem = PlayerFlagsListView.SelectedItems[0];
                 int flagIndex = int.Parse(selectedItem.Text);
 
-                var result = MessageBox.Show("Are you sure you want to enable this flag?", "Confirm Action", MessageBoxButtons.YesNo);
+                var result = Server.MirForms.ServerUi.Show("Are you sure you want to enable this flag?", "Confirm Action", MessageBoxButtons.YesNo);
 
                 if (result == DialogResult.Yes)
                 {
@@ -505,18 +507,18 @@ namespace Server
                     {
                         Character.Flags[flagIndex] = true;
 
-                        selectedItem.SubItems[1].Text = "Active";
+                        selectedItem.SubItems[1].Text = Server.MirForms.ServerUi.T("Active");
                         selectedItem.SubItems[1].ForeColor = Color.Green;
                     }
                     else
                     {
-                        MessageBox.Show("Invalid flag index.");
+                        Server.MirForms.ServerUi.Show("Invalid flag index.");
                     }
                 }
             }
             else
             {
-                MessageBox.Show("Please select a flag to enable.");
+                Server.MirForms.ServerUi.Show("Please select a flag to enable.");
             }
         }
         private void DisableSelectedFlag_Click(object sender, EventArgs e)
@@ -526,7 +528,7 @@ namespace Server
                 ListViewItem selectedItem = PlayerFlagsListView.SelectedItems[0];
                 int flagIndex = int.Parse(selectedItem.Text);
 
-                var result = MessageBox.Show("Are you sure you want to disable this flag?", "Confirm Action", MessageBoxButtons.YesNo);
+                var result = Server.MirForms.ServerUi.Show("Are you sure you want to disable this flag?", "Confirm Action", MessageBoxButtons.YesNo);
 
                 if (result == DialogResult.Yes)
                 {
@@ -534,18 +536,18 @@ namespace Server
                     {
                         Character.Flags[flagIndex] = false;
 
-                        selectedItem.SubItems[1].Text = "Inactive";
+                        selectedItem.SubItems[1].Text = Server.MirForms.ServerUi.T("Inactive");
                         selectedItem.SubItems[1].ForeColor = Color.Red;
                     }
                     else
                     {
-                        MessageBox.Show("Invalid flag index.");
+                        Server.MirForms.ServerUi.Show("Invalid flag index.");
                     }
                 }
             }
             else
             {
-                MessageBox.Show("Please select a flag to disable.");
+                Server.MirForms.ServerUi.Show("Please select a flag to disable.");
             }
         }
         #endregion
@@ -674,7 +676,7 @@ namespace Server
                     }
                     else
                     {
-                        listItem.SubItems.Add("No Key");
+                        listItem.SubItems.Add(Server.MirForms.ServerUi.T("No Key"));
                     }
 
                     listItem.SubItems.Add(magic.Key.ToString());
@@ -702,15 +704,15 @@ namespace Server
 
                 if (i < 6)
                 {
-                    inventoryItemListItem.SubItems.Add($"Belt | Slot: [{i + 1}]");
+                    inventoryItemListItem.SubItems.Add(Server.MirForms.ServerUi.T($"Belt | Slot: [{i + 1}]"));
                 }
                 else if (i >= 6 && i < 46)
                 {
-                    inventoryItemListItem.SubItems.Add($"Inventory Bag I | Slot: [{i - 5}]");
+                    inventoryItemListItem.SubItems.Add(Server.MirForms.ServerUi.T($"Inventory Bag I | Slot: [{i - 5}]"));
                 }
                 else
                 {
-                    inventoryItemListItem.SubItems.Add($"Inventory Bag II | Slot: [{i - 45}]");
+                    inventoryItemListItem.SubItems.Add(Server.MirForms.ServerUi.T($"Inventory Bag II | Slot: [{i - 45}]"));
                 }
 
                 inventoryItemListItem.SubItems.Add($"{inventoryItem.FriendlyName}");
@@ -728,7 +730,7 @@ namespace Server
 
                 ListViewItem equipItemListItem = new ListViewItem($"{equipItem.UniqueID}");
 
-                equipItemListItem.SubItems.Add($"Equipment | Slot: [{i + 1}]");
+                equipItemListItem.SubItems.Add(Server.MirForms.ServerUi.T($"Equipment | Slot: [{i + 1}]"));
 
                 equipItemListItem.SubItems.Add($"{equipItem.FriendlyName}");
                 equipItemListItem.SubItems.Add($"{equipItem.Count}/{equipItem.Info.StackSize}");
@@ -739,7 +741,7 @@ namespace Server
         }
         private void HeroUpdateButton_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Are you sure you want to Update?", "Update.", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Warning) != DialogResult.Yes) return;
+            if (Server.MirForms.ServerUi.Show("Are you sure you want to Update?", "Update.", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Warning) != DialogResult.Yes) return;
 
             HeroSaveChanges();
         }

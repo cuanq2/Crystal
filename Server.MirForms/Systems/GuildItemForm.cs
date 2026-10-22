@@ -1,4 +1,4 @@
-﻿using Server.MirObjects;
+using Server.MirObjects;
 using Server.MirObjects.Monsters;
 using System;
 using System.Collections.Generic;
@@ -21,6 +21,7 @@ namespace Server.Systems
         public GuildItemForm()
         {
             InitializeComponent();
+            Server.MirForms.ServerUi.Apply(this);
             this.Load += GuildItemForm_Load;
         }
 
@@ -121,13 +122,13 @@ namespace Server.Systems
                 if (activeBuffsById.TryGetValue(buffInfo.Id, out GuildBuff activeBuff))
                 {
                     // Buff is active
-                    item.SubItems.Add("Active");
+                    item.SubItems.Add(Server.MirForms.ServerUi.T("Active"));
                     item.SubItems.Add(activeBuff.ActiveTimeRemaining.ToString());
                 }
                 else
                 {
                     // Buff is inactive
-                    item.SubItems.Add("Inactive");
+                    item.SubItems.Add(Server.MirForms.ServerUi.T("Inactive"));
                     item.SubItems.Add("0"); // No time remaining for inactive buff
                 }
 

@@ -1,4 +1,4 @@
-﻿using Server.MirDatabase;
+using Server.MirDatabase;
 using Server.MirEnvir;
 
 namespace Server
@@ -18,6 +18,7 @@ namespace Server
         public ConquestInfoForm()
         {
             InitializeComponent();
+            Server.MirForms.ServerUi.Apply(this);
 
             for (int i = 0; i < Envir.MapInfoList.Count; i++)
             {
@@ -759,7 +760,7 @@ namespace Server
         {
             if (selectedConquest == null) return;
 
-            if (MessageBox.Show("Are you sure you want to remove the selected Conquest?", "Remove Items?", MessageBoxButtons.YesNo) != DialogResult.Yes) return;
+            if (Server.MirForms.ServerUi.Show("Are you sure you want to remove the selected Conquest?", "Remove Items?", MessageBoxButtons.YesNo) != DialogResult.Yes) return;
 
             Envir.ConquestInfoList.Remove(selectedConquest);
 

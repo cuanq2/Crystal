@@ -1,4 +1,4 @@
-﻿using Server.MirEnvir;
+using Server.MirEnvir;
 
 namespace Server.MirForms.DropBuilder
 {
@@ -62,6 +62,7 @@ namespace Server.MirForms.DropBuilder
         public DropGenForm()
         {
             InitializeComponent();
+            Server.MirForms.ServerUi.Apply(this);
 
             // Array of items
             ItemLists = new List<DropItem>[37]
@@ -358,7 +359,7 @@ namespace Server.MirForms.DropBuilder
                     }
                     catch (Exception)
                     {
-                        MessageBox.Show("Unreadable level filters.");
+                        Server.MirForms.ServerUi.Show("Unreadable level filters.");
                         break;
                     }
                 }
@@ -936,7 +937,7 @@ namespace Server.MirForms.DropBuilder
         //Switch to Edit mode
         private void buttonEdit_Click(object sender, EventArgs e)
         {
-            if (buttonEdit.Text == "Accept")
+            if (Server.MirForms.ServerUi.OriginalText(buttonEdit) == "Accept")
             {
                 textBoxDropList.ReadOnly = true;
                 textBoxDropList.BackColor = System.Drawing.Color.Cornsilk;

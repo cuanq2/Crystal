@@ -1,10 +1,11 @@
-﻿namespace Server.MirForms.VisualMapInfo.Control.Forms
+namespace Server.MirForms.VisualMapInfo.Control.Forms
 {
     public partial class RespawnsDetailForm : Form
     {
         public RespawnsDetailForm()
         {
             InitializeComponent();
+            Server.MirForms.ServerUi.Apply(this);
         }
 
         private void Chk(object sender, KeyPressEventArgs e)

@@ -1,4 +1,4 @@
-﻿using Server.MirEnvir;
+using Server.MirEnvir;
 
 namespace Server
 {
@@ -12,6 +12,7 @@ namespace Server
         public GameShop()
         {
             InitializeComponent();
+            Server.MirForms.ServerUi.Apply(this);
 
             LoadGameShopItems();
 
@@ -71,9 +72,9 @@ namespace Server
             GameShopListBox.Items.Clear();
             for (int i = 0; i < SMain.EditEnvir.GameShopList.Count; i++)
             {
-                if (ClassFilter_lb.Text == "All Classes" || SMain.EditEnvir.GameShopList[i].Class == ClassFilter_lb.Text)
-                    if (SectionFilter_lb.Text == "All Items" || SMain.EditEnvir.GameShopList[i].TopItem && SectionFilter_lb.Text == "Top Items" || SMain.EditEnvir.GameShopList[i].Deal && SectionFilter_lb.Text == "Sale Items" || SMain.EditEnvir.GameShopList[i].Date > Envir.Now.AddDays(-7) && SectionFilter_lb.Text == "New Items")
-                        if (CategoryFilter_lb.Text == "All Categories" || SMain.EditEnvir.GameShopList[i].Category == CategoryFilter_lb.Text)
+                if (Server.MirForms.ServerUi.OriginalText(ClassFilter_lb) == "All Classes" || SMain.EditEnvir.GameShopList[i].Class == Server.MirForms.ServerUi.OriginalText(ClassFilter_lb))
+                    if (Server.MirForms.ServerUi.OriginalText(SectionFilter_lb) == "All Items" || SMain.EditEnvir.GameShopList[i].TopItem && Server.MirForms.ServerUi.OriginalText(SectionFilter_lb) == "Top Items" || SMain.EditEnvir.GameShopList[i].Deal && Server.MirForms.ServerUi.OriginalText(SectionFilter_lb) == "Sale Items" || SMain.EditEnvir.GameShopList[i].Date > Envir.Now.AddDays(-7) && Server.MirForms.ServerUi.OriginalText(SectionFilter_lb) == "New Items")
+                        if (Server.MirForms.ServerUi.OriginalText(CategoryFilter_lb) == "All Categories" || SMain.EditEnvir.GameShopList[i].Category == Server.MirForms.ServerUi.OriginalText(CategoryFilter_lb))
                             GameShopListBox.Items.Add(SMain.EditEnvir.GameShopList[i]);
             }
         }
@@ -230,7 +231,7 @@ namespace Server
         {
             if (SelectedItems.Count == 0) return;
 
-            if (MessageBox.Show("Are you sure you want to remove the selected Items?", "Remove Items?", MessageBoxButtons.YesNo) != DialogResult.Yes) return;
+            if (Server.MirForms.ServerUi.Show("Are you sure you want to remove the selected Items?", "Remove Items?", MessageBoxButtons.YesNo) != DialogResult.Yes) return;
 
             for (int i = 0; i < SelectedItems.Count; i++) Envir.Remove(SelectedItems[i]);
 
@@ -355,12 +356,12 @@ namespace Server
         {
             if (SMain.Envir.Running)
             {
-                if (MessageBox.Show("Reseting purchase logs cannot be reverted and will set stock levels back to defaults, This will take effect instantly.", "Remove Logs?", MessageBoxButtons.YesNo) != DialogResult.Yes) return;
+                if (Server.MirForms.ServerUi.Show("Reseting purchase logs cannot be reverted and will set stock levels back to defaults, This will take effect instantly.", "Remove Logs?", MessageBoxButtons.YesNo) != DialogResult.Yes) return;
                 SMain.Envir.ClearGameshopLog();
             }
             else
             {
-                if (MessageBox.Show("Reseting purchase logs cannot be reverted and will set stock levels back to defaults, This will take effect when you start the server", "Remove Logs?", MessageBoxButtons.YesNo) != DialogResult.Yes) return;
+                if (Server.MirForms.ServerUi.Show("Reseting purchase logs cannot be reverted and will set stock levels back to defaults, This will take effect when you start the server", "Remove Logs?", MessageBoxButtons.YesNo) != DialogResult.Yes) return;
                 SMain.Envir.ResetGS = true;
             }
         }
@@ -407,7 +408,7 @@ namespace Server
         {
             if (SMain.EditEnvir.ItemInfoList == null || SMain.EditEnvir.ItemInfoList.Count == 0)
             {
-                MessageBox.Show("No items available to add.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                Server.MirForms.ServerUi.Show("No items available to add.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
@@ -498,7 +499,7 @@ namespace Server
         {
             if (GameShopListBox.Items.Count == 0)
             {
-                MessageBox.Show("No items to export.", "Export Failed", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                Server.MirForms.ServerUi.Show("No items to export.", "Export Failed", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
@@ -514,7 +515,7 @@ namespace Server
                 InitialDirectory = exportDir
             };
 
-            if (saveDialog.ShowDialog() != DialogResult.OK)
+            if (Server.MirForms.ServerUi.ShowDialog(saveDialog) != DialogResult.OK)
                 return;
 
             List<string> lines = new List<string>
@@ -537,7 +538,7 @@ namespace Server
 
             File.WriteAllLines(saveDialog.FileName, lines);
 
-            MessageBox.Show("Export complete.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            Server.MirForms.ServerUi.Show("Export complete.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }

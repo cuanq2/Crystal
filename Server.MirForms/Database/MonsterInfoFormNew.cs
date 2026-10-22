@@ -1,4 +1,4 @@
-﻿using System.Data;
+using System.Data;
 using System.Text;
 using System.Text.RegularExpressions;
 using Server.MirDatabase;
@@ -17,6 +17,7 @@ namespace Server.Database
         public MonsterInfoFormNew()
         {
             InitializeComponent();
+            Server.MirForms.ServerUi.Apply(this);
 
             SetDoubleBuffered(monsterInfoGridView);
 
@@ -91,7 +92,7 @@ namespace Server.Database
             {
                 EnumRow = enumTable.NewRow();
                 EnumRow["Value"] = e;
-                EnumRow["Display"] = e.ToString();
+                EnumRow["Display"] = Server.MirForms.ServerUi.T(e.ToString());
                 enumTable.Rows.Add(EnumRow);
             }
 
@@ -403,7 +404,7 @@ namespace Server.Database
             OpenFileDialog ofd = new OpenFileDialog();
             ofd.Filter = "CSV (*.csv)|*.csv";
 
-            if (ofd.ShowDialog() == DialogResult.OK)
+            if (Server.MirForms.ServerUi.ShowDialog(ofd) == DialogResult.OK)
             {
                 var fileName = ofd.FileName;
                 bool fileError = false;
@@ -417,7 +418,7 @@ namespace Server.Database
                     if (columns.Length < 2)
                     {
                         fileError = true;
-                        MessageBox.Show("No columns to import.");
+                        Server.MirForms.ServerUi.Show("No columns to import.");
                     }
 
                     if (!fileError)
@@ -440,7 +441,7 @@ namespace Server.Database
                             if (cells.Length != columns.Length)
                             {
                                 fileError = true;
-                                MessageBox.Show($"Row {i} column count does not match the headers column count.");
+                                Server.MirForms.ServerUi.Show($"Row {i} column count does not match the headers column count.");
                                 break;
                             }
 
@@ -509,7 +510,7 @@ namespace Server.Database
                                 fileError = true;
                                 monsterInfoGridView.EndEdit();
 
-                                MessageBox.Show($"Error when importing item {cells[0]}. {ex.Message}");
+                                Server.MirForms.ServerUi.Show($"Error when importing item {cells[0]}. {ex.Message}");
                                 break;
                             }
                         }
@@ -517,7 +518,7 @@ namespace Server.Database
                         monsterInfoGridView.EditMode = DataGridViewEditMode.EditOnKeystrokeOrF2;
                         if (!fileError)
                         {
-                            MessageBox.Show($"{rowsEdited} monsters have been imported.");
+                            Server.MirForms.ServerUi.Show($"{rowsEdited} monsters have been imported.");
                         }
                         else
                         {
@@ -529,7 +530,7 @@ namespace Server.Database
                 }
                 else
                 {
-                    MessageBox.Show("No rows to import.");
+                    Server.MirForms.ServerUi.Show("No rows to import.");
                 }
             }
         }
@@ -542,7 +543,7 @@ namespace Server.Database
                 sfd.Filter = "CSV (*.csv)|*.csv";
                 sfd.FileName = "MonsterInfo Output.csv";
                 bool fileError = false;
-                if (sfd.ShowDialog() == DialogResult.OK)
+                if (Server.MirForms.ServerUi.ShowDialog(sfd) == DialogResult.OK)
                 {
                     if (File.Exists(sfd.FileName))
                     {
@@ -553,7 +554,7 @@ namespace Server.Database
                         catch (IOException ex)
                         {
                             fileError = true;
-                            MessageBox.Show("It wasn't possible to write the data to the disk." + ex.Message);
+                            Server.MirForms.ServerUi.Show("It wasn't possible to write the data to the disk." + ex.Message);
                         }
                     }
                     if (!fileError)
@@ -588,18 +589,18 @@ namespace Server.Database
                             }
 
                             File.WriteAllLines(sfd.FileName, outputCsv, Encoding.UTF8);
-                            MessageBox.Show("Data Exported Successfully.", "Info");
+                            Server.MirForms.ServerUi.Show("Data Exported Successfully.", "Info");
                         }
                         catch (Exception ex)
                         {
-                            MessageBox.Show("Error :" + ex.Message);
+                            Server.MirForms.ServerUi.Show("Error :" + ex.Message);
                         }
                     }
                 }
             }
             else
             {
-                MessageBox.Show("No Monsters To Export.", "Info");
+                Server.MirForms.ServerUi.Show("No Monsters To Export.", "Info");
             }
         }
 

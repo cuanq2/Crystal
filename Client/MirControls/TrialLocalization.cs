@@ -16,11 +16,16 @@ namespace Client.MirControls
             if (_terms == null)
             {
                 string path = Path.Combine("Localization", "Chinese.Trial.json");
-                _terms = File.Exists(path)
-                    ? new Dictionary<string, string>(JsonSerializer.Deserialize<Dictionary<string, string>>(File.ReadAllText(path)), StringComparer.OrdinalIgnoreCase)
-                    : new Dictionary<string, string>();
+                _terms = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase);
+                if (File.Exists(path))
+                {
+                    // Older merged resource packs contain case-only duplicate keys.
+                    // Preserve their override order instead of failing during startup.
+                    foreach (var pair in JsonSerializer.Deserialize<Dictionary<string, string>>(File.ReadAllText(path)))
+                        _terms[pair.Key] = pair.Value;
+                }
                 if (_terms.Count > 0)
-                    _pattern = new Regex(@"(?<![A-Za-z0-9])(?:" + string.Join("|", _terms.Keys.OrderByDescending(x => x.Length).Select(Regex.Escape)) + @")(?![A-Za-z0-9])", RegexOptions.IgnoreCase | RegexOptions.CultureInvariant);
+                    _pattern = new Regex(@"(?<![A-Za-z0-9@])(?:" + string.Join("|", _terms.Keys.OrderByDescending(x => x.Length).Select(Regex.Escape)) + @")(?![A-Za-z0-9])", RegexOptions.IgnoreCase | RegexOptions.CultureInvariant);
             }
             if (_pattern == null) return text;
             if (Cache.TryGetValue(text, out string cached)) return cached;
@@ -45,7 +50,7 @@ namespace Client.MirControls
             }
             // Preserve server action keys, link destinations and colour identifiers.
             var tokens = new List<string>();
-            string protectedLine = Regex.Replace(line, @"/[^<>{}\r\n]+(?=[>}])", match =>
+            string protectedLine = Regex.Replace(line, @"<\$[^>]+>|/@[^>\r\n]+|/[^/{}\r\n]+(?=})|https?://[^)\s]+|@[A-Za-z][A-Za-z0-9]*", match =>
             {
                 tokens.Add(match.Value);
                 return "\uE000" + (tokens.Count - 1) + "\uE001";

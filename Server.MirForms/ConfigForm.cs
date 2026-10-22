@@ -1,4 +1,4 @@
-﻿using Server.MirEnvir;
+using Server.MirEnvir;
 using System.Net;
 using System.Text.RegularExpressions;
 
@@ -9,6 +9,7 @@ namespace Server
         public ConfigForm()
         {
             InitializeComponent();
+            Server.MirForms.ServerUi.Apply(this);
 
             VPathTextBox.Text = Settings.VersionPath;
             VersionCheckBox.Checked = Settings.CheckVersion;
@@ -266,7 +267,7 @@ namespace Server
 
             if (!Directory.Exists(dropPath))
             {
-                MessageBox.Show("Drops directory not found!");
+                Server.MirForms.ServerUi.Show("Drops directory not found!");
                 return;
             }
 
@@ -325,11 +326,11 @@ namespace Server
                     }
                 }
 
-                MessageBox.Show($"Processed files. Modified {totalModified} entries.");
+                Server.MirForms.ServerUi.Show($"Processed files. Modified {totalModified} entries.");
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Error: {ex.Message}");
+                Server.MirForms.ServerUi.Show($"Error: {ex.Message}");
             }
         }
         private void RemoveSinDrops_Click(object sender, EventArgs e)

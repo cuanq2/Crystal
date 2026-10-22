@@ -1,4 +1,4 @@
-﻿using Server.MirDatabase;
+using Server.MirDatabase;
 using Server.MirEnvir;
 using System.Diagnostics;
 
@@ -15,6 +15,7 @@ namespace Server
         public QuestInfoForm()
         {
             InitializeComponent();
+            Server.MirForms.ServerUi.Apply(this);
 
             QTypeComboBox.Items.AddRange(Enum.GetValues(typeof(QuestType)).Cast<object>().ToArray());
             RequiredClassComboBox.Items.AddRange(Enum.GetValues(typeof(RequiredClass)).Cast<object>().ToArray());
@@ -48,7 +49,7 @@ namespace Server
         {
             if (_selectedQuestInfos.Count == 0) return;
 
-            if (MessageBox.Show("Are you sure you want to remove the selected Quests?", "Remove Quests?", MessageBoxButtons.YesNo) != DialogResult.Yes) return;
+            if (Server.MirForms.ServerUi.Show("Are you sure you want to remove the selected Quests?", "Remove Quests?", MessageBoxButtons.YesNo) != DialogResult.Yes) return;
 
             for (int i = 0; i < _selectedQuestInfos.Count; i++) Envir.Remove(_selectedQuestInfos[i]);
 
@@ -215,7 +216,7 @@ namespace Server
 
             if (!data.StartsWith("Quest", StringComparison.OrdinalIgnoreCase))
             {
-                MessageBox.Show("Cannot Paste, Copied data is not Quest Information.");
+                Server.MirForms.ServerUi.Show("Cannot Paste, Copied data is not Quest Information.");
                 return;
             }
 
@@ -250,7 +251,7 @@ namespace Server
             sfd.InitialDirectory = Path.Combine(Application.StartupPath, "Exports");
             sfd.FileName = "QuestInfoExport.csv";
             sfd.Filter = "CSV File|*.csv";
-            sfd.ShowDialog();
+            Server.MirForms.ServerUi.ShowDialog(sfd);
 
             if (sfd.FileName == string.Empty) return;
 
@@ -262,7 +263,7 @@ namespace Server
                     sw.WriteLine(Quests[j].ToText());
                 }
             }
-            MessageBox.Show("Quest Export complete");
+            Server.MirForms.ServerUi.Show("Quest Export complete");
         }
 
 
@@ -272,7 +273,7 @@ namespace Server
 
             OpenFileDialog ofd = new OpenFileDialog();
             ofd.Filter = "CSV File|*.csv";
-            ofd.ShowDialog();
+            Server.MirForms.ServerUi.ShowDialog(ofd);
 
             if (ofd.FileName == string.Empty) return;
 
@@ -283,7 +284,7 @@ namespace Server
 
             RefreshQuestList();
             UpdateInterface();
-            MessageBox.Show("Quest Import complete");
+            Server.MirForms.ServerUi.Show("Quest Import complete");
         }
 
         private void QNameTextBox_TextChanged(object sender, EventArgs e)

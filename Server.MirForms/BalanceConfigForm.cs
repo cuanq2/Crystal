@@ -1,4 +1,4 @@
-﻿using Server.MirEnvir;
+using Server.MirEnvir;
 using Shared.Extensions;
 
 namespace Server
@@ -19,6 +19,7 @@ namespace Server
         public BalanceConfigForm()
         {
             InitializeComponent();
+            Server.MirForms.ServerUi.Apply(this);
             ClassComboBox.Items.AddRange(Enum.GetValues(typeof(MirClass)).Cast<object>().ToArray());
             HeroClassComboBox.Items.AddRange(Enum.GetValues(typeof(MirClass)).Cast<object>().ToArray());
 
@@ -435,7 +436,7 @@ namespace Server
 
         private void RISDeleteIndexbutton_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Are you sure you want to delete the last index?", "Delete?", MessageBoxButtons.YesNo) != DialogResult.Yes) return;
+            if (Server.MirForms.ServerUi.Show("Are you sure you want to delete the last index?", "Delete?", MessageBoxButtons.YesNo) != DialogResult.Yes) return;
             RandomItemStatsChanged = true;
             RISIndexcomboBox.Items.Remove(Settings.RandomItemStatsList.Count - 1);
             Settings.RandomItemStatsList.RemoveAt(Settings.RandomItemStatsList.Count - 1);
@@ -1765,7 +1766,7 @@ namespace Server
 
                 if (classStats.Stats.Any(x => x.Type == type))
                 {
-                    MessageBox.Show(string.Format($"The stat '{type}' exists more than once so will not be saved."));
+                    Server.MirForms.ServerUi.Show(string.Format($"The stat '{type}' exists more than once so will not be saved."));
                     continue;
                 }
 
@@ -2016,7 +2017,7 @@ namespace Server
 
                 if (classStats.Stats.Any(x => x.Type == type))
                 {
-                    MessageBox.Show(string.Format($"The stat '{type}' exists more than once so will not be saved."));
+                    Server.MirForms.ServerUi.Show(string.Format($"The stat '{type}' exists more than once so will not be saved."));
                     continue;
                 }
 

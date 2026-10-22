@@ -1,4 +1,4 @@
-﻿using Server.MirDatabase;
+using Server.MirDatabase;
 using Server.MirEnvir;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
@@ -16,6 +16,7 @@ namespace Server
         public NPCInfoForm()
         {
             InitializeComponent();
+            Server.MirForms.ServerUi.Apply(this);
 
             for (int i = 0; i < Envir.MapInfoList.Count; i++) MapComboBox.Items.Add(Envir.MapInfoList[i]);
 
@@ -45,7 +46,7 @@ namespace Server
         {
             if (_selectedNPCInfos.Count == 0) return;
 
-            if (MessageBox.Show("Are you sure you want to remove the selected NPCs?", "Remove NPCs?", MessageBoxButtons.YesNo) != DialogResult.Yes) return;
+            if (Server.MirForms.ServerUi.Show("Are you sure you want to remove the selected NPCs?", "Remove NPCs?", MessageBoxButtons.YesNo) != DialogResult.Yes) return;
 
             for (int i = 0; i < _selectedNPCInfos.Count; i++) Envir.Remove(_selectedNPCInfos[i]);
 
@@ -289,7 +290,7 @@ namespace Server
 
             if (!data.StartsWith("NPC", StringComparison.OrdinalIgnoreCase))
             {
-                MessageBox.Show("Cannot Paste, Copied data is not NPC Information.");
+                Server.MirForms.ServerUi.Show("Cannot Paste, Copied data is not NPC Information.");
                 return;
             }
 
@@ -323,7 +324,7 @@ namespace Server
             sfd.InitialDirectory = Path.Combine(Application.StartupPath, "Exports");
             sfd.FileName = "NpcInfoExport.csv";
             sfd.Filter = "CSV File|*.csv";
-            sfd.ShowDialog();
+            Server.MirForms.ServerUi.ShowDialog(sfd);
 
             if (sfd.FileName == string.Empty) return;
 
@@ -336,7 +337,7 @@ namespace Server
                     sw.WriteLine(NPCs[j].ToText());
                 }
             }
-            MessageBox.Show("NPC Export complete");
+            Server.MirForms.ServerUi.Show("NPC Export complete");
         }
 
         private void ImportButton_Click(object sender, EventArgs e)
@@ -345,7 +346,7 @@ namespace Server
 
             OpenFileDialog ofd = new OpenFileDialog();
             ofd.Filter = "CSV File|*.csv";
-            ofd.ShowDialog();
+            Server.MirForms.ServerUi.ShowDialog(ofd);
 
             if (ofd.FileName == string.Empty) return;
 
@@ -361,7 +362,7 @@ namespace Server
             }
 
             UpdateInterface();
-            MessageBox.Show("NPC Import complete");
+            Server.MirForms.ServerUi.Show("NPC Import complete");
         }
 
         private void OpenNButton_Click(object sender, EventArgs e)
@@ -447,7 +448,7 @@ namespace Server
 
         private void CopyMButton_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(Envir.Now.DayOfWeek.ToString());
+            Server.MirForms.ServerUi.Show(Envir.Now.DayOfWeek.ToString());
         }
 
         private void MaxLev_textbox_TextChanged(object sender, EventArgs e)
@@ -559,7 +560,7 @@ namespace Server
 
         private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
         {
-            MessageBox.Show(Envir.Now.TimeOfDay.ToString());
+            Server.MirForms.ServerUi.Show(Envir.Now.TimeOfDay.ToString());
         }
 
         private void NPCInfoForm_Load(object sender, EventArgs e)

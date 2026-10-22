@@ -1,4 +1,4 @@
-﻿using Server.MirDatabase;
+using Server.MirDatabase;
 using Server.MirEnvir;
 using Server.MirObjects;
 using System.Globalization;
@@ -14,6 +14,7 @@ namespace Server
         public AccountInfoForm()
         {
             InitializeComponent();
+            Server.MirForms.ServerUi.Apply(this);
 
             Setup();
         }
@@ -21,6 +22,7 @@ namespace Server
         public AccountInfoForm(string accountId, bool match = false)
         {
             InitializeComponent();
+            Server.MirForms.ServerUi.Apply(this);
 
             FilterTextBox.Text = accountId;
             MatchFilterCheckBox.Checked = match;
@@ -59,8 +61,8 @@ namespace Server
             ListItem.SubItems[0].Text = account.Index.ToString();
             ListItem.SubItems[1].Text = account.AccountID;
             ListItem.SubItems[2].Text = account.UserName;
-            ListItem.SubItems[3].Text = account.AdminAccount.ToString();
-            ListItem.SubItems[4].Text = account.Banned.ToString();
+            ListItem.SubItems[3].Text = Server.MirForms.ServerUi.T(account.AdminAccount.ToString());
+            ListItem.SubItems[4].Text = Server.MirForms.ServerUi.T(account.Banned.ToString());
             ListItem.SubItems[5].Text = account.BanReason;
             ListItem.SubItems[6].Text = account.ExpiryDate.ToString();
             ListItem.SubItems[7].Text = account.Gold.ToString();
@@ -73,8 +75,8 @@ namespace Server
 
             ListItem.SubItems.Add(account.AccountID);
             ListItem.SubItems.Add(account.UserName);
-            ListItem.SubItems.Add(account.AdminAccount.ToString());
-            ListItem.SubItems.Add(account.Banned.ToString());
+            ListItem.SubItems.Add(Server.MirForms.ServerUi.T(account.AdminAccount.ToString()));
+            ListItem.SubItems.Add(Server.MirForms.ServerUi.T(account.Banned.ToString()));
             ListItem.SubItems.Add(account.BanReason);
             ListItem.SubItems.Add(account.ExpiryDate.ToString());
             ListItem.SubItems.Add(account.Gold.ToString());
@@ -207,7 +209,7 @@ namespace Server
                 foreach (var character in info.Characters)
                 {
                     var listItem = new ListViewItem(character.Name) { Tag = character };
-                    listItem.SubItems.Add(character.Class.ToString());
+                    listItem.SubItems.Add(Server.MirForms.ServerUi.T(character.Class.ToString()));
                     listItem.SubItems.Add(character.Level.ToString());
                     listItem.SubItems.Add(character.PKPoints.ToString());
 
@@ -222,7 +224,7 @@ namespace Server
                     }
                     else
                     {
-                        listItem.SubItems.Add("No Guild");
+                        listItem.SubItems.Add(Server.MirForms.ServerUi.T("No Guild"));
                     }
 
                     string status = $"";
@@ -243,7 +245,7 @@ namespace Server
                         listItem.ForeColor = Color.Red;
                     }
 
-                    listItem.SubItems.Add(status.ToString());
+                    listItem.SubItems.Add(Server.MirForms.ServerUi.T(status));
 
                     CharactersListView.Items.Add(listItem);
                 }
@@ -346,7 +348,7 @@ namespace Server
 
         private void DayBanButton_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Are you sure you want to ban the selected Accounts?", "Ban Selected.", MessageBoxButtons.YesNoCancel) != DialogResult.Yes) return;
+            if (Server.MirForms.ServerUi.Show("Are you sure you want to ban the selected Accounts?", "Ban Selected.", MessageBoxButtons.YesNoCancel) != DialogResult.Yes) return;
 
             DateTime expiry = SMain.Envir.Now.AddDays(1);
 
@@ -365,7 +367,7 @@ namespace Server
 
         private void WeekBanButton_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Are you sure you want to ban the selected Accounts?", "Ban Selected.", MessageBoxButtons.YesNoCancel) != DialogResult.Yes) return;
+            if (Server.MirForms.ServerUi.Show("Are you sure you want to ban the selected Accounts?", "Ban Selected.", MessageBoxButtons.YesNoCancel) != DialogResult.Yes) return;
 
             DateTime expiry = SMain.Envir.Now.AddDays(7);
 
@@ -384,7 +386,7 @@ namespace Server
 
         private void PermBanButton_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Are you sure you want to ban the selected Accounts?", "Ban Selected.", MessageBoxButtons.YesNoCancel) != DialogResult.Yes) return;
+            if (Server.MirForms.ServerUi.Show("Are you sure you want to ban the selected Accounts?", "Ban Selected.", MessageBoxButtons.YesNoCancel) != DialogResult.Yes) return;
 
 
             AccountInfoListView.BeginUpdate();
@@ -483,12 +485,12 @@ namespace Server
         {
             if (SMain.Envir.Running)
             {
-                MessageBox.Show("Cannot wipe characters whilst the server is running", "Notice",
+                Server.MirForms.ServerUi.Show("Cannot wipe characters whilst the server is running", "Notice",
                 MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
                 return;
             }
 
-            if (MessageBox.Show("Are you sure you want to wipe all characters from the database?", "Notice",
+            if (Server.MirForms.ServerUi.Show("Are you sure you want to wipe all characters from the database?", "Notice",
                  MessageBoxButtons.YesNo, MessageBoxIcon.Asterisk) == DialogResult.Yes)
             {
                 for (int i = 0; i < SMain.Envir.AccountList.Count; i++)
@@ -501,7 +503,7 @@ namespace Server
                 SMain.Envir.Auctions.Clear();
                 SMain.Envir.GuildList.Clear();
 
-                MessageBox.Show("All characters and associated data has been cleared", "Notice", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                Server.MirForms.ServerUi.Show("All characters and associated data has been cleared", "Notice", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
 
             }
         }
@@ -519,7 +521,7 @@ namespace Server
                     _selectedAccountInfos[i].RequirePasswordChange = true;
                     PasswordChangeCheckBox.CheckState = CheckState.Checked;
                     Update(AccountInfoListView.SelectedItems[i], _selectedAccountInfos[i]);
-                    MessageBox.Show("Password Changed");
+                    Server.MirForms.ServerUi.Show("Password Changed");
                 }
 
                 AutoResize();
@@ -531,7 +533,7 @@ namespace Server
         {
             if (_selectedAccountInfos == null || _selectedAccountInfos.Count == 0) return;
 
-            if (MessageBox.Show("Clear storage password for selected account(s)?", "Notice",
+            if (Server.MirForms.ServerUi.Show("Clear storage password for selected account(s)?", "Notice",
                 MessageBoxButtons.YesNo, MessageBoxIcon.Asterisk) != DialogResult.Yes)
                 return;
 
@@ -556,7 +558,7 @@ namespace Server
                 }
             }
 
-            MessageBox.Show("Storage password cleared.", "Notice", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+            Server.MirForms.ServerUi.Show("Storage password cleared.", "Notice", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
         }
 
         private void PasswordChangeCheckBox_CheckedChanged(object sender, EventArgs e)
@@ -590,7 +592,7 @@ namespace Server
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Error opening URL: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                Server.MirForms.ServerUi.Show($"Error opening URL: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -610,7 +612,7 @@ namespace Server
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Error opening URL: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                Server.MirForms.ServerUi.Show($"Error opening URL: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         #endregion
@@ -620,7 +622,7 @@ namespace Server
             if (AccountInfoListView.SelectedItems.Count > 0)
             {
                 // Ask for confirmation
-                DialogResult result = MessageBox.Show("Are you sure you want to delete this account?", "Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                DialogResult result = Server.MirForms.ServerUi.Show("Are you sure you want to delete this account?", "Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                 if (result == DialogResult.Yes)
                 {
                     // Get the selected account from the ListViewItem's Tag property
@@ -638,7 +640,7 @@ namespace Server
             }
             else
             {
-                MessageBox.Show("Please select an account to remove.");
+                Server.MirForms.ServerUi.Show("Please select an account to remove.");
             }
         }
     }

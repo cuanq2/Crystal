@@ -1,11 +1,10 @@
-﻿using Microsoft.VisualBasic.PowerPacks;
 using Server.MirForms.VisualMapInfo.Class;
 
 namespace Server.MirForms.VisualMapInfo.Control
 {
     public partial class MineEntry : UserControl
     {
-        public RectangleShape RegionHighlight = new RectangleShape();
+        public MapRegion RegionHighlight = new MapRegion();
 
         public byte MineIndex;
         public bool RegionHidden = false;
@@ -49,6 +48,7 @@ namespace Server.MirForms.VisualMapInfo.Control
         public MineEntry()
         {
             InitializeComponent();
+            Server.MirForms.ServerUi.Apply(this);
             InitializeRegionHighlight();
         }
 
@@ -78,7 +78,7 @@ namespace Server.MirForms.VisualMapInfo.Control
                 this.BackColor = Color.Silver;
 
             RegionHighlight.BorderColor = Color.Lime;
-            RegionHighlight.FillStyle = FillStyle.Transparent;
+            RegionHighlight.FillStyle = RegionFillStyle.Transparent;
         }
 
         private void Region_MouseEnter(object sender, EventArgs e)
@@ -88,7 +88,7 @@ namespace Server.MirForms.VisualMapInfo.Control
             this.BackColor = Color.MediumOrchid;
 
             RegionHighlight.BorderColor = Color.MediumOrchid;
-            RegionHighlight.FillStyle = FillStyle.Solid;
+            RegionHighlight.FillStyle = RegionFillStyle.Solid;
             RegionHighlight.Cursor = VisualizerGlobal.Cursor;
         }
 

@@ -15,6 +15,7 @@ internal static class LocalizationCheck
         var localizer = assembly.GetType("Client.MirControls.TrialLocalization")!;
         var translate = localizer.GetMethod("Text", BindingFlags.NonPublic | BindingFlags.Static)!;
         var npc = localizer.GetMethod("NpcLine", BindingFlags.NonPublic | BindingFlags.Static)!;
+        CheckLegacyTermOverrides(localizer, translate);
         foreach (var pair in new Dictionary<string, string>
         {
             ["WoodenSword"] = "木剑",
@@ -62,6 +63,8 @@ internal static class LocalizationCheck
         }
         Console.Error.WriteLine($"Equipment: {equipment.Count} display names and {equipmentRecords} raw database records passed label/pickup/identifier checks.");
         NarrativeLocalizationCheck.Run(assembly, localizer, resourceDir);
+        DialogLayoutCheck.Run();
+        NpcDialogueCheck.Run();
         string markup = (string)npc.Invoke(null, new object[] { "<View/@BuySell> Store. {Gold/Gold} <Back/@Main>" })!;
         if (markup != "<查看/@BuySell> 商店. {金币/Gold} <返回/@Main>")
             throw new Exception("NPC translation altered action or color tokens: " + markup);
@@ -88,5 +91,36 @@ internal static class LocalizationCheck
             Directory.Delete(spriteFixture, recursive: true);
         }
         Console.Error.WriteLine("Chinese text, NPC action/color preservation, sprite selection and English fallback passed.");
+    }
+
+    private static void CheckLegacyTermOverrides(Type localizer, MethodInfo translate)
+    {
+        string previousDirectory = Directory.GetCurrentDirectory();
+        string fixture = Path.Combine(Path.GetTempPath(), "CrystalTermOverrides-" + Guid.NewGuid().ToString("N"));
+        var terms = localizer.GetField("_terms", BindingFlags.NonPublic | BindingFlags.Static)!;
+        var pattern = localizer.GetField("_pattern", BindingFlags.NonPublic | BindingFlags.Static)!;
+        var cache = (Dictionary<string, string>)localizer.GetField("Cache", BindingFlags.NonPublic | BindingFlags.Static)!.GetValue(null)!;
+        Directory.CreateDirectory(Path.Combine(fixture, "Localization"));
+        try
+        {
+            File.WriteAllText(Path.Combine(fixture, "Localization", "Chinese.Trial.json"),
+                JsonSerializer.Serialize(new Dictionary<string, string>
+                {
+                    ["Dead Mine"] = "废弃矿区",
+                    ["Dead mine"] = "废矿"
+                }));
+            Directory.SetCurrentDirectory(fixture);
+            if ((string)translate.Invoke(null, new object[] { "DEAD MINE" })! != "废矿")
+                throw new Exception("Legacy case-only term overrides must keep the last translation.");
+        }
+        finally
+        {
+            Directory.SetCurrentDirectory(previousDirectory);
+            terms.SetValue(null, null);
+            pattern.SetValue(null, null);
+            cache.Clear();
+            Directory.Delete(fixture, recursive: true);
+        }
+        Console.Error.WriteLine("Legacy term overrides passed: case-insensitive lookup and last entry wins.");
     }
 }

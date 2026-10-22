@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.IO;
 using System.Windows.Forms;
 
@@ -13,6 +13,7 @@ namespace Server.Database
         public RecipeInfoForm()
         {
             InitializeComponent();
+            Server.MirForms.ServerUi.Apply(this);
             this.Load += RecipeInfoForm_Load;
             SaveButton.Click += SaveButton_Click;
         }
@@ -46,7 +47,7 @@ namespace Server.Database
             }
             else
             {
-                MessageBox.Show("The recipe directory does not exist.", "Directory Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                Server.MirForms.ServerUi.Show("The recipe directory does not exist.", "Directory Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
             LoadItemsIntoComboBox();
@@ -152,7 +153,7 @@ namespace Server.Database
             }
             else
             {
-                MessageBox.Show("The selected recipe file does not exist.", "File Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                Server.MirForms.ServerUi.Show("The selected recipe file does not exist.", "File Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         #endregion
@@ -365,7 +366,7 @@ namespace Server.Database
             }
             else
             {
-                MessageBox.Show("No items found in the ItemInfoList.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                Server.MirForms.ServerUi.Show("No items found in the ItemInfoList.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
         #endregion
@@ -395,7 +396,7 @@ namespace Server.Database
             }
             else
             {
-                MessageBox.Show("No items found in the ItemInfoList.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                Server.MirForms.ServerUi.Show("No items found in the ItemInfoList.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
         #endregion
@@ -438,12 +439,12 @@ namespace Server.Database
                     WriteIngredient(writer, IngredientName6ComboBox, IngredientAmount6TextBox, IngredientDura6TextBox);
                 }
 
-                MessageBox.Show("Recipe saved successfully.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                Server.MirForms.ServerUi.Show("Recipe saved successfully.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 isModified = false;
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Error saving recipe: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                Server.MirForms.ServerUi.Show($"Error saving recipe: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         private void WriteIngredient(StreamWriter writer, ComboBox nameComboBox, TextBox amountTextBox, TextBox duraTextBox)
@@ -481,7 +482,7 @@ namespace Server.Database
             // Ensure the directory exists
             if (!Directory.Exists(directoryPath))
             {
-                MessageBox.Show("The recipe directory does not exist.", "Directory Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                Server.MirForms.ServerUi.Show("The recipe directory does not exist.", "Directory Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
@@ -515,7 +516,7 @@ namespace Server.Database
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Failed to create the new recipe file. Error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                Server.MirForms.ServerUi.Show($"Failed to create the new recipe file. Error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
@@ -558,7 +559,7 @@ namespace Server.Database
             currentFilePath = newRecipePath;
             isModified = true;
 
-            MessageBox.Show($"New recipe created: {newRecipeName}.txt", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            Server.MirForms.ServerUi.Show($"New recipe created: {newRecipeName}.txt", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
             UpdateRecipeCount();
         }
         #endregion
@@ -612,7 +613,7 @@ namespace Server.Database
             // If a different file with that new name already exists, warn and skip
             if (File.Exists(newFilePath))
             {
-                MessageBox.Show(
+                Server.MirForms.ServerUi.Show(
                     $"A recipe named '{newItemName}' already exists. Cannot rename.",
                     "Rename Error",
                     MessageBoxButtons.OK,
@@ -631,7 +632,7 @@ namespace Server.Database
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show($"Error renaming recipe file: {ex.Message}",
+                    Server.MirForms.ServerUi.Show($"Error renaming recipe file: {ex.Message}",
                         "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
@@ -644,7 +645,7 @@ namespace Server.Database
             // Check if a recipe has been selected from the RecipeList
             if (RecipeList.SelectedIndex == -1)
             {
-                MessageBox.Show("Please select a recipe from the list.", "No Recipe Selected", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                Server.MirForms.ServerUi.Show("Please select a recipe from the list.", "No Recipe Selected", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
@@ -668,12 +669,12 @@ namespace Server.Database
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show($"Error opening file: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    Server.MirForms.ServerUi.Show($"Error opening file: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
             else
             {
-                MessageBox.Show("The selected recipe file does not exist.", "File Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                Server.MirForms.ServerUi.Show("The selected recipe file does not exist.", "File Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         #endregion
@@ -691,7 +692,7 @@ namespace Server.Database
             // Check if a recipe is selected
             if (RecipeList.SelectedIndex == -1)
             {
-                MessageBox.Show("Please select a recipe to delete.", "No Recipe Selected", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                Server.MirForms.ServerUi.Show("Please select a recipe to delete.", "No Recipe Selected", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
@@ -702,7 +703,7 @@ namespace Server.Database
             string filePath = Path.Combine(directoryPath, $"{selectedRecipeName}.txt");
 
             // Confirm deletion
-            var result = MessageBox.Show(
+            var result = Server.MirForms.ServerUi.Show(
                 $"Are you sure you want to delete the recipe: {selectedRecipeName}?",
                 "Confirm Deletion",
                 MessageBoxButtons.YesNo,
@@ -717,19 +718,19 @@ namespace Server.Database
                 {
                     File.Delete(filePath);
                     RecipeList.Items.Remove(selectedRecipeName); // Remove from the list
-                    MessageBox.Show($"Recipe deleted: {selectedRecipeName}.txt", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    Server.MirForms.ServerUi.Show($"Recipe deleted: {selectedRecipeName}.txt", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                     // Clear the form and reset controls
                     ClearForm();
                 }
                 else
                 {
-                    MessageBox.Show("The selected recipe file does not exist.", "File Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    Server.MirForms.ServerUi.Show("The selected recipe file does not exist.", "File Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Failed to delete the recipe file. Error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                Server.MirForms.ServerUi.Show($"Failed to delete the recipe file. Error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
             // Update the recipe count

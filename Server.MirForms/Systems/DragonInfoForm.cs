@@ -1,4 +1,4 @@
-﻿using Server.MirDatabase;
+using Server.MirDatabase;
 using Server.MirEnvir;
 
 namespace Server
@@ -10,6 +10,7 @@ namespace Server
         public DragonInfoForm()
         {
             InitializeComponent();
+            Server.MirForms.ServerUi.Apply(this);
         }
 
         private void UpdateInterface()

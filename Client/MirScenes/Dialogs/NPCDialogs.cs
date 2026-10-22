@@ -398,7 +398,8 @@ namespace Client.MirScenes.Dialogs
 
             for (int i = 0; i < TextLabel.Length; i++)
             {
-                if (TextLabel[i] != null) TextLabel[i].Text = "";
+                TextLabel[i]?.Dispose();
+                TextLabel[i] = null;
             }
 
             TextButtons.Clear();
@@ -407,24 +408,28 @@ namespace Client.MirScenes.Dialogs
 
             for (int i = _index; i < lastLine; i++)
             {
-                TextLabel[i] = new MirLabel
+                int rowIndex = i - _index;
+                TextLabel[rowIndex] = new MirLabel
                 {
-                    Font = font,
+                    Font = (Font)font.Clone(),
                     DrawFormat = TextFormatFlags.WordBreak,
                     Visible = true,
                     Parent = this,
                     Size = new Size(420, 20),
-                    Location = new Point(8, 34 + (i - _index) * 18),
+                    Location = new Point(8, 34 + rowIndex * 20),
                     NotControl = true
                 };
 
                 if (i >= lines.Count)
                 {
-                    TextLabel[i].Text = string.Empty;
+                    TextLabel[rowIndex].Text = string.Empty;
                     continue;
                 }
 
-                string currentLine = lines[i];
+                var row = TextLabel[rowIndex];
+                var layout = new DialogTextLayout(row, TextButtons, NPCDialog_MouseWheel);
+                int cursor = 0;
+                string currentLine = TrialLocalization.NpcLine(lines[i]);
                 List<Match> matchList = R.Matches(currentLine).Cast<Match>().ToList();
                 matchList.AddRange(C.Matches(currentLine).Cast<Match>());
                 matchList.AddRange(L.Matches(currentLine).Cast<Match>());
@@ -468,10 +473,9 @@ namespace Client.MirScenes.Dialogs
                         int matchLength = match.Length;
                         currentLine = currentLine.Remove(matchStart, matchLength).Insert(matchStart, displayName);
 
-                        string textUpToLink = currentLine.Substring(0, matchStart);
-                        Point offset = CalculateLinkOffset(textUpToLink, TextLabel[i]);
-
-                        NewLink(displayName, linkType, linkIdx, TextLabel[i].Location.Add(offset));
+                        layout.Append(currentLine.Substring(cursor, matchStart - cursor));
+                        layout.Append(NewLink(displayName, linkType, linkIdx, Point.Empty));
+                        cursor = matchStart + displayName.Length;
 
                         continue;
                     }
@@ -485,25 +489,27 @@ namespace Client.MirScenes.Dialogs
                         string action = match.Groups[3].Captures[0].Value;
 
                         currentLine = currentLine.Remove(capture.Index - 1 - offSet, capture.Length + 2).Insert(capture.Index - 1 - offSet, txt);
-                        string text2 = currentLine.Substring(0, capture.Index - 1 - offSet) + " ";
-                        Size size2 = TextRenderer.MeasureText(CMain.Graphics, text2, TextLabel[i].Font, TextLabel[i].Size, TextFormatFlags.TextBoxControl);
+                        int matchStart = capture.Index - 1 - offSet;
+                        layout.Append(currentLine.Substring(cursor, matchStart - cursor));
+                        cursor = matchStart + txt.Length;
 
                         if (R.Match(match.Value).Success)
-                            NewButton(txt, action, TextLabel[i].Location.Add(new Point(size2.Width - 10, 0)));
+                            layout.Append(NewButton(txt, action, Point.Empty));
 
                         if (C.Match(match.Value).Success)
-                            NewColour(txt, action, TextLabel[i].Location.Add(new Point(size2.Width - 10, 0)));
+                            layout.Append(NewColour(txt, action, Point.Empty));
 
                         if (L.Match(match.Value).Success)
-                            NewButton(txt, null, TextLabel[i].Location.Add(new Point(size2.Width - 10, 0)), action);
+                            layout.Append(NewButton(txt, null, Point.Empty, action));
                     }
                 }
-                TextLabel[i].Text = currentLine;
-                TextLabel[i].MouseWheel += NPCDialog_MouseWheel;
+                layout.Append(currentLine.Substring(cursor));
+                row.Text = currentLine;
+                row.DrawControlTexture = false;
             }
         }
 
-        private void NewButton(string text, string key, Point p, string link = "")
+        private MirLabel NewButton(string text, string key, Point p, string link = "")
         {
             MirLabel temp = new MirLabel
             {
@@ -514,7 +520,7 @@ namespace Client.MirScenes.Dialogs
                 Text = text,
                 ForeColour = Color.Yellow,
                 Sound = SoundList.ButtonC,
-                Font = font
+                Font = (Font)font.Clone()
             };
 
             temp.MouseEnter += (o, e) => temp.ForeColour = Color.Red;
@@ -547,9 +553,10 @@ namespace Client.MirScenes.Dialogs
             temp.MouseWheel += NPCDialog_MouseWheel;
 
             TextButtons.Add(temp);
+            return temp;
         }
                
-        private void NewColour(string text, string colour, Point p)
+        private MirLabel NewColour(string text, string colour, Point p)
         {
             Color textColour = Color.FromName(colour);
 
@@ -561,14 +568,15 @@ namespace Client.MirScenes.Dialogs
                 Location = p,
                 Text = text,
                 ForeColour = textColour,
-                Font = font
+                Font = (Font)font.Clone()
             };
             temp.MouseWheel += NPCDialog_MouseWheel;
 
             TextButtons.Add(temp);
+            return temp;
         }
 
-        private void NewLink(string text, string linkType, string linkName, Point p)
+        private MirLabel NewLink(string text, string linkType, string linkName, Point p)
         {
             MirLabel temp = new MirLabel
             {
@@ -578,7 +586,7 @@ namespace Client.MirScenes.Dialogs
                 Location = p,
                 Text = text,
                 ForeColour = Color.Cyan,
-                Font = font,
+                Font = (Font)font.Clone(),
                 NotControl = false // Make sure it can receive mouse events
             };
 
@@ -603,6 +611,7 @@ namespace Client.MirScenes.Dialogs
 
             temp.MouseWheel += NPCDialog_MouseWheel;
             TextButtons.Add(temp);
+            return temp;
         }
 
         private void ShowTooltip(string linkType, string linkName, Point anchor)
@@ -964,43 +973,6 @@ namespace Client.MirScenes.Dialogs
         {
             if (GameScene.Scene.NPCDialog == null) return;
             GameScene.Scene.NPCDialog.HideTooltip();
-        }
-
-        private static readonly TextFormatFlags LinkMeasureFlags = TextFormatFlags.NoPadding | TextFormatFlags.NoPrefix;
-
-        internal static Point CalculateLinkOffset(string text, MirLabel label)
-        {
-            if (label == null || string.IsNullOrEmpty(text))
-                return Point.Empty;
-
-            int maxWidth = Math.Max(1, label.Size.Width);
-            int x = 0;
-            int y = 0;
-
-            foreach (char ch in text)
-            {
-                if (ch == '\r') continue;
-
-                if (ch == '\n')
-                {
-                    x = 0;
-                    y += label.Font.Height;
-                    continue;
-                }
-
-                string character = ch.ToString();
-                Size size = TextRenderer.MeasureText(CMain.Graphics, character, label.Font, new Size(int.MaxValue, int.MaxValue), LinkMeasureFlags);
-
-                if (x + size.Width > maxWidth && x > 0)
-                {
-                    x = 0;
-                    y += label.Font.Height;
-                }
-
-                x += size.Width;
-            }
-
-            return new Point(x, y);
         }
 
         public void CheckQuestButtonDisplay()

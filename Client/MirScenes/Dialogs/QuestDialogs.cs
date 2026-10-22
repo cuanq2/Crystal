@@ -1225,7 +1225,9 @@ namespace Client.MirScenes.Dialogs
                 t.Dispose();
 
             foreach (MirLabel t in _textLabel.Where(t => t != null))
-                t.Text = "";
+                t.Dispose();
+
+            Array.Clear(_textLabel, 0, _textLabel.Length);
 
             _textButtons.Clear();
 
@@ -1252,20 +1254,20 @@ namespace Client.MirScenes.Dialogs
 
                 _textLabel[i - TopLine] = new MirLabel
                 {
-                    Font = font,
+                    Font = (Font)font.Clone(),
                     ForeColour = fontColor,
                     DrawFormat = TextFormatFlags.WordBreak,
                     Visible = true,
                     Parent = this,
                     Size = new Size(Size.Width, 20),
-                    Location = new Point(title ? 15 : 0, 0 + (i - TopLine) * 15 + adjust),
+                    Location = new Point(title ? 15 : 0, adjust),
                     NotControl = true
                 };
 
-                if (title)
-                {
-                    adjust += 5;
-                }
+                _textLabel[i - TopLine].Size = new Size(Size.Width - (title ? 15 : 0),
+                    _textLabel[i - TopLine].Font.Height + 2);
+                if (title) font.Dispose();
+                adjust += _textLabel[i - TopLine].Size.Height;
 
                 if (i >= lines.Count)
                 {
@@ -1274,6 +1276,9 @@ namespace Client.MirScenes.Dialogs
                 }
 
                 string currentLine = TrialLocalization.NpcLine(lines[i]);
+                var row = _textLabel[i - TopLine];
+                var layout = new DialogTextLayout(row, _textButtons, QuestMessage_MouseWheel);
+                int cursor = 0;
 
                 List<Match> matchList = C.Matches(currentLine).Cast<Match>().ToList();
 
@@ -1309,11 +1314,9 @@ namespace Client.MirScenes.Dialogs
                         int matchLength = match.Length;
 
                         currentLine = currentLine.Remove(matchStart, matchLength).Insert(matchStart, displayName);
-                        string text2 = currentLine.Substring(0, matchStart);
-                        Point offset = NPCDialog.CalculateLinkOffset(text2, _textLabel[i - TopLine]);
-
-                        Point anchorPoint = _textLabel[i - TopLine].Location.Add(offset);
-                        NewLink(displayName, linkType, linkIdx, anchorPoint);
+                        layout.Append(currentLine.Substring(cursor, matchStart - cursor));
+                        layout.Append(NewLink(displayName, linkType, linkIdx, Point.Empty));
+                        cursor = matchStart + displayName.Length;
 
                         continue;
                     }
@@ -1321,19 +1324,21 @@ namespace Client.MirScenes.Dialogs
                     Capture capture = match.Groups[1].Captures[0];
                     string[] values = capture.Value.Split('/');
                     currentLine = currentLine.Remove(capture.Index - 1 - offSet, capture.Length + 2).Insert(capture.Index - 1 - offSet, values[0]);
-                    string text = currentLine.Substring(0, capture.Index - 1 - offSet) + " ";
-                    Size size = TextRenderer.MeasureText(CMain.Graphics, text, _textLabel[i - TopLine].Font, _textLabel[i - TopLine].Size, TextFormatFlags.TextBoxControl);
+                    int colourStart = capture.Index - 1 - offSet;
+                    layout.Append(currentLine.Substring(cursor, colourStart - cursor));
+                    cursor = colourStart + values[0].Length;
 
                     if (C.Match(match.Value).Success)
-                        NewColour(values[0], values[1], _textLabel[i - TopLine].Location.Add(new Point(size.Width - 10, 0)));
+                        layout.Append(NewColour(values[0], values[1], Point.Empty));
                 }
 
-                _textLabel[i - TopLine].Text = currentLine;
-                _textLabel[i - TopLine].MouseWheel += QuestMessage_MouseWheel;
+                layout.Append(currentLine.Substring(cursor));
+                row.Text = currentLine;
+                row.DrawControlTexture = false;
             }
         }
 
-        private void NewColour(string text, string colour, Point p)
+        private MirLabel NewColour(string text, string colour, Point p)
         {
             Color textColour = Color.FromName(colour);
 
@@ -1345,14 +1350,15 @@ namespace Client.MirScenes.Dialogs
                 Location = p,
                 Text = text,
                 ForeColour = textColour,
-                Font = Font
+                Font = (Font)Font.Clone()
             };
             temp.MouseWheel += QuestMessage_MouseWheel;
 
             _textButtons.Add(temp);
+            return temp;
         }
 
-        private void NewLink(string text, string linkType, string linkIdx, Point p)
+        private MirLabel NewLink(string text, string linkType, string linkIdx, Point p)
         {
             MirLabel temp = new MirLabel
             {
@@ -1362,7 +1368,7 @@ namespace Client.MirScenes.Dialogs
                 Location = p,
                 Text = text,
                 ForeColour = Color.Cyan,
-                Font = Font
+                Font = (Font)Font.Clone()
             };
 
             temp.MouseEnter += (o, e) =>
@@ -1379,6 +1385,7 @@ namespace Client.MirScenes.Dialogs
 
             temp.MouseWheel += QuestMessage_MouseWheel;
             _textButtons.Add(temp);
+            return temp;
         }
 
         protected override void Dispose(bool disposing)

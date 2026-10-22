@@ -1,4 +1,4 @@
-﻿using Server.MirDatabase;
+using Server.MirDatabase;
 using Server.MirEnvir;
 
 namespace Server
@@ -14,6 +14,7 @@ namespace Server
         public MonsterInfoForm()
         {
             InitializeComponent();
+            Server.MirForms.ServerUi.Apply(this);
 
             ImageComboBox.Items.AddRange(Enum.GetValues(typeof(Monster)).Cast<object>().ToArray());
             UpdateInterface();
@@ -28,7 +29,7 @@ namespace Server
         {
             if (_selectedMonsterInfos.Count == 0) return;
 
-            if (MessageBox.Show("Are you sure you want to remove the selected Monsters?", "Remove Monsters?", MessageBoxButtons.YesNo) != DialogResult.Yes) return;
+            if (Server.MirForms.ServerUi.Show("Are you sure you want to remove the selected Monsters?", "Remove Monsters?", MessageBoxButtons.YesNo) != DialogResult.Yes) return;
 
             for (int i = 0; i < _selectedMonsterInfos.Count; i++) Envir.Remove(_selectedMonsterInfos[i]);
 
@@ -603,7 +604,7 @@ namespace Server
 
             if (!data.StartsWith("Monster", StringComparison.OrdinalIgnoreCase))
             {
-                MessageBox.Show("Cannot Paste, Copied data is not Monster Information.");
+                Server.MirForms.ServerUi.Show("Cannot Paste, Copied data is not Monster Information.");
                 return;
             }
 
@@ -666,7 +667,7 @@ namespace Server
 
             File.WriteAllLines(MonsterListPath, list);
 
-            MessageBox.Show(monsterInfos.Count() + " Items have been exported");
+            Server.MirForms.ServerUi.Show(monsterInfos.Count() + " Items have been exported");
         }
 
         private void ImportButton_Click(object sender, EventArgs e)
@@ -675,7 +676,7 @@ namespace Server
 
             OpenFileDialog ofd = new OpenFileDialog();
             ofd.Filter = "Text File|*.txt";
-            ofd.ShowDialog();
+            Server.MirForms.ServerUi.ShowDialog(ofd);
 
             if (ofd.FileName == string.Empty) return;
 

@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
@@ -41,12 +41,12 @@
     <Reference Include="CustomFormControl">
       <HintPath>..\Components\CustomFormControl.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs">
-      <HintPath>..\Components\Microsoft.VisualBasic.PowerPacks.Vs.dll</HintPath>
-    </Reference>
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="Localization\Interface.Chinese.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="Localization\Chinese.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

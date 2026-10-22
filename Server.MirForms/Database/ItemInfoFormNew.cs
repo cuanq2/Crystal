@@ -1,4 +1,4 @@
-﻿using System.Data;
+using System.Data;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
@@ -24,6 +24,7 @@ namespace Server.Database
         public ItemInfoFormNew()
         {
             InitializeComponent();
+            Server.MirForms.ServerUi.Apply(this);
 
             SetDoubleBuffered(itemInfoGridView);
 
@@ -151,7 +152,7 @@ namespace Server.Database
             {
                 EnumRow = enumTable.NewRow();
                 EnumRow["Value"] = E;
-                EnumRow["Display"] = E.ToString();
+                EnumRow["Display"] = Server.MirForms.ServerUi.T(E.ToString());
                 enumTable.Rows.Add(EnumRow);
             }
 
@@ -670,7 +671,7 @@ namespace Server.Database
             OpenFileDialog ofd = new OpenFileDialog();
             ofd.Filter = "CSV (*.csv)|*.csv";
 
-            if (ofd.ShowDialog() == DialogResult.OK)
+            if (Server.MirForms.ServerUi.ShowDialog(ofd) == DialogResult.OK)
             {
                 var fileName = ofd.FileName;
                 bool fileError = false;
@@ -684,7 +685,7 @@ namespace Server.Database
                     if (columns.Length < 2)
                     {
                         fileError = true;
-                        MessageBox.Show("No columns to import.");
+                        Server.MirForms.ServerUi.Show("No columns to import.");
                     }
 
                     if (!fileError)
@@ -712,7 +713,7 @@ namespace Server.Database
                                 if (cells.Length != columns.Length)
                                 {
                                     fileError = true;
-                                    MessageBox.Show($"Row {i} column count does not match the headers column count.");
+                                    Server.MirForms.ServerUi.Show($"Row {i} column count does not match the headers column count.");
                                     break;
                                 }
 
@@ -787,7 +788,7 @@ namespace Server.Database
                                 {
                                     fileError = true;
 
-                                    MessageBox.Show($"Error when importing item {cells[0]}. {ex.Message}");
+                                    Server.MirForms.ServerUi.Show($"Error when importing item {cells[0]}. {ex.Message}");
 
                                     break;
                                 }
@@ -803,7 +804,7 @@ namespace Server.Database
                         itemInfoGridView.EditMode = DataGridViewEditMode.EditOnKeystrokeOrF2;
                         if (!fileError)
                         {
-                            MessageBox.Show($"{rowsEdited} items have been imported.");
+                            Server.MirForms.ServerUi.Show($"{rowsEdited} items have been imported.");
                         }
                         else
                         {
@@ -816,7 +817,7 @@ namespace Server.Database
                 }
                 else
                 {
-                    MessageBox.Show("No rows to import.");
+                    Server.MirForms.ServerUi.Show("No rows to import.");
                 }
             }
         }
@@ -829,7 +830,7 @@ namespace Server.Database
                 sfd.Filter = "CSV (*.csv)|*.csv";
                 sfd.FileName = "ItemInfo Output.csv";
                 bool fileError = false;
-                if (sfd.ShowDialog() == DialogResult.OK)
+                if (Server.MirForms.ServerUi.ShowDialog(sfd) == DialogResult.OK)
                 {
                     if (File.Exists(sfd.FileName))
                     {
@@ -840,7 +841,7 @@ namespace Server.Database
                         catch (IOException ex)
                         {
                             fileError = true;
-                            MessageBox.Show("It wasn't possible to write the data to the disk." + ex.Message);
+                            Server.MirForms.ServerUi.Show("It wasn't possible to write the data to the disk." + ex.Message);
                         }
                     }
                     if (!fileError)
@@ -900,18 +901,18 @@ namespace Server.Database
                             }
 
                             File.WriteAllLines(sfd.FileName, outputCsv, Encoding.UTF8);
-                            MessageBox.Show("Data Exported Successfully.", "Info");
+                            Server.MirForms.ServerUi.Show("Data Exported Successfully.", "Info");
                         }
                         catch (Exception ex)
                         {
-                            MessageBox.Show("Error :" + ex.Message);
+                            Server.MirForms.ServerUi.Show("Error :" + ex.Message);
                         }
                     }
                 }
             }
             else
             {
-                MessageBox.Show("No Items To Export.", "Info");
+                Server.MirForms.ServerUi.Show("No Items To Export.", "Info");
             }
         }
 
@@ -986,7 +987,7 @@ namespace Server.Database
                 if (mouseOverRow >= 0 &&
                     mouseOverCol >= 0)
                 {
-                    var colName = itemInfoGridView.Rows[mouseOverRow].Cells[mouseOverCol].OwningColumn.HeaderText;
+                    var colName = Server.MirForms.ServerUi.OriginalText(itemInfoGridView.Rows[mouseOverRow].Cells[mouseOverCol].OwningColumn);
 
                     if (colName == "Modified" ||
                         colName == "Index" ||
@@ -1003,7 +1004,7 @@ namespace Server.Database
                         promptText += $"{Environment.NewLine}[[Enter 1 for tick or 0 for untick]]";
                     }
 
-                    var updateValue = Interaction.InputBox(promptText,
+                    var updateValue = Server.MirForms.ServerUi.Input(promptText,
                                                         "Bulk Update",
                                                         String.Empty);
 
@@ -1111,7 +1112,7 @@ namespace Server.Database
             if (inError.Count > 0)
             {
                 String msg = string.Join(Environment.NewLine, inError);
-                if (MessageBox.Show($"The following items are invalid: {msg}", "Discard Invalid Items?", MessageBoxButtons.OKCancel) != DialogResult.OK)
+                if (Server.MirForms.ServerUi.Show($"The following items are invalid: {msg}", "Discard Invalid Items?", MessageBoxButtons.OKCancel) != DialogResult.OK)
                 {
                     e.Cancel = true;
                     return;
@@ -1128,7 +1129,7 @@ namespace Server.Database
             {
                 var col = itemInfoGridView.Columns[i];
 
-                _defaultItemHeaderMappings.Add(i, col.HeaderText);
+                _defaultItemHeaderMappings.Add(i, Server.MirForms.ServerUi.OriginalText(col));
             }
 
             foreach (var entry in _defaultItemHeaderMappings)

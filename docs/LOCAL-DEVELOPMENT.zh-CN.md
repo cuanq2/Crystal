@@ -76,4 +76,10 @@ dotnet run --project Tools/UiLocalizer -c Release -- build 'X:\game-runtime\Clie
 
 ## 已知限制
 
+NPC 彩色对话使用 `DialogTextLayout` 按翻译后的文字逐段排版，行标签只保存完整文本，不再重复绘制彩色内容。普通文字、颜色和点击区域采用相同字体与测量参数。图形检查包含重复颜色、点击选项、链接、行距、刷新及长列表滚动。
+
+合入 108 的增量词表后，源码维护 3,401 个大小写不重复的词条；既有译文保留，新增管理员对白纳入同一生成流程。旧版 `trial-2026-10-22-r1` 自定义资源包的 3,402 项中包含 `Dead Mine` / `Dead mine` 两个大小写变体，客户端兼容读取并以最后一项为准；源码生成检查仍拒绝大小写重复，避免新词表继续产生冲突。回归检查覆盖旧资源词表的加载兼容性。
+
+管理员组对白与提示维护在 `Terms.zh-CN.json`，覆盖管理子菜单、同组商店与传送员。带日期、城主、装备等动态值的句子通过固定语句片段翻译，保留服务器填入的数据；脚本动作、颜色、变量、URL 与可输入命令保持原样。`Checks/Fixtures/gm-dialogue-source.json` 保存来自 Jev 数据库 GM 目录的 348 条去重样本（扫描 26 个脚本，其中 25 个含对白），由 `GraphicsProbe` 检查可见英文残留和标记保留。可用 `python Tools/Localization/audit_npc_dialogue.py <NPC脚本目录> <输出JSON>` 重新只读导出样本。
+
 自动文字和图形检查不等同于全部真实游戏场景验收。部分旧帮助图片和其他 NPC 自由对话仍可能含英文。运行环境另有 `MonsterObject.Load`、`MapObject.AddBuffEffect` 数组越界及素材缺口记录，本次中文与兼容性工作未解决这些问题。

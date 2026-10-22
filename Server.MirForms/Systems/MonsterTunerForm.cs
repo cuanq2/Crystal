@@ -1,4 +1,4 @@
-﻿using Server.MirDatabase;
+using Server.MirDatabase;
 using Server.MirEnvir;
 using Server.MirObjects;
 
@@ -11,6 +11,7 @@ namespace Server.MirForms.Systems
         public MonsterTunerForm()
         {
             InitializeComponent();
+            Server.MirForms.ServerUi.Apply(this);
             
             for (int i = 0; i < Envir.MonsterInfoList.Count; i++)
             {
@@ -78,7 +79,7 @@ namespace Server.MirForms.Systems
             }
             catch
             {
-                MessageBox.Show("Value validation failed. Please correct before updating", "Notice",
+                Server.MirForms.ServerUi.Show("Value validation failed. Please correct before updating", "Notice",
                 MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
                 return;
             }

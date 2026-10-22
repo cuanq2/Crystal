@@ -1,4 +1,4 @@
-﻿using Server.MirDatabase;
+using Server.MirDatabase;
 using Server.MirEnvir;
 
 namespace Server
@@ -13,6 +13,7 @@ namespace Server
         public MagicInfoForm()
         {
             InitializeComponent();
+            Server.MirForms.ServerUi.Apply(this);
             MagicSearchBox_TextChanged(this, EventArgs.Empty);
             UpdateMagicForm();
         }

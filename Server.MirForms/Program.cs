@@ -1,4 +1,4 @@
-﻿using log4net;
+using log4net;
 using System.Reflection;
 
 namespace Server.MirForms
@@ -22,6 +22,13 @@ namespace Server.MirForms
 
                 Application.EnableVisualStyles();
                 Application.SetCompatibleTextRenderingDefault(false);
+                long lastUiRefresh = 0;
+                Application.Idle += (_, _) =>
+                {
+                    if (Environment.TickCount64 - lastUiRefresh < 250) return;
+                    lastUiRefresh = Environment.TickCount64;
+                    foreach (Form form in Application.OpenForms) ServerUi.Apply(form);
+                };
                 Application.Run(new SMain());
 
                 Settings.Save();

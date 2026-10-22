@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -24,6 +24,7 @@ namespace Server.Account
         public CharacterInfoForm()
         {
             InitializeComponent();
+            Server.MirForms.ServerUi.Apply(this);
             LoadCharacters();
         }
 
@@ -38,7 +39,7 @@ namespace Server.Account
 
             if (characterList == null)
             {
-                MessageBox.Show("Character list is not available.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                Server.MirForms.ServerUi.Show("Character list is not available.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 

@@ -1,4 +1,4 @@
-﻿using Server.MirDatabase;
+using Server.MirDatabase;
 using Server.MirEnvir;
 
 namespace Server.MirForms
@@ -389,7 +389,7 @@ namespace Server.MirForms
 
             OpenFileDialog ofd = new OpenFileDialog();
             ofd.Filter = "Text File|*.txt";
-            ofd.ShowDialog();
+            Server.MirForms.ServerUi.ShowDialog(ofd);
 
             if (ofd.FileName == string.Empty) return;
 
@@ -458,7 +458,7 @@ namespace Server.MirForms
             OpenFileDialog ofd = new OpenFileDialog();
             ofd.Filter = "Text File|*.txt|Gen File|*.gen|All|*.*";
             ofd.Multiselect = true;
-            ofd.ShowDialog();
+            Server.MirForms.ServerUi.ShowDialog(ofd);
 
             if (ofd.FileNames.Length == 0) return;
 
