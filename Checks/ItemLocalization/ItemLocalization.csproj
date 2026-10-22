@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\..\Client\Client.csproj" />
+    <Reference Include="SlimDX"><HintPath>..\..\Components\SlimDX.dll</HintPath></Reference>
+  </ItemGroup>
+</Project>

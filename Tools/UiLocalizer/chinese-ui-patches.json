@@ -1,0 +1,5483 @@
+[
+  {
+    "library": "Title",
+    "index": 0,
+    "text": "仓库",
+    "style": "label",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 1,
+    "text": "安全设置",
+    "style": "label",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 2,
+    "text": "英雄",
+    "style": "label",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 3,
+    "text": "快捷键",
+    "style": "label",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 4,
+    "text": "公共仓库",
+    "style": "label",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 5,
+    "text": "组队",
+    "style": "label",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 6,
+    "text": "好友",
+    "style": "label",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 7,
+    "text": "邮件",
+    "style": "label",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 8,
+    "text": "行会仓库",
+    "style": "label",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 9,
+    "text": "仓库权限",
+    "style": "label",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 10,
+    "text": "租借",
+    "style": "label",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 11,
+    "text": "烹饪",
+    "style": "label",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 12,
+    "text": "制作",
+    "style": "label",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 13,
+    "text": "炼金",
+    "style": "label",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 14,
+    "text": "任务",
+    "style": "label",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 15,
+    "text": "任务日志",
+    "style": "label",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 16,
+    "text": "任务",
+    "style": "label",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 17,
+    "text": "选择物品",
+    "style": "label",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 18,
+    "text": "精炼",
+    "style": "label",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 19,
+    "text": "灵魂",
+    "style": "label",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 20,
+    "text": "创建角色",
+    "style": "label",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 21,
+    "text": "名字",
+    "style": "label",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 22,
+    "text": "职业",
+    "style": "label",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 23,
+    "text": "性别",
+    "style": "label",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 24,
+    "text": "寄售商人",
+    "style": "label",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 25,
+    "text": "行会",
+    "style": "label",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 26,
+    "text": "商城",
+    "style": "label",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 27,
+    "text": "购买",
+    "style": "label",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 30,
+    "text": "登录游戏",
+    "style": "label",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 31,
+    "text": "账号",
+    "style": "label",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 32,
+    "text": "密码",
+    "style": "label",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 40,
+    "text": "选择",
+    "style": "label",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 41,
+    "text": "租借记录",
+    "style": "label",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 42,
+    "text": "制作品",
+    "style": "label",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 43,
+    "text": "制作委托",
+    "style": "label",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 44,
+    "text": "转换委托",
+    "style": "label",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 45,
+    "text": "Esc 关闭",
+    "style": "label",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 50,
+    "text": "选择服务器",
+    "style": "label",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 51,
+    "text": "师徒",
+    "style": "label",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 52,
+    "text": "婚姻",
+    "style": "label",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 53,
+    "text": "聊天快捷键",
+    "style": "label",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 54,
+    "text": "行会领地",
+    "style": "label",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 55,
+    "text": "寄售商人",
+    "style": "label",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 56,
+    "text": "出售物品",
+    "style": "label",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 57,
+    "text": "帮助",
+    "style": "label",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 58,
+    "text": "疲劳度",
+    "style": "label",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 59,
+    "text": "申请",
+    "style": "label",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 139,
+    "text": "婚姻关系",
+    "style": "label",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 159,
+    "text": "角色名称",
+    "style": "label",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 186,
+    "text": "角色",
+    "style": "label",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 187,
+    "text": "收件人",
+    "style": "label",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 188,
+    "text": "发件人",
+    "style": "label",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 189,
+    "text": "发件人　　　　　　内容",
+    "style": "label",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 459,
+    "text": "购买",
+    "style": "label",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 516,
+    "text": "等级",
+    "style": "label",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 517,
+    "text": "等级",
+    "style": "label",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 677,
+    "text": "邮件",
+    "style": "label",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 678,
+    "text": "领取保管邮件",
+    "style": "label",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 679,
+    "text": "长期保管邮件",
+    "style": "label",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 726,
+    "text": "结束",
+    "style": "label",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 734,
+    "text": "平局",
+    "style": "label",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 735,
+    "text": "失败",
+    "style": "label",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 736,
+    "text": "胜利",
+    "style": "label",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 847,
+    "text": "创建英雄",
+    "style": "label",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 90,
+    "text": "保存",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 91,
+    "text": "保存",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 92,
+    "text": "保存",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 107,
+    "text": "修改密码",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 108,
+    "text": "修改密码",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 109,
+    "text": "修改密码",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 110,
+    "text": "取消",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 111,
+    "text": "取消",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 112,
+    "text": "取消",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 113,
+    "text": "安全",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 114,
+    "text": "安全",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 115,
+    "text": "安全",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 116,
+    "text": "确定",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 117,
+    "text": "确定",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 118,
+    "text": "确定",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 120,
+    "text": "重置",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 121,
+    "text": "重置",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 122,
+    "text": "重置",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 123,
+    "text": "添加",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 124,
+    "text": "添加",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 125,
+    "text": "添加",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 126,
+    "text": "安全设置",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 127,
+    "text": "安全设置",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 128,
+    "text": "安全设置",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 130,
+    "text": "创建",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 131,
+    "text": "创建",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 132,
+    "text": "创建",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 133,
+    "text": "添加成员",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 134,
+    "text": "添加成员",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 135,
+    "text": "添加成员",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 136,
+    "text": "删除成员",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 137,
+    "text": "删除成员",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 138,
+    "text": "删除成员",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 140,
+    "text": "钓鱼",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 141,
+    "text": "钓鱼",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 142,
+    "text": "钓鱼",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 143,
+    "text": "自动",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 144,
+    "text": "自动",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 145,
+    "text": "自动",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 146,
+    "text": "公告",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 147,
+    "text": "公告",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 148,
+    "text": "公告",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 150,
+    "text": "设置",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 151,
+    "text": "设置",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 152,
+    "text": "设置",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 153,
+    "text": "删除",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 154,
+    "text": "删除",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 155,
+    "text": "删除",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 156,
+    "text": "保存",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 157,
+    "text": "保存",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 158,
+    "text": "保存",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 160,
+    "text": "精炼",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 161,
+    "text": "精炼",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 162,
+    "text": "精炼",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 170,
+    "text": "钓鱼",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 171,
+    "text": "钓鱼",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 172,
+    "text": "钓鱼",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 173,
+    "text": "钓鱼",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 174,
+    "text": "钓鱼",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 175,
+    "text": "钓鱼",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 176,
+    "text": "钓鱼",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 177,
+    "text": "钓鱼",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 178,
+    "text": "钓鱼",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 180,
+    "text": "自动",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 181,
+    "text": "自动",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 182,
+    "text": "自动",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 183,
+    "text": "取消",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 184,
+    "text": "取消",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 185,
+    "text": "取消",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 190,
+    "text": "回复",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 191,
+    "text": "回复",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 192,
+    "text": "回复",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 193,
+    "text": "关闭",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 194,
+    "text": "关闭",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 195,
+    "text": "关闭",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 200,
+    "text": "确定",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 201,
+    "text": "确定",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 202,
+    "text": "确定",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 203,
+    "text": "取消",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 204,
+    "text": "取消",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 205,
+    "text": "取消",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 206,
+    "text": "是",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 207,
+    "text": "是",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 208,
+    "text": "是",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 210,
+    "text": "否",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 211,
+    "text": "否",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 212,
+    "text": "否",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 213,
+    "text": "拜师",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 214,
+    "text": "拜师",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 215,
+    "text": "拜师",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 216,
+    "text": "解除",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 217,
+    "text": "解除",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 218,
+    "text": "解除",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 220,
+    "text": "保存",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 221,
+    "text": "保存",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 222,
+    "text": "保存",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 223,
+    "text": "施放",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 224,
+    "text": "施放",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 225,
+    "text": "施放",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 226,
+    "text": "首页",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 227,
+    "text": "首页",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 228,
+    "text": "首页",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 230,
+    "text": "添加成员",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 231,
+    "text": "添加成员",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 232,
+    "text": "添加成员",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 233,
+    "text": "列表",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 234,
+    "text": "列表",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 235,
+    "text": "列表",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 236,
+    "text": "聊天",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 237,
+    "text": "聊天",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 238,
+    "text": "聊天",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 240,
+    "text": "添加成员",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 241,
+    "text": "添加成员",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 242,
+    "text": "添加成员",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 243,
+    "text": "移出成员",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 244,
+    "text": "移出成员",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 245,
+    "text": "移出成员",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 246,
+    "text": "公告",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 247,
+    "text": "公告",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 248,
+    "text": "公告",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 250,
+    "text": "修改职位",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 251,
+    "text": "修改职位",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 252,
+    "text": "修改职位",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 253,
+    "text": "结盟",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 254,
+    "text": "结盟",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 255,
+    "text": "结盟",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 256,
+    "text": "解除结盟",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 257,
+    "text": "解除结盟",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 258,
+    "text": "解除结盟",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 260,
+    "text": "全部制作",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 261,
+    "text": "全部制作",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 262,
+    "text": "全部制作",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 263,
+    "text": "制作",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 264,
+    "text": "制作",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 265,
+    "text": "制作",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 266,
+    "text": "制作",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 267,
+    "text": "制作",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 268,
+    "text": "制作",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 270,
+    "text": "接受",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 271,
+    "text": "接受",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 272,
+    "text": "接受",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 273,
+    "text": "完成",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 274,
+    "text": "完成",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 275,
+    "text": "完成",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 276,
+    "text": "关闭",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 277,
+    "text": "关闭",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 278,
+    "text": "关闭",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 280,
+    "text": "关闭",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 281,
+    "text": "关闭",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 282,
+    "text": "关闭",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 284,
+    "text": "任务",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 285,
+    "text": "任务",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 286,
+    "text": "任务",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 287,
+    "text": "无",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 288,
+    "text": "无",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 289,
+    "text": "无",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 290,
+    "text": "确定",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 291,
+    "text": "确定",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 292,
+    "text": "确定",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 293,
+    "text": "保留",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 294,
+    "text": "保留",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 295,
+    "text": "保留",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 296,
+    "text": "确定",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 297,
+    "text": "确定",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 298,
+    "text": "确定",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 312,
+    "text": "购买",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 313,
+    "text": "购买",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 314,
+    "text": "购买",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 315,
+    "text": "关闭",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 316,
+    "text": "关闭",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 317,
+    "text": "关闭",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 320,
+    "text": "登录",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 321,
+    "text": "登录",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 322,
+    "text": "登录",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 323,
+    "text": "注册账号",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 324,
+    "text": "注册账号",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 325,
+    "text": "注册账号",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 326,
+    "text": "修改密码",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 327,
+    "text": "修改密码",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 328,
+    "text": "修改密码",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 329,
+    "text": "退出",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 330,
+    "text": "退出",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 331,
+    "text": "退出",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 332,
+    "text": "屏幕键盘",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 333,
+    "text": "屏幕键盘",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 334,
+    "text": "屏幕键盘",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 336,
+    "text": "制作",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 337,
+    "text": "制作",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 338,
+    "text": "制作",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 340,
+    "text": "进入游戏",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 341,
+    "text": "进入游戏",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 342,
+    "text": "进入游戏",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 343,
+    "text": "创建角色",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 344,
+    "text": "创建角色",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 345,
+    "text": "创建角色",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 346,
+    "text": "删除角色",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 347,
+    "text": "删除角色",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 348,
+    "text": "删除角色",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 349,
+    "text": "制作人员",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 350,
+    "text": "制作人员",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 351,
+    "text": "制作人员",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 352,
+    "text": "退出游戏",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 353,
+    "text": "退出游戏",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 354,
+    "text": "退出游戏",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 356,
+    "text": "确定",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 357,
+    "text": "确定",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 358,
+    "text": "确定",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 360,
+    "text": "创建",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 361,
+    "text": "创建",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 362,
+    "text": "创建",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 363,
+    "text": "关闭",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 364,
+    "text": "关闭",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 365,
+    "text": "关闭",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 370,
+    "text": "写信",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 371,
+    "text": "写信",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 372,
+    "text": "写信",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 373,
+    "text": "公告",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 374,
+    "text": "公告",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 375,
+    "text": "公告",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 376,
+    "text": "删除",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 377,
+    "text": "删除",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 378,
+    "text": "删除",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 379,
+    "text": "回复",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 380,
+    "text": "回复",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 381,
+    "text": "回复",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 382,
+    "text": "确定",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 383,
+    "text": "确定",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 384,
+    "text": "确定",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 385,
+    "text": "取消",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 386,
+    "text": "取消",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 387,
+    "text": "取消",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 390,
+    "text": "设置",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 391,
+    "text": "设置",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 392,
+    "text": "设置",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 393,
+    "text": "工匠",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 394,
+    "text": "工匠",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 395,
+    "text": "工匠",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 396,
+    "text": "交易",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 397,
+    "text": "交易",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 398,
+    "text": "交易",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 400,
+    "text": "领取",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 401,
+    "text": "领取",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 402,
+    "text": "领取",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 403,
+    "text": "关闭",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 404,
+    "text": "关闭",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 405,
+    "text": "关闭",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 412,
+    "text": "开始",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 413,
+    "text": "开始",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 414,
+    "text": "开始",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 415,
+    "text": "停止",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 416,
+    "text": "停止",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 417,
+    "text": "停止",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 424,
+    "text": "租借",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 425,
+    "text": "租借",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 426,
+    "text": "租借",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 430,
+    "text": "归还",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 431,
+    "text": "归还",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 432,
+    "text": "归还",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 434,
+    "text": "收回",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 435,
+    "text": "收回",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 436,
+    "text": "收回",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 440,
+    "text": "交易",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 441,
+    "text": "交易",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 442,
+    "text": "交易",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 444,
+    "text": "设置",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 445,
+    "text": "设置",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 446,
+    "text": "设置",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 447,
+    "text": "成长",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 448,
+    "text": "成长",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 449,
+    "text": "成长",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 450,
+    "text": "购买",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 451,
+    "text": "购买",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 452,
+    "text": "购买",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 453,
+    "text": "购买",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 454,
+    "text": "购买",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 455,
+    "text": "购买",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 456,
+    "text": "制作",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 457,
+    "text": "制作",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 458,
+    "text": "制作",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 470,
+    "text": "一",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 471,
+    "text": "一",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 472,
+    "text": "一",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 473,
+    "text": "二",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 474,
+    "text": "二",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 475,
+    "text": "二",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 480,
+    "text": "查找",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 481,
+    "text": "查找",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 482,
+    "text": "查找",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 483,
+    "text": "购买",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 484,
+    "text": "购买",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 485,
+    "text": "购买",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 486,
+    "text": "关闭",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 487,
+    "text": "关闭",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 488,
+    "text": "关闭",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 490,
+    "text": "解除禁令",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 491,
+    "text": "解除禁令",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 492,
+    "text": "解除禁令",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 493,
+    "text": "移出",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 494,
+    "text": "移出",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 495,
+    "text": "移出",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 496,
+    "text": "变更",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 497,
+    "text": "变更",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 498,
+    "text": "变更",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 510,
+    "text": "取消",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 511,
+    "text": "取消",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 512,
+    "text": "取消",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 520,
+    "text": "确定",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 521,
+    "text": "确定",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 522,
+    "text": "确定",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 523,
+    "text": "修改",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 524,
+    "text": "修改",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 525,
+    "text": "修改",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 530,
+    "text": "任务",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 531,
+    "text": "任务",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 532,
+    "text": "任务",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 533,
+    "text": "任务",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 534,
+    "text": "任务",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 535,
+    "text": "任务",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 536,
+    "text": "任务",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 537,
+    "text": "任务",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 538,
+    "text": "任务",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 540,
+    "text": "删除",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 541,
+    "text": "删除",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 542,
+    "text": "删除",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 543,
+    "text": "进入",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 544,
+    "text": "进入",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 545,
+    "text": "进入",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 550,
+    "text": "成长",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 551,
+    "text": "成长",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 552,
+    "text": "成长",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 553,
+    "text": "全部重置",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 554,
+    "text": "全部重置",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 555,
+    "text": "全部重置",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 556,
+    "text": "重置选择",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 557,
+    "text": "重置选择",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 558,
+    "text": "重置选择",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 560,
+    "text": "生命",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 561,
+    "text": "生命",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 562,
+    "text": "生命",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 563,
+    "text": "魔法",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 564,
+    "text": "魔法",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 565,
+    "text": "魔法",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 570,
+    "text": "改名",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 571,
+    "text": "改名",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 572,
+    "text": "改名",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 573,
+    "text": "选项",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 574,
+    "text": "选项",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 575,
+    "text": "选项",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 576,
+    "text": "召唤",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 577,
+    "text": "召唤",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 578,
+    "text": "召唤",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 580,
+    "text": "收回",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 581,
+    "text": "收回",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 582,
+    "text": "收回",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 583,
+    "text": "放生",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 584,
+    "text": "放生",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 585,
+    "text": "放生",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 586,
+    "text": "保存",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 587,
+    "text": "保存",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 588,
+    "text": "保存",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 590,
+    "text": "取消",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 591,
+    "text": "取消",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 592,
+    "text": "取消",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 596,
+    "text": "添加",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 597,
+    "text": "添加",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 598,
+    "text": "添加",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 600,
+    "text": "旧版",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 601,
+    "text": "旧版",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 602,
+    "text": "旧版",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 603,
+    "text": "新版",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 604,
+    "text": "新版",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 605,
+    "text": "新版",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 607,
+    "text": "发送",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 608,
+    "text": "发送",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 609,
+    "text": "发送",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 610,
+    "text": "启用",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 611,
+    "text": "启用",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 612,
+    "text": "启用",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 613,
+    "text": "禁用",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 614,
+    "text": "禁用",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 615,
+    "text": "禁用",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 616,
+    "text": "分享",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 617,
+    "text": "分享",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 618,
+    "text": "分享",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 620,
+    "text": "开",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 621,
+    "text": "开",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 622,
+    "text": "开",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 623,
+    "text": "关",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 624,
+    "text": "关",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 625,
+    "text": "关",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 630,
+    "text": "开始",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 631,
+    "text": "开始",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 632,
+    "text": "开始",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 680,
+    "text": "领取",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 681,
+    "text": "领取",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 682,
+    "text": "领取",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 686,
+    "text": "锁定",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 687,
+    "text": "锁定",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 688,
+    "text": "锁定",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 696,
+    "text": "价格",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 697,
+    "text": "价格",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 698,
+    "text": "价格",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 700,
+    "text": "出售",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 701,
+    "text": "出售",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 702,
+    "text": "出售",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 703,
+    "text": "购买",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 704,
+    "text": "购买",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 705,
+    "text": "购买",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 706,
+    "text": "取回",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 707,
+    "text": "取回",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 708,
+    "text": "取回",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 712,
+    "text": "觉醒",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 713,
+    "text": "觉醒",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 714,
+    "text": "觉醒",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 715,
+    "text": "分解",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 716,
+    "text": "分解",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 717,
+    "text": "分解",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 730,
+    "text": "准备",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 731,
+    "text": "准备",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 732,
+    "text": "准备",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 740,
+    "text": "租借",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 741,
+    "text": "租借",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 742,
+    "text": "租借",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 751,
+    "text": "全部",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 752,
+    "text": "全部",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 753,
+    "text": "全部",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 778,
+    "text": "购买",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 779,
+    "text": "购买",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 780,
+    "text": "购买",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 781,
+    "text": "查看",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 782,
+    "text": "查看",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 783,
+    "text": "查看",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 792,
+    "text": "出售",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 793,
+    "text": "出售",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 794,
+    "text": "出售",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 795,
+    "text": "购买",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 796,
+    "text": "购买",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 797,
+    "text": "购买",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 798,
+    "text": "取回",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 799,
+    "text": "取回",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 800,
+    "text": "取回",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 802,
+    "text": "排行榜",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 803,
+    "text": "排行榜",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 804,
+    "text": "排行榜",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 808,
+    "text": "结束",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 809,
+    "text": "结束",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 810,
+    "text": "结束",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 811,
+    "text": "查看",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 812,
+    "text": "查看",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 813,
+    "text": "查看",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 821,
+    "text": "前往",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 822,
+    "text": "前往",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 823,
+    "text": "前往",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 824,
+    "text": "位置",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 825,
+    "text": "位置",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 826,
+    "text": "位置",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 827,
+    "text": "世界地图",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 828,
+    "text": "世界地图",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 829,
+    "text": "世界地图",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 848,
+    "text": "旧版",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 849,
+    "text": "旧版",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 850,
+    "text": "旧版",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 851,
+    "text": "新版",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 852,
+    "text": "新版",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 853,
+    "text": "新版",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 880,
+    "text": "记录",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 881,
+    "text": "记录",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 882,
+    "text": "记录",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 883,
+    "text": "移动",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 884,
+    "text": "移动",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 885,
+    "text": "移动",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 886,
+    "text": "删除",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 887,
+    "text": "删除",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 888,
+    "text": "删除",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 890,
+    "text": "原地复活",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 891,
+    "text": "原地复活",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 892,
+    "text": "原地复活",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 893,
+    "text": "回城复活",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 894,
+    "text": "回城复活",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 895,
+    "text": "回城复活",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 896,
+    "text": "取消",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 897,
+    "text": "取消",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 898,
+    "text": "取消",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 93,
+    "text": "公告",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 94,
+    "text": "公告",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 95,
+    "text": "增益",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 96,
+    "text": "增益",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 97,
+    "text": "管理",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 98,
+    "text": "管理",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 99,
+    "text": "成员",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 100,
+    "text": "成员",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 101,
+    "text": "职位",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 102,
+    "text": "职位",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 103,
+    "text": "属性",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 104,
+    "text": "属性",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 105,
+    "text": "仓库",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 106,
+    "text": "仓库",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 163,
+    "text": "好友",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 164,
+    "text": "好友",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 166,
+    "text": "黑名单",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 167,
+    "text": "黑名单",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 168,
+    "text": "物品二",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 169,
+    "text": "物品二",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 420,
+    "text": "借入物品",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 421,
+    "text": "借入物品",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 422,
+    "text": "借出物品",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 423,
+    "text": "借出物品",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 460,
+    "text": "Esc 关闭",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 461,
+    "text": "Esc 关闭",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 462,
+    "text": "聊天框",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 463,
+    "text": "聊天框",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 464,
+    "text": "过滤",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 465,
+    "text": "过滤",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 476,
+    "text": "查看",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 477,
+    "text": "查看",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 546,
+    "text": "成长",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 547,
+    "text": "成长",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 548,
+    "text": "贡献",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 549,
+    "text": "贡献",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 594,
+    "text": "召唤",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 595,
+    "text": "召唤",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 643,
+    "text": "立即购买",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 644,
+    "text": "立即购买",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 645,
+    "text": "礼盒",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 646,
+    "text": "礼盒",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 647,
+    "text": "购买所选",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 648,
+    "text": "购买所选",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 650,
+    "text": "赠送",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 651,
+    "text": "赠送",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 652,
+    "text": "收藏",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 653,
+    "text": "收藏",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 654,
+    "text": "充值",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 655,
+    "text": "充值",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 684,
+    "text": "全部领取",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 685,
+    "text": "全部领取",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 692,
+    "text": "搜索",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 693,
+    "text": "搜索",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 694,
+    "text": "寄售",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 695,
+    "text": "寄售",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 721,
+    "text": "友方",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 722,
+    "text": "友方",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 723,
+    "text": "敌方",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 724,
+    "text": "敌方",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 743,
+    "text": "仓库一",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 744,
+    "text": "仓库一",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 745,
+    "text": "仓库二",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 746,
+    "text": "仓库二",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 770,
+    "text": "全部物品",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 771,
+    "text": "全部物品",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 772,
+    "text": "优惠",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 773,
+    "text": "优惠",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 774,
+    "text": "新品",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 775,
+    "text": "新品",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 776,
+    "text": "排行",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 777,
+    "text": "排行",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 788,
+    "text": "市场",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 789,
+    "text": "市场",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 790,
+    "text": "寄售",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 791,
+    "text": "寄售",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 816,
+    "text": "拍卖",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 817,
+    "text": "拍卖",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 818,
+    "text": "商城",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 819,
+    "text": "商城",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 149,
+    "text": "钓鱼",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 197,
+    "text": "物品一",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 198,
+    "text": "任务",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 355,
+    "text": "创建角色",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 406,
+    "text": "信息",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 407,
+    "text": "信息",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 433,
+    "text": "归还",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 437,
+    "text": "收回",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 443,
+    "text": "交易",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 500,
+    "text": "装备",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 501,
+    "text": "属性",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 502,
+    "text": "状态",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 503,
+    "text": "技能",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 539,
+    "text": "任务",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 593,
+    "text": "召唤",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 642,
+    "text": "搜索",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 676,
+    "text": "使用邮票解锁",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 683,
+    "text": "领取",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 737,
+    "text": "物品一",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 738,
+    "text": "物品二",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 739,
+    "text": "任务",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 747,
+    "text": "仓库二",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 814,
+    "text": "已锁定",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 815,
+    "text": "未锁定",
+    "style": "button",
+    "rect": null
+  },
+  {
+    "library": "Title",
+    "index": 504,
+    "text": "装备",
+    "style": "panel",
+    "rect": [
+      9,
+      71,
+      59,
+      18
+    ]
+  },
+  {
+    "library": "Title",
+    "index": 504,
+    "text": "属性",
+    "style": "panel",
+    "rect": [
+      71,
+      71,
+      59,
+      18
+    ]
+  },
+  {
+    "library": "Title",
+    "index": 504,
+    "text": "状态",
+    "style": "panel",
+    "rect": [
+      133,
+      71,
+      59,
+      18
+    ]
+  },
+  {
+    "library": "Title",
+    "index": 504,
+    "text": "技能",
+    "style": "panel",
+    "rect": [
+      195,
+      71,
+      59,
+      18
+    ]
+  },
+  {
+    "library": "Title",
+    "index": 505,
+    "text": "装备",
+    "style": "panel",
+    "rect": [
+      9,
+      71,
+      59,
+      18
+    ]
+  },
+  {
+    "library": "Title",
+    "index": 505,
+    "text": "属性",
+    "style": "panel",
+    "rect": [
+      71,
+      71,
+      59,
+      18
+    ]
+  },
+  {
+    "library": "Title",
+    "index": 505,
+    "text": "状态",
+    "style": "panel",
+    "rect": [
+      133,
+      71,
+      59,
+      18
+    ]
+  },
+  {
+    "library": "Title",
+    "index": 505,
+    "text": "技能",
+    "style": "panel",
+    "rect": [
+      195,
+      71,
+      59,
+      18
+    ]
+  },
+  {
+    "library": "Title",
+    "index": 506,
+    "text": "生命",
+    "style": "panel",
+    "rect": [
+      12,
+      20,
+      98,
+      17
+    ]
+  },
+  {
+    "library": "Title",
+    "index": 506,
+    "text": "魔法",
+    "style": "panel",
+    "rect": [
+      12,
+      38,
+      98,
+      17
+    ]
+  },
+  {
+    "library": "Title",
+    "index": 506,
+    "text": "物理防御",
+    "style": "panel",
+    "rect": [
+      12,
+      56,
+      98,
+      17
+    ]
+  },
+  {
+    "library": "Title",
+    "index": 506,
+    "text": "魔法防御",
+    "style": "panel",
+    "rect": [
+      12,
+      74,
+      98,
+      17
+    ]
+  },
+  {
+    "library": "Title",
+    "index": 506,
+    "text": "物理攻击",
+    "style": "panel",
+    "rect": [
+      12,
+      92,
+      98,
+      17
+    ]
+  },
+  {
+    "library": "Title",
+    "index": 506,
+    "text": "魔法攻击",
+    "style": "panel",
+    "rect": [
+      12,
+      110,
+      98,
+      17
+    ]
+  },
+  {
+    "library": "Title",
+    "index": 506,
+    "text": "道术",
+    "style": "panel",
+    "rect": [
+      12,
+      128,
+      98,
+      17
+    ]
+  },
+  {
+    "library": "Title",
+    "index": 506,
+    "text": "暴击率",
+    "style": "panel",
+    "rect": [
+      12,
+      146,
+      98,
+      17
+    ]
+  },
+  {
+    "library": "Title",
+    "index": 506,
+    "text": "暴击伤害",
+    "style": "panel",
+    "rect": [
+      12,
+      164,
+      98,
+      17
+    ]
+  },
+  {
+    "library": "Title",
+    "index": 506,
+    "text": "攻击速度",
+    "style": "panel",
+    "rect": [
+      12,
+      182,
+      98,
+      17
+    ]
+  },
+  {
+    "library": "Title",
+    "index": 506,
+    "text": "准确",
+    "style": "panel",
+    "rect": [
+      12,
+      200,
+      98,
+      17
+    ]
+  },
+  {
+    "library": "Title",
+    "index": 506,
+    "text": "敏捷",
+    "style": "panel",
+    "rect": [
+      12,
+      218,
+      98,
+      17
+    ]
+  },
+  {
+    "library": "Title",
+    "index": 506,
+    "text": "幸运",
+    "style": "panel",
+    "rect": [
+      12,
+      236,
+      98,
+      17
+    ]
+  },
+  {
+    "library": "Title",
+    "index": 507,
+    "text": "经验",
+    "style": "panel",
+    "rect": [
+      12,
+      20,
+      98,
+      17
+    ]
+  },
+  {
+    "library": "Title",
+    "index": 507,
+    "text": "背包负重",
+    "style": "panel",
+    "rect": [
+      12,
+      38,
+      98,
+      17
+    ]
+  },
+  {
+    "library": "Title",
+    "index": 507,
+    "text": "装备负重",
+    "style": "panel",
+    "rect": [
+      12,
+      56,
+      98,
+      17
+    ]
+  },
+  {
+    "library": "Title",
+    "index": 507,
+    "text": "腕力",
+    "style": "panel",
+    "rect": [
+      12,
+      74,
+      98,
+      17
+    ]
+  },
+  {
+    "library": "Title",
+    "index": 507,
+    "text": "魔法抵抗",
+    "style": "panel",
+    "rect": [
+      12,
+      92,
+      98,
+      17
+    ]
+  },
+  {
+    "library": "Title",
+    "index": 507,
+    "text": "毒素抵抗",
+    "style": "panel",
+    "rect": [
+      12,
+      110,
+      98,
+      17
+    ]
+  },
+  {
+    "library": "Title",
+    "index": 507,
+    "text": "生命恢复",
+    "style": "panel",
+    "rect": [
+      12,
+      128,
+      98,
+      17
+    ]
+  },
+  {
+    "library": "Title",
+    "index": 507,
+    "text": "魔法恢复",
+    "style": "panel",
+    "rect": [
+      12,
+      146,
+      98,
+      17
+    ]
+  },
+  {
+    "library": "Title",
+    "index": 507,
+    "text": "解毒恢复",
+    "style": "panel",
+    "rect": [
+      12,
+      164,
+      98,
+      17
+    ]
+  },
+  {
+    "library": "Title",
+    "index": 507,
+    "text": "神圣",
+    "style": "panel",
+    "rect": [
+      12,
+      182,
+      98,
+      17
+    ]
+  },
+  {
+    "library": "Title",
+    "index": 507,
+    "text": "冰冻",
+    "style": "panel",
+    "rect": [
+      12,
+      200,
+      98,
+      17
+    ]
+  },
+  {
+    "library": "Title",
+    "index": 507,
+    "text": "毒素",
+    "style": "panel",
+    "rect": [
+      12,
+      218,
+      98,
+      17
+    ]
+  },
+  {
+    "library": "Title",
+    "index": 660,
+    "text": "名字",
+    "style": "panel",
+    "rect": [
+      59,
+      7,
+      46,
+      16
+    ]
+  },
+  {
+    "library": "Title",
+    "index": 660,
+    "text": "等级",
+    "style": "panel",
+    "rect": [
+      59,
+      28,
+      46,
+      16
+    ]
+  },
+  {
+    "library": "Title",
+    "index": 660,
+    "text": "职业",
+    "style": "panel",
+    "rect": [
+      146,
+      28,
+      29,
+      16
+    ]
+  },
+  {
+    "library": "Title",
+    "index": 661,
+    "text": "名字",
+    "style": "panel",
+    "rect": [
+      59,
+      7,
+      46,
+      16
+    ]
+  },
+  {
+    "library": "Title",
+    "index": 661,
+    "text": "等级",
+    "style": "panel",
+    "rect": [
+      59,
+      28,
+      46,
+      16
+    ]
+  },
+  {
+    "library": "Title",
+    "index": 661,
+    "text": "职业",
+    "style": "panel",
+    "rect": [
+      146,
+      28,
+      29,
+      16
+    ]
+  },
+  {
+    "library": "Title",
+    "index": 662,
+    "text": "名字",
+    "style": "panel",
+    "rect": [
+      59,
+      7,
+      46,
+      16
+    ]
+  },
+  {
+    "library": "Title",
+    "index": 662,
+    "text": "等级",
+    "style": "panel",
+    "rect": [
+      59,
+      28,
+      46,
+      16
+    ]
+  },
+  {
+    "library": "Title",
+    "index": 662,
+    "text": "职业",
+    "style": "panel",
+    "rect": [
+      146,
+      28,
+      29,
+      16
+    ]
+  },
+  {
+    "library": "Title",
+    "index": 663,
+    "text": "名字",
+    "style": "panel",
+    "rect": [
+      59,
+      7,
+      46,
+      16
+    ]
+  },
+  {
+    "library": "Title",
+    "index": 663,
+    "text": "等级",
+    "style": "panel",
+    "rect": [
+      59,
+      28,
+      46,
+      16
+    ]
+  },
+  {
+    "library": "Title",
+    "index": 663,
+    "text": "职业",
+    "style": "panel",
+    "rect": [
+      146,
+      28,
+      29,
+      16
+    ]
+  },
+  {
+    "library": "Title",
+    "index": 664,
+    "text": "名字",
+    "style": "panel",
+    "rect": [
+      59,
+      7,
+      46,
+      16
+    ]
+  },
+  {
+    "library": "Title",
+    "index": 664,
+    "text": "等级",
+    "style": "panel",
+    "rect": [
+      59,
+      28,
+      46,
+      16
+    ]
+  },
+  {
+    "library": "Title",
+    "index": 664,
+    "text": "职业",
+    "style": "panel",
+    "rect": [
+      146,
+      28,
+      29,
+      16
+    ]
+  },
+  {
+    "library": "Title",
+    "index": 665,
+    "text": "名字",
+    "style": "panel",
+    "rect": [
+      59,
+      7,
+      46,
+      16
+    ]
+  },
+  {
+    "library": "Title",
+    "index": 665,
+    "text": "等级",
+    "style": "panel",
+    "rect": [
+      59,
+      28,
+      46,
+      16
+    ]
+  },
+  {
+    "library": "Title",
+    "index": 665,
+    "text": "职业",
+    "style": "panel",
+    "rect": [
+      146,
+      28,
+      29,
+      16
+    ]
+  },
+  {
+    "library": "Title",
+    "index": 666,
+    "text": "名字",
+    "style": "panel",
+    "rect": [
+      59,
+      7,
+      46,
+      16
+    ]
+  },
+  {
+    "library": "Title",
+    "index": 666,
+    "text": "等级",
+    "style": "panel",
+    "rect": [
+      59,
+      28,
+      46,
+      16
+    ]
+  },
+  {
+    "library": "Title",
+    "index": 666,
+    "text": "职业",
+    "style": "panel",
+    "rect": [
+      146,
+      28,
+      29,
+      16
+    ]
+  },
+  {
+    "library": "Title",
+    "index": 667,
+    "text": "名字",
+    "style": "panel",
+    "rect": [
+      59,
+      7,
+      46,
+      16
+    ]
+  },
+  {
+    "library": "Title",
+    "index": 667,
+    "text": "等级",
+    "style": "panel",
+    "rect": [
+      59,
+      28,
+      46,
+      16
+    ]
+  },
+  {
+    "library": "Title",
+    "index": 667,
+    "text": "职业",
+    "style": "panel",
+    "rect": [
+      146,
+      28,
+      29,
+      16
+    ]
+  },
+  {
+    "library": "Title",
+    "index": 668,
+    "text": "名字",
+    "style": "panel",
+    "rect": [
+      59,
+      7,
+      46,
+      16
+    ]
+  },
+  {
+    "library": "Title",
+    "index": 668,
+    "text": "等级",
+    "style": "panel",
+    "rect": [
+      59,
+      28,
+      46,
+      16
+    ]
+  },
+  {
+    "library": "Title",
+    "index": 668,
+    "text": "职业",
+    "style": "panel",
+    "rect": [
+      146,
+      28,
+      29,
+      16
+    ]
+  },
+  {
+    "library": "Title",
+    "index": 669,
+    "text": "名字",
+    "style": "panel",
+    "rect": [
+      59,
+      7,
+      46,
+      16
+    ]
+  },
+  {
+    "library": "Title",
+    "index": 669,
+    "text": "等级",
+    "style": "panel",
+    "rect": [
+      59,
+      28,
+      46,
+      16
+    ]
+  },
+  {
+    "library": "Title",
+    "index": 669,
+    "text": "职业",
+    "style": "panel",
+    "rect": [
+      146,
+      28,
+      29,
+      16
+    ]
+  },
+  {
+    "library": "Prguse",
+    "index": 50,
+    "text": "修改密码",
+    "style": "panel",
+    "rect": [
+      39,
+      9,
+      270,
+      29
+    ]
+  },
+  {
+    "library": "Prguse",
+    "index": 50,
+    "text": "账号",
+    "style": "panel",
+    "rect": [
+      20,
+      72,
+      143,
+      22
+    ]
+  },
+  {
+    "library": "Prguse",
+    "index": 50,
+    "text": "当前密码",
+    "style": "panel",
+    "rect": [
+      20,
+      111,
+      143,
+      22
+    ]
+  },
+  {
+    "library": "Prguse",
+    "index": 50,
+    "text": "新密码",
+    "style": "panel",
+    "rect": [
+      20,
+      149,
+      143,
+      22
+    ]
+  },
+  {
+    "library": "Prguse",
+    "index": 50,
+    "text": "确认新密码",
+    "style": "panel",
+    "rect": [
+      20,
+      187,
+      143,
+      22
+    ]
+  },
+  {
+    "library": "Prguse",
+    "index": 63,
+    "text": "注册账号",
+    "style": "panel",
+    "rect": [
+      159,
+      10,
+      270,
+      29
+    ]
+  },
+  {
+    "library": "Prguse",
+    "index": 63,
+    "text": "账号",
+    "style": "panel",
+    "rect": [
+      101,
+      103,
+      119,
+      20
+    ]
+  },
+  {
+    "library": "Prguse",
+    "index": 63,
+    "text": "密码",
+    "style": "panel",
+    "rect": [
+      101,
+      128,
+      119,
+      20
+    ]
+  },
+  {
+    "library": "Prguse",
+    "index": 63,
+    "text": "确认密码",
+    "style": "panel",
+    "rect": [
+      101,
+      155,
+      119,
+      20
+    ]
+  },
+  {
+    "library": "Prguse",
+    "index": 63,
+    "text": "真实姓名",
+    "style": "panel",
+    "rect": [
+      101,
+      188,
+      119,
+      20
+    ]
+  },
+  {
+    "library": "Prguse",
+    "index": 63,
+    "text": "出生日期",
+    "style": "panel",
+    "rect": [
+      101,
+      215,
+      119,
+      20
+    ]
+  },
+  {
+    "library": "Prguse",
+    "index": 63,
+    "text": "密保问题",
+    "style": "panel",
+    "rect": [
+      101,
+      250,
+      119,
+      20
+    ]
+  },
+  {
+    "library": "Prguse",
+    "index": 63,
+    "text": "密保答案",
+    "style": "panel",
+    "rect": [
+      101,
+      275,
+      119,
+      20
+    ]
+  },
+  {
+    "library": "Prguse",
+    "index": 63,
+    "text": "电子邮箱",
+    "style": "panel",
+    "rect": [
+      101,
+      309,
+      119,
+      20
+    ]
+  }
+]

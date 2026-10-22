@@ -1,0 +1,9770 @@
+[
+  {
+    "index": 1,
+    "name": "SpiritBlade",
+    "friendlyName": "SpiritBlade",
+    "type": "Weapon"
+  },
+  {
+    "index": 2,
+    "name": "SpiritBlade1",
+    "friendlyName": "SpiritBlade",
+    "type": "Weapon"
+  },
+  {
+    "index": 3,
+    "name": "SpiritBlade2",
+    "friendlyName": "SpiritBlade",
+    "type": "Weapon"
+  },
+  {
+    "index": 4,
+    "name": "SpiritBlade3",
+    "friendlyName": "SpiritBlade",
+    "type": "Weapon"
+  },
+  {
+    "index": 5,
+    "name": "SpiritBlade4",
+    "friendlyName": "SpiritBlade",
+    "type": "Weapon"
+  },
+  {
+    "index": 6,
+    "name": "SpiritBlade5",
+    "friendlyName": "SpiritBlade",
+    "type": "Weapon"
+  },
+  {
+    "index": 7,
+    "name": "SpiritHelmet",
+    "friendlyName": "SpiritHelmet",
+    "type": "Helmet"
+  },
+  {
+    "index": 8,
+    "name": "SpiritNecklace",
+    "friendlyName": "SpiritNecklace",
+    "type": "Necklace"
+  },
+  {
+    "index": 9,
+    "name": "SpiritBracelet",
+    "friendlyName": "SpiritBracelet",
+    "type": "Bracelet"
+  },
+  {
+    "index": 10,
+    "name": "SpiritRing",
+    "friendlyName": "SpiritRing",
+    "type": "Ring"
+  },
+  {
+    "index": 11,
+    "name": "RecallHelmet",
+    "friendlyName": "RecallHelmet",
+    "type": "Helmet"
+  },
+  {
+    "index": 12,
+    "name": "RecallNecklace",
+    "friendlyName": "RecallNecklace",
+    "type": "Necklace"
+  },
+  {
+    "index": 13,
+    "name": "RecallBracelet",
+    "friendlyName": "RecallBracelet",
+    "type": "Bracelet"
+  },
+  {
+    "index": 14,
+    "name": "RecallRing",
+    "friendlyName": "RecallRing",
+    "type": "Ring"
+  },
+  {
+    "index": 15,
+    "name": "RedOrchidNecklace",
+    "friendlyName": "RedOrchidNecklace",
+    "type": "Necklace"
+  },
+  {
+    "index": 16,
+    "name": "RedOrchidBracelet",
+    "friendlyName": "RedOrchidBracelet",
+    "type": "Bracelet"
+  },
+  {
+    "index": 17,
+    "name": "RedOrchidRing",
+    "friendlyName": "RedOrchidRing",
+    "type": "Ring"
+  },
+  {
+    "index": 18,
+    "name": "RedFlowerNecklace",
+    "friendlyName": "RedFlowerNecklace",
+    "type": "Necklace"
+  },
+  {
+    "index": 19,
+    "name": "RedFlowerBracelet",
+    "friendlyName": "RedFlowerBracelet",
+    "type": "Bracelet"
+  },
+  {
+    "index": 20,
+    "name": "RedFlowerRing",
+    "friendlyName": "RedFlowerRing",
+    "type": "Ring"
+  },
+  {
+    "index": 21,
+    "name": "SmashPendulum",
+    "friendlyName": "SmashPendulum",
+    "type": "Necklace"
+  },
+  {
+    "index": 22,
+    "name": "SmashWheel",
+    "friendlyName": "SmashWheel",
+    "type": "Bracelet"
+  },
+  {
+    "index": 23,
+    "name": "SmashRing",
+    "friendlyName": "SmashRing",
+    "type": "Ring"
+  },
+  {
+    "index": 24,
+    "name": "HwanDevilNecklace",
+    "friendlyName": "HwanDevilNecklace",
+    "type": "Necklace"
+  },
+  {
+    "index": 25,
+    "name": "HwanDevilBracelet",
+    "friendlyName": "HwanDevilBracelet",
+    "type": "Bracelet"
+  },
+  {
+    "index": 26,
+    "name": "HwanDevilRing",
+    "friendlyName": "HwanDevilRing",
+    "type": "Ring"
+  },
+  {
+    "index": 27,
+    "name": "PurityNecklace",
+    "friendlyName": "PurityNecklace",
+    "type": "Necklace"
+  },
+  {
+    "index": 28,
+    "name": "PurityBracelet",
+    "friendlyName": "PurityBracelet",
+    "type": "Bracelet"
+  },
+  {
+    "index": 29,
+    "name": "PurityRing",
+    "friendlyName": "PurityRing",
+    "type": "Ring"
+  },
+  {
+    "index": 30,
+    "name": "FiveStringNecklace",
+    "friendlyName": "FiveStringNecklace",
+    "type": "Necklace"
+  },
+  {
+    "index": 31,
+    "name": "FiveStringBracelet",
+    "friendlyName": "FiveStringBracelet",
+    "type": "Bracelet"
+  },
+  {
+    "index": 32,
+    "name": "FiveStringRing",
+    "friendlyName": "FiveStringRing",
+    "type": "Ring"
+  },
+  {
+    "index": 33,
+    "name": "MundaneGlove",
+    "friendlyName": "MundaneGlove",
+    "type": "Bracelet"
+  },
+  {
+    "index": 34,
+    "name": "MundaneRing",
+    "friendlyName": "MundaneRing",
+    "type": "Ring"
+  },
+  {
+    "index": 35,
+    "name": "NokChiWheel",
+    "friendlyName": "NokChiWheel",
+    "type": "Bracelet"
+  },
+  {
+    "index": 36,
+    "name": "NokChiRing",
+    "friendlyName": "NokChiRing",
+    "type": "Ring"
+  },
+  {
+    "index": 37,
+    "name": "TaoProtectBracelet",
+    "friendlyName": "TaoProtectBracelet",
+    "type": "Bracelet"
+  },
+  {
+    "index": 38,
+    "name": "TaoProtectRing",
+    "friendlyName": "TaoProtectRing",
+    "type": "Ring"
+  },
+  {
+    "index": 39,
+    "name": "MirSword",
+    "friendlyName": "MirSword",
+    "type": "Weapon"
+  },
+  {
+    "index": 40,
+    "name": "MirSword1",
+    "friendlyName": "MirSword",
+    "type": "Weapon"
+  },
+  {
+    "index": 41,
+    "name": "MirSword2",
+    "friendlyName": "MirSword",
+    "type": "Weapon"
+  },
+  {
+    "index": 42,
+    "name": "MirSword3",
+    "friendlyName": "MirSword",
+    "type": "Weapon"
+  },
+  {
+    "index": 43,
+    "name": "MirSword4",
+    "friendlyName": "MirSword",
+    "type": "Weapon"
+  },
+  {
+    "index": 44,
+    "name": "MirSword5",
+    "friendlyName": "MirSword",
+    "type": "Weapon"
+  },
+  {
+    "index": 45,
+    "name": "MirArmour(M)",
+    "friendlyName": "MirArmour(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 46,
+    "name": "MirArmour(M)1",
+    "friendlyName": "MirArmour(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 47,
+    "name": "MirArmour(M)2",
+    "friendlyName": "MirArmour(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 48,
+    "name": "MirArmour(M)3",
+    "friendlyName": "MirArmour(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 49,
+    "name": "MirArmour(M)4",
+    "friendlyName": "MirArmour(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 50,
+    "name": "MirArmour(M)5",
+    "friendlyName": "MirArmour(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 51,
+    "name": "MirArmour(F)",
+    "friendlyName": "MirArmour(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 52,
+    "name": "MirArmour(F)1",
+    "friendlyName": "MirArmour(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 53,
+    "name": "MirArmour(F)2",
+    "friendlyName": "MirArmour(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 54,
+    "name": "MirArmour(F)3",
+    "friendlyName": "MirArmour(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 55,
+    "name": "MirArmour(F)4",
+    "friendlyName": "MirArmour(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 56,
+    "name": "MirArmour(F)5",
+    "friendlyName": "MirArmour(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 57,
+    "name": "MirHelmet",
+    "friendlyName": "MirHelmet",
+    "type": "Helmet"
+  },
+  {
+    "index": 58,
+    "name": "MirHelmet1",
+    "friendlyName": "MirHelmet",
+    "type": "Helmet"
+  },
+  {
+    "index": 59,
+    "name": "MirHelmet2",
+    "friendlyName": "MirHelmet",
+    "type": "Helmet"
+  },
+  {
+    "index": 60,
+    "name": "MirHelmet3",
+    "friendlyName": "MirHelmet",
+    "type": "Helmet"
+  },
+  {
+    "index": 61,
+    "name": "MirHelmet4",
+    "friendlyName": "MirHelmet",
+    "type": "Helmet"
+  },
+  {
+    "index": 62,
+    "name": "MirHelmet5",
+    "friendlyName": "MirHelmet",
+    "type": "Helmet"
+  },
+  {
+    "index": 63,
+    "name": "MirNecklace",
+    "friendlyName": "MirNecklace",
+    "type": "Necklace"
+  },
+  {
+    "index": 64,
+    "name": "MirNecklace1",
+    "friendlyName": "MirNecklace",
+    "type": "Necklace"
+  },
+  {
+    "index": 65,
+    "name": "MirNecklace2",
+    "friendlyName": "MirNecklace",
+    "type": "Necklace"
+  },
+  {
+    "index": 66,
+    "name": "MirNecklace3",
+    "friendlyName": "MirNecklace",
+    "type": "Necklace"
+  },
+  {
+    "index": 67,
+    "name": "MirNecklace4",
+    "friendlyName": "MirNecklace",
+    "type": "Necklace"
+  },
+  {
+    "index": 68,
+    "name": "MirNecklace5",
+    "friendlyName": "MirNecklace",
+    "type": "Necklace"
+  },
+  {
+    "index": 69,
+    "name": "MirWheel",
+    "friendlyName": "MirWheel",
+    "type": "Bracelet"
+  },
+  {
+    "index": 70,
+    "name": "MirWheel1",
+    "friendlyName": "MirWheel",
+    "type": "Bracelet"
+  },
+  {
+    "index": 71,
+    "name": "MirWheel2",
+    "friendlyName": "MirWheel",
+    "type": "Bracelet"
+  },
+  {
+    "index": 72,
+    "name": "MirWheel3",
+    "friendlyName": "MirWheel",
+    "type": "Bracelet"
+  },
+  {
+    "index": 73,
+    "name": "MirWheel4",
+    "friendlyName": "MirWheel",
+    "type": "Bracelet"
+  },
+  {
+    "index": 74,
+    "name": "MirWheel5",
+    "friendlyName": "MirWheel",
+    "type": "Bracelet"
+  },
+  {
+    "index": 75,
+    "name": "MirRing",
+    "friendlyName": "MirRing",
+    "type": "Ring"
+  },
+  {
+    "index": 76,
+    "name": "MirRing1",
+    "friendlyName": "MirRing",
+    "type": "Ring"
+  },
+  {
+    "index": 77,
+    "name": "MirRing2",
+    "friendlyName": "MirRing",
+    "type": "Ring"
+  },
+  {
+    "index": 78,
+    "name": "MirRing3",
+    "friendlyName": "MirRing",
+    "type": "Ring"
+  },
+  {
+    "index": 79,
+    "name": "MirRing4",
+    "friendlyName": "MirRing",
+    "type": "Ring"
+  },
+  {
+    "index": 80,
+    "name": "MirRing5",
+    "friendlyName": "MirRing",
+    "type": "Ring"
+  },
+  {
+    "index": 81,
+    "name": "MirBelt",
+    "friendlyName": "MirBelt",
+    "type": "Belt"
+  },
+  {
+    "index": 82,
+    "name": "MirBoots",
+    "friendlyName": "MirBoots",
+    "type": "Boots"
+  },
+  {
+    "index": 83,
+    "name": "BoneDecapitator",
+    "friendlyName": "BoneDecapitator",
+    "type": "Weapon"
+  },
+  {
+    "index": 84,
+    "name": "BoneRobe(M)",
+    "friendlyName": "BoneRobe(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 85,
+    "name": "BoneRobe(F)",
+    "friendlyName": "BoneRobe(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 86,
+    "name": "BoneHood",
+    "friendlyName": "BoneHood",
+    "type": "Helmet"
+  },
+  {
+    "index": 87,
+    "name": "BugNecklace",
+    "friendlyName": "BugNecklace",
+    "type": "Necklace"
+  },
+  {
+    "index": 88,
+    "name": "BugBracelet",
+    "friendlyName": "BugBracelet",
+    "type": "Bracelet"
+  },
+  {
+    "index": 89,
+    "name": "BugRing",
+    "friendlyName": "BugRing",
+    "type": "Ring"
+  },
+  {
+    "index": 90,
+    "name": "WhiteGoldBelt",
+    "friendlyName": "WhiteGoldBelt",
+    "type": "Belt"
+  },
+  {
+    "index": 91,
+    "name": "WhiteGoldShoes",
+    "friendlyName": "WhiteGoldShoes",
+    "type": "Boots"
+  },
+  {
+    "index": 92,
+    "name": "WhiteGoldNecklace",
+    "friendlyName": "WhiteGoldNecklace",
+    "type": "Necklace"
+  },
+  {
+    "index": 93,
+    "name": "WhiteGoldBracelet",
+    "friendlyName": "WhiteGoldBracelet",
+    "type": "Bracelet"
+  },
+  {
+    "index": 94,
+    "name": "WhiteGoldRing",
+    "friendlyName": "WhiteGoldRing",
+    "type": "Ring"
+  },
+  {
+    "index": 95,
+    "name": "WhiteGoldBelt(H)",
+    "friendlyName": "WhiteGoldBelt(H)",
+    "type": "Belt"
+  },
+  {
+    "index": 96,
+    "name": "WhiteGoldShoes(H)",
+    "friendlyName": "WhiteGoldShoes(H)",
+    "type": "Boots"
+  },
+  {
+    "index": 97,
+    "name": "WhiteGoldNecklace(H)",
+    "friendlyName": "WhiteGoldNecklace(H)",
+    "type": "Necklace"
+  },
+  {
+    "index": 98,
+    "name": "WhiteGoldBracelet(H)",
+    "friendlyName": "WhiteGoldBracelet(H)",
+    "type": "Bracelet"
+  },
+  {
+    "index": 99,
+    "name": "WhiteGoldRing(H)",
+    "friendlyName": "WhiteGoldRing(H)",
+    "type": "Ring"
+  },
+  {
+    "index": 100,
+    "name": "RedJadeBelt",
+    "friendlyName": "RedJadeBelt",
+    "type": "Belt"
+  },
+  {
+    "index": 101,
+    "name": "RedJadeShoes",
+    "friendlyName": "RedJadeShoes",
+    "type": "Boots"
+  },
+  {
+    "index": 102,
+    "name": "RedJadeNecklace",
+    "friendlyName": "RedJadeNecklace",
+    "type": "Necklace"
+  },
+  {
+    "index": 103,
+    "name": "RedJadeBracelet",
+    "friendlyName": "RedJadeBracelet",
+    "type": "Bracelet"
+  },
+  {
+    "index": 104,
+    "name": "RedJadeRing",
+    "friendlyName": "RedJadeRing",
+    "type": "Ring"
+  },
+  {
+    "index": 105,
+    "name": "RedJadeBelt(H)",
+    "friendlyName": "RedJadeBelt(H)",
+    "type": "Belt"
+  },
+  {
+    "index": 106,
+    "name": "RedJadeShoes(H)",
+    "friendlyName": "RedJadeShoes(H)",
+    "type": "Boots"
+  },
+  {
+    "index": 107,
+    "name": "RedJadeNecklace(H)",
+    "friendlyName": "RedJadeNecklace(H)",
+    "type": "Necklace"
+  },
+  {
+    "index": 108,
+    "name": "RedJadeBracelet(H)",
+    "friendlyName": "RedJadeBracelet(H)",
+    "type": "Bracelet"
+  },
+  {
+    "index": 109,
+    "name": "RedJadeRing(H)",
+    "friendlyName": "RedJadeRing(H)",
+    "type": "Ring"
+  },
+  {
+    "index": 110,
+    "name": "NephriteBelt",
+    "friendlyName": "NephriteBelt",
+    "type": "Belt"
+  },
+  {
+    "index": 111,
+    "name": "NephriteShoes",
+    "friendlyName": "NephriteShoes",
+    "type": "Boots"
+  },
+  {
+    "index": 112,
+    "name": "NephriteNecklace",
+    "friendlyName": "NephriteNecklace",
+    "type": "Necklace"
+  },
+  {
+    "index": 113,
+    "name": "NephriteBracelet",
+    "friendlyName": "NephriteBracelet",
+    "type": "Bracelet"
+  },
+  {
+    "index": 114,
+    "name": "NephriteRing",
+    "friendlyName": "NephriteRing",
+    "type": "Ring"
+  },
+  {
+    "index": 115,
+    "name": "NephriteBelt(H)",
+    "friendlyName": "NephriteBelt(H)",
+    "type": "Belt"
+  },
+  {
+    "index": 116,
+    "name": "NephriteShoes(H)",
+    "friendlyName": "NephriteShoes(H)",
+    "type": "Boots"
+  },
+  {
+    "index": 117,
+    "name": "NephriteNecklace(H)",
+    "friendlyName": "NephriteNecklace(H)",
+    "type": "Necklace"
+  },
+  {
+    "index": 118,
+    "name": "NephriteBracelet(H)",
+    "friendlyName": "NephriteBracelet(H)",
+    "type": "Bracelet"
+  },
+  {
+    "index": 119,
+    "name": "NephriteRing(H)",
+    "friendlyName": "NephriteRing(H)",
+    "type": "Ring"
+  },
+  {
+    "index": 120,
+    "name": "MysteryHelmet",
+    "friendlyName": "MysteryHelmet",
+    "type": "Helmet"
+  },
+  {
+    "index": 121,
+    "name": "MysteryWheel",
+    "friendlyName": "MysteryWheel",
+    "type": "Bracelet"
+  },
+  {
+    "index": 122,
+    "name": "MysteryCircle",
+    "friendlyName": "MysteryCircle",
+    "type": "Ring"
+  },
+  {
+    "index": 123,
+    "name": "MysteryWater",
+    "friendlyName": "MysteryWater",
+    "type": "Potion"
+  },
+  {
+    "index": 124,
+    "name": "BootsOfStrength1",
+    "friendlyName": "BootsOfStrength",
+    "type": "Boots"
+  },
+  {
+    "index": 125,
+    "name": "BeltOfStrength1",
+    "friendlyName": "BeltOfStrength",
+    "type": "Belt"
+  },
+  {
+    "index": 126,
+    "name": "BootsOfStrength2",
+    "friendlyName": "BootsOfStrength",
+    "type": "Boots"
+  },
+  {
+    "index": 127,
+    "name": "BeltOfStrength2",
+    "friendlyName": "BeltOfStrength",
+    "type": "Belt"
+  },
+  {
+    "index": 128,
+    "name": "BootsOfStrength3",
+    "friendlyName": "BootsOfStrength",
+    "type": "Boots"
+  },
+  {
+    "index": 129,
+    "name": "BeltOfStrength3",
+    "friendlyName": "BeltOfStrength",
+    "type": "Belt"
+  },
+  {
+    "index": 130,
+    "name": "BootsOfStrength4",
+    "friendlyName": "BootsOfStrength",
+    "type": "Boots"
+  },
+  {
+    "index": 131,
+    "name": "BeltOfStrength4",
+    "friendlyName": "BeltOfStrength",
+    "type": "Belt"
+  },
+  {
+    "index": 132,
+    "name": "BootsOfStrength5",
+    "friendlyName": "BootsOfStrength",
+    "type": "Boots"
+  },
+  {
+    "index": 133,
+    "name": "BeltOfStrength5",
+    "friendlyName": "BeltOfStrength",
+    "type": "Belt"
+  },
+  {
+    "index": 134,
+    "name": "TarragonHelmet",
+    "friendlyName": "TarragonHelmet",
+    "type": "Helmet"
+  },
+  {
+    "index": 135,
+    "name": "TarragonBoots",
+    "friendlyName": "TarragonBoots",
+    "type": "Boots"
+  },
+  {
+    "index": 136,
+    "name": "TarragonBracelet",
+    "friendlyName": "TarragonBracelet",
+    "type": "Bracelet"
+  },
+  {
+    "index": 137,
+    "name": "TarragonRing",
+    "friendlyName": "TarragonRing",
+    "type": "Ring"
+  },
+  {
+    "index": 138,
+    "name": "TarragonBelt",
+    "friendlyName": "TarragonBelt",
+    "type": "Belt"
+  },
+  {
+    "index": 139,
+    "name": "TarragonNecklace",
+    "friendlyName": "TarragonNecklace",
+    "type": "Necklace"
+  },
+  {
+    "index": 140,
+    "name": "TarragonArmour(M)",
+    "friendlyName": "TarragonArmour(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 141,
+    "name": "TarragonArmour(M)1",
+    "friendlyName": "TarragonArmour(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 142,
+    "name": "TarragonArmour(M)2",
+    "friendlyName": "TarragonArmour(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 143,
+    "name": "TarragonArmour(M)3",
+    "friendlyName": "TarragonArmour(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 144,
+    "name": "TarragonArmour(M)4",
+    "friendlyName": "TarragonArmour(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 145,
+    "name": "TarragonArmour(M)5",
+    "friendlyName": "TarragonArmour(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 146,
+    "name": "TarragonArmour(F)",
+    "friendlyName": "TarragonArmour(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 147,
+    "name": "TarragonArmour(F)1",
+    "friendlyName": "TarragonArmour(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 148,
+    "name": "TarragonArmour(F)2",
+    "friendlyName": "TarragonArmour(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 149,
+    "name": "TarragonArmour(F)3",
+    "friendlyName": "TarragonArmour(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 150,
+    "name": "TarragonArmour(F)4",
+    "friendlyName": "TarragonArmour(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 151,
+    "name": "TarragonArmour(F)5",
+    "friendlyName": "TarragonArmour(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 152,
+    "name": "RaidersArmour(M)",
+    "friendlyName": "RaidersArmour(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 153,
+    "name": "RaidersArmour(M)1",
+    "friendlyName": "RaidersArmour(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 154,
+    "name": "RaidersArmour(M)2",
+    "friendlyName": "RaidersArmour(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 155,
+    "name": "RaidersArmour(M)3",
+    "friendlyName": "RaidersArmour(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 156,
+    "name": "RaidersArmour(M)4",
+    "friendlyName": "RaidersArmour(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 157,
+    "name": "RaidersArmour(M)5",
+    "friendlyName": "RaidersArmour(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 158,
+    "name": "RaidersArmour(F)",
+    "friendlyName": "RaidersArmour(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 159,
+    "name": "RaidersArmour(F)1",
+    "friendlyName": "RaidersArmour(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 160,
+    "name": "RaidersArmour(F)2",
+    "friendlyName": "RaidersArmour(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 161,
+    "name": "RaidersArmour(F)3",
+    "friendlyName": "RaidersArmour(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 162,
+    "name": "RaidersArmour(F)4",
+    "friendlyName": "RaidersArmour(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 163,
+    "name": "RaidersArmour(F)5",
+    "friendlyName": "RaidersArmour(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 164,
+    "name": "RaidersHelmet",
+    "friendlyName": "RaidersHelmet",
+    "type": "Helmet"
+  },
+  {
+    "index": 165,
+    "name": "RaidersHelmet1",
+    "friendlyName": "RaidersHelmet",
+    "type": "Helmet"
+  },
+  {
+    "index": 166,
+    "name": "RaidersHelmet2",
+    "friendlyName": "RaidersHelmet",
+    "type": "Helmet"
+  },
+  {
+    "index": 167,
+    "name": "RaidersHelmet3",
+    "friendlyName": "RaidersHelmet",
+    "type": "Helmet"
+  },
+  {
+    "index": 168,
+    "name": "RaidersHelmet4",
+    "friendlyName": "RaidersHelmet",
+    "type": "Helmet"
+  },
+  {
+    "index": 169,
+    "name": "RaidersHelmet5",
+    "friendlyName": "RaidersHelmet",
+    "type": "Helmet"
+  },
+  {
+    "index": 170,
+    "name": "RaidersGlove",
+    "friendlyName": "RaidersGlove",
+    "type": "Bracelet"
+  },
+  {
+    "index": 171,
+    "name": "RaidersGlove1",
+    "friendlyName": "RaidersGlove",
+    "type": "Bracelet"
+  },
+  {
+    "index": 172,
+    "name": "RaidersGlove2",
+    "friendlyName": "RaidersGlove",
+    "type": "Bracelet"
+  },
+  {
+    "index": 173,
+    "name": "RaidersGlove3",
+    "friendlyName": "RaidersGlove",
+    "type": "Bracelet"
+  },
+  {
+    "index": 174,
+    "name": "RaidersGlove4",
+    "friendlyName": "RaidersGlove",
+    "type": "Bracelet"
+  },
+  {
+    "index": 175,
+    "name": "RaidersGlove5",
+    "friendlyName": "RaidersGlove",
+    "type": "Bracelet"
+  },
+  {
+    "index": 176,
+    "name": "RaidersBoots",
+    "friendlyName": "RaidersBoots",
+    "type": "Boots"
+  },
+  {
+    "index": 177,
+    "name": "RaidersBoots1",
+    "friendlyName": "RaidersBoots",
+    "type": "Boots"
+  },
+  {
+    "index": 178,
+    "name": "RaidersBoots2",
+    "friendlyName": "RaidersBoots",
+    "type": "Boots"
+  },
+  {
+    "index": 179,
+    "name": "RaidersBoots3",
+    "friendlyName": "RaidersBoots",
+    "type": "Boots"
+  },
+  {
+    "index": 180,
+    "name": "RaidersBoots4",
+    "friendlyName": "RaidersBoots",
+    "type": "Boots"
+  },
+  {
+    "index": 181,
+    "name": "RaidersBoots5",
+    "friendlyName": "RaidersBoots",
+    "type": "Boots"
+  },
+  {
+    "index": 182,
+    "name": "NecklaceOfAgony",
+    "friendlyName": "NecklaceOfAgony",
+    "type": "Necklace"
+  },
+  {
+    "index": 183,
+    "name": "NecklaceOfAgony1",
+    "friendlyName": "NecklaceOfAgony",
+    "type": "Necklace"
+  },
+  {
+    "index": 184,
+    "name": "NecklaceOfAgony2",
+    "friendlyName": "NecklaceOfAgony",
+    "type": "Necklace"
+  },
+  {
+    "index": 185,
+    "name": "NecklaceOfAgony3",
+    "friendlyName": "NecklaceOfAgony",
+    "type": "Necklace"
+  },
+  {
+    "index": 186,
+    "name": "NecklaceOfAgony4",
+    "friendlyName": "NecklaceOfAgony",
+    "type": "Necklace"
+  },
+  {
+    "index": 187,
+    "name": "NecklaceOfAgony5",
+    "friendlyName": "NecklaceOfAgony",
+    "type": "Necklace"
+  },
+  {
+    "index": 188,
+    "name": "RingOfAgony",
+    "friendlyName": "RingOfAgony",
+    "type": "Ring"
+  },
+  {
+    "index": 189,
+    "name": "RingOfAgony1",
+    "friendlyName": "RingOfAgony",
+    "type": "Ring"
+  },
+  {
+    "index": 190,
+    "name": "RingOfAgony2",
+    "friendlyName": "RingOfAgony",
+    "type": "Ring"
+  },
+  {
+    "index": 191,
+    "name": "RingOfAgony3",
+    "friendlyName": "RingOfAgony",
+    "type": "Ring"
+  },
+  {
+    "index": 192,
+    "name": "RingOfAgony4",
+    "friendlyName": "RingOfAgony",
+    "type": "Ring"
+  },
+  {
+    "index": 193,
+    "name": "RingOfAgony5",
+    "friendlyName": "RingOfAgony",
+    "type": "Ring"
+  },
+  {
+    "index": 194,
+    "name": "BraceletOfAgony",
+    "friendlyName": "BraceletOfAgony",
+    "type": "Bracelet"
+  },
+  {
+    "index": 195,
+    "name": "BraceletOfAgony1",
+    "friendlyName": "BraceletOfAgony",
+    "type": "Bracelet"
+  },
+  {
+    "index": 196,
+    "name": "BraceletOfAgony2",
+    "friendlyName": "BraceletOfAgony",
+    "type": "Bracelet"
+  },
+  {
+    "index": 197,
+    "name": "BraceletOfAgony3",
+    "friendlyName": "BraceletOfAgony",
+    "type": "Bracelet"
+  },
+  {
+    "index": 198,
+    "name": "BraceletOfAgony4",
+    "friendlyName": "BraceletOfAgony",
+    "type": "Bracelet"
+  },
+  {
+    "index": 199,
+    "name": "BraceletOfAgony5",
+    "friendlyName": "BraceletOfAgony",
+    "type": "Bracelet"
+  },
+  {
+    "index": 200,
+    "name": "SparklingHelmet",
+    "friendlyName": "SparklingHelmet",
+    "type": "Helmet"
+  },
+  {
+    "index": 201,
+    "name": "SparklingBelt",
+    "friendlyName": "SparklingBelt",
+    "type": "Belt"
+  },
+  {
+    "index": 202,
+    "name": "SparklingBoots",
+    "friendlyName": "SparklingBoots",
+    "type": "Boots"
+  },
+  {
+    "index": 203,
+    "name": "HelmetOfDarkness",
+    "friendlyName": "HelmetOfDarkness",
+    "type": "Helmet"
+  },
+  {
+    "index": 204,
+    "name": "BeltOfDarkness",
+    "friendlyName": "BeltOfDarkness",
+    "type": "Belt"
+  },
+  {
+    "index": 205,
+    "name": "BootsOfDarkness",
+    "friendlyName": "BootsOfDarkness",
+    "type": "Boots"
+  },
+  {
+    "index": 206,
+    "name": "CheongboHelmet(WAR)",
+    "friendlyName": "CheongboHelmet(WAR)",
+    "type": "Helmet"
+  },
+  {
+    "index": 207,
+    "name": "CheongboBelt(WAR)",
+    "friendlyName": "CheongboBelt(WAR)",
+    "type": "Belt"
+  },
+  {
+    "index": 208,
+    "name": "CheongboBoots(WAR)",
+    "friendlyName": "CheongboBoots(WAR)",
+    "type": "Boots"
+  },
+  {
+    "index": 209,
+    "name": "CheongboHelmet(WIZ)",
+    "friendlyName": "CheongboHelmet(WIZ)",
+    "type": "Helmet"
+  },
+  {
+    "index": 210,
+    "name": "CheongboBelt(WIZ)",
+    "friendlyName": "CheongboBelt(WIZ)",
+    "type": "Belt"
+  },
+  {
+    "index": 211,
+    "name": "CheongboBoots(WIZ)",
+    "friendlyName": "CheongboBoots(WIZ)",
+    "type": "Boots"
+  },
+  {
+    "index": 212,
+    "name": "CheongboHelmet(TAO)",
+    "friendlyName": "CheongboHelmet(TAO)",
+    "type": "Helmet"
+  },
+  {
+    "index": 213,
+    "name": "CheongboBelt(TAO)",
+    "friendlyName": "CheongboBelt(TAO)",
+    "type": "Belt"
+  },
+  {
+    "index": 214,
+    "name": "CheongboBoots(TAO)",
+    "friendlyName": "CheongboBoots(TAO)",
+    "type": "Boots"
+  },
+  {
+    "index": 215,
+    "name": "CheongboHelmet(ASSA)",
+    "friendlyName": "CheongboHelmet(ASSA)",
+    "type": "Helmet"
+  },
+  {
+    "index": 216,
+    "name": "CheongboBelt(ASSA)",
+    "friendlyName": "CheongboBelt(ASSA)",
+    "type": "Belt"
+  },
+  {
+    "index": 217,
+    "name": "CheongboBoots(ASSA)",
+    "friendlyName": "CheongboBoots(ASSA)",
+    "type": "Boots"
+  },
+  {
+    "index": 218,
+    "name": "CheongboHelmet(ARCH)",
+    "friendlyName": "CheongboHelmet(ARCH)",
+    "type": "Helmet"
+  },
+  {
+    "index": 219,
+    "name": "CheongboBelt(ARCH)",
+    "friendlyName": "CheongboBelt(ARCH)",
+    "type": "Belt"
+  },
+  {
+    "index": 220,
+    "name": "CheongboBoots(ARCH)",
+    "friendlyName": "CheongboBoots(ARCH)",
+    "type": "Boots"
+  },
+  {
+    "index": 221,
+    "name": "WoodenSword",
+    "friendlyName": "WoodenSword",
+    "type": "Weapon"
+  },
+  {
+    "index": 222,
+    "name": "Dagger",
+    "friendlyName": "Dagger",
+    "type": "Weapon"
+  },
+  {
+    "index": 223,
+    "name": "EbonySword",
+    "friendlyName": "EbonySword",
+    "type": "Weapon"
+  },
+  {
+    "index": 224,
+    "name": "BronzeSword",
+    "friendlyName": "BronzeSword",
+    "type": "Weapon"
+  },
+  {
+    "index": 225,
+    "name": "ShortSword",
+    "friendlyName": "ShortSword",
+    "type": "Weapon"
+  },
+  {
+    "index": 226,
+    "name": "IronSword",
+    "friendlyName": "IronSword",
+    "type": "Weapon"
+  },
+  {
+    "index": 227,
+    "name": "BronzeAxe",
+    "friendlyName": "BronzeAxe",
+    "type": "Weapon"
+  },
+  {
+    "index": 228,
+    "name": "SteelAxe",
+    "friendlyName": "SteelAxe",
+    "type": "Weapon"
+  },
+  {
+    "index": 229,
+    "name": "SteelSword",
+    "friendlyName": "SteelSword",
+    "type": "Weapon"
+  },
+  {
+    "index": 230,
+    "name": "PrinceDagger",
+    "friendlyName": "PrinceDagger",
+    "type": "Weapon"
+  },
+  {
+    "index": 231,
+    "name": "FireBloodSword",
+    "friendlyName": "FireBloodSword",
+    "type": "Weapon"
+  },
+  {
+    "index": 232,
+    "name": "HellYamaBlade",
+    "friendlyName": "HellYamaBlade",
+    "type": "Weapon"
+  },
+  {
+    "index": 233,
+    "name": "HellYamaBlade1",
+    "friendlyName": "HellYamaBlade",
+    "type": "Weapon"
+  },
+  {
+    "index": 234,
+    "name": "HellYamaBlade2",
+    "friendlyName": "HellYamaBlade",
+    "type": "Weapon"
+  },
+  {
+    "index": 235,
+    "name": "HellYamaBlade3",
+    "friendlyName": "HellYamaBlade",
+    "type": "Weapon"
+  },
+  {
+    "index": 236,
+    "name": "HellYamaBlade4",
+    "friendlyName": "HellYamaBlade",
+    "type": "Weapon"
+  },
+  {
+    "index": 237,
+    "name": "HellYamaBlade5",
+    "friendlyName": "HellYamaBlade",
+    "type": "Weapon"
+  },
+  {
+    "index": 238,
+    "name": "HookedSword",
+    "friendlyName": "HookedSword",
+    "type": "Weapon"
+  },
+  {
+    "index": 239,
+    "name": "MartialSword",
+    "friendlyName": "MartialSword",
+    "type": "Weapon"
+  },
+  {
+    "index": 240,
+    "name": "PowerAxe",
+    "friendlyName": "PowerAxe",
+    "type": "Weapon"
+  },
+  {
+    "index": 241,
+    "name": "PurifierSword",
+    "friendlyName": "PurifierSword",
+    "type": "Weapon"
+  },
+  {
+    "index": 242,
+    "name": "GreatAxe",
+    "friendlyName": "GreatAxe",
+    "type": "Weapon"
+  },
+  {
+    "index": 243,
+    "name": "ZumaJudgementMace",
+    "friendlyName": "ZumaJudgementMace",
+    "type": "Weapon"
+  },
+  {
+    "index": 244,
+    "name": "JudgementMace",
+    "friendlyName": "JudgementMace",
+    "type": "Weapon"
+  },
+  {
+    "index": 245,
+    "name": "DragonSword",
+    "friendlyName": "DragonSword",
+    "type": "Weapon"
+  },
+  {
+    "index": 246,
+    "name": "BlackDragonSlayer",
+    "friendlyName": "BlackDragonSlayer",
+    "type": "Weapon"
+  },
+  {
+    "index": 247,
+    "name": "WarSpiritBlade",
+    "friendlyName": "WarSpiritBlade",
+    "type": "Weapon"
+  },
+  {
+    "index": 248,
+    "name": "DragonSlayer",
+    "friendlyName": "DragonSlayer",
+    "type": "Weapon"
+  },
+  {
+    "index": 249,
+    "name": "SwordOfWarGod",
+    "friendlyName": "SwordOfWarGod",
+    "type": "Weapon"
+  },
+  {
+    "index": 250,
+    "name": "BurstSword",
+    "friendlyName": "BurstSword",
+    "type": "Weapon"
+  },
+  {
+    "index": 251,
+    "name": "FrozenSabre",
+    "friendlyName": "FrozenSabre",
+    "type": "Weapon"
+  },
+  {
+    "index": 252,
+    "name": "BlackTigerHammer",
+    "friendlyName": "BlackTigerHammer",
+    "type": "Weapon"
+  },
+  {
+    "index": 253,
+    "name": "BarbarianSword",
+    "friendlyName": "BarbarianSword",
+    "type": "Weapon"
+  },
+  {
+    "index": 254,
+    "name": "Trident",
+    "friendlyName": "Trident",
+    "type": "Weapon"
+  },
+  {
+    "index": 255,
+    "name": "HookedSpear",
+    "friendlyName": "HookedSpear",
+    "type": "Weapon"
+  },
+  {
+    "index": 256,
+    "name": "MageStaff",
+    "friendlyName": "MageStaff",
+    "type": "Weapon"
+  },
+  {
+    "index": 257,
+    "name": "BloodStealerSword",
+    "friendlyName": "BloodStealerSword",
+    "type": "Weapon"
+  },
+  {
+    "index": 258,
+    "name": "ZumaWarMageStaff",
+    "friendlyName": "ZumaWarMageStaff",
+    "type": "Weapon"
+  },
+  {
+    "index": 259,
+    "name": "WarMageStaff",
+    "friendlyName": "WarMageStaff",
+    "type": "Weapon"
+  },
+  {
+    "index": 260,
+    "name": "BlackDragonStaff",
+    "friendlyName": "BlackDragonStaff",
+    "type": "Weapon"
+  },
+  {
+    "index": 261,
+    "name": "MagicScythe",
+    "friendlyName": "MagicScythe",
+    "type": "Weapon"
+  },
+  {
+    "index": 262,
+    "name": "DragonStaff",
+    "friendlyName": "DragonStaff",
+    "type": "Weapon"
+  },
+  {
+    "index": 263,
+    "name": "BladeOfSorcery",
+    "friendlyName": "BladeOfSorcery",
+    "type": "Weapon"
+  },
+  {
+    "index": 264,
+    "name": "HolyBloodSpear",
+    "friendlyName": "HolyBloodSpear",
+    "type": "Weapon"
+  },
+  {
+    "index": 265,
+    "name": "ConquerorSpear",
+    "friendlyName": "ConquerorSpear",
+    "type": "Weapon"
+  },
+  {
+    "index": 266,
+    "name": "StaffOfLotus",
+    "friendlyName": "StaffOfLotus",
+    "type": "Weapon"
+  },
+  {
+    "index": 267,
+    "name": "RawSword",
+    "friendlyName": "RawSword",
+    "type": "Weapon"
+  },
+  {
+    "index": 268,
+    "name": "Scimitar",
+    "friendlyName": "Scimitar",
+    "type": "Weapon"
+  },
+  {
+    "index": 269,
+    "name": "KrissSword",
+    "friendlyName": "KrissSword",
+    "type": "Weapon"
+  },
+  {
+    "index": 270,
+    "name": "SerpentSword",
+    "friendlyName": "SerpentSword",
+    "type": "Weapon"
+  },
+  {
+    "index": 271,
+    "name": "ZumaSoulSpringWand",
+    "friendlyName": "ZumaSoulSpringWand",
+    "type": "Weapon"
+  },
+  {
+    "index": 272,
+    "name": "SoulSpringWand",
+    "friendlyName": "SoulSpringWand",
+    "type": "Weapon"
+  },
+  {
+    "index": 273,
+    "name": "BlackDragonSoulSabre",
+    "friendlyName": "BlackDragonSoulSabre",
+    "type": "Weapon"
+  },
+  {
+    "index": 274,
+    "name": "StoneBambooFan",
+    "friendlyName": "StoneBambooFan",
+    "type": "Weapon"
+  },
+  {
+    "index": 275,
+    "name": "SoulSabre",
+    "friendlyName": "SoulSabre",
+    "type": "Weapon"
+  },
+  {
+    "index": 276,
+    "name": "HeavenSword",
+    "friendlyName": "HeavenSword",
+    "type": "Weapon"
+  },
+  {
+    "index": 277,
+    "name": "DragonBloodSword",
+    "friendlyName": "DragonBloodSword",
+    "type": "Weapon"
+  },
+  {
+    "index": 278,
+    "name": "BastardSword",
+    "friendlyName": "BastardSword",
+    "type": "Weapon"
+  },
+  {
+    "index": 279,
+    "name": "FanOfCrane",
+    "friendlyName": "FanOfCrane",
+    "type": "Weapon"
+  },
+  {
+    "index": 280,
+    "name": "BoneCarvedFan",
+    "friendlyName": "BoneCarvedFan",
+    "type": "Weapon"
+  },
+  {
+    "index": 281,
+    "name": "HoaSword",
+    "friendlyName": "HoaSword",
+    "type": "Weapon"
+  },
+  {
+    "index": 282,
+    "name": "ToughHoaSword",
+    "friendlyName": "ToughHoaSword",
+    "type": "Weapon"
+  },
+  {
+    "index": 283,
+    "name": "SharpHoaSword",
+    "friendlyName": "SharpHoaSword",
+    "type": "Weapon"
+  },
+  {
+    "index": 284,
+    "name": "BladesOfVelocity",
+    "friendlyName": "BladesOfVelocity",
+    "type": "Weapon"
+  },
+  {
+    "index": 285,
+    "name": "IronBlades",
+    "friendlyName": "IronBlades",
+    "type": "Weapon"
+  },
+  {
+    "index": 286,
+    "name": "DoubleBlades",
+    "friendlyName": "DoubleBlades",
+    "type": "Weapon"
+  },
+  {
+    "index": 287,
+    "name": "ZumaBlades",
+    "friendlyName": "ZumaBlades",
+    "type": "Weapon"
+  },
+  {
+    "index": 288,
+    "name": "BladesOfDarkness",
+    "friendlyName": "BladesOfDarkness",
+    "type": "Weapon"
+  },
+  {
+    "index": 289,
+    "name": "Dragon'sRoyalBlades",
+    "friendlyName": "Dragon'sRoyalBlades",
+    "type": "Weapon"
+  },
+  {
+    "index": 290,
+    "name": "FreezingBlades",
+    "friendlyName": "FreezingBlades",
+    "type": "Weapon"
+  },
+  {
+    "index": 291,
+    "name": "RoyalBlades",
+    "friendlyName": "RoyalBlades",
+    "type": "Weapon"
+  },
+  {
+    "index": 292,
+    "name": "BladesOfMagi",
+    "friendlyName": "BladesOfMagi",
+    "type": "Weapon"
+  },
+  {
+    "index": 293,
+    "name": "Stiletto",
+    "friendlyName": "Stiletto",
+    "type": "Weapon"
+  },
+  {
+    "index": 294,
+    "name": "ZincBlades",
+    "friendlyName": "ZincBlades",
+    "type": "Weapon"
+  },
+  {
+    "index": 295,
+    "name": "ButcheringBlades",
+    "friendlyName": "ButcheringBlades",
+    "type": "Weapon"
+  },
+  {
+    "index": 296,
+    "name": "TheRipper",
+    "friendlyName": "TheRipper",
+    "type": "Weapon"
+  },
+  {
+    "index": 297,
+    "name": "MadDragonBlades",
+    "friendlyName": "MadDragonBlades",
+    "type": "Weapon"
+  },
+  {
+    "index": 298,
+    "name": "WoodenBow",
+    "friendlyName": "WoodenBow",
+    "type": "Weapon"
+  },
+  {
+    "index": 299,
+    "name": "EbonyBow",
+    "friendlyName": "EbonyBow",
+    "type": "Weapon"
+  },
+  {
+    "index": 300,
+    "name": "ShortBow",
+    "friendlyName": "ShortBow",
+    "type": "Weapon"
+  },
+  {
+    "index": 301,
+    "name": "BoneBow",
+    "friendlyName": "BoneBow",
+    "type": "Weapon"
+  },
+  {
+    "index": 302,
+    "name": "CompoundBow",
+    "friendlyName": "CompoundBow",
+    "type": "Weapon"
+  },
+  {
+    "index": 303,
+    "name": "LongBow",
+    "friendlyName": "LongBow",
+    "type": "Weapon"
+  },
+  {
+    "index": 304,
+    "name": "SilverBow",
+    "friendlyName": "SilverBow",
+    "type": "Weapon"
+  },
+  {
+    "index": 305,
+    "name": "ZumaFiendBow",
+    "friendlyName": "ZumaFiendBow",
+    "type": "Weapon"
+  },
+  {
+    "index": 306,
+    "name": "FiendBow",
+    "friendlyName": "FiendBow",
+    "type": "Weapon"
+  },
+  {
+    "index": 307,
+    "name": "CursedMaleficBow",
+    "friendlyName": "CursedMaleficBow",
+    "type": "Weapon"
+  },
+  {
+    "index": 308,
+    "name": "LitheBow",
+    "friendlyName": "LitheBow",
+    "type": "Weapon"
+  },
+  {
+    "index": 309,
+    "name": "MaleficBow",
+    "friendlyName": "MaleficBow",
+    "type": "Weapon"
+  },
+  {
+    "index": 310,
+    "name": "BowOfForce",
+    "friendlyName": "BowOfForce",
+    "type": "Weapon"
+  },
+  {
+    "index": 311,
+    "name": "DreadBow",
+    "friendlyName": "DreadBow",
+    "type": "Weapon"
+  },
+  {
+    "index": 312,
+    "name": "GrimBow",
+    "friendlyName": "GrimBow",
+    "type": "Weapon"
+  },
+  {
+    "index": 313,
+    "name": "LethalBow",
+    "friendlyName": "LethalBow",
+    "type": "Weapon"
+  },
+  {
+    "index": 314,
+    "name": "ApusBow",
+    "friendlyName": "ApusBow",
+    "type": "Weapon"
+  },
+  {
+    "index": 315,
+    "name": "DeathBow",
+    "friendlyName": "DeathBow",
+    "type": "Weapon"
+  },
+  {
+    "index": 316,
+    "name": "BloodThirstyBow",
+    "friendlyName": "BloodThirstyBow",
+    "type": "Weapon"
+  },
+  {
+    "index": 317,
+    "name": "BaseDress(M)",
+    "friendlyName": "BaseDress(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 318,
+    "name": "BaseDress(F)",
+    "friendlyName": "BaseDress(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 319,
+    "name": "LightArmour(M)",
+    "friendlyName": "LightArmour(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 320,
+    "name": "LightArmour(F)",
+    "friendlyName": "LightArmour(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 321,
+    "name": "MediumArmour(M)",
+    "friendlyName": "MediumArmour(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 322,
+    "name": "MediumArmour(F)",
+    "friendlyName": "MediumArmour(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 323,
+    "name": "HeavyArmour(M)",
+    "friendlyName": "HeavyArmour(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 324,
+    "name": "HeavyArmour(F)",
+    "friendlyName": "HeavyArmour(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 325,
+    "name": "MagicRobe(M)",
+    "friendlyName": "MagicRobe(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 326,
+    "name": "MagicRobe(F)",
+    "friendlyName": "MagicRobe(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 327,
+    "name": "SoulArmour(M)",
+    "friendlyName": "SoulArmour(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 328,
+    "name": "SoulArmour(F)",
+    "friendlyName": "SoulArmour(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 329,
+    "name": "RelicArmour(M)",
+    "friendlyName": "RelicArmour(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 330,
+    "name": "RelicArmour(F)",
+    "friendlyName": "RelicArmour(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 331,
+    "name": "LightLeatherArmour(M)",
+    "friendlyName": "LightLeatherArmour(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 332,
+    "name": "LightLeatherArmour(F)",
+    "friendlyName": "LightLeatherArmour(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 333,
+    "name": "IronArmour(M)",
+    "friendlyName": "IronArmour(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 334,
+    "name": "IronArmour(F)",
+    "friendlyName": "IronArmour(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 335,
+    "name": "WizardRobe(M)",
+    "friendlyName": "WizardRobe(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 336,
+    "name": "WitchRobe(F)",
+    "friendlyName": "WitchRobe(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 337,
+    "name": "PearlArmour(M)",
+    "friendlyName": "PearlArmour(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 338,
+    "name": "PearlArmour(F)",
+    "friendlyName": "PearlArmour(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 339,
+    "name": "AncientArmour(M)",
+    "friendlyName": "AncientArmour(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 340,
+    "name": "AncientArmour(F)",
+    "friendlyName": "AncientArmour(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 341,
+    "name": "TemperedArmour(M)",
+    "friendlyName": "TemperedArmour(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 342,
+    "name": "TemperedArmour(F)",
+    "friendlyName": "TemperedArmour(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 343,
+    "name": "SteelArmour(M)",
+    "friendlyName": "SteelArmour(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 344,
+    "name": "SteelArmour(F)",
+    "friendlyName": "SteelArmour(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 345,
+    "name": "DragonRobe(M)",
+    "friendlyName": "DragonRobe(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 346,
+    "name": "DragonRobe(F)",
+    "friendlyName": "DragonRobe(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 347,
+    "name": "TitanArmour(M)",
+    "friendlyName": "TitanArmour(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 348,
+    "name": "TitanArmour(F)",
+    "friendlyName": "TitanArmour(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 349,
+    "name": "RoyalArmour(M)",
+    "friendlyName": "RoyalArmour(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 350,
+    "name": "RoyalArmour(F)",
+    "friendlyName": "RoyalArmour(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 351,
+    "name": "StuddedArmour(M)",
+    "friendlyName": "StuddedArmour(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 352,
+    "name": "StuddedArmour(F)",
+    "friendlyName": "StuddedArmour(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 353,
+    "name": "BlackTigerArmour(M)",
+    "friendlyName": "BlackTigerArmour(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 354,
+    "name": "BlackTigerArmour(F)",
+    "friendlyName": "BlackTigerArmour(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 355,
+    "name": "LotusArmour(M)",
+    "friendlyName": "LotusArmour(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 356,
+    "name": "LotusArmour(F)",
+    "friendlyName": "LotusArmour(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 357,
+    "name": "CraneArmour(M)",
+    "friendlyName": "CraneArmour(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 358,
+    "name": "CraneArmour(F)",
+    "friendlyName": "CraneArmour(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 359,
+    "name": "StealthArmour(M)",
+    "friendlyName": "StealthArmour(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 360,
+    "name": "StealthArmour(F)",
+    "friendlyName": "StealthArmour(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 361,
+    "name": "LightTemperedArmour(M)",
+    "friendlyName": "LightTemperedArmour(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 362,
+    "name": "LightTemperedArmour(F)",
+    "friendlyName": "LightTemperedArmour(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 363,
+    "name": "BlueDarkArmour(M)",
+    "friendlyName": "BlueDarkArmour(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 364,
+    "name": "BlueDarkArmour(F)",
+    "friendlyName": "BlueDarkArmour(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 365,
+    "name": "RedDarkArmour(M)",
+    "friendlyName": "RedDarkArmour(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 366,
+    "name": "RedDarkArmour(F)",
+    "friendlyName": "RedDarkArmour(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 367,
+    "name": "GreenDarkArmour(M)",
+    "friendlyName": "GreenDarkArmour(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 368,
+    "name": "GreenDarkArmour(F)",
+    "friendlyName": "GreenDarkArmour(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 369,
+    "name": "GoldDarkArmour(M)",
+    "friendlyName": "GoldDarkArmour(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 370,
+    "name": "GoldDarkArmour(F)",
+    "friendlyName": "GoldDarkArmour(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 371,
+    "name": "ScaledArmour(M)",
+    "friendlyName": "ScaledArmour(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 372,
+    "name": "ScaledArmour(F)",
+    "friendlyName": "ScaledArmour(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 373,
+    "name": "CrystalArmour(M)",
+    "friendlyName": "CrystalArmour(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 374,
+    "name": "CrystalArmour(F)",
+    "friendlyName": "CrystalArmour(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 375,
+    "name": "HeavenArmour(M)",
+    "friendlyName": "HeavenArmour(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 376,
+    "name": "HeavenArmour(M)1",
+    "friendlyName": "HeavenArmour(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 377,
+    "name": "HeavenArmour(M)2",
+    "friendlyName": "HeavenArmour(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 378,
+    "name": "HeavenArmour(M)3",
+    "friendlyName": "HeavenArmour(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 379,
+    "name": "HeavenArmour(F)",
+    "friendlyName": "HeavenArmour(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 380,
+    "name": "HeavenArmour(F)1",
+    "friendlyName": "HeavenArmour(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 381,
+    "name": "HeavenArmour(F)2",
+    "friendlyName": "HeavenArmour(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 382,
+    "name": "HeavenArmour(F)3",
+    "friendlyName": "HeavenArmour(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 383,
+    "name": "OmaKingRobe(M)",
+    "friendlyName": "OmaKingRobe(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 384,
+    "name": "OmaKingRobe(M)1",
+    "friendlyName": "OmaKingRobe(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 385,
+    "name": "OmaKingRobe(M)2",
+    "friendlyName": "OmaKingRobe(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 386,
+    "name": "OmaKingRobe(M)3",
+    "friendlyName": "OmaKingRobe(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 387,
+    "name": "OmaKingRobe(M)4",
+    "friendlyName": "OmaKingRobe(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 388,
+    "name": "OmaKingRobe(M)5",
+    "friendlyName": "OmaKingRobe(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 389,
+    "name": "OmaKingRobe(F)",
+    "friendlyName": "OmaKingRobe(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 390,
+    "name": "OmaKingRobe(F)1",
+    "friendlyName": "OmaKingRobe(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 391,
+    "name": "OmaKingRobe(F)2",
+    "friendlyName": "OmaKingRobe(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 392,
+    "name": "OmaKingRobe(F)3",
+    "friendlyName": "OmaKingRobe(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 393,
+    "name": "OmaKingRobe(F)4",
+    "friendlyName": "OmaKingRobe(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 394,
+    "name": "OmaKingRobe(F)5",
+    "friendlyName": "OmaKingRobe(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 395,
+    "name": "ParalysisRing",
+    "friendlyName": "ParalysisRing",
+    "type": "Ring"
+  },
+  {
+    "index": 396,
+    "name": "TeleportRing",
+    "friendlyName": "TeleportRing",
+    "type": "Ring"
+  },
+  {
+    "index": 397,
+    "name": "ClearRing",
+    "friendlyName": "ClearRing",
+    "type": "Ring"
+  },
+  {
+    "index": 398,
+    "name": "ProtectionRing",
+    "friendlyName": "ProtectionRing",
+    "type": "Ring"
+  },
+  {
+    "index": 399,
+    "name": "RevivalRing",
+    "friendlyName": "RevivalRing",
+    "type": "Ring"
+  },
+  {
+    "index": 400,
+    "name": "MuscleRing",
+    "friendlyName": "MuscleRing",
+    "type": "Ring"
+  },
+  {
+    "index": 401,
+    "name": "FlameRing",
+    "friendlyName": "FlameRing",
+    "type": "Ring"
+  },
+  {
+    "index": 402,
+    "name": "RecoveryRing",
+    "friendlyName": "RecoveryRing",
+    "type": "Ring"
+  },
+  {
+    "index": 403,
+    "name": "HardenedRing",
+    "friendlyName": "HardenedRing",
+    "type": "Ring"
+  },
+  {
+    "index": 404,
+    "name": "CopperRing",
+    "friendlyName": "CopperRing",
+    "type": "Ring"
+  },
+  {
+    "index": 405,
+    "name": "HexagonalRing",
+    "friendlyName": "HexagonalRing",
+    "type": "Ring"
+  },
+  {
+    "index": 406,
+    "name": "GlassRing",
+    "friendlyName": "GlassRing",
+    "type": "Ring"
+  },
+  {
+    "index": 407,
+    "name": "HornRing",
+    "friendlyName": "HornRing",
+    "type": "Ring"
+  },
+  {
+    "index": 408,
+    "name": "IronRing",
+    "friendlyName": "IronRing",
+    "type": "Ring"
+  },
+  {
+    "index": 409,
+    "name": "WhiteJadeRing",
+    "friendlyName": "WhiteJadeRing",
+    "type": "Ring"
+  },
+  {
+    "index": 410,
+    "name": "BlueRing",
+    "friendlyName": "BlueRing",
+    "type": "Ring"
+  },
+  {
+    "index": 411,
+    "name": "GaleRing",
+    "friendlyName": "GaleRing",
+    "type": "Ring"
+  },
+  {
+    "index": 412,
+    "name": "SkeletonRing",
+    "friendlyName": "SkeletonRing",
+    "type": "Ring"
+  },
+  {
+    "index": 413,
+    "name": "BlackRing",
+    "friendlyName": "BlackRing",
+    "type": "Ring"
+  },
+  {
+    "index": 414,
+    "name": "SerpentEyeRing",
+    "friendlyName": "SerpentEyeRing",
+    "type": "Ring"
+  },
+  {
+    "index": 415,
+    "name": "PearlRing",
+    "friendlyName": "PearlRing",
+    "type": "Ring"
+  },
+  {
+    "index": 416,
+    "name": "GoldRing",
+    "friendlyName": "GoldRing",
+    "type": "Ring"
+  },
+  {
+    "index": 417,
+    "name": "CharmRing",
+    "friendlyName": "CharmRing",
+    "type": "Ring"
+  },
+  {
+    "index": 418,
+    "name": "MoralRing",
+    "friendlyName": "MoralRing",
+    "type": "Ring"
+  },
+  {
+    "index": 419,
+    "name": "ExpelRing",
+    "friendlyName": "ExpelRing",
+    "type": "Ring"
+  },
+  {
+    "index": 420,
+    "name": "CoralRing",
+    "friendlyName": "CoralRing",
+    "type": "Ring"
+  },
+  {
+    "index": 421,
+    "name": "RubyRing",
+    "friendlyName": "RubyRing",
+    "type": "Ring"
+  },
+  {
+    "index": 422,
+    "name": "PlatinumRing",
+    "friendlyName": "PlatinumRing",
+    "type": "Ring"
+  },
+  {
+    "index": 423,
+    "name": "DragonRing",
+    "friendlyName": "DragonRing",
+    "type": "Ring"
+  },
+  {
+    "index": 424,
+    "name": "EvilSlayerRing",
+    "friendlyName": "EvilSlayerRing",
+    "type": "Ring"
+  },
+  {
+    "index": 425,
+    "name": "JadeSnowRing",
+    "friendlyName": "JadeSnowRing",
+    "type": "Ring"
+  },
+  {
+    "index": 426,
+    "name": "TwinGoldRing",
+    "friendlyName": "TwinGoldRing",
+    "type": "Ring"
+  },
+  {
+    "index": 427,
+    "name": "PowerRing",
+    "friendlyName": "PowerRing",
+    "type": "Ring"
+  },
+  {
+    "index": 428,
+    "name": "VioletRing",
+    "friendlyName": "VioletRing",
+    "type": "Ring"
+  },
+  {
+    "index": 429,
+    "name": "TitanRing",
+    "friendlyName": "TitanRing",
+    "type": "Ring"
+  },
+  {
+    "index": 430,
+    "name": "BoundlessRing",
+    "friendlyName": "BoundlessRing",
+    "type": "Ring"
+  },
+  {
+    "index": 431,
+    "name": "ThunderRing",
+    "friendlyName": "ThunderRing",
+    "type": "Ring"
+  },
+  {
+    "index": 432,
+    "name": "TaeGukRing",
+    "friendlyName": "TaeGukRing",
+    "type": "Ring"
+  },
+  {
+    "index": 433,
+    "name": "OmaSpiritRing",
+    "friendlyName": "OmaSpiritRing",
+    "type": "Ring"
+  },
+  {
+    "index": 434,
+    "name": "NobleRing",
+    "friendlyName": "NobleRing",
+    "type": "Ring"
+  },
+  {
+    "index": 435,
+    "name": "SoulRing",
+    "friendlyName": "SoulRing",
+    "type": "Ring"
+  },
+  {
+    "index": 436,
+    "name": "PledgeRing",
+    "friendlyName": "PledgeRing",
+    "type": "Ring"
+  },
+  {
+    "index": 437,
+    "name": "CrimsonRubyRing",
+    "friendlyName": "CrimsonRubyRing",
+    "type": "Ring"
+  },
+  {
+    "index": 438,
+    "name": "FiveElementRing",
+    "friendlyName": "FiveElementRing",
+    "type": "Ring"
+  },
+  {
+    "index": 439,
+    "name": "GoldDragonRing",
+    "friendlyName": "GoldDragonRing",
+    "type": "Ring"
+  },
+  {
+    "index": 440,
+    "name": "DemonRubyRing",
+    "friendlyName": "DemonRubyRing",
+    "type": "Ring"
+  },
+  {
+    "index": 441,
+    "name": "EvilExpelRing",
+    "friendlyName": "EvilExpelRing",
+    "type": "Ring"
+  },
+  {
+    "index": 442,
+    "name": "PurpleFoxRing",
+    "friendlyName": "PurpleFoxRing",
+    "type": "Ring"
+  },
+  {
+    "index": 443,
+    "name": "RedFoxRing",
+    "friendlyName": "RedFoxRing",
+    "type": "Ring"
+  },
+  {
+    "index": 444,
+    "name": "BlueFoxRing",
+    "friendlyName": "BlueFoxRing",
+    "type": "Ring"
+  },
+  {
+    "index": 445,
+    "name": "GreatPurpleFoxRing",
+    "friendlyName": "GreatPurpleFoxRing",
+    "type": "Ring"
+  },
+  {
+    "index": 446,
+    "name": "GreatRedFoxRing",
+    "friendlyName": "GreatRedFoxRing",
+    "type": "Ring"
+  },
+  {
+    "index": 447,
+    "name": "GreatBlueFoxRing",
+    "friendlyName": "GreatBlueFoxRing",
+    "type": "Ring"
+  },
+  {
+    "index": 448,
+    "name": "SurvivalRing",
+    "friendlyName": "SurvivalRing",
+    "type": "Ring"
+  },
+  {
+    "index": 449,
+    "name": "SealRing",
+    "friendlyName": "SealRing",
+    "type": "Ring"
+  },
+  {
+    "index": 450,
+    "name": "TajiRing",
+    "friendlyName": "TajiRing",
+    "type": "Ring"
+  },
+  {
+    "index": 451,
+    "name": "CraftRing1",
+    "friendlyName": "CraftRing",
+    "type": "Ring"
+  },
+  {
+    "index": 452,
+    "name": "CraftRing2",
+    "friendlyName": "CraftRing",
+    "type": "Ring"
+  },
+  {
+    "index": 453,
+    "name": "CraftRing3",
+    "friendlyName": "CraftRing",
+    "type": "Ring"
+  },
+  {
+    "index": 454,
+    "name": "CraftRing4",
+    "friendlyName": "CraftRing",
+    "type": "Ring"
+  },
+  {
+    "index": 455,
+    "name": "CraftRing5",
+    "friendlyName": "CraftRing",
+    "type": "Ring"
+  },
+  {
+    "index": 456,
+    "name": "CraftRing6",
+    "friendlyName": "CraftRing",
+    "type": "Ring"
+  },
+  {
+    "index": 457,
+    "name": "CraftRing7",
+    "friendlyName": "CraftRing",
+    "type": "Ring"
+  },
+  {
+    "index": 458,
+    "name": "CraftRing8",
+    "friendlyName": "CraftRing",
+    "type": "Ring"
+  },
+  {
+    "index": 459,
+    "name": "CraftRing9",
+    "friendlyName": "CraftRing",
+    "type": "Ring"
+  },
+  {
+    "index": 460,
+    "name": "CraftRing10",
+    "friendlyName": "CraftRing",
+    "type": "Ring"
+  },
+  {
+    "index": 461,
+    "name": "RedDemonRing",
+    "friendlyName": "RedDemonRing",
+    "type": "Ring"
+  },
+  {
+    "index": 462,
+    "name": "CloudRing",
+    "friendlyName": "CloudRing",
+    "type": "Ring"
+  },
+  {
+    "index": 463,
+    "name": "PoisonRing",
+    "friendlyName": "PoisonRing",
+    "type": "Ring"
+  },
+  {
+    "index": 464,
+    "name": "EvilDragonRing",
+    "friendlyName": "EvilDragonRing",
+    "type": "Ring"
+  },
+  {
+    "index": 465,
+    "name": "EvilDragonRing1",
+    "friendlyName": "EvilDragonRing",
+    "type": "Ring"
+  },
+  {
+    "index": 466,
+    "name": "EvilDragonRing2",
+    "friendlyName": "EvilDragonRing",
+    "type": "Ring"
+  },
+  {
+    "index": 467,
+    "name": "EvilDragonRing3",
+    "friendlyName": "EvilDragonRing",
+    "type": "Ring"
+  },
+  {
+    "index": 468,
+    "name": "EvilDragonRing4",
+    "friendlyName": "EvilDragonRing",
+    "type": "Ring"
+  },
+  {
+    "index": 469,
+    "name": "EvilDragonRing5",
+    "friendlyName": "EvilDragonRing",
+    "type": "Ring"
+  },
+  {
+    "index": 470,
+    "name": "RDragonRing",
+    "friendlyName": "RDragonRing",
+    "type": "Ring"
+  },
+  {
+    "index": 471,
+    "name": "RDragonRing1",
+    "friendlyName": "RDragonRing",
+    "type": "Ring"
+  },
+  {
+    "index": 472,
+    "name": "RDragonRing2",
+    "friendlyName": "RDragonRing",
+    "type": "Ring"
+  },
+  {
+    "index": 473,
+    "name": "RDragonRing3",
+    "friendlyName": "RDragonRing",
+    "type": "Ring"
+  },
+  {
+    "index": 474,
+    "name": "RDragonRing4",
+    "friendlyName": "RDragonRing",
+    "type": "Ring"
+  },
+  {
+    "index": 475,
+    "name": "RDragonRing5",
+    "friendlyName": "RDragonRing",
+    "type": "Ring"
+  },
+  {
+    "index": 476,
+    "name": "IronBracelet",
+    "friendlyName": "IronBracelet",
+    "type": "Bracelet"
+  },
+  {
+    "index": 477,
+    "name": "ThinBracelet",
+    "friendlyName": "ThinBracelet",
+    "type": "Bracelet"
+  },
+  {
+    "index": 478,
+    "name": "LeatherGlove",
+    "friendlyName": "LeatherGlove",
+    "type": "Bracelet"
+  },
+  {
+    "index": 479,
+    "name": "SilverBracelet",
+    "friendlyName": "SilverBracelet",
+    "type": "Bracelet"
+  },
+  {
+    "index": 480,
+    "name": "SteelBracelet",
+    "friendlyName": "SteelBracelet",
+    "type": "Bracelet"
+  },
+  {
+    "index": 481,
+    "name": "LargeBracelet",
+    "friendlyName": "LargeBracelet",
+    "type": "Bracelet"
+  },
+  {
+    "index": 482,
+    "name": "SharpBracelet",
+    "friendlyName": "SharpBracelet",
+    "type": "Bracelet"
+  },
+  {
+    "index": 483,
+    "name": "HardGlove",
+    "friendlyName": "HardGlove",
+    "type": "Bracelet"
+  },
+  {
+    "index": 484,
+    "name": "MagicBracelet",
+    "friendlyName": "MagicBracelet",
+    "type": "Bracelet"
+  },
+  {
+    "index": 485,
+    "name": "EvadeBracelet",
+    "friendlyName": "EvadeBracelet",
+    "type": "Bracelet"
+  },
+  {
+    "index": 486,
+    "name": "EbonyBracelet",
+    "friendlyName": "EbonyBracelet",
+    "type": "Bracelet"
+  },
+  {
+    "index": 487,
+    "name": "MonkBracelet",
+    "friendlyName": "MonkBracelet",
+    "type": "Bracelet"
+  },
+  {
+    "index": 488,
+    "name": "StrainBracelet",
+    "friendlyName": "StrainBracelet",
+    "type": "Bracelet"
+  },
+  {
+    "index": 489,
+    "name": "DeathGauntlet",
+    "friendlyName": "DeathGauntlet",
+    "type": "Bracelet"
+  },
+  {
+    "index": 490,
+    "name": "GoldBracelet",
+    "friendlyName": "GoldBracelet",
+    "type": "Bracelet"
+  },
+  {
+    "index": 491,
+    "name": "3rdEyeBracelet",
+    "friendlyName": "3rdEyeBracelet",
+    "type": "Bracelet"
+  },
+  {
+    "index": 492,
+    "name": "BronzeGlove",
+    "friendlyName": "BronzeGlove",
+    "type": "Bracelet"
+  },
+  {
+    "index": 493,
+    "name": "SpellBracelet",
+    "friendlyName": "SpellBracelet",
+    "type": "Bracelet"
+  },
+  {
+    "index": 494,
+    "name": "KnightBracelet",
+    "friendlyName": "KnightBracelet",
+    "type": "Bracelet"
+  },
+  {
+    "index": 495,
+    "name": "DragonBracelet",
+    "friendlyName": "DragonBracelet",
+    "type": "Bracelet"
+  },
+  {
+    "index": 496,
+    "name": "SoulSpringBracelet",
+    "friendlyName": "SoulSpringBracelet",
+    "type": "Bracelet"
+  },
+  {
+    "index": 497,
+    "name": "BlackIronBracelet",
+    "friendlyName": "BlackIronBracelet",
+    "type": "Bracelet"
+  },
+  {
+    "index": 498,
+    "name": "SteelGlove",
+    "friendlyName": "SteelGlove",
+    "type": "Bracelet"
+  },
+  {
+    "index": 499,
+    "name": "BracerOfMagic",
+    "friendlyName": "BracerOfMagic",
+    "type": "Bracelet"
+  },
+  {
+    "index": 500,
+    "name": "TaoPowerBracelet",
+    "friendlyName": "TaoPowerBracelet",
+    "type": "Bracelet"
+  },
+  {
+    "index": 501,
+    "name": "SteelGauntlet",
+    "friendlyName": "SteelGauntlet",
+    "type": "Bracelet"
+  },
+  {
+    "index": 502,
+    "name": "8TrigramWheel",
+    "friendlyName": "8TrigramWheel",
+    "type": "Bracelet"
+  },
+  {
+    "index": 503,
+    "name": "HangMaWheel",
+    "friendlyName": "HangMaWheel",
+    "type": "Bracelet"
+  },
+  {
+    "index": 504,
+    "name": "BokMaWheel",
+    "friendlyName": "BokMaWheel",
+    "type": "Bracelet"
+  },
+  {
+    "index": 505,
+    "name": "BaekTaGlove",
+    "friendlyName": "BaekTaGlove",
+    "type": "Bracelet"
+  },
+  {
+    "index": 506,
+    "name": "SpiritReformer",
+    "friendlyName": "SpiritReformer",
+    "type": "Bracelet"
+  },
+  {
+    "index": 507,
+    "name": "HolyTaoWheel",
+    "friendlyName": "HolyTaoWheel",
+    "type": "Bracelet"
+  },
+  {
+    "index": 508,
+    "name": "DualTitanAmulet",
+    "friendlyName": "DualTitanAmulet",
+    "type": "Bracelet"
+  },
+  {
+    "index": 509,
+    "name": "EvilWhispAmulet",
+    "friendlyName": "EvilWhispAmulet",
+    "type": "Bracelet"
+  },
+  {
+    "index": 510,
+    "name": "SacredAngelAmulet",
+    "friendlyName": "SacredAngelAmulet",
+    "type": "Bracelet"
+  },
+  {
+    "index": 511,
+    "name": "WildTitanAmulet",
+    "friendlyName": "WildTitanAmulet",
+    "type": "Bracelet"
+  },
+  {
+    "index": 512,
+    "name": "EnchantedAmulet",
+    "friendlyName": "EnchantedAmulet",
+    "type": "Bracelet"
+  },
+  {
+    "index": 513,
+    "name": "FiveElementAmulet",
+    "friendlyName": "FiveElementAmulet",
+    "type": "Bracelet"
+  },
+  {
+    "index": 514,
+    "name": "PurpleFoxBracelet",
+    "friendlyName": "PurpleFoxBracelet",
+    "type": "Bracelet"
+  },
+  {
+    "index": 515,
+    "name": "RedFoxBracelet",
+    "friendlyName": "RedFoxBracelet",
+    "type": "Bracelet"
+  },
+  {
+    "index": 516,
+    "name": "BlueFoxBracelet",
+    "friendlyName": "BlueFoxBracelet",
+    "type": "Bracelet"
+  },
+  {
+    "index": 517,
+    "name": "GreatPurpleFoxBrace",
+    "friendlyName": "GreatPurpleFoxBrace",
+    "type": "Bracelet"
+  },
+  {
+    "index": 518,
+    "name": "GreatRedFoxBrace",
+    "friendlyName": "GreatRedFoxBrace",
+    "type": "Bracelet"
+  },
+  {
+    "index": 519,
+    "name": "GreatBlueFoxBrace",
+    "friendlyName": "GreatBlueFoxBrace",
+    "type": "Bracelet"
+  },
+  {
+    "index": 520,
+    "name": "SurvivalBracelet",
+    "friendlyName": "SurvivalBracelet",
+    "type": "Bracelet"
+  },
+  {
+    "index": 521,
+    "name": "LunarBracelet",
+    "friendlyName": "LunarBracelet",
+    "type": "Bracelet"
+  },
+  {
+    "index": 522,
+    "name": "GoldenDragonBrace",
+    "friendlyName": "GoldenDragonBrace",
+    "type": "Bracelet"
+  },
+  {
+    "index": 523,
+    "name": "GoldenDragonBrace1",
+    "friendlyName": "GoldenDragonBrace",
+    "type": "Bracelet"
+  },
+  {
+    "index": 524,
+    "name": "GoldenDragonBrace2",
+    "friendlyName": "GoldenDragonBrace",
+    "type": "Bracelet"
+  },
+  {
+    "index": 525,
+    "name": "GoldenDragonBrace3",
+    "friendlyName": "GoldenDragonBrace",
+    "type": "Bracelet"
+  },
+  {
+    "index": 526,
+    "name": "GoldenDragonBrace4",
+    "friendlyName": "GoldenDragonBrace",
+    "type": "Bracelet"
+  },
+  {
+    "index": 527,
+    "name": "GoldenDragonBrace5",
+    "friendlyName": "GoldenDragonBrace",
+    "type": "Bracelet"
+  },
+  {
+    "index": 528,
+    "name": "EvilDragonBracelet",
+    "friendlyName": "EvilDragonBracelet",
+    "type": "Bracelet"
+  },
+  {
+    "index": 529,
+    "name": "EvilDragonBracelet1",
+    "friendlyName": "EvilDragonBracelet",
+    "type": "Bracelet"
+  },
+  {
+    "index": 530,
+    "name": "EvilDragonBracelet2",
+    "friendlyName": "EvilDragonBracelet",
+    "type": "Bracelet"
+  },
+  {
+    "index": 531,
+    "name": "EvilDragonBracelet3",
+    "friendlyName": "EvilDragonBracelet",
+    "type": "Bracelet"
+  },
+  {
+    "index": 532,
+    "name": "EvilDragonBracelet4",
+    "friendlyName": "EvilDragonBracelet",
+    "type": "Bracelet"
+  },
+  {
+    "index": 533,
+    "name": "EvilDragonBracelet5",
+    "friendlyName": "EvilDragonBracelet",
+    "type": "Bracelet"
+  },
+  {
+    "index": 534,
+    "name": "GoldNecklace",
+    "friendlyName": "GoldNecklace",
+    "type": "Necklace"
+  },
+  {
+    "index": 535,
+    "name": "PrecisionNecklace",
+    "friendlyName": "PrecisionNecklace",
+    "type": "Necklace"
+  },
+  {
+    "index": 536,
+    "name": "BlackNecklace",
+    "friendlyName": "BlackNecklace",
+    "type": "Necklace"
+  },
+  {
+    "index": 537,
+    "name": "EbonyNecklace",
+    "friendlyName": "EbonyNecklace",
+    "type": "Necklace"
+  },
+  {
+    "index": 538,
+    "name": "YellowNecklace",
+    "friendlyName": "YellowNecklace",
+    "type": "Necklace"
+  },
+  {
+    "index": 539,
+    "name": "PlatinumNecklace",
+    "friendlyName": "PlatinumNecklace",
+    "type": "Necklace"
+  },
+  {
+    "index": 540,
+    "name": "JadeNecklace",
+    "friendlyName": "JadeNecklace",
+    "type": "Necklace"
+  },
+  {
+    "index": 541,
+    "name": "TigerNecklace",
+    "friendlyName": "TigerNecklace",
+    "type": "Necklace"
+  },
+  {
+    "index": 542,
+    "name": "ElusionNecklace",
+    "friendlyName": "ElusionNecklace",
+    "type": "Necklace"
+  },
+  {
+    "index": 543,
+    "name": "NagaNecklace",
+    "friendlyName": "NagaNecklace",
+    "type": "Necklace"
+  },
+  {
+    "index": 544,
+    "name": "AmberNecklace",
+    "friendlyName": "AmberNecklace",
+    "type": "Necklace"
+  },
+  {
+    "index": 545,
+    "name": "PhoenixBead",
+    "friendlyName": "PhoenixBead",
+    "type": "Necklace"
+  },
+  {
+    "index": 546,
+    "name": "LanternNecklace",
+    "friendlyName": "LanternNecklace",
+    "type": "Necklace"
+  },
+  {
+    "index": 547,
+    "name": "GaleNecklace",
+    "friendlyName": "GaleNecklace",
+    "type": "Necklace"
+  },
+  {
+    "index": 548,
+    "name": "WarriorNecklace",
+    "friendlyName": "WarriorNecklace",
+    "type": "Necklace"
+  },
+  {
+    "index": 549,
+    "name": "BlueCrystalNecklace",
+    "friendlyName": "BlueCrystalNecklace",
+    "type": "Necklace"
+  },
+  {
+    "index": 550,
+    "name": "BlueJadeNecklace",
+    "friendlyName": "BlueJadeNecklace",
+    "type": "Necklace"
+  },
+  {
+    "index": 551,
+    "name": "ConvexLens",
+    "friendlyName": "ConvexLens",
+    "type": "Necklace"
+  },
+  {
+    "index": 552,
+    "name": "BambooPipe",
+    "friendlyName": "BambooPipe",
+    "type": "Necklace"
+  },
+  {
+    "index": 553,
+    "name": "BlueThunderNecklace",
+    "friendlyName": "BlueThunderNecklace",
+    "type": "Necklace"
+  },
+  {
+    "index": 554,
+    "name": "SpiritPowerNecklace",
+    "friendlyName": "SpiritPowerNecklace",
+    "type": "Necklace"
+  },
+  {
+    "index": 555,
+    "name": "ClawNecklace",
+    "friendlyName": "ClawNecklace",
+    "type": "Necklace"
+  },
+  {
+    "index": 556,
+    "name": "LifeNecklace",
+    "friendlyName": "LifeNecklace",
+    "type": "Necklace"
+  },
+  {
+    "index": 557,
+    "name": "PearlNecklace",
+    "friendlyName": "PearlNecklace",
+    "type": "Necklace"
+  },
+  {
+    "index": 558,
+    "name": "AmethystNecklace",
+    "friendlyName": "AmethystNecklace",
+    "type": "Necklace"
+  },
+  {
+    "index": 559,
+    "name": "DemonicBells",
+    "friendlyName": "DemonicBells",
+    "type": "Necklace"
+  },
+  {
+    "index": 560,
+    "name": "SoulNecklace",
+    "friendlyName": "SoulNecklace",
+    "type": "Necklace"
+  },
+  {
+    "index": 561,
+    "name": "GreenBead",
+    "friendlyName": "GreenBead",
+    "type": "Necklace"
+  },
+  {
+    "index": 562,
+    "name": "HeroNecklace",
+    "friendlyName": "HeroNecklace",
+    "type": "Necklace"
+  },
+  {
+    "index": 563,
+    "name": "AdamantineNecklace",
+    "friendlyName": "AdamantineNecklace",
+    "type": "Necklace"
+  },
+  {
+    "index": 564,
+    "name": "RequiemNecklace",
+    "friendlyName": "RequiemNecklace",
+    "type": "Necklace"
+  },
+  {
+    "index": 565,
+    "name": "CuspidNecklace",
+    "friendlyName": "CuspidNecklace",
+    "type": "Necklace"
+  },
+  {
+    "index": 566,
+    "name": "SorceryAnchor",
+    "friendlyName": "SorceryAnchor",
+    "type": "Necklace"
+  },
+  {
+    "index": 567,
+    "name": "PurifiedMirror",
+    "friendlyName": "PurifiedMirror",
+    "type": "Necklace"
+  },
+  {
+    "index": 568,
+    "name": "AdamantNecklace",
+    "friendlyName": "AdamantNecklace",
+    "type": "Necklace"
+  },
+  {
+    "index": 569,
+    "name": "EvilTriangle",
+    "friendlyName": "EvilTriangle",
+    "type": "Necklace"
+  },
+  {
+    "index": 570,
+    "name": "CrossPurified",
+    "friendlyName": "CrossPurified",
+    "type": "Necklace"
+  },
+  {
+    "index": 571,
+    "name": "PurpleFoxCollar",
+    "friendlyName": "PurpleFoxCollar",
+    "type": "Necklace"
+  },
+  {
+    "index": 572,
+    "name": "RedFoxCollar",
+    "friendlyName": "RedFoxCollar",
+    "type": "Necklace"
+  },
+  {
+    "index": 573,
+    "name": "BlueFoxCollar",
+    "friendlyName": "BlueFoxCollar",
+    "type": "Necklace"
+  },
+  {
+    "index": 574,
+    "name": "GreatPurpleFoxCollar",
+    "friendlyName": "GreatPurpleFoxCollar",
+    "type": "Necklace"
+  },
+  {
+    "index": 575,
+    "name": "GreatRedFoxCollar",
+    "friendlyName": "GreatRedFoxCollar",
+    "type": "Necklace"
+  },
+  {
+    "index": 576,
+    "name": "GreatBlueFoxCollar",
+    "friendlyName": "GreatBlueFoxCollar",
+    "type": "Necklace"
+  },
+  {
+    "index": 577,
+    "name": "SurvivalNecklace",
+    "friendlyName": "SurvivalNecklace",
+    "type": "Necklace"
+  },
+  {
+    "index": 578,
+    "name": "DemonMask",
+    "friendlyName": "DemonMask",
+    "type": "Necklace"
+  },
+  {
+    "index": 579,
+    "name": "VioletOrb",
+    "friendlyName": "VioletOrb",
+    "type": "Necklace"
+  },
+  {
+    "index": 580,
+    "name": "KunroonTear",
+    "friendlyName": "KunroonTear",
+    "type": "Necklace"
+  },
+  {
+    "index": 581,
+    "name": "DragonNecklace",
+    "friendlyName": "DragonNecklace",
+    "type": "Necklace"
+  },
+  {
+    "index": 582,
+    "name": "DragonNecklace1",
+    "friendlyName": "DragonNecklace",
+    "type": "Necklace"
+  },
+  {
+    "index": 583,
+    "name": "DragonNecklace2",
+    "friendlyName": "DragonNecklace",
+    "type": "Necklace"
+  },
+  {
+    "index": 584,
+    "name": "DragonNecklace3",
+    "friendlyName": "DragonNecklace",
+    "type": "Necklace"
+  },
+  {
+    "index": 585,
+    "name": "DragonNecklace4",
+    "friendlyName": "DragonNecklace",
+    "type": "Necklace"
+  },
+  {
+    "index": 586,
+    "name": "DragonNecklace5",
+    "friendlyName": "DragonNecklace",
+    "type": "Necklace"
+  },
+  {
+    "index": 587,
+    "name": "DragonPendant",
+    "friendlyName": "DragonPendant",
+    "type": "Necklace"
+  },
+  {
+    "index": 588,
+    "name": "DragonPendant1",
+    "friendlyName": "DragonPendant",
+    "type": "Necklace"
+  },
+  {
+    "index": 589,
+    "name": "DragonPendant2",
+    "friendlyName": "DragonPendant",
+    "type": "Necklace"
+  },
+  {
+    "index": 590,
+    "name": "DragonPendant3",
+    "friendlyName": "DragonPendant",
+    "type": "Necklace"
+  },
+  {
+    "index": 591,
+    "name": "DragonPendant4",
+    "friendlyName": "DragonPendant",
+    "type": "Necklace"
+  },
+  {
+    "index": 592,
+    "name": "DragonPendant5",
+    "friendlyName": "DragonPendant",
+    "type": "Necklace"
+  },
+  {
+    "index": 593,
+    "name": "ProbeNecklace",
+    "friendlyName": "ProbeNecklace",
+    "type": "Necklace"
+  },
+  {
+    "index": 594,
+    "name": "SkillNecklace",
+    "friendlyName": "SkillNecklace",
+    "type": "Necklace"
+  },
+  {
+    "index": 595,
+    "name": "BronzeHelmet",
+    "friendlyName": "BronzeHelmet",
+    "type": "Helmet"
+  },
+  {
+    "index": 596,
+    "name": "MagicHelmet",
+    "friendlyName": "MagicHelmet",
+    "type": "Helmet"
+  },
+  {
+    "index": 597,
+    "name": "BrassHelmet",
+    "friendlyName": "BrassHelmet",
+    "type": "Helmet"
+  },
+  {
+    "index": 598,
+    "name": "GoldenTiara",
+    "friendlyName": "GoldenTiara",
+    "type": "Helmet"
+  },
+  {
+    "index": 599,
+    "name": "SkeletonHelmet",
+    "friendlyName": "SkeletonHelmet",
+    "type": "Helmet"
+  },
+  {
+    "index": 600,
+    "name": "ShamanHelmet",
+    "friendlyName": "ShamanHelmet",
+    "type": "Helmet"
+  },
+  {
+    "index": 601,
+    "name": "SteelHelmet",
+    "friendlyName": "SteelHelmet",
+    "type": "Helmet"
+  },
+  {
+    "index": 602,
+    "name": "HelmetOfHero",
+    "friendlyName": "HelmetOfHero",
+    "type": "Helmet"
+  },
+  {
+    "index": 603,
+    "name": "BlackIronHelmet",
+    "friendlyName": "BlackIronHelmet",
+    "type": "Helmet"
+  },
+  {
+    "index": 604,
+    "name": "GreatHelmet",
+    "friendlyName": "GreatHelmet",
+    "type": "Helmet"
+  },
+  {
+    "index": 605,
+    "name": "WisdomCoronet",
+    "friendlyName": "WisdomCoronet",
+    "type": "Helmet"
+  },
+  {
+    "index": 606,
+    "name": "TaoCoronet",
+    "friendlyName": "TaoCoronet",
+    "type": "Helmet"
+  },
+  {
+    "index": 607,
+    "name": "RoyalHelmet",
+    "friendlyName": "RoyalHelmet",
+    "type": "Helmet"
+  },
+  {
+    "index": 608,
+    "name": "HelmetOfKings",
+    "friendlyName": "HelmetOfKings",
+    "type": "Helmet"
+  },
+  {
+    "index": 609,
+    "name": "HelmetOfSorcery",
+    "friendlyName": "HelmetOfSorcery",
+    "type": "Helmet"
+  },
+  {
+    "index": 610,
+    "name": "PurifiedMask",
+    "friendlyName": "PurifiedMask",
+    "type": "Helmet"
+  },
+  {
+    "index": 611,
+    "name": "DemonShadow",
+    "friendlyName": "DemonShadow",
+    "type": "Helmet"
+  },
+  {
+    "index": 612,
+    "name": "LeatherBelt",
+    "friendlyName": "LeatherBelt",
+    "type": "Belt"
+  },
+  {
+    "index": 613,
+    "name": "ChainBelt",
+    "friendlyName": "ChainBelt",
+    "type": "Belt"
+  },
+  {
+    "index": 614,
+    "name": "BronzeBelt",
+    "friendlyName": "BronzeBelt",
+    "type": "Belt"
+  },
+  {
+    "index": 615,
+    "name": "SteelBelt",
+    "friendlyName": "SteelBelt",
+    "type": "Belt"
+  },
+  {
+    "index": 616,
+    "name": "GoldBelt",
+    "friendlyName": "GoldBelt",
+    "type": "Belt"
+  },
+  {
+    "index": 617,
+    "name": "AdamantineBelt",
+    "friendlyName": "AdamantineBelt",
+    "type": "Belt"
+  },
+  {
+    "index": 618,
+    "name": "FlamingGrasp",
+    "friendlyName": "FlamingGrasp",
+    "type": "Belt"
+  },
+  {
+    "index": 619,
+    "name": "RottenShoes",
+    "friendlyName": "RottenShoes",
+    "type": "Boots"
+  },
+  {
+    "index": 620,
+    "name": "LowShoes",
+    "friendlyName": "LowShoes",
+    "type": "Boots"
+  },
+  {
+    "index": 621,
+    "name": "LeatherBoots",
+    "friendlyName": "LeatherBoots",
+    "type": "Boots"
+  },
+  {
+    "index": 622,
+    "name": "SilkBoots",
+    "friendlyName": "SilkBoots",
+    "type": "Boots"
+  },
+  {
+    "index": 623,
+    "name": "BlackBoots",
+    "friendlyName": "BlackBoots",
+    "type": "Boots"
+  },
+  {
+    "index": 624,
+    "name": "DragonBoots",
+    "friendlyName": "DragonBoots",
+    "type": "Boots"
+  },
+  {
+    "index": 625,
+    "name": "RedScaleBoots",
+    "friendlyName": "RedScaleBoots",
+    "type": "Boots"
+  },
+  {
+    "index": 626,
+    "name": "GoldPatternBoots",
+    "friendlyName": "GoldPatternBoots",
+    "type": "Boots"
+  },
+  {
+    "index": 627,
+    "name": "HealthStone(S)",
+    "friendlyName": "HealthStone(S)",
+    "type": "Stone"
+  },
+  {
+    "index": 628,
+    "name": "HealthStone(M)",
+    "friendlyName": "HealthStone(M)",
+    "type": "Stone"
+  },
+  {
+    "index": 629,
+    "name": "HealthStone(L)",
+    "friendlyName": "HealthStone(L)",
+    "type": "Stone"
+  },
+  {
+    "index": 630,
+    "name": "HealthStone(XL)",
+    "friendlyName": "HealthStone(XL)",
+    "type": "Stone"
+  },
+  {
+    "index": 631,
+    "name": "HealthStone",
+    "friendlyName": "HealthStone",
+    "type": "Stone"
+  },
+  {
+    "index": 632,
+    "name": "MagicStone(S)",
+    "friendlyName": "MagicStone(S)",
+    "type": "Stone"
+  },
+  {
+    "index": 633,
+    "name": "MagicStone(M)",
+    "friendlyName": "MagicStone(M)",
+    "type": "Stone"
+  },
+  {
+    "index": 634,
+    "name": "MagicStone(L)",
+    "friendlyName": "MagicStone(L)",
+    "type": "Stone"
+  },
+  {
+    "index": 635,
+    "name": "MagicStone(XL)",
+    "friendlyName": "MagicStone(XL)",
+    "type": "Stone"
+  },
+  {
+    "index": 636,
+    "name": "MagicStone",
+    "friendlyName": "MagicStone",
+    "type": "Stone"
+  },
+  {
+    "index": 637,
+    "name": "PowerStone(S)",
+    "friendlyName": "PowerStone(S)",
+    "type": "Stone"
+  },
+  {
+    "index": 638,
+    "name": "PowerStone(M)",
+    "friendlyName": "PowerStone(M)",
+    "type": "Stone"
+  },
+  {
+    "index": 639,
+    "name": "PowerStone(L)",
+    "friendlyName": "PowerStone(L)",
+    "type": "Stone"
+  },
+  {
+    "index": 640,
+    "name": "PowerStone(XL)",
+    "friendlyName": "PowerStone(XL)",
+    "type": "Stone"
+  },
+  {
+    "index": 641,
+    "name": "PowerStone",
+    "friendlyName": "PowerStone",
+    "type": "Stone"
+  },
+  {
+    "index": 642,
+    "name": "DCStone(S)",
+    "friendlyName": "DCStone(S)",
+    "type": "Stone"
+  },
+  {
+    "index": 643,
+    "name": "DCStone(M)",
+    "friendlyName": "DCStone(M)",
+    "type": "Stone"
+  },
+  {
+    "index": 644,
+    "name": "DCStone(L)",
+    "friendlyName": "DCStone(L)",
+    "type": "Stone"
+  },
+  {
+    "index": 645,
+    "name": "DCStone(XL)",
+    "friendlyName": "DCStone(XL)",
+    "type": "Stone"
+  },
+  {
+    "index": 646,
+    "name": "DCStone",
+    "friendlyName": "DCStone",
+    "type": "Stone"
+  },
+  {
+    "index": 647,
+    "name": "MCStone(S)",
+    "friendlyName": "MCStone(S)",
+    "type": "Stone"
+  },
+  {
+    "index": 648,
+    "name": "MCStone(M)",
+    "friendlyName": "MCStone(M)",
+    "type": "Stone"
+  },
+  {
+    "index": 649,
+    "name": "MCStone(L)",
+    "friendlyName": "MCStone(L)",
+    "type": "Stone"
+  },
+  {
+    "index": 650,
+    "name": "MCStone(XL)",
+    "friendlyName": "MCStone(XL)",
+    "type": "Stone"
+  },
+  {
+    "index": 651,
+    "name": "MCStone",
+    "friendlyName": "MCStone",
+    "type": "Stone"
+  },
+  {
+    "index": 652,
+    "name": "SCStone(S)",
+    "friendlyName": "SCStone(S)",
+    "type": "Stone"
+  },
+  {
+    "index": 653,
+    "name": "SCStone(M)",
+    "friendlyName": "SCStone(M)",
+    "type": "Stone"
+  },
+  {
+    "index": 654,
+    "name": "SCStone(L)",
+    "friendlyName": "SCStone(L)",
+    "type": "Stone"
+  },
+  {
+    "index": 655,
+    "name": "SCStone(XL)",
+    "friendlyName": "SCStone(XL)",
+    "type": "Stone"
+  },
+  {
+    "index": 656,
+    "name": "SCStone",
+    "friendlyName": "SCStone",
+    "type": "Stone"
+  },
+  {
+    "index": 657,
+    "name": "FrozenStone",
+    "friendlyName": "FrozenStone",
+    "type": "Stone"
+  },
+  {
+    "index": 658,
+    "name": "(HP)DrugSmall",
+    "friendlyName": "(HP)DrugSmall",
+    "type": "Potion"
+  },
+  {
+    "index": 659,
+    "name": "(MP)DrugSmall",
+    "friendlyName": "(MP)DrugSmall",
+    "type": "Potion"
+  },
+  {
+    "index": 660,
+    "name": "(HP)DrugMedium",
+    "friendlyName": "(HP)DrugMedium",
+    "type": "Potion"
+  },
+  {
+    "index": 661,
+    "name": "(MP)DrugMedium",
+    "friendlyName": "(MP)DrugMedium",
+    "type": "Potion"
+  },
+  {
+    "index": 662,
+    "name": "(HP)DrugLarge",
+    "friendlyName": "(HP)DrugLarge",
+    "type": "Potion"
+  },
+  {
+    "index": 663,
+    "name": "(MP)DrugLarge",
+    "friendlyName": "(MP)DrugLarge",
+    "type": "Potion"
+  },
+  {
+    "index": 664,
+    "name": "(HP)DrugXL",
+    "friendlyName": "(HP)DrugXL",
+    "type": "Potion"
+  },
+  {
+    "index": 665,
+    "name": "(MP)DrugXL",
+    "friendlyName": "(MP)DrugXL",
+    "type": "Potion"
+  },
+  {
+    "index": 666,
+    "name": "(HP)PotionSmall",
+    "friendlyName": "(HP)PotionSmall",
+    "type": "Potion"
+  },
+  {
+    "index": 667,
+    "name": "(MP)PotionSmall",
+    "friendlyName": "(MP)PotionSmall",
+    "type": "Potion"
+  },
+  {
+    "index": 668,
+    "name": "(HP)PotionMedium",
+    "friendlyName": "(HP)PotionMedium",
+    "type": "Potion"
+  },
+  {
+    "index": 669,
+    "name": "(MP)PotionMedium",
+    "friendlyName": "(MP)PotionMedium",
+    "type": "Potion"
+  },
+  {
+    "index": 670,
+    "name": "SunPotion",
+    "friendlyName": "SunPotion",
+    "type": "Potion"
+  },
+  {
+    "index": 671,
+    "name": "SunPotion(M)",
+    "friendlyName": "SunPotion(M)",
+    "type": "Potion"
+  },
+  {
+    "index": 672,
+    "name": "Ginseng",
+    "friendlyName": "Ginseng",
+    "type": "Potion"
+  },
+  {
+    "index": 673,
+    "name": "OldGinseng",
+    "friendlyName": "OldGinseng",
+    "type": "Potion"
+  },
+  {
+    "index": 674,
+    "name": "Apple",
+    "friendlyName": "Apple",
+    "type": "Potion"
+  },
+  {
+    "index": 675,
+    "name": "ImpactDrug(S)",
+    "friendlyName": "ImpactDrug(S)",
+    "type": "Potion"
+  },
+  {
+    "index": 676,
+    "name": "ImpactDrug(M)",
+    "friendlyName": "ImpactDrug(M)",
+    "type": "Potion"
+  },
+  {
+    "index": 677,
+    "name": "ImpactDrug(L)",
+    "friendlyName": "ImpactDrug(L)",
+    "type": "Potion"
+  },
+  {
+    "index": 678,
+    "name": "MagicDrug(S)",
+    "friendlyName": "MagicDrug(S)",
+    "type": "Potion"
+  },
+  {
+    "index": 679,
+    "name": "MagicDrug(M)",
+    "friendlyName": "MagicDrug(M)",
+    "type": "Potion"
+  },
+  {
+    "index": 680,
+    "name": "MagicDrug(L)",
+    "friendlyName": "MagicDrug(L)",
+    "type": "Potion"
+  },
+  {
+    "index": 681,
+    "name": "TaoistDrug(S)",
+    "friendlyName": "TaoistDrug(S)",
+    "type": "Potion"
+  },
+  {
+    "index": 682,
+    "name": "TaoistDrug(M)",
+    "friendlyName": "TaoistDrug(M)",
+    "type": "Potion"
+  },
+  {
+    "index": 683,
+    "name": "TaoistDrug(L)",
+    "friendlyName": "TaoistDrug(L)",
+    "type": "Potion"
+  },
+  {
+    "index": 684,
+    "name": "StormDrug(S)",
+    "friendlyName": "StormDrug(S)",
+    "type": "Potion"
+  },
+  {
+    "index": 685,
+    "name": "StormDrug(M)",
+    "friendlyName": "StormDrug(M)",
+    "type": "Potion"
+  },
+  {
+    "index": 686,
+    "name": "StormDrug(L)",
+    "friendlyName": "StormDrug(L)",
+    "type": "Potion"
+  },
+  {
+    "index": 687,
+    "name": "StaminaAid(S)",
+    "friendlyName": "StaminaAid(S)",
+    "type": "Potion"
+  },
+  {
+    "index": 688,
+    "name": "StaminaAid(M)",
+    "friendlyName": "StaminaAid(M)",
+    "type": "Potion"
+  },
+  {
+    "index": 689,
+    "name": "StaminaAid(L)",
+    "friendlyName": "StaminaAid(L)",
+    "type": "Potion"
+  },
+  {
+    "index": 690,
+    "name": "MagicAid(S)",
+    "friendlyName": "MagicAid(S)",
+    "type": "Potion"
+  },
+  {
+    "index": 691,
+    "name": "MagicAid(M)",
+    "friendlyName": "MagicAid(M)",
+    "type": "Potion"
+  },
+  {
+    "index": 692,
+    "name": "MagicAid(L)",
+    "friendlyName": "MagicAid(L)",
+    "type": "Potion"
+  },
+  {
+    "index": 693,
+    "name": "SpencerDrug",
+    "friendlyName": "SpencerDrug",
+    "type": "Potion"
+  },
+  {
+    "index": 694,
+    "name": "Dumpling",
+    "friendlyName": "Dumpling",
+    "type": "Potion"
+  },
+  {
+    "index": 695,
+    "name": "BeefDumpling",
+    "friendlyName": "BeefDumpling",
+    "type": "Potion"
+  },
+  {
+    "index": 696,
+    "name": "ChickenDumpling",
+    "friendlyName": "ChickenDumpling",
+    "type": "Potion"
+  },
+  {
+    "index": 697,
+    "name": "EggDumpling",
+    "friendlyName": "EggDumpling",
+    "type": "Potion"
+  },
+  {
+    "index": 698,
+    "name": "BoneDumpling",
+    "friendlyName": "BoneDumpling",
+    "type": "Potion"
+  },
+  {
+    "index": 699,
+    "name": "HerbalTea",
+    "friendlyName": "HerbalTea",
+    "type": "Potion"
+  },
+  {
+    "index": 700,
+    "name": "MeatSoup",
+    "friendlyName": "MeatSoup",
+    "type": "Potion"
+  },
+  {
+    "index": 701,
+    "name": "ZerkSoup",
+    "friendlyName": "ZerkSoup",
+    "type": "Potion"
+  },
+  {
+    "index": 702,
+    "name": "ChickenBroth",
+    "friendlyName": "ChickenBroth",
+    "type": "Potion"
+  },
+  {
+    "index": 703,
+    "name": "EggBroth",
+    "friendlyName": "EggBroth",
+    "type": "Potion"
+  },
+  {
+    "index": 704,
+    "name": "BoneBroth",
+    "friendlyName": "BoneBroth",
+    "type": "Potion"
+  },
+  {
+    "index": 705,
+    "name": "CannibalFruitTea",
+    "friendlyName": "CannibalFruitTea",
+    "type": "Potion"
+  },
+  {
+    "index": 706,
+    "name": "RepairOil",
+    "friendlyName": "RepairOil",
+    "type": "Scroll"
+  },
+  {
+    "index": 707,
+    "name": "WarGodOil",
+    "friendlyName": "WarGodOil",
+    "type": "Scroll"
+  },
+  {
+    "index": 708,
+    "name": "[H]WarGodOil",
+    "friendlyName": "WarGodOil",
+    "type": "Scroll"
+  },
+  {
+    "index": 709,
+    "name": "BenedictionOil",
+    "friendlyName": "BenedictionOil",
+    "type": "Scroll"
+  },
+  {
+    "index": 710,
+    "name": "GreenPoison",
+    "friendlyName": "GreenPoison",
+    "type": "Amulet"
+  },
+  {
+    "index": 711,
+    "name": "RedPoison",
+    "friendlyName": "RedPoison",
+    "type": "Amulet"
+  },
+  {
+    "index": 712,
+    "name": "Amulet",
+    "friendlyName": "Amulet",
+    "type": "Amulet"
+  },
+  {
+    "index": 713,
+    "name": "Amulet(Bundle)",
+    "friendlyName": "Amulet(Bundle)",
+    "type": "Script"
+  },
+  {
+    "index": 714,
+    "name": "AmuletOfRevival",
+    "friendlyName": "AmuletOfRevival",
+    "type": "Amulet"
+  },
+  {
+    "index": 715,
+    "name": "Invitation",
+    "friendlyName": "Invitation",
+    "type": "Nothing"
+  },
+  {
+    "index": 716,
+    "name": "GTTeleport",
+    "friendlyName": "GTTeleport",
+    "type": "Scroll"
+  },
+  {
+    "index": 717,
+    "name": "RandomTeleport",
+    "friendlyName": "RandomTeleport",
+    "type": "Scroll"
+  },
+  {
+    "index": 718,
+    "name": "DungeonEscape",
+    "friendlyName": "DungeonEscape",
+    "type": "Scroll"
+  },
+  {
+    "index": 719,
+    "name": "TownTeleport",
+    "friendlyName": "TownTeleport",
+    "type": "Scroll"
+  },
+  {
+    "index": 720,
+    "name": "TeleportHome",
+    "friendlyName": "TeleportHome",
+    "type": "Scroll"
+  },
+  {
+    "index": 722,
+    "name": "Candle",
+    "friendlyName": "Candle",
+    "type": "Torch"
+  },
+  {
+    "index": 723,
+    "name": "Torch",
+    "friendlyName": "Torch",
+    "type": "Torch"
+  },
+  {
+    "index": 724,
+    "name": "EnternalFlame",
+    "friendlyName": "EnternalFlame",
+    "type": "Torch"
+  },
+  {
+    "index": 725,
+    "name": "PeddlerTorch",
+    "friendlyName": "PeddlerTorch",
+    "type": "Torch"
+  },
+  {
+    "index": 726,
+    "name": "DragonTorch",
+    "friendlyName": "DragonTorch",
+    "type": "Torch"
+  },
+  {
+    "index": 727,
+    "name": "HardTorch(S)",
+    "friendlyName": "HardTorch(S)",
+    "type": "Torch"
+  },
+  {
+    "index": 728,
+    "name": "HardTorch(M)",
+    "friendlyName": "HardTorch(M)",
+    "type": "Torch"
+  },
+  {
+    "index": 729,
+    "name": "HardTorch(L)",
+    "friendlyName": "HardTorch(L)",
+    "type": "Torch"
+  },
+  {
+    "index": 730,
+    "name": "KnowledgeTorch(S)",
+    "friendlyName": "KnowledgeTorch(S)",
+    "type": "Torch"
+  },
+  {
+    "index": 731,
+    "name": "KnowledgeTorch(M)",
+    "friendlyName": "KnowledgeTorch(M)",
+    "type": "Torch"
+  },
+  {
+    "index": 732,
+    "name": "KnowledgeTorch(L)",
+    "friendlyName": "KnowledgeTorch(L)",
+    "type": "Torch"
+  },
+  {
+    "index": 733,
+    "name": "Lantern",
+    "friendlyName": "Lantern",
+    "type": "Torch"
+  },
+  {
+    "index": 734,
+    "name": "BraveryGem",
+    "friendlyName": "BraveryGem",
+    "type": "Gem"
+  },
+  {
+    "index": 735,
+    "name": "MagicGem",
+    "friendlyName": "MagicGem",
+    "type": "Gem"
+  },
+  {
+    "index": 736,
+    "name": "SoulGem",
+    "friendlyName": "SoulGem",
+    "type": "Gem"
+  },
+  {
+    "index": 737,
+    "name": "ProtectionGem",
+    "friendlyName": "ProtectionGem",
+    "type": "Gem"
+  },
+  {
+    "index": 738,
+    "name": "EvilSlayerGem",
+    "friendlyName": "EvilSlayerGem",
+    "type": "Gem"
+  },
+  {
+    "index": 739,
+    "name": "DurabilityGem",
+    "friendlyName": "DurabilityGem",
+    "type": "Gem"
+  },
+  {
+    "index": 740,
+    "name": "StormGem",
+    "friendlyName": "StormGem",
+    "type": "Gem"
+  },
+  {
+    "index": 741,
+    "name": "AgilityGem",
+    "friendlyName": "AgilityGem",
+    "type": "Gem"
+  },
+  {
+    "index": 742,
+    "name": "AccuracyGem",
+    "friendlyName": "AccuracyGem",
+    "type": "Gem"
+  },
+  {
+    "index": 743,
+    "name": "PoisonGem",
+    "friendlyName": "PoisonGem",
+    "type": "Gem"
+  },
+  {
+    "index": 744,
+    "name": "FreezingGem",
+    "friendlyName": "FreezingGem",
+    "type": "Gem"
+  },
+  {
+    "index": 745,
+    "name": "DisillusionGem",
+    "friendlyName": "DisillusionGem",
+    "type": "Gem"
+  },
+  {
+    "index": 746,
+    "name": "EnduranceGem",
+    "friendlyName": "EnduranceGem",
+    "type": "Gem"
+  },
+  {
+    "index": 747,
+    "name": "BraveryOrb",
+    "friendlyName": "BraveryOrb",
+    "type": "Gem"
+  },
+  {
+    "index": 748,
+    "name": "MagicOrb",
+    "friendlyName": "MagicOrb",
+    "type": "Gem"
+  },
+  {
+    "index": 749,
+    "name": "SoulOrb",
+    "friendlyName": "SoulOrb",
+    "type": "Gem"
+  },
+  {
+    "index": 750,
+    "name": "ProtectionOrb",
+    "friendlyName": "ProtectionOrb",
+    "type": "Gem"
+  },
+  {
+    "index": 751,
+    "name": "EvilSlayerOrb",
+    "friendlyName": "EvilSlayerOrb",
+    "type": "Gem"
+  },
+  {
+    "index": 752,
+    "name": "DurabilityOrb",
+    "friendlyName": "DurabilityOrb",
+    "type": "Gem"
+  },
+  {
+    "index": 753,
+    "name": "StormOrb",
+    "friendlyName": "StormOrb",
+    "type": "Gem"
+  },
+  {
+    "index": 754,
+    "name": "AgilityOrb",
+    "friendlyName": "AgilityOrb",
+    "type": "Gem"
+  },
+  {
+    "index": 755,
+    "name": "AccuracyOrb",
+    "friendlyName": "AccuracyOrb",
+    "type": "Gem"
+  },
+  {
+    "index": 756,
+    "name": "PoisonOrb",
+    "friendlyName": "PoisonOrb",
+    "type": "Gem"
+  },
+  {
+    "index": 757,
+    "name": "FreezingOrb",
+    "friendlyName": "FreezingOrb",
+    "type": "Gem"
+  },
+  {
+    "index": 758,
+    "name": "DisillusionOrb",
+    "friendlyName": "DisillusionOrb",
+    "type": "Gem"
+  },
+  {
+    "index": 759,
+    "name": "EnduranceOrb",
+    "friendlyName": "EnduranceOrb",
+    "type": "Gem"
+  },
+  {
+    "index": 760,
+    "name": "SewingGoods",
+    "friendlyName": "SewingGoods",
+    "type": "Gem"
+  },
+  {
+    "index": 761,
+    "name": "BoneHammer",
+    "friendlyName": "BoneHammer",
+    "type": "Gem"
+  },
+  {
+    "index": 762,
+    "name": "GreaterSewingGoods",
+    "friendlyName": "GreaterSewingGoods",
+    "type": "Gem"
+  },
+  {
+    "index": 763,
+    "name": "GreaterBoneHammer",
+    "friendlyName": "GreaterBoneHammer",
+    "type": "Gem"
+  },
+  {
+    "index": 764,
+    "name": "BengalTiger",
+    "friendlyName": "BengalTiger",
+    "type": "Mount"
+  },
+  {
+    "index": 765,
+    "name": "BlueTiger",
+    "friendlyName": "BlueTiger",
+    "type": "Mount"
+  },
+  {
+    "index": 766,
+    "name": "BlackLeopard",
+    "friendlyName": "BlackLeopard",
+    "type": "Mount"
+  },
+  {
+    "index": 767,
+    "name": "IceLeopard",
+    "friendlyName": "IceLeopard",
+    "type": "Mount"
+  },
+  {
+    "index": 768,
+    "name": "PantheraTiger",
+    "friendlyName": "PantheraTiger",
+    "type": "Mount"
+  },
+  {
+    "index": 769,
+    "name": "RedTiger",
+    "friendlyName": "RedTiger",
+    "type": "Mount"
+  },
+  {
+    "index": 770,
+    "name": "WhiteTiger",
+    "friendlyName": "WhiteTiger",
+    "type": "Mount"
+  },
+  {
+    "index": 771,
+    "name": "Wolf",
+    "friendlyName": "Wolf",
+    "type": "Mount"
+  },
+  {
+    "index": 772,
+    "name": "BrownWolf",
+    "friendlyName": "BrownWolf",
+    "type": "Mount"
+  },
+  {
+    "index": 773,
+    "name": "BlueWolf",
+    "friendlyName": "BlueWolf",
+    "type": "Mount"
+  },
+  {
+    "index": 774,
+    "name": "BlackWolf",
+    "friendlyName": "BlackWolf",
+    "type": "Mount"
+  },
+  {
+    "index": 775,
+    "name": "WhiteWolf",
+    "friendlyName": "WhiteWolf",
+    "type": "Mount"
+  },
+  {
+    "index": 776,
+    "name": "LeatherBridle",
+    "friendlyName": "LeatherBridle",
+    "type": "Reins"
+  },
+  {
+    "index": 777,
+    "name": "GoldBridle",
+    "friendlyName": "GoldBridle",
+    "type": "Reins"
+  },
+  {
+    "index": 778,
+    "name": "BronzeBell",
+    "friendlyName": "BronzeBell",
+    "type": "Bells"
+  },
+  {
+    "index": 779,
+    "name": "SilverBell",
+    "friendlyName": "SilverBell",
+    "type": "Bells"
+  },
+  {
+    "index": 780,
+    "name": "GoldBell",
+    "friendlyName": "GoldBell",
+    "type": "Bells"
+  },
+  {
+    "index": 781,
+    "name": "GreenBell",
+    "friendlyName": "GreenBell",
+    "type": "Bells"
+  },
+  {
+    "index": 782,
+    "name": "Saddle",
+    "friendlyName": "Saddle",
+    "type": "Saddle"
+  },
+  {
+    "index": 783,
+    "name": "RedRibbon",
+    "friendlyName": "RedRibbon",
+    "type": "Ribbon"
+  },
+  {
+    "index": 784,
+    "name": "BlueRibbon",
+    "friendlyName": "BlueRibbon",
+    "type": "Ribbon"
+  },
+  {
+    "index": 785,
+    "name": "BlackRibbon",
+    "friendlyName": "BlackRibbon",
+    "type": "Ribbon"
+  },
+  {
+    "index": 786,
+    "name": "LeatherMask",
+    "friendlyName": "LeatherMask",
+    "type": "Mask"
+  },
+  {
+    "index": 787,
+    "name": "WhiteMask",
+    "friendlyName": "WhiteMask",
+    "type": "Mask"
+  },
+  {
+    "index": 788,
+    "name": "BlackMask",
+    "friendlyName": "BlackMask",
+    "type": "Mask"
+  },
+  {
+    "index": 789,
+    "name": "SilverMask",
+    "friendlyName": "SilverMask",
+    "type": "Mask"
+  },
+  {
+    "index": 790,
+    "name": "TitaniumMask",
+    "friendlyName": "TitaniumMask",
+    "type": "Mask"
+  },
+  {
+    "index": 791,
+    "name": "RawMeat",
+    "friendlyName": "RawMeat",
+    "type": "Food"
+  },
+  {
+    "index": 792,
+    "name": "LeanMeat",
+    "friendlyName": "LeanMeat",
+    "type": "Food"
+  },
+  {
+    "index": 793,
+    "name": "BlueFishingRod",
+    "friendlyName": "BlueFishingRod",
+    "type": "Weapon"
+  },
+  {
+    "index": 794,
+    "name": "RedFishingRod[6M]",
+    "friendlyName": "RedFishingRod",
+    "type": "Weapon"
+  },
+  {
+    "index": 795,
+    "name": "FishingHook",
+    "friendlyName": "FishingHook",
+    "type": "Hook"
+  },
+  {
+    "index": 796,
+    "name": "FishingFloat",
+    "friendlyName": "FishingFloat",
+    "type": "Float"
+  },
+  {
+    "index": 797,
+    "name": "PremiumFloat",
+    "friendlyName": "PremiumFloat",
+    "type": "Float"
+  },
+  {
+    "index": 798,
+    "name": "FishBait",
+    "friendlyName": "FishBait",
+    "type": "Bait"
+  },
+  {
+    "index": 799,
+    "name": "PremiumBait",
+    "friendlyName": "PremiumBait",
+    "type": "Bait"
+  },
+  {
+    "index": 800,
+    "name": "FishDetector",
+    "friendlyName": "FishDetector",
+    "type": "Finder"
+  },
+  {
+    "index": 801,
+    "name": "PremiumFinder",
+    "friendlyName": "PremiumFinder",
+    "type": "Finder"
+  },
+  {
+    "index": 802,
+    "name": "FishingReel",
+    "friendlyName": "FishingReel",
+    "type": "Reel"
+  },
+  {
+    "index": 803,
+    "name": "PremiumReel",
+    "friendlyName": "PremiumReel",
+    "type": "Reel"
+  },
+  {
+    "index": 804,
+    "name": "Walleye",
+    "friendlyName": "Walleye",
+    "type": "Fish"
+  },
+  {
+    "index": 805,
+    "name": "SwordFish",
+    "friendlyName": "SwordFish",
+    "type": "Fish"
+  },
+  {
+    "index": 806,
+    "name": "RockBass",
+    "friendlyName": "RockBass",
+    "type": "Fish"
+  },
+  {
+    "index": 807,
+    "name": "Trout",
+    "friendlyName": "Trout",
+    "type": "Fish"
+  },
+  {
+    "index": 808,
+    "name": "Tinker",
+    "friendlyName": "Tinker",
+    "type": "Potion"
+  },
+  {
+    "index": 809,
+    "name": "SmallGobby",
+    "friendlyName": "SmallGobby",
+    "type": "Potion"
+  },
+  {
+    "index": 810,
+    "name": "Mackeral",
+    "friendlyName": "Mackeral",
+    "type": "Potion"
+  },
+  {
+    "index": 811,
+    "name": "Gobby",
+    "friendlyName": "Gobby",
+    "type": "Potion"
+  },
+  {
+    "index": 812,
+    "name": "ArmourBook(DC)",
+    "friendlyName": "ArmourBook(DC)",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 813,
+    "name": "ArmourBook(MC)",
+    "friendlyName": "ArmourBook(MC)",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 814,
+    "name": "ArmourBook(SC)",
+    "friendlyName": "ArmourBook(SC)",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 815,
+    "name": "ArmourBook(ACC)",
+    "friendlyName": "ArmourBook(ACC)",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 816,
+    "name": "RustyArmour",
+    "friendlyName": "RustyArmour",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 817,
+    "name": "Translucent",
+    "friendlyName": "Translucent",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 818,
+    "name": "HavocCrystal",
+    "friendlyName": "HavocCrystal",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 819,
+    "name": "BookofMana",
+    "friendlyName": "BookofMana",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 820,
+    "name": "BookofSpirit",
+    "friendlyName": "BookofSpirit",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 821,
+    "name": "ArmourCastTool",
+    "friendlyName": "ArmourCastTool",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 822,
+    "name": "MossyBox",
+    "friendlyName": "MossyBox",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 823,
+    "name": "StrongRope",
+    "friendlyName": "StrongRope",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 824,
+    "name": "CopperOre",
+    "friendlyName": "CopperOre",
+    "type": "Ore"
+  },
+  {
+    "index": 825,
+    "name": "IronOre",
+    "friendlyName": "IronOre",
+    "type": "Ore"
+  },
+  {
+    "index": 826,
+    "name": "SilverOre",
+    "friendlyName": "SilverOre",
+    "type": "Ore"
+  },
+  {
+    "index": 827,
+    "name": "GoldOre",
+    "friendlyName": "GoldOre",
+    "type": "Ore"
+  },
+  {
+    "index": 828,
+    "name": "BlackIronOre",
+    "friendlyName": "BlackIronOre",
+    "type": "Ore"
+  },
+  {
+    "index": 829,
+    "name": "Amethyst",
+    "friendlyName": "Amethyst",
+    "type": "Ore"
+  },
+  {
+    "index": 830,
+    "name": "Ruby",
+    "friendlyName": "Ruby",
+    "type": "Ore"
+  },
+  {
+    "index": 831,
+    "name": "Platinum",
+    "friendlyName": "Platinum",
+    "type": "Ore"
+  },
+  {
+    "index": 832,
+    "name": "Nephrite",
+    "friendlyName": "Nephrite",
+    "type": "Ore"
+  },
+  {
+    "index": 833,
+    "name": "AdamintineOre",
+    "friendlyName": "AdamintineOre",
+    "type": "Ore"
+  },
+  {
+    "index": 834,
+    "name": "EmeraldOre",
+    "friendlyName": "EmeraldOre",
+    "type": "Ore"
+  },
+  {
+    "index": 835,
+    "name": "OlivineOre",
+    "friendlyName": "OlivineOre",
+    "type": "Ore"
+  },
+  {
+    "index": 836,
+    "name": "PickAxe",
+    "friendlyName": "PickAxe",
+    "type": "Weapon"
+  },
+  {
+    "index": 837,
+    "name": "PickAxe0",
+    "friendlyName": "PickAxe",
+    "type": "Weapon"
+  },
+  {
+    "index": 838,
+    "name": "Stamp",
+    "friendlyName": "Stamp",
+    "type": "Nothing"
+  },
+  {
+    "index": 839,
+    "name": "GoldBar",
+    "friendlyName": "GoldBar",
+    "type": "Nothing"
+  },
+  {
+    "index": 840,
+    "name": "GoldBarBundle",
+    "friendlyName": "GoldBarBundle",
+    "type": "Nothing"
+  },
+  {
+    "index": 841,
+    "name": "GoldChest",
+    "friendlyName": "GoldChest",
+    "type": "Nothing"
+  },
+  {
+    "index": 842,
+    "name": "GambleChip",
+    "friendlyName": "GambleChip",
+    "type": "Nothing"
+  },
+  {
+    "index": 843,
+    "name": "Dice",
+    "friendlyName": "Dice",
+    "type": "Nothing"
+  },
+  {
+    "index": 844,
+    "name": "UnknownOrb",
+    "friendlyName": "UnknownOrb",
+    "type": "Nothing"
+  },
+  {
+    "index": 845,
+    "name": "AdmissionOrb",
+    "friendlyName": "AdmissionOrb",
+    "type": "Nothing"
+  },
+  {
+    "index": 846,
+    "name": "ScrollOfSeal",
+    "friendlyName": "ScrollOfSeal",
+    "type": "Nothing"
+  },
+  {
+    "index": 847,
+    "name": "GuardianOrb",
+    "friendlyName": "GuardianOrb",
+    "type": "Nothing"
+  },
+  {
+    "index": 848,
+    "name": "BichonToken",
+    "friendlyName": "BichonToken",
+    "type": "Nothing"
+  },
+  {
+    "index": 849,
+    "name": "TimeStonePiece",
+    "friendlyName": "TimeStonePiece",
+    "type": "Nothing"
+  },
+  {
+    "index": 850,
+    "name": "Chicken",
+    "friendlyName": "Chicken",
+    "type": "Meat"
+  },
+  {
+    "index": 851,
+    "name": "Pork",
+    "friendlyName": "Pork",
+    "type": "Meat"
+  },
+  {
+    "index": 852,
+    "name": "Beef",
+    "friendlyName": "Beef",
+    "type": "Meat"
+  },
+  {
+    "index": 853,
+    "name": "Venison",
+    "friendlyName": "Venison",
+    "type": "Meat"
+  },
+  {
+    "index": 854,
+    "name": "Mutton",
+    "friendlyName": "Mutton",
+    "type": "Meat"
+  },
+  {
+    "index": 855,
+    "name": "Meat",
+    "friendlyName": "Meat",
+    "type": "Meat"
+  },
+  {
+    "index": 856,
+    "name": "DeerMeat",
+    "friendlyName": "DeerMeat",
+    "type": "Quest"
+  },
+  {
+    "index": 857,
+    "name": "Feather",
+    "friendlyName": "Feather",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 858,
+    "name": "BrownChestnut",
+    "friendlyName": "BrownChestnut",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 859,
+    "name": "BronzeChestnut",
+    "friendlyName": "BronzeChestnut",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 860,
+    "name": "SilverChestnut",
+    "friendlyName": "SilverChestnut",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 861,
+    "name": "GoldChestnut",
+    "friendlyName": "GoldChestnut",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 862,
+    "name": "Cherry",
+    "friendlyName": "Cherry",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 863,
+    "name": "Mushroom",
+    "friendlyName": "Mushroom",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 864,
+    "name": "EbonyFruit",
+    "friendlyName": "EbonyFruit",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 865,
+    "name": "Timber",
+    "friendlyName": "Timber",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 866,
+    "name": "CannibalLeaf",
+    "friendlyName": "CannibalLeaf",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 867,
+    "name": "CannibalFruit",
+    "friendlyName": "CannibalFruit",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 868,
+    "name": "SpiderTeeth",
+    "friendlyName": "SpiderTeeth",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 869,
+    "name": "SpiderWeb",
+    "friendlyName": "SpiderWeb",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 870,
+    "name": "WoomaHorn",
+    "friendlyName": "WoomaHorn",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 871,
+    "name": "ZumaRelic",
+    "friendlyName": "ZumaRelic",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 872,
+    "name": "MaggotPill",
+    "friendlyName": "MaggotPill",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 873,
+    "name": "ScorpionTail",
+    "friendlyName": "ScorpionTail",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 874,
+    "name": "Bone",
+    "friendlyName": "Bone",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 875,
+    "name": "LargeBone",
+    "friendlyName": "LargeBone",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 876,
+    "name": "SkyStingerEgg",
+    "friendlyName": "SkyStingerEgg",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 877,
+    "name": "Mandible",
+    "friendlyName": "Mandible",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 878,
+    "name": "BugEye",
+    "friendlyName": "BugEye",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 879,
+    "name": "BugLeg",
+    "friendlyName": "BugLeg",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 880,
+    "name": "BugShell",
+    "friendlyName": "BugShell",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 881,
+    "name": "WhiteThread",
+    "friendlyName": "WhiteThread",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 882,
+    "name": "RedThread",
+    "friendlyName": "RedThread",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 883,
+    "name": "BlackThread",
+    "friendlyName": "BlackThread",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 884,
+    "name": "RedEyeSkull",
+    "friendlyName": "RedEyeSkull",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 885,
+    "name": "DragonScale",
+    "friendlyName": "DragonScale",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 886,
+    "name": "WindMarble",
+    "friendlyName": "WindMarble",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 887,
+    "name": "EvasionMarble",
+    "friendlyName": "EvasionMarble",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 888,
+    "name": "FocusMarble",
+    "friendlyName": "FocusMarble",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 889,
+    "name": "PoisonMarble",
+    "friendlyName": "PoisonMarble",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 890,
+    "name": "IceMarble",
+    "friendlyName": "IceMarble",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 891,
+    "name": "WillMarble",
+    "friendlyName": "WillMarble",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 892,
+    "name": "AntidoteMarble",
+    "friendlyName": "AntidoteMarble",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 893,
+    "name": "String",
+    "friendlyName": "String",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 894,
+    "name": "HealingLetter",
+    "friendlyName": "HealingLetter",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 895,
+    "name": "DeerHorn",
+    "friendlyName": "DeerHorn",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 896,
+    "name": "DeerBlood",
+    "friendlyName": "DeerBlood",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 897,
+    "name": "PigEar",
+    "friendlyName": "PigEar",
+    "type": "Quest"
+  },
+  {
+    "index": 898,
+    "name": "PigHoof",
+    "friendlyName": "PigHoof",
+    "type": "Quest"
+  },
+  {
+    "index": 899,
+    "name": "SpiderLeg",
+    "friendlyName": "SpiderLeg",
+    "type": "Quest"
+  },
+  {
+    "index": 900,
+    "name": "CannibalPoison",
+    "friendlyName": "CannibalPoison",
+    "type": "Quest"
+  },
+  {
+    "index": 901,
+    "name": "RedMoonChip",
+    "friendlyName": "RedMoonChip",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 902,
+    "name": "EvilApeOil",
+    "friendlyName": "EvilApeOil",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 903,
+    "name": "EvilApeHeart",
+    "friendlyName": "EvilApeHeart",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 904,
+    "name": "JadeCrystal",
+    "friendlyName": "JadeCrystal",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 905,
+    "name": "DemonLeather",
+    "friendlyName": "DemonLeather",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 906,
+    "name": "UndeadLeather",
+    "friendlyName": "UndeadLeather",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 907,
+    "name": "MammothLeather",
+    "friendlyName": "MammothLeather",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 908,
+    "name": "BeastLeather",
+    "friendlyName": "BeastLeather",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 909,
+    "name": "LightLeather",
+    "friendlyName": "LightLeather",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 910,
+    "name": "BaboonLeather",
+    "friendlyName": "BaboonLeather",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 911,
+    "name": "RhinoLeather",
+    "friendlyName": "RhinoLeather",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 912,
+    "name": "AncientLeather",
+    "friendlyName": "AncientLeather",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 913,
+    "name": "BraveryGlyph0",
+    "friendlyName": "BraveryGlyph",
+    "type": "Awakening"
+  },
+  {
+    "index": 914,
+    "name": "BraveryGlyph1",
+    "friendlyName": "BraveryGlyph",
+    "type": "Awakening"
+  },
+  {
+    "index": 915,
+    "name": "BraveryGlyph2",
+    "friendlyName": "BraveryGlyph",
+    "type": "Awakening"
+  },
+  {
+    "index": 916,
+    "name": "BraveryGlyph3",
+    "friendlyName": "BraveryGlyph",
+    "type": "Awakening"
+  },
+  {
+    "index": 917,
+    "name": "MagicGlyph0",
+    "friendlyName": "MagicGlyph",
+    "type": "Awakening"
+  },
+  {
+    "index": 918,
+    "name": "MagicGlyph1",
+    "friendlyName": "MagicGlyph",
+    "type": "Awakening"
+  },
+  {
+    "index": 919,
+    "name": "MagicGlyph2",
+    "friendlyName": "MagicGlyph",
+    "type": "Awakening"
+  },
+  {
+    "index": 920,
+    "name": "MagicGlyph3",
+    "friendlyName": "MagicGlyph",
+    "type": "Awakening"
+  },
+  {
+    "index": 921,
+    "name": "SoulGlyph0",
+    "friendlyName": "SoulGlyph",
+    "type": "Awakening"
+  },
+  {
+    "index": 922,
+    "name": "SoulGlyph1",
+    "friendlyName": "SoulGlyph",
+    "type": "Awakening"
+  },
+  {
+    "index": 923,
+    "name": "SoulGlyph2",
+    "friendlyName": "SoulGlyph",
+    "type": "Awakening"
+  },
+  {
+    "index": 924,
+    "name": "SoulGlyph3",
+    "friendlyName": "SoulGlyph",
+    "type": "Awakening"
+  },
+  {
+    "index": 925,
+    "name": "ProtectionGlyph0",
+    "friendlyName": "ProtectionGlyph",
+    "type": "Awakening"
+  },
+  {
+    "index": 926,
+    "name": "ProtectionGlyph1",
+    "friendlyName": "ProtectionGlyph",
+    "type": "Awakening"
+  },
+  {
+    "index": 927,
+    "name": "ProtectionGlyph2",
+    "friendlyName": "ProtectionGlyph",
+    "type": "Awakening"
+  },
+  {
+    "index": 928,
+    "name": "ProtectionGlyph3",
+    "friendlyName": "ProtectionGlyph",
+    "type": "Awakening"
+  },
+  {
+    "index": 929,
+    "name": "EvilSlayerGlyph0",
+    "friendlyName": "EvilSlayerGlyph",
+    "type": "Awakening"
+  },
+  {
+    "index": 930,
+    "name": "EvilSlayerGlyph1",
+    "friendlyName": "EvilSlayerGlyph",
+    "type": "Awakening"
+  },
+  {
+    "index": 931,
+    "name": "EvilSlayerGlyph2",
+    "friendlyName": "EvilSlayerGlyph",
+    "type": "Awakening"
+  },
+  {
+    "index": 932,
+    "name": "EvilSlayerGlyph3",
+    "friendlyName": "EvilSlayerGlyph",
+    "type": "Awakening"
+  },
+  {
+    "index": 933,
+    "name": "BodyGlyph0",
+    "friendlyName": "BodyGlyph",
+    "type": "Awakening"
+  },
+  {
+    "index": 934,
+    "name": "BodyGlyph1",
+    "friendlyName": "BodyGlyph",
+    "type": "Awakening"
+  },
+  {
+    "index": 935,
+    "name": "BodyGlyph2",
+    "friendlyName": "BodyGlyph",
+    "type": "Awakening"
+  },
+  {
+    "index": 936,
+    "name": "BodyGlyph3",
+    "friendlyName": "BodyGlyph",
+    "type": "Awakening"
+  },
+  {
+    "index": 937,
+    "name": "AwakeningSoul0",
+    "friendlyName": "AwakeningSoul",
+    "type": "Awakening"
+  },
+  {
+    "index": 938,
+    "name": "AwakeningSoul1",
+    "friendlyName": "AwakeningSoul",
+    "type": "Awakening"
+  },
+  {
+    "index": 939,
+    "name": "AwakeningSoul2",
+    "friendlyName": "AwakeningSoul",
+    "type": "Awakening"
+  },
+  {
+    "index": 940,
+    "name": "AwakeningSoul3",
+    "friendlyName": "AwakeningSoul",
+    "type": "Awakening"
+  },
+  {
+    "index": 941,
+    "name": "BabyPigEgg",
+    "friendlyName": "BabyPigEgg",
+    "type": "Pets"
+  },
+  {
+    "index": 942,
+    "name": "ChickEgg",
+    "friendlyName": "ChickEgg",
+    "type": "Pets"
+  },
+  {
+    "index": 943,
+    "name": "KittenEgg",
+    "friendlyName": "KittenEgg",
+    "type": "Pets"
+  },
+  {
+    "index": 944,
+    "name": "SkeletonEgg",
+    "friendlyName": "SkeletonEgg",
+    "type": "Pets"
+  },
+  {
+    "index": 945,
+    "name": "BaekdonEgg",
+    "friendlyName": "BaekdonEgg",
+    "type": "Pets"
+  },
+  {
+    "index": 946,
+    "name": "WimaenEgg",
+    "friendlyName": "WimaenEgg",
+    "type": "Pets"
+  },
+  {
+    "index": 947,
+    "name": "BlackKittenEgg",
+    "friendlyName": "BlackKittenEgg",
+    "type": "Pets"
+  },
+  {
+    "index": 948,
+    "name": "BabyDragonEgg",
+    "friendlyName": "BabyDragonEgg",
+    "type": "Pets"
+  },
+  {
+    "index": 949,
+    "name": "OlympicEgg",
+    "friendlyName": "OlympicEgg",
+    "type": "Pets"
+  },
+  {
+    "index": 950,
+    "name": "SnowManEgg",
+    "friendlyName": "SnowManEgg",
+    "type": "Pets"
+  },
+  {
+    "index": 951,
+    "name": "FrogEgg",
+    "friendlyName": "FrogEgg",
+    "type": "Pets"
+  },
+  {
+    "index": 952,
+    "name": "CreatureMirror",
+    "friendlyName": "CreatureMirror",
+    "type": "Pets"
+  },
+  {
+    "index": 953,
+    "name": "BlackCreatureStone",
+    "friendlyName": "BlackCreatureStone",
+    "type": "Pets"
+  },
+  {
+    "index": 954,
+    "name": "CreatureNuts",
+    "friendlyName": "CreatureNuts",
+    "type": "Pets"
+  },
+  {
+    "index": 955,
+    "name": "FairyMoss",
+    "friendlyName": "FairyMoss",
+    "type": "Pets"
+  },
+  {
+    "index": 956,
+    "name": "FreshwaterClam",
+    "friendlyName": "FreshwaterClam",
+    "type": "Pets"
+  },
+  {
+    "index": 957,
+    "name": "Mackerel",
+    "friendlyName": "Mackerel",
+    "type": "Pets"
+  },
+  {
+    "index": 958,
+    "name": "Cherries",
+    "friendlyName": "Cherries",
+    "type": "Pets"
+  },
+  {
+    "index": 959,
+    "name": "WonderPill",
+    "friendlyName": "WonderPill",
+    "type": "Pets"
+  },
+  {
+    "index": 960,
+    "name": "WonderBox(S)",
+    "friendlyName": "WonderBox(S)",
+    "type": "Pets"
+  },
+  {
+    "index": 961,
+    "name": "WonderBox(M)",
+    "friendlyName": "WonderBox(M)",
+    "type": "Pets"
+  },
+  {
+    "index": 962,
+    "name": "WonderBox(L)",
+    "friendlyName": "WonderBox(L)",
+    "type": "Pets"
+  },
+  {
+    "index": 963,
+    "name": "WonderDrug(EXP)",
+    "friendlyName": "WonderDrug(EXP)",
+    "type": "Pets"
+  },
+  {
+    "index": 964,
+    "name": "WonderDrug(DROP)",
+    "friendlyName": "WonderDrug(DROP)",
+    "type": "Pets"
+  },
+  {
+    "index": 965,
+    "name": "WonderDrug(HP)",
+    "friendlyName": "WonderDrug(HP)",
+    "type": "Pets"
+  },
+  {
+    "index": 966,
+    "name": "WonderDrug(MP)",
+    "friendlyName": "WonderDrug(MP)",
+    "type": "Pets"
+  },
+  {
+    "index": 967,
+    "name": "WonderDrug(AC)",
+    "friendlyName": "WonderDrug(AC)",
+    "type": "Pets"
+  },
+  {
+    "index": 968,
+    "name": "WonderDrug(MAC)",
+    "friendlyName": "WonderDrug(MAC)",
+    "type": "Pets"
+  },
+  {
+    "index": 969,
+    "name": "WonderDrug(A.SPEED)",
+    "friendlyName": "WonderDrug(A.SPEED)",
+    "type": "Pets"
+  },
+  {
+    "index": 970,
+    "name": "Knapsack(S)",
+    "friendlyName": "Knapsack(S)",
+    "type": "Pets"
+  },
+  {
+    "index": 971,
+    "name": "Knapsack(M)",
+    "friendlyName": "Knapsack(M)",
+    "type": "Pets"
+  },
+  {
+    "index": 972,
+    "name": "Knapsack(L)",
+    "friendlyName": "Knapsack(L)",
+    "type": "Pets"
+  },
+  {
+    "index": 973,
+    "name": "Fencing",
+    "friendlyName": "Fencing",
+    "type": "Book"
+  },
+  {
+    "index": 974,
+    "name": "Slaying",
+    "friendlyName": "Slaying",
+    "type": "Book"
+  },
+  {
+    "index": 975,
+    "name": "Thrusting",
+    "friendlyName": "Thrusting",
+    "type": "Book"
+  },
+  {
+    "index": 976,
+    "name": "HalfMoon",
+    "friendlyName": "HalfMoon",
+    "type": "Book"
+  },
+  {
+    "index": 977,
+    "name": "ShoulderDash",
+    "friendlyName": "ShoulderDash",
+    "type": "Book"
+  },
+  {
+    "index": 978,
+    "name": "TwinDrakeBlade",
+    "friendlyName": "TwinDrakeBlade",
+    "type": "Book"
+  },
+  {
+    "index": 979,
+    "name": "Entrapment",
+    "friendlyName": "Entrapment",
+    "type": "Book"
+  },
+  {
+    "index": 980,
+    "name": "FlamingSword",
+    "friendlyName": "FlamingSword",
+    "type": "Book"
+  },
+  {
+    "index": 981,
+    "name": "LionRoar",
+    "friendlyName": "LionRoar",
+    "type": "Book"
+  },
+  {
+    "index": 982,
+    "name": "CrossHalfMoon",
+    "friendlyName": "CrossHalfMoon",
+    "type": "Book"
+  },
+  {
+    "index": 983,
+    "name": "BladeAvalanche",
+    "friendlyName": "BladeAvalanche",
+    "type": "Book"
+  },
+  {
+    "index": 984,
+    "name": "ProtectionField",
+    "friendlyName": "ProtectionField",
+    "type": "Book"
+  },
+  {
+    "index": 985,
+    "name": "Rage",
+    "friendlyName": "Rage",
+    "type": "Book"
+  },
+  {
+    "index": 986,
+    "name": "CounterAttack",
+    "friendlyName": "CounterAttack",
+    "type": "Book"
+  },
+  {
+    "index": 987,
+    "name": "SlashingBurst",
+    "friendlyName": "SlashingBurst",
+    "type": "Book"
+  },
+  {
+    "index": 988,
+    "name": "Fury",
+    "friendlyName": "Fury",
+    "type": "Book"
+  },
+  {
+    "index": 989,
+    "name": "ImmortalSkin",
+    "friendlyName": "ImmortalSkin",
+    "type": "Book"
+  },
+  {
+    "index": 990,
+    "name": "FireBall",
+    "friendlyName": "FireBall",
+    "type": "Book"
+  },
+  {
+    "index": 991,
+    "name": "Repulsion",
+    "friendlyName": "Repulsion",
+    "type": "Book"
+  },
+  {
+    "index": 992,
+    "name": "ElectricShock",
+    "friendlyName": "ElectricShock",
+    "type": "Book"
+  },
+  {
+    "index": 993,
+    "name": "GreatFireBall",
+    "friendlyName": "GreatFireBall",
+    "type": "Book"
+  },
+  {
+    "index": 994,
+    "name": "HellFire",
+    "friendlyName": "HellFire",
+    "type": "Book"
+  },
+  {
+    "index": 995,
+    "name": "ThunderBolt",
+    "friendlyName": "ThunderBolt",
+    "type": "Book"
+  },
+  {
+    "index": 996,
+    "name": "Teleport",
+    "friendlyName": "Teleport",
+    "type": "Book"
+  },
+  {
+    "index": 997,
+    "name": "FireBang",
+    "friendlyName": "FireBang",
+    "type": "Book"
+  },
+  {
+    "index": 998,
+    "name": "FireWall",
+    "friendlyName": "FireWall",
+    "type": "Book"
+  },
+  {
+    "index": 999,
+    "name": "Lightning",
+    "friendlyName": "Lightning",
+    "type": "Book"
+  },
+  {
+    "index": 1000,
+    "name": "FrostCrunch",
+    "friendlyName": "FrostCrunch",
+    "type": "Book"
+  },
+  {
+    "index": 1001,
+    "name": "ThunderStorm",
+    "friendlyName": "ThunderStorm",
+    "type": "Book"
+  },
+  {
+    "index": 1002,
+    "name": "MagicShield",
+    "friendlyName": "MagicShield",
+    "type": "Book"
+  },
+  {
+    "index": 1003,
+    "name": "TurnUndead",
+    "friendlyName": "TurnUndead",
+    "type": "Book"
+  },
+  {
+    "index": 1004,
+    "name": "Vampirism",
+    "friendlyName": "Vampirism",
+    "type": "Book"
+  },
+  {
+    "index": 1005,
+    "name": "IceStorm",
+    "friendlyName": "IceStorm",
+    "type": "Book"
+  },
+  {
+    "index": 1006,
+    "name": "FlameDisruptor",
+    "friendlyName": "FlameDisruptor",
+    "type": "Book"
+  },
+  {
+    "index": 1007,
+    "name": "Mirroring",
+    "friendlyName": "Mirroring",
+    "type": "Book"
+  },
+  {
+    "index": 1008,
+    "name": "FlameField",
+    "friendlyName": "FlameField",
+    "type": "Book"
+  },
+  {
+    "index": 1009,
+    "name": "Blizzard",
+    "friendlyName": "Blizzard",
+    "type": "Book"
+  },
+  {
+    "index": 1010,
+    "name": "MagicBooster",
+    "friendlyName": "MagicBooster",
+    "type": "Book"
+  },
+  {
+    "index": 1011,
+    "name": "MeteorStrike",
+    "friendlyName": "MeteorStrike",
+    "type": "Book"
+  },
+  {
+    "index": 1012,
+    "name": "IceThrust",
+    "friendlyName": "IceThrust",
+    "type": "Book"
+  },
+  {
+    "index": 1013,
+    "name": "Blink",
+    "friendlyName": "Blink",
+    "type": "Book"
+  },
+  {
+    "index": 1014,
+    "name": "StormEscape",
+    "friendlyName": "StormEscape",
+    "type": "Book"
+  },
+  {
+    "index": 1015,
+    "name": "FastMove",
+    "friendlyName": "FastMove",
+    "type": "Book"
+  },
+  {
+    "index": 1016,
+    "name": "Healing",
+    "friendlyName": "Healing",
+    "type": "Book"
+  },
+  {
+    "index": 1017,
+    "name": "SpiritSword",
+    "friendlyName": "SpiritSword",
+    "type": "Book"
+  },
+  {
+    "index": 1018,
+    "name": "Poisoning",
+    "friendlyName": "Poisoning",
+    "type": "Book"
+  },
+  {
+    "index": 1019,
+    "name": "SoulFireBall",
+    "friendlyName": "SoulFireBall",
+    "type": "Book"
+  },
+  {
+    "index": 1020,
+    "name": "SummonSkeleton",
+    "friendlyName": "SummonSkeleton",
+    "type": "Book"
+  },
+  {
+    "index": 1021,
+    "name": "Hiding",
+    "friendlyName": "Hiding",
+    "type": "Book"
+  },
+  {
+    "index": 1022,
+    "name": "MassHiding",
+    "friendlyName": "MassHiding",
+    "type": "Book"
+  },
+  {
+    "index": 1023,
+    "name": "SoulShield",
+    "friendlyName": "SoulShield",
+    "type": "Book"
+  },
+  {
+    "index": 1024,
+    "name": "Revelation",
+    "friendlyName": "Revelation",
+    "type": "Book"
+  },
+  {
+    "index": 1025,
+    "name": "BlessedArmour",
+    "friendlyName": "BlessedArmour",
+    "type": "Book"
+  },
+  {
+    "index": 1026,
+    "name": "EnergyRepulsor",
+    "friendlyName": "EnergyRepulsor",
+    "type": "Book"
+  },
+  {
+    "index": 1027,
+    "name": "TrapHexagon",
+    "friendlyName": "TrapHexagon",
+    "type": "Book"
+  },
+  {
+    "index": 1028,
+    "name": "Purification",
+    "friendlyName": "Purification",
+    "type": "Book"
+  },
+  {
+    "index": 1029,
+    "name": "MassHealing",
+    "friendlyName": "MassHealing",
+    "type": "Book"
+  },
+  {
+    "index": 1030,
+    "name": "Hallucination",
+    "friendlyName": "Hallucination",
+    "type": "Book"
+  },
+  {
+    "index": 1031,
+    "name": "UltimateEnhancer",
+    "friendlyName": "UltimateEnhancer",
+    "type": "Book"
+  },
+  {
+    "index": 1032,
+    "name": "SummonShinsu",
+    "friendlyName": "SummonShinsu",
+    "type": "Book"
+  },
+  {
+    "index": 1033,
+    "name": "Reincarnation",
+    "friendlyName": "Reincarnation",
+    "type": "Book"
+  },
+  {
+    "index": 1034,
+    "name": "SummonHolyDeva",
+    "friendlyName": "SummonHolyDeva",
+    "type": "Book"
+  },
+  {
+    "index": 1035,
+    "name": "Curse",
+    "friendlyName": "Curse",
+    "type": "Book"
+  },
+  {
+    "index": 1036,
+    "name": "Plague",
+    "friendlyName": "Plague",
+    "type": "Book"
+  },
+  {
+    "index": 1037,
+    "name": "PoisonCloud",
+    "friendlyName": "PoisonCloud",
+    "type": "Book"
+  },
+  {
+    "index": 1038,
+    "name": "EnergyShield",
+    "friendlyName": "EnergyShield",
+    "type": "Book"
+  },
+  {
+    "index": 1039,
+    "name": "PetEnhancer",
+    "friendlyName": "PetEnhancer",
+    "type": "Book"
+  },
+  {
+    "index": 1040,
+    "name": "HealingCircle",
+    "friendlyName": "HealingCircle",
+    "type": "Book"
+  },
+  {
+    "index": 1041,
+    "name": "FatalSword",
+    "friendlyName": "FatalSword",
+    "type": "Book"
+  },
+  {
+    "index": 1042,
+    "name": "DoubleSlash",
+    "friendlyName": "DoubleSlash",
+    "type": "Book"
+  },
+  {
+    "index": 1043,
+    "name": "Haste",
+    "friendlyName": "Haste",
+    "type": "Book"
+  },
+  {
+    "index": 1044,
+    "name": "FlashDash",
+    "friendlyName": "FlashDash",
+    "type": "Book"
+  },
+  {
+    "index": 1045,
+    "name": "LightBody",
+    "friendlyName": "LightBody",
+    "type": "Book"
+  },
+  {
+    "index": 1046,
+    "name": "HeavenlySword",
+    "friendlyName": "HeavenlySword",
+    "type": "Book"
+  },
+  {
+    "index": 1047,
+    "name": "FireBurst",
+    "friendlyName": "FireBurst",
+    "type": "Book"
+  },
+  {
+    "index": 1048,
+    "name": "Trap",
+    "friendlyName": "Trap",
+    "type": "Book"
+  },
+  {
+    "index": 1049,
+    "name": "PoisonSword",
+    "friendlyName": "PoisonSword",
+    "type": "Book"
+  },
+  {
+    "index": 1050,
+    "name": "MoonLight",
+    "friendlyName": "MoonLight",
+    "type": "Book"
+  },
+  {
+    "index": 1051,
+    "name": "MPEater",
+    "friendlyName": "MPEater",
+    "type": "Book"
+  },
+  {
+    "index": 1052,
+    "name": "SwiftFeet",
+    "friendlyName": "SwiftFeet",
+    "type": "Book"
+  },
+  {
+    "index": 1053,
+    "name": "DarkBody",
+    "friendlyName": "DarkBody",
+    "type": "Book"
+  },
+  {
+    "index": 1054,
+    "name": "Hemorrhage",
+    "friendlyName": "Hemorrhage",
+    "type": "Book"
+  },
+  {
+    "index": 1055,
+    "name": "CresentSlash",
+    "friendlyName": "CresentSlash",
+    "type": "Book"
+  },
+  {
+    "index": 1056,
+    "name": "MoonMist",
+    "friendlyName": "MoonMist",
+    "type": "Book"
+  },
+  {
+    "index": 1057,
+    "name": "Focus",
+    "friendlyName": "Focus",
+    "type": "Book"
+  },
+  {
+    "index": 1058,
+    "name": "StraightShot",
+    "friendlyName": "StraightShot",
+    "type": "Book"
+  },
+  {
+    "index": 1059,
+    "name": "MentalState",
+    "friendlyName": "MentalState",
+    "type": "Book"
+  },
+  {
+    "index": 1060,
+    "name": "DoubleShot",
+    "friendlyName": "DoubleShot",
+    "type": "Book"
+  },
+  {
+    "index": 1061,
+    "name": "Meditation",
+    "friendlyName": "Meditation",
+    "type": "Book"
+  },
+  {
+    "index": 1062,
+    "name": "ElementalShot",
+    "friendlyName": "ElementalShot",
+    "type": "Book"
+  },
+  {
+    "index": 1063,
+    "name": "ExplosiveTrap",
+    "friendlyName": "ExplosiveTrap",
+    "type": "Book"
+  },
+  {
+    "index": 1064,
+    "name": "Concentration",
+    "friendlyName": "Concentration",
+    "type": "Book"
+  },
+  {
+    "index": 1065,
+    "name": "VampireShot",
+    "friendlyName": "VampireShot",
+    "type": "Book"
+  },
+  {
+    "index": 1066,
+    "name": "SummonVampire",
+    "friendlyName": "SummonVampire",
+    "type": "Book"
+  },
+  {
+    "index": 1067,
+    "name": "BackStep",
+    "friendlyName": "BackStep",
+    "type": "Book"
+  },
+  {
+    "index": 1068,
+    "name": "DelayedExplosion",
+    "friendlyName": "DelayedExplosion",
+    "type": "Book"
+  },
+  {
+    "index": 1069,
+    "name": "ElementalBarrier",
+    "friendlyName": "ElementalBarrier",
+    "type": "Book"
+  },
+  {
+    "index": 1070,
+    "name": "BindingShot",
+    "friendlyName": "BindingShot",
+    "type": "Book"
+  },
+  {
+    "index": 1071,
+    "name": "SummonToad",
+    "friendlyName": "SummonToad",
+    "type": "Book"
+  },
+  {
+    "index": 1072,
+    "name": "PoisonShot",
+    "friendlyName": "PoisonShot",
+    "type": "Book"
+  },
+  {
+    "index": 1073,
+    "name": "CrippleShot",
+    "friendlyName": "CrippleShot",
+    "type": "Book"
+  },
+  {
+    "index": 1074,
+    "name": "SummonSnakes",
+    "friendlyName": "SummonSnakes",
+    "type": "Book"
+  },
+  {
+    "index": 1075,
+    "name": "NapalmShot",
+    "friendlyName": "NapalmShot",
+    "type": "Book"
+  },
+  {
+    "index": 1076,
+    "name": "OneWithNature",
+    "friendlyName": "OneWithNature",
+    "type": "Book"
+  },
+  {
+    "index": 1077,
+    "name": "StoneTrap",
+    "friendlyName": "StoneTrap",
+    "type": "Book"
+  },
+  {
+    "index": 1078,
+    "name": "Portal",
+    "friendlyName": "Portal",
+    "type": "Book"
+  },
+  {
+    "index": 1079,
+    "name": "WoomaHeart",
+    "friendlyName": "WoomaHeart",
+    "type": "Nothing"
+  },
+  {
+    "index": 1080,
+    "name": "StoneHeart",
+    "friendlyName": "StoneHeart",
+    "type": "Nothing"
+  },
+  {
+    "index": 1081,
+    "name": "PrajnaHeart",
+    "friendlyName": "PrajnaHeart",
+    "type": "Nothing"
+  },
+  {
+    "index": 1082,
+    "name": "ZumaHeart",
+    "friendlyName": "ZumaHeart",
+    "type": "Nothing"
+  },
+  {
+    "index": 1083,
+    "name": "DollyMask",
+    "friendlyName": "DollyMask",
+    "type": "Transform"
+  },
+  {
+    "index": 1084,
+    "name": "Pirate",
+    "friendlyName": "Pirate",
+    "type": "Transform"
+  },
+  {
+    "index": 1085,
+    "name": "Ninja(M)",
+    "friendlyName": "Ninja(M)",
+    "type": "Transform"
+  },
+  {
+    "index": 1086,
+    "name": "Ninja(F)",
+    "friendlyName": "Ninja(F)",
+    "type": "Transform"
+  },
+  {
+    "index": 1087,
+    "name": "Santa",
+    "friendlyName": "Santa",
+    "type": "Transform"
+  },
+  {
+    "index": 1088,
+    "name": "Rudolph",
+    "friendlyName": "Rudolph",
+    "type": "Transform"
+  },
+  {
+    "index": 1089,
+    "name": "SpiderWarrior",
+    "friendlyName": "SpiderWarrior",
+    "type": "Transform"
+  },
+  {
+    "index": 1090,
+    "name": "ManectricClub",
+    "friendlyName": "ManectricClub",
+    "type": "Transform"
+  },
+  {
+    "index": 1091,
+    "name": "ManectricHammer",
+    "friendlyName": "ManectricHammer",
+    "type": "Transform"
+  },
+  {
+    "index": 1092,
+    "name": "FlamingMutant",
+    "friendlyName": "FlamingMutant",
+    "type": "Transform"
+  },
+  {
+    "index": 1093,
+    "name": "Formal(M)",
+    "friendlyName": "Formal(M)",
+    "type": "Transform"
+  },
+  {
+    "index": 1094,
+    "name": "Formal(F)",
+    "friendlyName": "Formal(F)",
+    "type": "Transform"
+  },
+  {
+    "index": 1095,
+    "name": "Formal1(M)",
+    "friendlyName": "Formal1(M)",
+    "type": "Transform"
+  },
+  {
+    "index": 1096,
+    "name": "Formal1(F)",
+    "friendlyName": "Formal1(F)",
+    "type": "Transform"
+  },
+  {
+    "index": 1097,
+    "name": "Footballer",
+    "friendlyName": "Footballer",
+    "type": "Transform"
+  },
+  {
+    "index": 1098,
+    "name": "DevilGirl",
+    "friendlyName": "DevilGirl",
+    "type": "Transform"
+  },
+  {
+    "index": 1099,
+    "name": "Formal2(F)",
+    "friendlyName": "Formal2(F)",
+    "type": "Transform"
+  },
+  {
+    "index": 1100,
+    "name": "Formal2(M)",
+    "friendlyName": "Formal2(M)",
+    "type": "Transform"
+  },
+  {
+    "index": 1101,
+    "name": "HellWarrior",
+    "friendlyName": "HellWarrior",
+    "type": "Transform"
+  },
+  {
+    "index": 1102,
+    "name": "HeavenWarrior",
+    "friendlyName": "HeavenWarrior",
+    "type": "Transform"
+  },
+  {
+    "index": 1103,
+    "name": "Footballer1",
+    "friendlyName": "Footballer",
+    "type": "Transform"
+  },
+  {
+    "index": 1104,
+    "name": "Footballer2",
+    "friendlyName": "Footballer",
+    "type": "Transform"
+  },
+  {
+    "index": 1105,
+    "name": "Footballer3",
+    "friendlyName": "Footballer",
+    "type": "Transform"
+  },
+  {
+    "index": 1106,
+    "name": "Footballer4",
+    "friendlyName": "Footballer",
+    "type": "Transform"
+  },
+  {
+    "index": 1107,
+    "name": "Footballer5",
+    "friendlyName": "Footballer",
+    "type": "Transform"
+  },
+  {
+    "index": 1108,
+    "name": "DevilGirl1",
+    "friendlyName": "DevilGirl",
+    "type": "Transform"
+  },
+  {
+    "index": 1109,
+    "name": "Ram",
+    "friendlyName": "Ram",
+    "type": "Transform"
+  },
+  {
+    "index": 1110,
+    "name": "Formal2(M)",
+    "friendlyName": "Formal2(M)",
+    "type": "Transform"
+  },
+  {
+    "index": 1111,
+    "name": "CannibalLeaves",
+    "friendlyName": "CannibalLeaves",
+    "type": "Quest"
+  },
+  {
+    "index": 1112,
+    "name": "GingerTea",
+    "friendlyName": "GingerTea",
+    "type": "Quest"
+  },
+  {
+    "index": 1113,
+    "name": "OmaTeeth",
+    "friendlyName": "OmaTeeth",
+    "type": "Quest"
+  },
+  {
+    "index": 1114,
+    "name": "CannibalStem",
+    "friendlyName": "CannibalStem",
+    "type": "Quest"
+  },
+  {
+    "index": 1115,
+    "name": "PoisonSack",
+    "friendlyName": "PoisonSack",
+    "type": "Quest"
+  },
+  {
+    "index": 1116,
+    "name": "Web",
+    "friendlyName": "Web",
+    "type": "Quest"
+  },
+  {
+    "index": 1117,
+    "name": "JadeRing",
+    "friendlyName": "JadeRing",
+    "type": "Quest"
+  },
+  {
+    "index": 1118,
+    "name": "BluePill",
+    "friendlyName": "BluePill",
+    "type": "Quest"
+  },
+  {
+    "index": 1119,
+    "name": "SecretRecipe",
+    "friendlyName": "SecretRecipe",
+    "type": "Quest"
+  },
+  {
+    "index": 1120,
+    "name": "SnakeBody",
+    "friendlyName": "SnakeBody",
+    "type": "Quest"
+  },
+  {
+    "index": 1121,
+    "name": "SnakeWine",
+    "friendlyName": "SnakeWine",
+    "type": "Nothing"
+  },
+  {
+    "index": 1122,
+    "name": "Ebony(Fruit)",
+    "friendlyName": "Ebony(Fruit)",
+    "type": "Quest"
+  },
+  {
+    "index": 1123,
+    "name": "RedSnakeTeeth",
+    "friendlyName": "RedSnakeTeeth",
+    "type": "Quest"
+  },
+  {
+    "index": 1124,
+    "name": "OliviasRing",
+    "friendlyName": "OliviasRing",
+    "type": "Quest"
+  },
+  {
+    "index": 1125,
+    "name": "Relics",
+    "friendlyName": "Relics",
+    "type": "Quest"
+  },
+  {
+    "index": 1126,
+    "name": "CookBook",
+    "friendlyName": "CookBook",
+    "type": "Quest"
+  },
+  {
+    "index": 1127,
+    "name": "CannibalSeed",
+    "friendlyName": "CannibalSeed",
+    "type": "Quest"
+  },
+  {
+    "index": 1128,
+    "name": "CanniTea",
+    "friendlyName": "CanniTea",
+    "type": "Quest"
+  },
+  {
+    "index": 1129,
+    "name": "BatTeeth",
+    "friendlyName": "BatTeeth",
+    "type": "Quest"
+  },
+  {
+    "index": 1130,
+    "name": "Skull",
+    "friendlyName": "Skull",
+    "type": "Quest"
+  },
+  {
+    "index": 1131,
+    "name": "ZombieEye",
+    "friendlyName": "ZombieEye",
+    "type": "Quest"
+  },
+  {
+    "index": 1132,
+    "name": "BatWings",
+    "friendlyName": "BatWings",
+    "type": "Quest"
+  },
+  {
+    "index": 1133,
+    "name": "CaveReport",
+    "friendlyName": "CaveReport",
+    "type": "Quest"
+  },
+  {
+    "index": 1134,
+    "name": "SkeletonHead",
+    "friendlyName": "SkeletonHead",
+    "type": "Quest"
+  },
+  {
+    "index": 1135,
+    "name": "RareCopperOre",
+    "friendlyName": "RareCopperOre",
+    "type": "Quest"
+  },
+  {
+    "index": 1136,
+    "name": "OldNecklace",
+    "friendlyName": "OldNecklace",
+    "type": "Quest"
+  },
+  {
+    "index": 1137,
+    "name": "BugBlood",
+    "friendlyName": "BugBlood",
+    "type": "Quest"
+  },
+  {
+    "index": 1138,
+    "name": "BluJadePendant",
+    "friendlyName": "BluJadePendant",
+    "type": "Quest"
+  },
+  {
+    "index": 1139,
+    "name": "Antidote",
+    "friendlyName": "Antidote",
+    "type": "Quest"
+  },
+  {
+    "index": 1140,
+    "name": "GatheringGlove",
+    "friendlyName": "GatheringGlove",
+    "type": "Quest"
+  },
+  {
+    "index": 1141,
+    "name": "GatheringTool",
+    "friendlyName": "GatheringTool",
+    "type": "Quest"
+  },
+  {
+    "index": 1142,
+    "name": "GreenHerb",
+    "friendlyName": "GreenHerb",
+    "type": "Quest"
+  },
+  {
+    "index": 1143,
+    "name": "MobBlood",
+    "friendlyName": "MobBlood",
+    "type": "Quest"
+  },
+  {
+    "index": 1144,
+    "name": "RedDagger",
+    "friendlyName": "RedDagger",
+    "type": "Quest"
+  },
+  {
+    "index": 1145,
+    "name": "OldRobe",
+    "friendlyName": "OldRobe",
+    "type": "Quest"
+  },
+  {
+    "index": 1146,
+    "name": "StolenGold",
+    "friendlyName": "StolenGold",
+    "type": "Quest"
+  },
+  {
+    "index": 1147,
+    "name": "HiddenScroll",
+    "friendlyName": "HiddenScroll",
+    "type": "Quest"
+  },
+  {
+    "index": 1148,
+    "name": "HeartOfDead",
+    "friendlyName": "HeartOfDead",
+    "type": "Quest"
+  },
+  {
+    "index": 1149,
+    "name": "TraineeSuit",
+    "friendlyName": "TraineeSuit",
+    "type": "Quest"
+  },
+  {
+    "index": 1150,
+    "name": "ZombiesHeart",
+    "friendlyName": "ZombiesHeart",
+    "type": "Quest"
+  },
+  {
+    "index": 1151,
+    "name": "AncientTree",
+    "friendlyName": "AncientTree",
+    "type": "Quest"
+  },
+  {
+    "index": 1152,
+    "name": "WornAxe",
+    "friendlyName": "WornAxe",
+    "type": "Quest"
+  },
+  {
+    "index": 1153,
+    "name": "TraineeRing",
+    "friendlyName": "TraineeRing",
+    "type": "Quest"
+  },
+  {
+    "index": 1154,
+    "name": "SkysLetter",
+    "friendlyName": "SkysLetter",
+    "type": "Quest"
+  },
+  {
+    "index": 1155,
+    "name": "BeefRib",
+    "friendlyName": "BeefRib",
+    "type": "Quest"
+  },
+  {
+    "index": 1156,
+    "name": "WoomasHorn",
+    "friendlyName": "WoomasHorn",
+    "type": "Quest"
+  },
+  {
+    "index": 1157,
+    "name": "BugSpecimen",
+    "friendlyName": "BugSpecimen",
+    "type": "Quest"
+  },
+  {
+    "index": 1158,
+    "name": "CharleySword",
+    "friendlyName": "CharleySword",
+    "type": "Quest"
+  },
+  {
+    "index": 1159,
+    "name": "BichonTales(1)",
+    "friendlyName": "BichonTales(1)",
+    "type": "Quest"
+  },
+  {
+    "index": 1160,
+    "name": "BichonTales(2)",
+    "friendlyName": "BichonTales(2)",
+    "type": "Quest"
+  },
+  {
+    "index": 1161,
+    "name": "BichonTales(3)",
+    "friendlyName": "BichonTales(3)",
+    "type": "Quest"
+  },
+  {
+    "index": 1162,
+    "name": "CorpsFlower",
+    "friendlyName": "CorpsFlower",
+    "type": "Quest"
+  },
+  {
+    "index": 1163,
+    "name": "CleanSkull",
+    "friendlyName": "CleanSkull",
+    "type": "Quest"
+  },
+  {
+    "index": 1164,
+    "name": "PrajnaHistory",
+    "friendlyName": "PrajnaHistory",
+    "type": "Quest"
+  },
+  {
+    "index": 1165,
+    "name": "BatPoison",
+    "friendlyName": "BatPoison",
+    "type": "Quest"
+  },
+  {
+    "index": 1166,
+    "name": "Algae",
+    "friendlyName": "Algae",
+    "type": "Quest"
+  },
+  {
+    "index": 1167,
+    "name": "RelicRock",
+    "friendlyName": "RelicRock",
+    "type": "Quest"
+  },
+  {
+    "index": 1168,
+    "name": "BloodPill",
+    "friendlyName": "BloodPill",
+    "type": "Quest"
+  },
+  {
+    "index": 1169,
+    "name": "SkeletonBone",
+    "friendlyName": "SkeletonBone",
+    "type": "Quest"
+  },
+  {
+    "index": 1170,
+    "name": "BoarTooth",
+    "friendlyName": "BoarTooth",
+    "type": "Quest"
+  },
+  {
+    "index": 1171,
+    "name": "GoldenPendant",
+    "friendlyName": "GoldenPendant",
+    "type": "Necklace"
+  },
+  {
+    "index": 1172,
+    "name": "SharpDagger",
+    "friendlyName": "SharpDagger",
+    "type": "Weapon"
+  },
+  {
+    "index": 1173,
+    "name": "ToughHoaSword",
+    "friendlyName": "ToughHoaSword",
+    "type": "Weapon"
+  },
+  {
+    "index": 1174,
+    "name": "StiffWoodenBow",
+    "friendlyName": "StiffWoodenBow",
+    "type": "Weapon"
+  },
+  {
+    "index": 1175,
+    "name": "OldCopperRing",
+    "friendlyName": "OldCopperRing",
+    "type": "Ring"
+  },
+  {
+    "index": 1176,
+    "name": "WornIronBracelet",
+    "friendlyName": "WornIronBracelet",
+    "type": "Bracelet"
+  },
+  {
+    "index": 1177,
+    "name": "BronzeWarriorSword",
+    "friendlyName": "BronzeWarriorSword",
+    "type": "Weapon"
+  },
+  {
+    "index": 1178,
+    "name": "StrongHoaSword",
+    "friendlyName": "StrongHoaSword",
+    "type": "Weapon"
+  },
+  {
+    "index": 1179,
+    "name": "StrongWoodenBow",
+    "friendlyName": "StrongWoodenBow",
+    "type": "Weapon"
+  },
+  {
+    "index": 1180,
+    "name": "OldLoafer",
+    "friendlyName": "OldLoafer",
+    "type": "Boots"
+  },
+  {
+    "index": 1181,
+    "name": "PrecisionPendant",
+    "friendlyName": "PrecisionPendant",
+    "type": "Necklace"
+  },
+  {
+    "index": 1182,
+    "name": "BronzeShortSword",
+    "friendlyName": "BronzeShortSword",
+    "type": "Weapon"
+  },
+  {
+    "index": 1183,
+    "name": "BronzeHoaSword",
+    "friendlyName": "BronzeHoaSword",
+    "type": "Weapon"
+  },
+  {
+    "index": 1184,
+    "name": "ElkWoodenBow",
+    "friendlyName": "ElkWoodenBow",
+    "type": "Weapon"
+  },
+  {
+    "index": 1185,
+    "name": "SteelBangle",
+    "friendlyName": "SteelBangle",
+    "type": "Bracelet"
+  },
+  {
+    "index": 1186,
+    "name": "StrongLeatherBelt",
+    "friendlyName": "StrongLeatherBelt",
+    "type": "Belt"
+  },
+  {
+    "index": 1187,
+    "name": "BlackCrystalPendant",
+    "friendlyName": "BlackCrystalPendant",
+    "type": "Necklace"
+  },
+  {
+    "index": 1188,
+    "name": "EbonyPendant",
+    "friendlyName": "EbonyPendant",
+    "type": "Necklace"
+  },
+  {
+    "index": 1189,
+    "name": "YellowCrystalPendant",
+    "friendlyName": "YellowCrystalPendant",
+    "type": "Necklace"
+  },
+  {
+    "index": 1190,
+    "name": "SolidArmour(M)",
+    "friendlyName": "SolidArmour(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 1191,
+    "name": "SolidArmour(F)",
+    "friendlyName": "SolidArmour(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 1192,
+    "name": "BrokenSword",
+    "friendlyName": "BrokenSword",
+    "type": "Weapon"
+  },
+  {
+    "index": 1193,
+    "name": "SuperiorBronzeHelmet",
+    "friendlyName": "SuperiorBronzeHelmet",
+    "type": "Helmet"
+  },
+  {
+    "index": 1194,
+    "name": "StrongLeatherShoes",
+    "friendlyName": "StrongLeatherShoes",
+    "type": "Boots"
+  },
+  {
+    "index": 1195,
+    "name": "SolidBronzeAxe",
+    "friendlyName": "SolidBronzeAxe",
+    "type": "Weapon"
+  },
+  {
+    "index": 1196,
+    "name": "SharpSword",
+    "friendlyName": "SharpSword",
+    "type": "Weapon"
+  },
+  {
+    "index": 1197,
+    "name": "SharpTrident",
+    "friendlyName": "SharpTrident",
+    "type": "Weapon"
+  },
+  {
+    "index": 1198,
+    "name": "SharpScimitar",
+    "friendlyName": "SharpScimitar",
+    "type": "Weapon"
+  },
+  {
+    "index": 1199,
+    "name": "SharpSabre",
+    "friendlyName": "SharpSabre",
+    "type": "Weapon"
+  },
+  {
+    "index": 1200,
+    "name": "ToughBow",
+    "friendlyName": "ToughBow",
+    "type": "Weapon"
+  },
+  {
+    "index": 1201,
+    "name": "SuperiorMagicHelmet",
+    "friendlyName": "SuperiorMagicHelmet",
+    "type": "Helmet"
+  },
+  {
+    "index": 1202,
+    "name": "SteelBuckle",
+    "friendlyName": "SteelBuckle",
+    "type": "Belt"
+  },
+  {
+    "index": 1203,
+    "name": "OldNagaNecklace",
+    "friendlyName": "OldNagaNecklace",
+    "type": "Necklace"
+  },
+  {
+    "index": 1204,
+    "name": "AmberPendant",
+    "friendlyName": "AmberPendant",
+    "type": "Necklace"
+  },
+  {
+    "index": 1205,
+    "name": "WornBeadofPhoenix",
+    "friendlyName": "WornBeadofPhoenix",
+    "type": "Necklace"
+  },
+  {
+    "index": 1206,
+    "name": "BronzeStrap",
+    "friendlyName": "BronzeStrap",
+    "type": "Belt"
+  },
+  {
+    "index": 1207,
+    "name": "ToughGlove",
+    "friendlyName": "ToughGlove",
+    "type": "Bracelet"
+  },
+  {
+    "index": 1208,
+    "name": "MagicBangle",
+    "friendlyName": "MagicBangle",
+    "type": "Bracelet"
+  },
+  {
+    "index": 1209,
+    "name": "HardSteelSword",
+    "friendlyName": "HardSteelSword",
+    "type": "Weapon"
+  },
+  {
+    "index": 1210,
+    "name": "EbonyBangle",
+    "friendlyName": "EbonyBangle",
+    "type": "Bracelet"
+  },
+  {
+    "index": 1211,
+    "name": "MonkBangle",
+    "friendlyName": "MonkBangle",
+    "type": "Bracelet"
+  },
+  {
+    "index": 1212,
+    "name": "SilkShoes",
+    "friendlyName": "SilkShoes",
+    "type": "Boots"
+  },
+  {
+    "index": 1213,
+    "name": "BlackCrystalRing",
+    "friendlyName": "BlackCrystalRing",
+    "type": "Ring"
+  },
+  {
+    "index": 1214,
+    "name": "EyeofGoldenSnake",
+    "friendlyName": "EyeofGoldenSnake",
+    "type": "Ring"
+  },
+  {
+    "index": 1215,
+    "name": "BlackPearlRing",
+    "friendlyName": "BlackPearlRing",
+    "type": "Ring"
+  },
+  {
+    "index": 1216,
+    "name": "MartialSabre",
+    "friendlyName": "MartialSabre",
+    "type": "Weapon"
+  },
+  {
+    "index": 1217,
+    "name": "SpearWithHook",
+    "friendlyName": "SpearWithHook",
+    "type": "Weapon"
+  },
+  {
+    "index": 1218,
+    "name": "KeenKrissSword",
+    "friendlyName": "KeenKrissSword",
+    "type": "Weapon"
+  },
+  {
+    "index": 1219,
+    "name": "BlackIronCrowSwords",
+    "friendlyName": "BlackIronCrowSwords",
+    "type": "Weapon"
+  },
+  {
+    "index": 1220,
+    "name": "ToughLongBow",
+    "friendlyName": "ToughLongBow",
+    "type": "Weapon"
+  },
+  {
+    "index": 1221,
+    "name": "ThickArmour(M)",
+    "friendlyName": "ThickArmour(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 1222,
+    "name": "ThickArmour(F)",
+    "friendlyName": "ThickArmour(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 1223,
+    "name": "FireMagicRobe(M)",
+    "friendlyName": "FireMagicRobe(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 1224,
+    "name": "FireMagicRobe(F)",
+    "friendlyName": "FireMagicRobe(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 1225,
+    "name": "TaoArmour(M)",
+    "friendlyName": "TaoArmour(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 1226,
+    "name": "TaoArmour(F)",
+    "friendlyName": "TaoArmour(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 1227,
+    "name": "SpiritRobe(M)",
+    "friendlyName": "SpiritRobe(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 1228,
+    "name": "SpiritRobe(F)",
+    "friendlyName": "SpiritRobe(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 1229,
+    "name": "LeatherArmour(M)",
+    "friendlyName": "LeatherArmour(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 1230,
+    "name": "LeatherArmour(F)",
+    "friendlyName": "LeatherArmour(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 1231,
+    "name": "BlueJadePendant",
+    "friendlyName": "BlueJadePendant",
+    "type": "Necklace"
+  },
+  {
+    "index": 1232,
+    "name": "WizardRing",
+    "friendlyName": "WizardRing",
+    "type": "Ring"
+  },
+  {
+    "index": 1233,
+    "name": "RingOfMoral",
+    "friendlyName": "RingOfMoral",
+    "type": "Ring"
+  },
+  {
+    "index": 1234,
+    "name": "BlackIronBelt",
+    "friendlyName": "BlackIronBelt",
+    "type": "Belt"
+  },
+  {
+    "index": 1235,
+    "name": "SolidBlackBoots",
+    "friendlyName": "SolidBlackBoots",
+    "type": "Boots"
+  },
+  {
+    "index": 1236,
+    "name": "ClawPendant",
+    "friendlyName": "ClawPendant",
+    "type": "Necklace"
+  },
+  {
+    "index": 1237,
+    "name": "FireConvexLens",
+    "friendlyName": "FireConvexLens",
+    "type": "Necklace"
+  },
+  {
+    "index": 1238,
+    "name": "StrongBambooFlute",
+    "friendlyName": "StrongBambooFlute",
+    "type": "Necklace"
+  },
+  {
+    "index": 1239,
+    "name": "ExorcistRing",
+    "friendlyName": "ExorcistRing",
+    "type": "Ring"
+  },
+  {
+    "index": 1240,
+    "name": "SolidGreatAxe",
+    "friendlyName": "SolidGreatAxe",
+    "type": "Weapon"
+  },
+  {
+    "index": 1241,
+    "name": "SolidBronzeStaff",
+    "friendlyName": "SolidBronzeStaff",
+    "type": "Weapon"
+  },
+  {
+    "index": 1242,
+    "name": "SolidSerpentSword",
+    "friendlyName": "SolidSerpentSword",
+    "type": "Weapon"
+  },
+  {
+    "index": 1243,
+    "name": "SolidTwinBlades",
+    "friendlyName": "SolidTwinBlades",
+    "type": "Weapon"
+  },
+  {
+    "index": 1244,
+    "name": "SolidSilverBow",
+    "friendlyName": "SolidSilverBow",
+    "type": "Weapon"
+  },
+  {
+    "index": 1245,
+    "name": "BlackIronBangle",
+    "friendlyName": "BlackIronBangle",
+    "type": "Bracelet"
+  },
+  {
+    "index": 1246,
+    "name": "FineIronArmour(M)",
+    "friendlyName": "FineIronArmour(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 1247,
+    "name": "FineIronArmour(F)",
+    "friendlyName": "FineIronArmour(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 1248,
+    "name": "FireRobe(M)",
+    "friendlyName": "FireRobe(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 1249,
+    "name": "FireRobe(F)",
+    "friendlyName": "FireRobe(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 1250,
+    "name": "YingYangRobe(M)",
+    "friendlyName": "YingYangRobe(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 1251,
+    "name": "YingYangRobe(F)",
+    "friendlyName": "YingYangRobe(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 1252,
+    "name": "FlamingRedArmour(M)",
+    "friendlyName": "FlamingRedArmour(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 1253,
+    "name": "FlamingRedArmour(F)",
+    "friendlyName": "FlamingRedArmour(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 1254,
+    "name": "HardTemperedArmour(M)",
+    "friendlyName": "HardTemperedArmour(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 1255,
+    "name": "HardTemperedArmour(F)",
+    "friendlyName": "HardTemperedArmour(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 1256,
+    "name": "RedMoonSword",
+    "friendlyName": "RedMoonSword",
+    "type": "Weapon"
+  },
+  {
+    "index": 1257,
+    "name": "RedMoonBlades",
+    "friendlyName": "RedMoonBlades",
+    "type": "Weapon"
+  },
+  {
+    "index": 1258,
+    "name": "RedMoonBow",
+    "friendlyName": "RedMoonBow",
+    "type": "Weapon"
+  },
+  {
+    "index": 1260,
+    "name": "CreditToken1",
+    "friendlyName": "CreditToken",
+    "type": "Scroll"
+  },
+  {
+    "index": 1261,
+    "name": "CreditToken2",
+    "friendlyName": "CreditToken",
+    "type": "Scroll"
+  },
+  {
+    "index": 1262,
+    "name": "CreditToken3",
+    "friendlyName": "CreditToken",
+    "type": "Scroll"
+  },
+  {
+    "index": 1263,
+    "name": "CreditToken4",
+    "friendlyName": "CreditToken",
+    "type": "Scroll"
+  },
+  {
+    "index": 1264,
+    "name": "CreditToken5",
+    "friendlyName": "CreditToken",
+    "type": "Scroll"
+  },
+  {
+    "index": 1265,
+    "name": "CreditToken6",
+    "friendlyName": "CreditToken",
+    "type": "Scroll"
+  },
+  {
+    "index": 1266,
+    "name": "CreditToken7",
+    "friendlyName": "CreditToken",
+    "type": "Scroll"
+  },
+  {
+    "index": 1267,
+    "name": "CreditToken8",
+    "friendlyName": "CreditToken",
+    "type": "Scroll"
+  },
+  {
+    "index": 1268,
+    "name": "DestructionLiquor1",
+    "friendlyName": "DestructionLiquor",
+    "type": "Potion"
+  },
+  {
+    "index": 1269,
+    "name": "DestructionLiquor3",
+    "friendlyName": "DestructionLiquor",
+    "type": "Potion"
+  },
+  {
+    "index": 1270,
+    "name": "DestructionLiquor5",
+    "friendlyName": "DestructionLiquor",
+    "type": "Potion"
+  },
+  {
+    "index": 1271,
+    "name": "MagicalLiquor1",
+    "friendlyName": "MagicalLiquor",
+    "type": "Potion"
+  },
+  {
+    "index": 1272,
+    "name": "MagicalLiquor3",
+    "friendlyName": "MagicalLiquor",
+    "type": "Potion"
+  },
+  {
+    "index": 1273,
+    "name": "MagicalLiquor5",
+    "friendlyName": "MagicalLiquor",
+    "type": "Potion"
+  },
+  {
+    "index": 1274,
+    "name": "SoulLiquor1",
+    "friendlyName": "SoulLiquor",
+    "type": "Potion"
+  },
+  {
+    "index": 1275,
+    "name": "SoulLiquor3",
+    "friendlyName": "SoulLiquor",
+    "type": "Potion"
+  },
+  {
+    "index": 1276,
+    "name": "SoulLiquor5",
+    "friendlyName": "SoulLiquor",
+    "type": "Potion"
+  },
+  {
+    "index": 1277,
+    "name": "HealthWine1",
+    "friendlyName": "HealthWine",
+    "type": "Potion"
+  },
+  {
+    "index": 1278,
+    "name": "HealthWine3",
+    "friendlyName": "HealthWine",
+    "type": "Potion"
+  },
+  {
+    "index": 1279,
+    "name": "HealthWine5",
+    "friendlyName": "HealthWine",
+    "type": "Potion"
+  },
+  {
+    "index": 1280,
+    "name": "MagicWine1",
+    "friendlyName": "MagicWine",
+    "type": "Potion"
+  },
+  {
+    "index": 1281,
+    "name": "MagicWine3",
+    "friendlyName": "MagicWine",
+    "type": "Potion"
+  },
+  {
+    "index": 1282,
+    "name": "MagicWine5",
+    "friendlyName": "MagicWine",
+    "type": "Potion"
+  },
+  {
+    "index": 1283,
+    "name": "GalePotion1",
+    "friendlyName": "GalePotion",
+    "type": "Potion"
+  },
+  {
+    "index": 1284,
+    "name": "GalePotion2",
+    "friendlyName": "GalePotion",
+    "type": "Potion"
+  },
+  {
+    "index": 1285,
+    "name": "GalePotion3",
+    "friendlyName": "GalePotion",
+    "type": "Potion"
+  },
+  {
+    "index": 1286,
+    "name": "ResurrectionScroll",
+    "friendlyName": "ResurrectionScroll",
+    "type": "Scroll"
+  },
+  {
+    "index": 1287,
+    "name": "PKPointReduction",
+    "friendlyName": "PKPointReduction",
+    "type": "Script"
+  },
+  {
+    "index": 1288,
+    "name": "MysteriousScroll1",
+    "friendlyName": "MysteriousScroll",
+    "type": "Script"
+  },
+  {
+    "index": 1289,
+    "name": "MysteriousScroll2",
+    "friendlyName": "MysteriousScroll",
+    "type": "Script"
+  },
+  {
+    "index": 1290,
+    "name": "GuardRental[7d]",
+    "friendlyName": "GuardRental",
+    "type": "Nothing"
+  },
+  {
+    "index": 1291,
+    "name": "AncientBanga[Green]",
+    "friendlyName": "AncientBanga",
+    "type": "Scroll"
+  },
+  {
+    "index": 1292,
+    "name": "AncientBanga[Purple]",
+    "friendlyName": "AncientBanga",
+    "type": "Scroll"
+  },
+  {
+    "index": 1293,
+    "name": "SexChange",
+    "friendlyName": "SexChange",
+    "type": "Script"
+  },
+  {
+    "index": 1294,
+    "name": "MysteriousStone[3d]",
+    "friendlyName": "MysteriousStone",
+    "type": "Nothing"
+  },
+  {
+    "index": 1295,
+    "name": "DCTorch[3h]",
+    "friendlyName": "DCTorch",
+    "type": "Torch"
+  },
+  {
+    "index": 1296,
+    "name": "MCTorch[3h]",
+    "friendlyName": "MCTorch",
+    "type": "Torch"
+  },
+  {
+    "index": 1297,
+    "name": "SCTorch[3h]",
+    "friendlyName": "SCTorch",
+    "type": "Torch"
+  },
+  {
+    "index": 1298,
+    "name": "DCTorch[2h]",
+    "friendlyName": "DCTorch",
+    "type": "Torch"
+  },
+  {
+    "index": 1299,
+    "name": "MCTorch[2h]",
+    "friendlyName": "MCTorch",
+    "type": "Torch"
+  },
+  {
+    "index": 1300,
+    "name": "SCTorch[2h]",
+    "friendlyName": "SCTorch",
+    "type": "Torch"
+  },
+  {
+    "index": 1301,
+    "name": "EXP30%1",
+    "friendlyName": "EXP30%",
+    "type": "Potion"
+  },
+  {
+    "index": 1302,
+    "name": "EXP30%3",
+    "friendlyName": "EXP30%",
+    "type": "Potion"
+  },
+  {
+    "index": 1303,
+    "name": "EXP30%5",
+    "friendlyName": "EXP30%",
+    "type": "Potion"
+  },
+  {
+    "index": 1304,
+    "name": "EXP30%24",
+    "friendlyName": "EXP30%",
+    "type": "Potion"
+  },
+  {
+    "index": 1305,
+    "name": "EXP50%1",
+    "friendlyName": "EXP50%",
+    "type": "Potion"
+  },
+  {
+    "index": 1306,
+    "name": "EXP50%3",
+    "friendlyName": "EXP50%",
+    "type": "Potion"
+  },
+  {
+    "index": 1307,
+    "name": "EXP50%5",
+    "friendlyName": "EXP50%",
+    "type": "Potion"
+  },
+  {
+    "index": 1308,
+    "name": "EXP50%24",
+    "friendlyName": "EXP50%",
+    "type": "Potion"
+  },
+  {
+    "index": 1309,
+    "name": "ExtraDrop20%",
+    "friendlyName": "ExtraDrop20%",
+    "type": "Script"
+  },
+  {
+    "index": 1310,
+    "name": "DestructionWater3",
+    "friendlyName": "DestructionWater",
+    "type": "Potion"
+  },
+  {
+    "index": 1311,
+    "name": "DestructionWater7",
+    "friendlyName": "DestructionWater",
+    "type": "Potion"
+  },
+  {
+    "index": 1312,
+    "name": "MagicalWater3",
+    "friendlyName": "MagicalWater",
+    "type": "Potion"
+  },
+  {
+    "index": 1313,
+    "name": "MagicalWater7",
+    "friendlyName": "MagicalWater",
+    "type": "Potion"
+  },
+  {
+    "index": 1314,
+    "name": "SoulWater3",
+    "friendlyName": "SoulWater",
+    "type": "Potion"
+  },
+  {
+    "index": 1315,
+    "name": "SoulWater7",
+    "friendlyName": "SoulWater",
+    "type": "Potion"
+  },
+  {
+    "index": 1316,
+    "name": "StrengthWater3",
+    "friendlyName": "StrengthWater",
+    "type": "Potion"
+  },
+  {
+    "index": 1317,
+    "name": "StrengthWater7",
+    "friendlyName": "StrengthWater",
+    "type": "Potion"
+  },
+  {
+    "index": 1318,
+    "name": "ElixirOfPhysical",
+    "friendlyName": "ElixirOfPhysical",
+    "type": "Potion"
+  },
+  {
+    "index": 1319,
+    "name": "AccuracyPotion",
+    "friendlyName": "AccuracyPotion",
+    "type": "Potion"
+  },
+  {
+    "index": 1320,
+    "name": "BlueOctagonalBox",
+    "friendlyName": "BlueOctagonalBox",
+    "type": "Script"
+  },
+  {
+    "index": 1321,
+    "name": "RedOctagonalBox",
+    "friendlyName": "RedOctagonalBox",
+    "type": "Script"
+  },
+  {
+    "index": 1322,
+    "name": "GreenOctagonalBox",
+    "friendlyName": "GreenOctagonalBox",
+    "type": "Script"
+  },
+  {
+    "index": 1323,
+    "name": "DestructionLiquor",
+    "friendlyName": "DestructionLiquor",
+    "type": "Potion"
+  },
+  {
+    "index": 1324,
+    "name": "MagicalLiquor",
+    "friendlyName": "MagicalLiquor",
+    "type": "Potion"
+  },
+  {
+    "index": 1325,
+    "name": "SoulLiquor",
+    "friendlyName": "SoulLiquor",
+    "type": "Potion"
+  },
+  {
+    "index": 1326,
+    "name": "HealthWine",
+    "friendlyName": "HealthWine",
+    "type": "Potion"
+  },
+  {
+    "index": 1327,
+    "name": "GalePotion",
+    "friendlyName": "GalePotion",
+    "type": "Potion"
+  },
+  {
+    "index": 1328,
+    "name": "AncientScyther",
+    "friendlyName": "AncientScyther",
+    "type": "Quest"
+  },
+  {
+    "index": 1329,
+    "name": "WhiteWine",
+    "friendlyName": "WhiteWine",
+    "type": "Nothing"
+  },
+  {
+    "index": 1330,
+    "name": "RedWine",
+    "friendlyName": "RedWine",
+    "type": "Nothing"
+  },
+  {
+    "index": 1331,
+    "name": "Wine",
+    "friendlyName": "Wine",
+    "type": "Nothing"
+  },
+  {
+    "index": 1332,
+    "name": "CannibalWine",
+    "friendlyName": "CannibalWine",
+    "type": "Nothing"
+  },
+  {
+    "index": 1333,
+    "name": "SpiderWine",
+    "friendlyName": "SpiderWine",
+    "type": "Nothing"
+  },
+  {
+    "index": 1334,
+    "name": "MongchonWine",
+    "friendlyName": "MongchonWine",
+    "type": "Nothing"
+  },
+  {
+    "index": 1335,
+    "name": "BloodWine",
+    "friendlyName": "BloodWine",
+    "type": "Nothing"
+  },
+  {
+    "index": 1336,
+    "name": "Medicine",
+    "friendlyName": "Medicine",
+    "type": "Script"
+  },
+  {
+    "index": 1337,
+    "name": "BoxofHolyWater1",
+    "friendlyName": "BoxofHolyWater",
+    "type": "Script"
+  },
+  {
+    "index": 1338,
+    "name": "ElixirOfMight[1d]",
+    "friendlyName": "ElixirOfMight",
+    "type": "Potion"
+  },
+  {
+    "index": 1339,
+    "name": "ElixirOfDefensive[1d]",
+    "friendlyName": "ElixirOfDefensive",
+    "type": "Potion"
+  },
+  {
+    "index": 1340,
+    "name": "ElixirOfGinseng[1d]",
+    "friendlyName": "ElixirOfGinseng",
+    "type": "Potion"
+  },
+  {
+    "index": 1341,
+    "name": "EXP20%[1d]",
+    "friendlyName": "EXP20%",
+    "type": "Potion"
+  },
+  {
+    "index": 1342,
+    "name": "PremiumPass[1d]",
+    "friendlyName": "PremiumPass",
+    "type": "Nothing"
+  },
+  {
+    "index": 1343,
+    "name": "PremiumPass[3d]",
+    "friendlyName": "PremiumPass",
+    "type": "Nothing"
+  },
+  {
+    "index": 1344,
+    "name": "PremiumPass[7d]",
+    "friendlyName": "PremiumPass",
+    "type": "Nothing"
+  },
+  {
+    "index": 1345,
+    "name": "PremiumPass[15d]",
+    "friendlyName": "PremiumPass",
+    "type": "Nothing"
+  },
+  {
+    "index": 1346,
+    "name": "FishingPackage",
+    "friendlyName": "FishingPackage",
+    "type": "Script"
+  },
+  {
+    "index": 1348,
+    "name": "CraftingBook",
+    "friendlyName": "CraftingBook",
+    "type": "CraftingMaterial"
+  },
+  {
+    "index": 1349,
+    "name": "SealedHero",
+    "friendlyName": "SealedHero",
+    "type": "SealedHero"
+  },
+  {
+    "index": 1350,
+    "name": "CostumeGirl",
+    "friendlyName": "CostumeGirl",
+    "type": "Transform"
+  },
+  {
+    "index": 1351,
+    "name": "BlackTiger(F)",
+    "friendlyName": "BlackTiger(F)",
+    "type": "Transform"
+  },
+  {
+    "index": 1352,
+    "name": "BlackTiger(M)",
+    "friendlyName": "BlackTiger(M)",
+    "type": "Transform"
+  },
+  {
+    "index": 1353,
+    "name": "Bossy(F)",
+    "friendlyName": "Bossy(F)",
+    "type": "Transform"
+  },
+  {
+    "index": 1354,
+    "name": "Bossy(M)",
+    "friendlyName": "Bossy(M)",
+    "type": "Transform"
+  },
+  {
+    "index": 1355,
+    "name": "GymnasticsQueen",
+    "friendlyName": "GymnasticsQueen",
+    "type": "Transform"
+  },
+  {
+    "index": 1356,
+    "name": "OldFisherman",
+    "friendlyName": "OldFisherman",
+    "type": "Transform"
+  },
+  {
+    "index": 1357,
+    "name": "Pig",
+    "friendlyName": "Pig",
+    "type": "Transform"
+  },
+  {
+    "index": 1358,
+    "name": "SkiKid",
+    "friendlyName": "SkiKid",
+    "type": "Transform"
+  },
+  {
+    "index": 1359,
+    "name": "Sportsman",
+    "friendlyName": "Sportsman",
+    "type": "Transform"
+  },
+  {
+    "index": 1360,
+    "name": "Yizhili",
+    "friendlyName": "Yizhili",
+    "type": "Transform"
+  },
+  {
+    "index": 1361,
+    "name": "DCTorch3",
+    "friendlyName": "DCTorch",
+    "type": "Torch"
+  },
+  {
+    "index": 1362,
+    "name": "MCTorch3",
+    "friendlyName": "MCTorch",
+    "type": "Torch"
+  },
+  {
+    "index": 1363,
+    "name": "SCTorch3",
+    "friendlyName": "SCTorch",
+    "type": "Torch"
+  },
+  {
+    "index": 1365,
+    "name": "CatTognue",
+    "friendlyName": "CatTognue",
+    "type": "Book"
+  },
+  {
+    "index": 1366,
+    "name": "MeteorShower",
+    "friendlyName": "MeteorShower",
+    "type": "Book"
+  },
+  {
+    "index": 1367,
+    "name": "BattleCry",
+    "friendlyName": "BattleCry",
+    "type": "Book"
+  },
+  {
+    "index": 1368,
+    "name": "GtInvite",
+    "friendlyName": "GtInvite",
+    "type": "Scroll"
+  },
+  {
+    "index": 1369,
+    "name": "IceDragonSkyBow",
+    "friendlyName": "IceDragonSkyBow",
+    "type": "Weapon"
+  },
+  {
+    "index": 1370,
+    "name": "IronThornBow",
+    "friendlyName": "IronThornBow",
+    "type": "Weapon"
+  },
+  {
+    "index": 1371,
+    "name": "PhoenixBow",
+    "friendlyName": "PhoenixBow",
+    "type": "Weapon"
+  },
+  {
+    "index": 1372,
+    "name": "BluishGreenBloodSlaughterPike",
+    "friendlyName": "BluishGreenBloodSlaughterPike",
+    "type": "Weapon"
+  },
+  {
+    "index": 1373,
+    "name": "RetsuenBow",
+    "friendlyName": "RetsuenBow",
+    "type": "Weapon"
+  },
+  {
+    "index": 1374,
+    "name": "(金龍)YellowDragonBow",
+    "friendlyName": "(金龍)YellowDragonBow",
+    "type": "Weapon"
+  },
+  {
+    "index": 1375,
+    "name": "(金龍)DragonSlayer",
+    "friendlyName": "(金龍)DragonSlayer",
+    "type": "Weapon"
+  },
+  {
+    "index": 1376,
+    "name": "(金龍)InfernalBloodBlades",
+    "friendlyName": "(金龍)InfernalBloodBlades",
+    "type": "Weapon"
+  },
+  {
+    "index": 1377,
+    "name": "(金龍)DragonSword",
+    "friendlyName": "(金龍)DragonSword",
+    "type": "Weapon"
+  },
+  {
+    "index": 1378,
+    "name": "(金龍)SoulEaterStaff",
+    "friendlyName": "(金龍)SoulEaterStaff",
+    "type": "Weapon"
+  },
+  {
+    "index": 1379,
+    "name": "IceDragonSkyKnife",
+    "friendlyName": "IceDragonSkyKnife",
+    "type": "Weapon"
+  },
+  {
+    "index": 1380,
+    "name": "IceDragonSkySword",
+    "friendlyName": "IceDragonSkySword",
+    "type": "Weapon"
+  },
+  {
+    "index": 1381,
+    "name": "IceDragonSkyRod",
+    "friendlyName": "IceDragonSkyRod",
+    "type": "Weapon"
+  },
+  {
+    "index": 1382,
+    "name": "IceDragonSkyBayonet",
+    "friendlyName": "IceDragonSkyBayonet",
+    "type": "Weapon"
+  },
+  {
+    "index": 1383,
+    "name": "BlueMarshmallow",
+    "friendlyName": "BlueMarshmallow",
+    "type": "Potion"
+  },
+  {
+    "index": 1384,
+    "name": "LeopardTattooSuit(M)",
+    "friendlyName": "LeopardTattooSuit(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 1385,
+    "name": "LeopardTattooSuit(F)",
+    "friendlyName": "LeopardTattooSuit(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 1386,
+    "name": "Unstable Pearll(+9)",
+    "friendlyName": "Unstable Pearll(+9)",
+    "type": "Bracelet"
+  },
+  {
+    "index": 1387,
+    "name": "PinkMarshmallow",
+    "friendlyName": "PinkMarshmallow",
+    "type": "Potion"
+  },
+  {
+    "index": 1388,
+    "name": "UnstablePearll(+9)1",
+    "friendlyName": "UnstablePearll(+9)",
+    "type": "Bracelet"
+  },
+  {
+    "index": 1389,
+    "name": "UnstablePearll(+9)4",
+    "friendlyName": "UnstablePearll(+9)",
+    "type": "Bracelet"
+  },
+  {
+    "index": 1390,
+    "name": "UnstablePearll(+9)3",
+    "friendlyName": "UnstablePearll(+9)",
+    "type": "Bracelet"
+  },
+  {
+    "index": 1391,
+    "name": "UnstablePearll(+9)5",
+    "friendlyName": "UnstablePearll(+9)",
+    "type": "Bracelet"
+  },
+  {
+    "index": 1392,
+    "name": "UnstablePearl(+9)2",
+    "friendlyName": "UnstablePearl(+9)",
+    "type": "Bracelet"
+  },
+  {
+    "index": 1393,
+    "name": "SnowUnderpants",
+    "friendlyName": "SnowUnderpants",
+    "type": "Armour"
+  },
+  {
+    "index": 1394,
+    "name": "Underpants",
+    "friendlyName": "Underpants",
+    "type": "Armour"
+  },
+  {
+    "index": 1395,
+    "name": "YellowUnderpants",
+    "friendlyName": "YellowUnderpants",
+    "type": "Armour"
+  },
+  {
+    "index": 1396,
+    "name": "PinkUnderpants",
+    "friendlyName": "PinkUnderpants",
+    "type": "Armour"
+  },
+  {
+    "index": 1397,
+    "name": "GonRyunHolyLightBow(寶)",
+    "friendlyName": "GonRyunHolyLightBow(寶)",
+    "type": "Weapon"
+  },
+  {
+    "index": 1398,
+    "name": "GonRyunHolyLightBow(聖)",
+    "friendlyName": "GonRyunHolyLightBow(聖)",
+    "type": "Weapon"
+  },
+  {
+    "index": 1399,
+    "name": "GonRyunHolyLightBow(神)",
+    "friendlyName": "GonRyunHolyLightBow(神)",
+    "type": "Weapon"
+  },
+  {
+    "index": 1400,
+    "name": "HyeoncheonSuhoSteel(寶)",
+    "friendlyName": "HyeoncheonSuhoSteel(寶)",
+    "type": "Stone"
+  },
+  {
+    "index": 1401,
+    "name": "HyeoncheonSuhoSteel(聖)",
+    "friendlyName": "HyeoncheonSuhoSteel(聖)",
+    "type": "Stone"
+  },
+  {
+    "index": 1402,
+    "name": "HyeoncheonSuhoSteel(神)",
+    "friendlyName": "HyeoncheonSuhoSteel(神)",
+    "type": "Stone"
+  },
+  {
+    "index": 1403,
+    "name": "Hyeoncheon Maseok",
+    "friendlyName": "Hyeoncheon Maseok",
+    "type": "Gem"
+  },
+  {
+    "index": 1404,
+    "name": "GonRyunHolyLightBlades(寶)",
+    "friendlyName": "GonRyunHolyLightBlades(寶)",
+    "type": "Weapon"
+  },
+  {
+    "index": 1405,
+    "name": "GonRyunHolyLightBlades(聖)",
+    "friendlyName": "GonRyunHolyLightBlades(聖)",
+    "type": "Weapon"
+  },
+  {
+    "index": 1406,
+    "name": "GonRyunHolyLightBlades(神)",
+    "friendlyName": "GonRyunHolyLightBlades(神)",
+    "type": "Weapon"
+  },
+  {
+    "index": 1407,
+    "name": "GonRyunHolyLightSword(寶)",
+    "friendlyName": "GonRyunHolyLightSword(寶)",
+    "type": "Weapon"
+  },
+  {
+    "index": 1408,
+    "name": "GonRyunHolyLightSword(聖)",
+    "friendlyName": "GonRyunHolyLightSword(聖)",
+    "type": "Weapon"
+  },
+  {
+    "index": 1409,
+    "name": "GonRyunHolyLightSword(神)",
+    "friendlyName": "GonRyunHolyLightSword(神)",
+    "type": "Weapon"
+  },
+  {
+    "index": 1411,
+    "name": "GonRyunHolyLightSword(聖)1",
+    "friendlyName": "GonRyunHolyLightSword(聖)",
+    "type": "Weapon"
+  },
+  {
+    "index": 1412,
+    "name": "GonRyunHolyLightSword(聖)2",
+    "friendlyName": "GonRyunHolyLightSword(聖)",
+    "type": "Weapon"
+  },
+  {
+    "index": 1413,
+    "name": "GonRyunHolyLightSword(聖)3",
+    "friendlyName": "GonRyunHolyLightSword(聖)",
+    "type": "Weapon"
+  },
+  {
+    "index": 1414,
+    "name": "(幻影當籤)IceDragonSkyKnife",
+    "friendlyName": "(幻影當籤)IceDragonSkyKnife",
+    "type": "Weapon"
+  },
+  {
+    "index": 1415,
+    "name": "GonRyunHolyLightSword(寶)2",
+    "friendlyName": "GonRyunHolyLightSword(寶)",
+    "type": "Weapon"
+  },
+  {
+    "index": 1416,
+    "name": "GonRyunHolyLightSword(寶)1",
+    "friendlyName": "GonRyunHolyLightSword(寶)",
+    "type": "Weapon"
+  },
+  {
+    "index": 1417,
+    "name": "GonRyunHolyLightSword(寶)3",
+    "friendlyName": "GonRyunHolyLightSword(寶)",
+    "type": "Weapon"
+  },
+  {
+    "index": 1418,
+    "name": "GonRyunHolyLightSword(神)1",
+    "friendlyName": "GonRyunHolyLightSword(神)",
+    "type": "Weapon"
+  },
+  {
+    "index": 1419,
+    "name": "GonRyunHolyLightSword(神)2",
+    "friendlyName": "GonRyunHolyLightSword(神)",
+    "type": "Weapon"
+  },
+  {
+    "index": 1420,
+    "name": "GonRyunHolyLightSword(神)3",
+    "friendlyName": "GonRyunHolyLightSword(神)",
+    "type": "Weapon"
+  },
+  {
+    "index": 1421,
+    "name": "(幻影當籤)IceDragonSkySword",
+    "friendlyName": "(幻影當籤)IceDragonSkySword",
+    "type": "Weapon"
+  },
+  {
+    "index": 1422,
+    "name": "(幻影當籤)IceDragonSkyRod",
+    "friendlyName": "(幻影當籤)IceDragonSkyRod",
+    "type": "Weapon"
+  },
+  {
+    "index": 1423,
+    "name": "(幻影當籤)IceDragonSkyBayonet",
+    "friendlyName": "(幻影當籤)IceDragonSkyBayonet",
+    "type": "Weapon"
+  },
+  {
+    "index": 1424,
+    "name": "(幻影當籤)IceDragonSkyBow",
+    "friendlyName": "(幻影當籤)IceDragonSkyBow",
+    "type": "Weapon"
+  },
+  {
+    "index": 1425,
+    "name": "BlackDragonArmor(F)5",
+    "friendlyName": "BlackDragonArmor(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 1426,
+    "name": "BlackDragonArmor(F)",
+    "friendlyName": "BlackDragonArmor(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 1427,
+    "name": "BlackDragonArmor(F)1",
+    "friendlyName": "BlackDragonArmor(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 1428,
+    "name": "BlackDragonArmor(F)2",
+    "friendlyName": "BlackDragonArmor(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 1429,
+    "name": "BlackDragonArmor(F)3",
+    "friendlyName": "BlackDragonArmor(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 1431,
+    "name": "BlackDragonArmor(F)4",
+    "friendlyName": "BlackDragonArmor(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 1436,
+    "name": "BlackDragonArmor(M)",
+    "friendlyName": "BlackDragonArmor(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 1437,
+    "name": "BlackDragonArmor(M)1",
+    "friendlyName": "BlackDragonArmor(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 1438,
+    "name": "BlackDragonArmor(M)2",
+    "friendlyName": "BlackDragonArmor(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 1439,
+    "name": "BlackDragonArmor(M)3",
+    "friendlyName": "BlackDragonArmor(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 1440,
+    "name": "BlackDragonArmor(M)5",
+    "friendlyName": "BlackDragonArmor(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 1441,
+    "name": "BlackDragonArmor(M)4",
+    "friendlyName": "BlackDragonArmor(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 1442,
+    "name": "Rabbit(F)",
+    "friendlyName": "Rabbit(F)",
+    "type": "Transform"
+  },
+  {
+    "index": 1443,
+    "name": "Rabbit(M)",
+    "friendlyName": "Rabbit(M)",
+    "type": "Transform"
+  },
+  {
+    "index": 1444,
+    "name": "(新)Carnation",
+    "friendlyName": "(新)Carnation",
+    "type": "Torch"
+  },
+  {
+    "index": 1445,
+    "name": "(新)BlessCarnation",
+    "friendlyName": "(新)BlessCarnation",
+    "type": "Torch"
+  },
+  {
+    "index": 1446,
+    "name": "BlessCarnation(+1)",
+    "friendlyName": "BlessCarnation(+1)",
+    "type": "Torch"
+  },
+  {
+    "index": 1447,
+    "name": "BlessCarnation(+2)",
+    "friendlyName": "BlessCarnation(+2)",
+    "type": "Torch"
+  },
+  {
+    "index": 1448,
+    "name": "BlessCarnation(+3)",
+    "friendlyName": "BlessCarnation(+3)",
+    "type": "Torch"
+  },
+  {
+    "index": 1449,
+    "name": "BlessCarnation(+4)",
+    "friendlyName": "BlessCarnation(+4)",
+    "type": "Torch"
+  },
+  {
+    "index": 1450,
+    "name": "BlessCarnation(+5)",
+    "friendlyName": "BlessCarnation(+5)",
+    "type": "Torch"
+  },
+  {
+    "index": 1451,
+    "name": "GonryunHePublication(寶)",
+    "friendlyName": "GonryunHePublication(寶)",
+    "type": "Boots"
+  },
+  {
+    "index": 1452,
+    "name": "GonryunHePublication(聖)",
+    "friendlyName": "GonryunHePublication(聖)",
+    "type": "Boots"
+  },
+  {
+    "index": 1453,
+    "name": "GonryunHePublication(神)",
+    "friendlyName": "GonryunHePublication(神)",
+    "type": "Boots"
+  },
+  {
+    "index": 1454,
+    "name": "GonryunEunhyung(寶)",
+    "friendlyName": "GonryunEunhyung(寶)",
+    "type": "Belt"
+  },
+  {
+    "index": 1455,
+    "name": "GonryunEunhyung(聖)",
+    "friendlyName": "GonryunEunhyung(聖)",
+    "type": "Belt"
+  },
+  {
+    "index": 1456,
+    "name": "GonryunEunhyung(神)",
+    "friendlyName": "GonryunEunhyung(神)",
+    "type": "Belt"
+  },
+  {
+    "index": 1457,
+    "name": "GonryunSanggwan(寶)",
+    "friendlyName": "GonryunSanggwan(寶)",
+    "type": "Helmet"
+  },
+  {
+    "index": 1458,
+    "name": "GonryunSanggwan(聖)",
+    "friendlyName": "GonryunSanggwan(聖)",
+    "type": "Helmet"
+  },
+  {
+    "index": 1459,
+    "name": "GonryunSanggwan(神)",
+    "friendlyName": "GonryunSanggwan(神)",
+    "type": "Helmet"
+  },
+  {
+    "index": 1460,
+    "name": "GonryunYeoseonru(寶)",
+    "friendlyName": "GonryunYeoseonru(寶)",
+    "type": "Necklace"
+  },
+  {
+    "index": 1461,
+    "name": "GonryunYeoseonru(聖)",
+    "friendlyName": "GonryunYeoseonru(聖)",
+    "type": "Necklace"
+  },
+  {
+    "index": 1462,
+    "name": "GonryunYeoseonru(神)",
+    "friendlyName": "GonryunYeoseonru(神)",
+    "type": "Necklace"
+  },
+  {
+    "index": 1463,
+    "name": "GonryunHePublication(聖物)1",
+    "friendlyName": "GonryunHePublication(聖物)",
+    "type": "Boots"
+  },
+  {
+    "index": 1464,
+    "name": "GonryunHePublication(聖物)2",
+    "friendlyName": "GonryunHePublication(聖物)",
+    "type": "Boots"
+  },
+  {
+    "index": 1465,
+    "name": "GonryunHePublication(聖物)3",
+    "friendlyName": "GonryunHePublication(聖物)",
+    "type": "Boots"
+  },
+  {
+    "index": 1466,
+    "name": "GonryunHePublication(聖物)5",
+    "friendlyName": "GonryunHePublication(聖物)",
+    "type": "Boots"
+  },
+  {
+    "index": 1467,
+    "name": "GonryunHePublication(聖物)4",
+    "friendlyName": "GonryunHePublication(聖物)",
+    "type": "Boots"
+  },
+  {
+    "index": 1468,
+    "name": "GonryunHePublication(寶物)1",
+    "friendlyName": "GonryunHePublication(寶物)",
+    "type": "Boots"
+  },
+  {
+    "index": 1469,
+    "name": "GonryunHePublication(寶物)2",
+    "friendlyName": "GonryunHePublication(寶物)",
+    "type": "Boots"
+  },
+  {
+    "index": 1470,
+    "name": "GonryunHePublication(寶物)3",
+    "friendlyName": "GonryunHePublication(寶物)",
+    "type": "Boots"
+  },
+  {
+    "index": 1471,
+    "name": "GonryunHePublication(寶物)5",
+    "friendlyName": "GonryunHePublication(寶物)",
+    "type": "Boots"
+  },
+  {
+    "index": 1472,
+    "name": "GonryunHePublication(寶物)4",
+    "friendlyName": "GonryunHePublication(寶物)",
+    "type": "Boots"
+  },
+  {
+    "index": 1473,
+    "name": "GonryunHePublication(神物)1",
+    "friendlyName": "GonryunHePublication(神物)",
+    "type": "Boots"
+  },
+  {
+    "index": 1474,
+    "name": "GonryunHePublication(神物)2",
+    "friendlyName": "GonryunHePublication(神物)",
+    "type": "Boots"
+  },
+  {
+    "index": 1475,
+    "name": "GonryunHePublication(神物)3",
+    "friendlyName": "GonryunHePublication(神物)",
+    "type": "Boots"
+  },
+  {
+    "index": 1476,
+    "name": "GonryunHePublication(神物)5",
+    "friendlyName": "GonryunHePublication(神物)",
+    "type": "Boots"
+  },
+  {
+    "index": 1477,
+    "name": "GonryunHePublication(神物)4",
+    "friendlyName": "GonryunHePublication(神物)",
+    "type": "Boots"
+  },
+  {
+    "index": 1478,
+    "name": "GonryunYeoseonru(寶)1",
+    "friendlyName": "GonryunYeoseonru(寶)",
+    "type": "Necklace"
+  },
+  {
+    "index": 1479,
+    "name": "GonryunYeoseonru(寶)2",
+    "friendlyName": "GonryunYeoseonru(寶)",
+    "type": "Necklace"
+  },
+  {
+    "index": 1480,
+    "name": "GonryunYeoseonru(寶)3",
+    "friendlyName": "GonryunYeoseonru(寶)",
+    "type": "Necklace"
+  },
+  {
+    "index": 1481,
+    "name": "GonryunYeoseonru(寶)5",
+    "friendlyName": "GonryunYeoseonru(寶)",
+    "type": "Necklace"
+  },
+  {
+    "index": 1482,
+    "name": "GonryunYeoseonru(寶)4",
+    "friendlyName": "GonryunYeoseonru(寶)",
+    "type": "Necklace"
+  },
+  {
+    "index": 1483,
+    "name": "GonryunYeoseonru(聖)1",
+    "friendlyName": "GonryunYeoseonru(聖)",
+    "type": "Necklace"
+  },
+  {
+    "index": 1484,
+    "name": "GonryunYeoseonru(聖)2",
+    "friendlyName": "GonryunYeoseonru(聖)",
+    "type": "Necklace"
+  },
+  {
+    "index": 1485,
+    "name": "GonryunYeoseonru(聖)3",
+    "friendlyName": "GonryunYeoseonru(聖)",
+    "type": "Necklace"
+  },
+  {
+    "index": 1486,
+    "name": "GonryunYeoseonru(聖)5",
+    "friendlyName": "GonryunYeoseonru(聖)",
+    "type": "Necklace"
+  },
+  {
+    "index": 1487,
+    "name": "GonryunYeoseonru(聖)4",
+    "friendlyName": "GonryunYeoseonru(聖)",
+    "type": "Necklace"
+  },
+  {
+    "index": 1488,
+    "name": "GonryunYeoseonru(神)1",
+    "friendlyName": "GonryunYeoseonru(神)",
+    "type": "Necklace"
+  },
+  {
+    "index": 1489,
+    "name": "GonryunYeoseonru(神)2",
+    "friendlyName": "GonryunYeoseonru(神)",
+    "type": "Necklace"
+  },
+  {
+    "index": 1490,
+    "name": "GonryunYeoseonru(神)3",
+    "friendlyName": "GonryunYeoseonru(神)",
+    "type": "Necklace"
+  },
+  {
+    "index": 1491,
+    "name": "GonryunYeoseonru(神)4",
+    "friendlyName": "GonryunYeoseonru(神)",
+    "type": "Necklace"
+  },
+  {
+    "index": 1492,
+    "name": "GonryunYeoseonru(神)5",
+    "friendlyName": "GonryunYeoseonru(神)",
+    "type": "Necklace"
+  },
+  {
+    "index": 1493,
+    "name": "GonryunSanggwan(寶)1",
+    "friendlyName": "GonryunSanggwan(寶)",
+    "type": "Helmet"
+  },
+  {
+    "index": 1494,
+    "name": "GonryunSanggwan(寶)2",
+    "friendlyName": "GonryunSanggwan(寶)",
+    "type": "Helmet"
+  },
+  {
+    "index": 1495,
+    "name": "GonryunSanggwan(寶)3",
+    "friendlyName": "GonryunSanggwan(寶)",
+    "type": "Helmet"
+  },
+  {
+    "index": 1496,
+    "name": "GonryunSanggwan(寶)4",
+    "friendlyName": "GonryunSanggwan(寶)",
+    "type": "Helmet"
+  },
+  {
+    "index": 1497,
+    "name": "GonryunSanggwan(寶)5",
+    "friendlyName": "GonryunSanggwan(寶)",
+    "type": "Helmet"
+  },
+  {
+    "index": 1498,
+    "name": "GonryunSanggwan(聖)1",
+    "friendlyName": "GonryunSanggwan(聖)",
+    "type": "Helmet"
+  },
+  {
+    "index": 1499,
+    "name": "GonryunSanggwan(聖)2",
+    "friendlyName": "GonryunSanggwan(聖)",
+    "type": "Helmet"
+  },
+  {
+    "index": 1500,
+    "name": "GonryunSanggwan(聖)3",
+    "friendlyName": "GonryunSanggwan(聖)",
+    "type": "Helmet"
+  },
+  {
+    "index": 1501,
+    "name": "GonryunSanggwan(聖)4",
+    "friendlyName": "GonryunSanggwan(聖)",
+    "type": "Helmet"
+  },
+  {
+    "index": 1502,
+    "name": "GonryunSanggwan(聖)5",
+    "friendlyName": "GonryunSanggwan(聖)",
+    "type": "Helmet"
+  },
+  {
+    "index": 1503,
+    "name": "GonryunSanggwan(神)1",
+    "friendlyName": "GonryunSanggwan(神)",
+    "type": "Helmet"
+  },
+  {
+    "index": 1504,
+    "name": "GonryunSanggwan(神)2",
+    "friendlyName": "GonryunSanggwan(神)",
+    "type": "Helmet"
+  },
+  {
+    "index": 1505,
+    "name": "GonryunSanggwan(神)3",
+    "friendlyName": "GonryunSanggwan(神)",
+    "type": "Helmet"
+  },
+  {
+    "index": 1506,
+    "name": "GonryunSanggwan(神)4",
+    "friendlyName": "GonryunSanggwan(神)",
+    "type": "Helmet"
+  },
+  {
+    "index": 1507,
+    "name": "GonryunSanggwan(神)5",
+    "friendlyName": "GonryunSanggwan(神)",
+    "type": "Helmet"
+  },
+  {
+    "index": 1508,
+    "name": "GonryunEunhyung(寶)1",
+    "friendlyName": "GonryunEunhyung(寶)",
+    "type": "Belt"
+  },
+  {
+    "index": 1509,
+    "name": "GonryunEunhyung(寶)2",
+    "friendlyName": "GonryunEunhyung(寶)",
+    "type": "Belt"
+  },
+  {
+    "index": 1510,
+    "name": "GonryunEunhyung(寶)3",
+    "friendlyName": "GonryunEunhyung(寶)",
+    "type": "Belt"
+  },
+  {
+    "index": 1511,
+    "name": "GonryunEunhyung(寶)4",
+    "friendlyName": "GonryunEunhyung(寶)",
+    "type": "Belt"
+  },
+  {
+    "index": 1512,
+    "name": "GonryunEunhyung(寶)5",
+    "friendlyName": "GonryunEunhyung(寶)",
+    "type": "Belt"
+  },
+  {
+    "index": 1513,
+    "name": "GonryunEunhyung(聖)1",
+    "friendlyName": "GonryunEunhyung(聖)",
+    "type": "Belt"
+  },
+  {
+    "index": 1514,
+    "name": "GonryunEunhyung(聖)2",
+    "friendlyName": "GonryunEunhyung(聖)",
+    "type": "Belt"
+  },
+  {
+    "index": 1515,
+    "name": "GonryunEunhyung(聖)3",
+    "friendlyName": "GonryunEunhyung(聖)",
+    "type": "Belt"
+  },
+  {
+    "index": 1516,
+    "name": "GonryunEunhyung(聖)4",
+    "friendlyName": "GonryunEunhyung(聖)",
+    "type": "Belt"
+  },
+  {
+    "index": 1517,
+    "name": "GonryunEunhyung(聖)5",
+    "friendlyName": "GonryunEunhyung(聖)",
+    "type": "Belt"
+  },
+  {
+    "index": 1518,
+    "name": "GonryunEunhyung(神)1",
+    "friendlyName": "GonryunEunhyung(神)",
+    "type": "Belt"
+  },
+  {
+    "index": 1519,
+    "name": "GonryunEunhyung(神)2",
+    "friendlyName": "GonryunEunhyung(神)",
+    "type": "Belt"
+  },
+  {
+    "index": 1520,
+    "name": "GonryunEunhyung(神)3",
+    "friendlyName": "GonryunEunhyung(神)",
+    "type": "Belt"
+  },
+  {
+    "index": 1521,
+    "name": "GonryunEunhyung(神)4",
+    "friendlyName": "GonryunEunhyung(神)",
+    "type": "Belt"
+  },
+  {
+    "index": 1522,
+    "name": "GonryunEunhyung(神)5",
+    "friendlyName": "GonryunEunhyung(神)",
+    "type": "Belt"
+  },
+  {
+    "index": 1523,
+    "name": "Gonryunpasackle(寶)",
+    "friendlyName": "Gonryunpasackle(寶)",
+    "type": "Bracelet"
+  },
+  {
+    "index": 1524,
+    "name": "Gonryunpasackle(寶)1",
+    "friendlyName": "Gonryunpasackle(寶)",
+    "type": "Bracelet"
+  },
+  {
+    "index": 1525,
+    "name": "Gonryunpasackle(寶)2",
+    "friendlyName": "Gonryunpasackle(寶)",
+    "type": "Bracelet"
+  },
+  {
+    "index": 1526,
+    "name": "Gonryunpasackle(寶)3",
+    "friendlyName": "Gonryunpasackle(寶)",
+    "type": "Bracelet"
+  },
+  {
+    "index": 1527,
+    "name": "Gonryunpasackle(寶)4",
+    "friendlyName": "Gonryunpasackle(寶)",
+    "type": "Bracelet"
+  },
+  {
+    "index": 1528,
+    "name": "Gonryunpasackle(寶)5",
+    "friendlyName": "Gonryunpasackle(寶)",
+    "type": "Bracelet"
+  },
+  {
+    "index": 1529,
+    "name": "Gonryunpasackle(聖)",
+    "friendlyName": "Gonryunpasackle(聖)",
+    "type": "Bracelet"
+  },
+  {
+    "index": 1530,
+    "name": "Gonryunpasackle(聖)1",
+    "friendlyName": "Gonryunpasackle(聖)",
+    "type": "Bracelet"
+  },
+  {
+    "index": 1531,
+    "name": "Gonryunpasackle(聖)2",
+    "friendlyName": "Gonryunpasackle(聖)",
+    "type": "Bracelet"
+  },
+  {
+    "index": 1532,
+    "name": "Gonryunpasackle(聖)3",
+    "friendlyName": "Gonryunpasackle(聖)",
+    "type": "Bracelet"
+  },
+  {
+    "index": 1533,
+    "name": "Gonryunpasackle(聖)4",
+    "friendlyName": "Gonryunpasackle(聖)",
+    "type": "Bracelet"
+  },
+  {
+    "index": 1534,
+    "name": "Gonryunpasackle(聖)5",
+    "friendlyName": "Gonryunpasackle(聖)",
+    "type": "Bracelet"
+  },
+  {
+    "index": 1535,
+    "name": "Gonryunpasackle(神)",
+    "friendlyName": "Gonryunpasackle(神)",
+    "type": "Bracelet"
+  },
+  {
+    "index": 1536,
+    "name": "Gonryunpasackle(神)1",
+    "friendlyName": "Gonryunpasackle(神)",
+    "type": "Bracelet"
+  },
+  {
+    "index": 1537,
+    "name": "Gonryunpasackle(神)2",
+    "friendlyName": "Gonryunpasackle(神)",
+    "type": "Bracelet"
+  },
+  {
+    "index": 1538,
+    "name": "Gonryunpasackle(神)3",
+    "friendlyName": "Gonryunpasackle(神)",
+    "type": "Bracelet"
+  },
+  {
+    "index": 1539,
+    "name": "Gonryunpasackle(神)4",
+    "friendlyName": "Gonryunpasackle(神)",
+    "type": "Bracelet"
+  },
+  {
+    "index": 1540,
+    "name": "Gonryunpasackle(神)5",
+    "friendlyName": "Gonryunpasackle(神)",
+    "type": "Bracelet"
+  },
+  {
+    "index": 1541,
+    "name": "GonryunDoubleFlower(寶)",
+    "friendlyName": "GonryunDoubleFlower(寶)",
+    "type": "Ring"
+  },
+  {
+    "index": 1542,
+    "name": "GonryunDoubleFlower(寶)1",
+    "friendlyName": "GonryunDoubleFlower(寶)",
+    "type": "Ring"
+  },
+  {
+    "index": 1543,
+    "name": "GonryunDoubleFlower(寶)2",
+    "friendlyName": "GonryunDoubleFlower(寶)",
+    "type": "Ring"
+  },
+  {
+    "index": 1544,
+    "name": "GonryunDoubleFlower(寶物)3",
+    "friendlyName": "GonryunDoubleFlower(寶物)",
+    "type": "Ring"
+  },
+  {
+    "index": 1545,
+    "name": "GonryunDoubleFlower(寶)4",
+    "friendlyName": "GonryunDoubleFlower(寶)",
+    "type": "Ring"
+  },
+  {
+    "index": 1546,
+    "name": "GonryunDoubleFlower(寶)5",
+    "friendlyName": "GonryunDoubleFlower(寶)",
+    "type": "Ring"
+  },
+  {
+    "index": 1547,
+    "name": "GonryunYeongokhwan(聖)",
+    "friendlyName": "GonryunYeongokhwan(聖)",
+    "type": "Ring"
+  },
+  {
+    "index": 1548,
+    "name": "GonryunYeongokhwan(聖)1",
+    "friendlyName": "GonryunYeongokhwan(聖)",
+    "type": "Ring"
+  },
+  {
+    "index": 1549,
+    "name": "GonryunYeongokhwan(聖)2",
+    "friendlyName": "GonryunYeongokhwan(聖)",
+    "type": "Ring"
+  },
+  {
+    "index": 1550,
+    "name": "GonryunYeongokhwan(聖)3",
+    "friendlyName": "GonryunYeongokhwan(聖)",
+    "type": "Ring"
+  },
+  {
+    "index": 1551,
+    "name": "GonryunYeongokhwan(聖)4",
+    "friendlyName": "GonryunYeongokhwan(聖)",
+    "type": "Ring"
+  },
+  {
+    "index": 1552,
+    "name": "GonryunYeongokhwan(聖)5",
+    "friendlyName": "GonryunYeongokhwan(聖)",
+    "type": "Ring"
+  },
+  {
+    "index": 1553,
+    "name": "GonryunYeongokhwan(神)",
+    "friendlyName": "GonryunYeongokhwan(神)",
+    "type": "Ring"
+  },
+  {
+    "index": 1554,
+    "name": "GonryunYeongokhwan(神)1",
+    "friendlyName": "GonryunYeongokhwan(神)",
+    "type": "Ring"
+  },
+  {
+    "index": 1555,
+    "name": "GonryunYeongokhwan(神)2",
+    "friendlyName": "GonryunYeongokhwan(神)",
+    "type": "Ring"
+  },
+  {
+    "index": 1556,
+    "name": "GonryunYeongokhwan(神)3",
+    "friendlyName": "GonryunYeongokhwan(神)",
+    "type": "Ring"
+  },
+  {
+    "index": 1557,
+    "name": "GonryunYeongokhwan(神)4",
+    "friendlyName": "GonryunYeongokhwan(神)",
+    "type": "Ring"
+  },
+  {
+    "index": 1558,
+    "name": "GonryunYeongokhwan(神)5",
+    "friendlyName": "GonryunYeongokhwan(神)",
+    "type": "Ring"
+  },
+  {
+    "index": 1559,
+    "name": "DoubleFlower",
+    "friendlyName": "DoubleFlower",
+    "type": "Ring"
+  },
+  {
+    "index": 1560,
+    "name": "DoubleFlower1",
+    "friendlyName": "DoubleFlower",
+    "type": "Ring"
+  },
+  {
+    "index": 1561,
+    "name": "DoubleFlower2",
+    "friendlyName": "DoubleFlower",
+    "type": "Ring"
+  },
+  {
+    "index": 1562,
+    "name": "DoubleFlower3",
+    "friendlyName": "DoubleFlower",
+    "type": "Ring"
+  },
+  {
+    "index": 1563,
+    "name": "DoubleFlower4",
+    "friendlyName": "DoubleFlower",
+    "type": "Ring"
+  },
+  {
+    "index": 1564,
+    "name": "DoubleFlower5",
+    "friendlyName": "DoubleFlower",
+    "type": "Ring"
+  },
+  {
+    "index": 1565,
+    "name": "Redrecoverywater",
+    "friendlyName": "Redrecoverywater",
+    "type": "Potion"
+  },
+  {
+    "index": 1566,
+    "name": "Bluerecoverywater",
+    "friendlyName": "Bluerecoverywater",
+    "type": "Potion"
+  },
+  {
+    "index": 1567,
+    "name": "(진)The essence of Doom",
+    "friendlyName": "(진)The essence of Doom",
+    "type": "Bracelet"
+  },
+  {
+    "index": 1568,
+    "name": "The essence of Doom",
+    "friendlyName": "The essence of Doom",
+    "type": "Bracelet"
+  },
+  {
+    "index": 1569,
+    "name": "BallOfDoom",
+    "friendlyName": "BallOfDoom",
+    "type": "Bracelet"
+  },
+  {
+    "index": 1570,
+    "name": "BallOfDoom1",
+    "friendlyName": "BallOfDoom",
+    "type": "Bracelet"
+  },
+  {
+    "index": 1571,
+    "name": "BallOfDoom2",
+    "friendlyName": "BallOfDoom",
+    "type": "Bracelet"
+  },
+  {
+    "index": 1572,
+    "name": "BallOfDoom3",
+    "friendlyName": "BallOfDoom",
+    "type": "Bracelet"
+  },
+  {
+    "index": 1573,
+    "name": "BallOfDoom4",
+    "friendlyName": "BallOfDoom",
+    "type": "Bracelet"
+  },
+  {
+    "index": 1574,
+    "name": "BallOfDoom5",
+    "friendlyName": "BallOfDoom",
+    "type": "Bracelet"
+  },
+  {
+    "index": 1575,
+    "name": "Gonryunyongdrama(寶)(F)",
+    "friendlyName": "Gonryunyongdrama(寶)(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 1576,
+    "name": "Gonryunyongdrama(寶)(F)1",
+    "friendlyName": "Gonryunyongdrama(寶)(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 1577,
+    "name": "Gonryunyongdrama(寶)(F)2",
+    "friendlyName": "Gonryunyongdrama(寶)(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 1578,
+    "name": "Gonryunyongdrama(寶)(F)3",
+    "friendlyName": "Gonryunyongdrama(寶)(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 1579,
+    "name": "Gonryunyongdrama(寶)(F)4",
+    "friendlyName": "Gonryunyongdrama(寶)(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 1580,
+    "name": "Gonryunyongdrama(寶)(F)5",
+    "friendlyName": "Gonryunyongdrama(寶)(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 1581,
+    "name": "Gonryunyongdrama(寶)(M)",
+    "friendlyName": "Gonryunyongdrama(寶)(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 1582,
+    "name": "Gonryunyongdrama(寶)(M)1",
+    "friendlyName": "Gonryunyongdrama(寶)(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 1583,
+    "name": "Gonryunyongdrama(寶)(M)2",
+    "friendlyName": "Gonryunyongdrama(寶)(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 1584,
+    "name": "Gonryunyongdrama(寶)(M)3",
+    "friendlyName": "Gonryunyongdrama(寶)(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 1585,
+    "name": "Gonryunyongdrama(寶)(M)4",
+    "friendlyName": "Gonryunyongdrama(寶)(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 1586,
+    "name": "Gonryunyongdrama(寶)(M)5",
+    "friendlyName": "Gonryunyongdrama(寶)(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 1587,
+    "name": "UnstablePearll(+6)",
+    "friendlyName": "UnstablePearll(+6)",
+    "type": "Bracelet"
+  },
+  {
+    "index": 1588,
+    "name": "UnstablePearll(+6)1",
+    "friendlyName": "UnstablePearll(+6)",
+    "type": "Bracelet"
+  },
+  {
+    "index": 1589,
+    "name": "UnstablePearll(+6)2",
+    "friendlyName": "UnstablePearll(+6)",
+    "type": "Bracelet"
+  },
+  {
+    "index": 1590,
+    "name": "UnstablePearll(+6)3",
+    "friendlyName": "UnstablePearll(+6)",
+    "type": "Bracelet"
+  },
+  {
+    "index": 1591,
+    "name": "UnstablePearll(+6)4",
+    "friendlyName": "UnstablePearll(+6)",
+    "type": "Bracelet"
+  },
+  {
+    "index": 1592,
+    "name": "UnstablePearll(+6)5",
+    "friendlyName": "UnstablePearll(+6)",
+    "type": "Bracelet"
+  },
+  {
+    "index": 1593,
+    "name": "UnstablePearll(+3)",
+    "friendlyName": "UnstablePearll(+3)",
+    "type": "Bracelet"
+  },
+  {
+    "index": 1594,
+    "name": "UnstablePearll(+3)1",
+    "friendlyName": "UnstablePearll(+3)",
+    "type": "Bracelet"
+  },
+  {
+    "index": 1595,
+    "name": "UnstablePearll(+3)2",
+    "friendlyName": "UnstablePearll(+3)",
+    "type": "Bracelet"
+  },
+  {
+    "index": 1596,
+    "name": "UnstablePearll(+3)3",
+    "friendlyName": "UnstablePearll(+3)",
+    "type": "Bracelet"
+  },
+  {
+    "index": 1597,
+    "name": "UnstablePearll(+3)4",
+    "friendlyName": "UnstablePearll(+3)",
+    "type": "Bracelet"
+  },
+  {
+    "index": 1598,
+    "name": "UnstablePearll(+3)5",
+    "friendlyName": "UnstablePearll(+3)",
+    "type": "Bracelet"
+  },
+  {
+    "index": 1599,
+    "name": "TheFairyRing",
+    "friendlyName": "TheFairyRing",
+    "type": "Ring"
+  },
+  {
+    "index": 1600,
+    "name": "Gonryunyongdrama(聖)(F)",
+    "friendlyName": "Gonryunyongdrama(聖)(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 1601,
+    "name": "Gonryunyongdrama(聖)(F)1",
+    "friendlyName": "Gonryunyongdrama(聖)(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 1602,
+    "name": "Gonryunyongdrama(聖)(F)2",
+    "friendlyName": "Gonryunyongdrama(聖)(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 1603,
+    "name": "Gonryunyongdrama(聖)(F)3",
+    "friendlyName": "Gonryunyongdrama(聖)(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 1604,
+    "name": "Gonryunyongdrama(聖)(F)4",
+    "friendlyName": "Gonryunyongdrama(聖)(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 1605,
+    "name": "Gonryunyongdrama(聖)(F)5",
+    "friendlyName": "Gonryunyongdrama(聖)(F)",
+    "type": "Armour"
+  },
+  {
+    "index": 1606,
+    "name": "Gonryunyongdrama(聖)(M)",
+    "friendlyName": "Gonryunyongdrama(聖)(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 1607,
+    "name": "Gonryunyongdrama(聖)(M)1",
+    "friendlyName": "Gonryunyongdrama(聖)(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 1608,
+    "name": "Gonryunyongdrama(聖)(M)2",
+    "friendlyName": "Gonryunyongdrama(聖)(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 1609,
+    "name": "Gonryunyongdrama(聖)(M)3",
+    "friendlyName": "Gonryunyongdrama(聖)(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 1610,
+    "name": "Gonryunyongdrama(聖)(M)4",
+    "friendlyName": "Gonryunyongdrama(聖)(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 1611,
+    "name": "Gonryunyongdrama(聖)(M)5",
+    "friendlyName": "Gonryunyongdrama(聖)(M)",
+    "type": "Armour"
+  },
+  {
+    "index": 1612,
+    "name": "(慶)TheFairyRing",
+    "friendlyName": "(慶)TheFairyRing",
+    "type": "Ring"
+  },
+  {
+    "index": 1613,
+    "name": "HwayoungOkhwan",
+    "friendlyName": "HwayoungOkhwan",
+    "type": "Ring"
+  },
+  {
+    "index": 1614,
+    "name": "HwayoungOkhwan1",
+    "friendlyName": "HwayoungOkhwan",
+    "type": "Ring"
+  },
+  {
+    "index": 1615,
+    "name": "HwayoungOkhwan2",
+    "friendlyName": "HwayoungOkhwan",
+    "type": "Ring"
+  },
+  {
+    "index": 1616,
+    "name": "HwayoungOkhwan3",
+    "friendlyName": "HwayoungOkhwan",
+    "type": "Ring"
+  },
+  {
+    "index": 1617,
+    "name": "HwayoungOkhwan4",
+    "friendlyName": "HwayoungOkhwan",
+    "type": "Ring"
+  },
+  {
+    "index": 1618,
+    "name": "HwayoungOkhwan5",
+    "friendlyName": "HwayoungOkhwan",
+    "type": "Ring"
+  },
+  {
+    "index": 1619,
+    "name": "Nokyoungokhwan",
+    "friendlyName": "Nokyoungokhwan",
+    "type": "Ring"
+  },
+  {
+    "index": 1620,
+    "name": "Nokyoungokhwan1",
+    "friendlyName": "Nokyoungokhwan",
+    "type": "Ring"
+  },
+  {
+    "index": 1621,
+    "name": "Nokyoungokhwan2",
+    "friendlyName": "Nokyoungokhwan",
+    "type": "Ring"
+  },
+  {
+    "index": 1622,
+    "name": "Nokyoungokhwan3",
+    "friendlyName": "Nokyoungokhwan",
+    "type": "Ring"
+  },
+  {
+    "index": 1623,
+    "name": "Nokyoungokhwan4",
+    "friendlyName": "Nokyoungokhwan",
+    "type": "Ring"
+  },
+  {
+    "index": 1624,
+    "name": "Nokyoungokhwan5",
+    "friendlyName": "Nokyoungokhwan",
+    "type": "Ring"
+  },
+  {
+    "index": 1625,
+    "name": "PoisonDemonRing",
+    "friendlyName": "PoisonDemonRing",
+    "type": "Ring"
+  },
+  {
+    "index": 1626,
+    "name": "PoisonDemonRing1",
+    "friendlyName": "PoisonDemonRing",
+    "type": "Ring"
+  },
+  {
+    "index": 1627,
+    "name": "PoisonDemonRing2",
+    "friendlyName": "PoisonDemonRing",
+    "type": "Ring"
+  },
+  {
+    "index": 1628,
+    "name": "PoisonDemonRing3",
+    "friendlyName": "PoisonDemonRing",
+    "type": "Ring"
+  },
+  {
+    "index": 1629,
+    "name": "PoisonDemonRing4",
+    "friendlyName": "PoisonDemonRing",
+    "type": "Ring"
+  },
+  {
+    "index": 1630,
+    "name": "PoisonDemonRing5",
+    "friendlyName": "PoisonDemonRing",
+    "type": "Ring"
+  },
+  {
+    "index": 1631,
+    "name": "HeroRing",
+    "friendlyName": "HeroRing",
+    "type": "Ring"
+  },
+  {
+    "index": 1632,
+    "name": "SkyHeroRing",
+    "friendlyName": "SkyHeroRing",
+    "type": "Ring"
+  },
+  {
+    "index": 1633,
+    "name": "StoneMonster",
+    "friendlyName": "StoneMonster",
+    "type": "Bracelet"
+  },
+  {
+    "index": 1634,
+    "name": "StoneMonster1",
+    "friendlyName": "StoneMonster",
+    "type": "Bracelet"
+  },
+  {
+    "index": 1635,
+    "name": "StoneMonster2",
+    "friendlyName": "StoneMonster",
+    "type": "Bracelet"
+  },
+  {
+    "index": 1636,
+    "name": "StoneMonster3",
+    "friendlyName": "StoneMonster",
+    "type": "Bracelet"
+  },
+  {
+    "index": 1637,
+    "name": "StoneMonster4",
+    "friendlyName": "StoneMonster",
+    "type": "Bracelet"
+  },
+  {
+    "index": 1638,
+    "name": "StoneMonster5",
+    "friendlyName": "StoneMonster",
+    "type": "Bracelet"
+  }
+]

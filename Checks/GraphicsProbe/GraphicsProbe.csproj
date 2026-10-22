@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\..\Client\Client.csproj" />
+    <Compile Include="..\..\Client\MirGraphics\TextureResources.cs" Link="TextureResources.cs" />
+    <Reference Include="SlimDX"><HintPath>..\..\Components\SlimDX.dll</HintPath></Reference>
+  </ItemGroup>
+</Project>

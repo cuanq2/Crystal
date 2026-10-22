@@ -1,0 +1,1542 @@
+[
+  {
+    "index": 1,
+    "name": "Assistant\u0027s Request",
+    "group": "BichonProvince",
+    "file": "BichonProvince/BorderVillage/1",
+    "gotoMessage": "Deliver Leaves to CraftsLady",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 2,
+    "name": "The CraftLady\u0027s Request",
+    "group": "BichonProvince",
+    "file": "BichonProvince/BorderVillage/2",
+    "gotoMessage": "Deliver GingerTea to Assistant Jane",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 3,
+    "name": "Talk with the Butcher",
+    "group": "BichonProvince",
+    "file": "BichonProvince/BorderVillage/3",
+    "gotoMessage": "Speak to Butcher John at 293:603",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 4,
+    "name": "Hunt for the Butcher",
+    "group": "BichonProvince",
+    "file": "BichonProvince/BorderVillage/4",
+    "gotoMessage": "Return to Butcher John at 293:603",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 5,
+    "name": "The Smith\u0027s 1st Test",
+    "group": "BichonProvince",
+    "file": "BichonProvince/BorderVillage/5",
+    "gotoMessage": "Return to Blacksmith Smith at 297:612",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 6,
+    "name": "Smith\u0027s 2nd Test",
+    "group": "BichonProvince",
+    "file": "BichonProvince/BorderVillage/6",
+    "gotoMessage": "Return to Blacksmith Smith at 297:612",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 7,
+    "name": "Meet the Warrior Instructor",
+    "group": "BichonProvince",
+    "file": "BichonProvince/BorderVillage/7",
+    "gotoMessage": "Speak to Master_Wa at 110:317",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 8,
+    "name": "Test for the Fencing Skill",
+    "group": "BichonProvince",
+    "file": "BichonProvince/BorderVillage/8",
+    "gotoMessage": "Return to Master_Wa at 110:317",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 9,
+    "name": "To Bichon",
+    "group": "BichonProvince",
+    "file": "BichonProvince/BorderVillage/9",
+    "gotoMessage": "Speak to Peter in BichonWall at 328:258",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 10,
+    "name": "Meet the Mage Instructor",
+    "group": "BichonProvince",
+    "file": "BichonProvince/BorderVillage/10",
+    "gotoMessage": "Speak with the MasterMage at 314:474",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 11,
+    "name": "Test for the Fireball Skill",
+    "group": "BichonProvince",
+    "file": "BichonProvince/BorderVillage/11",
+    "gotoMessage": "Return to MasterMage at 314:474",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 12,
+    "name": "To Bichon",
+    "group": "BichonProvince",
+    "file": "BichonProvince/BorderVillage/12",
+    "gotoMessage": "Speak to Peter in BichonWall at 328:258",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 13,
+    "name": "Meet the Taoist Instructor",
+    "group": "BichonProvince",
+    "file": "BichonProvince/BorderVillage/13",
+    "gotoMessage": "Search for the HighPriest Last seen at 429:475 ",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 14,
+    "name": "Test for the Healing Skill",
+    "group": "BichonProvince",
+    "file": "BichonProvince/BorderVillage/14",
+    "gotoMessage": "Return to the HighPriest at 429:475",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 15,
+    "name": "To Bichon",
+    "group": "BichonProvince",
+    "file": "BichonProvince/BorderVillage/15",
+    "gotoMessage": "Speak to Peter in BichonWall at 328:258",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 16,
+    "name": "Meet the Assassin Instructor",
+    "group": "BichonProvince",
+    "file": "BichonProvince/BorderVillage/16",
+    "gotoMessage": "Speak with Assassin Cloud at 101:411",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 17,
+    "name": "Test for FatalSword Skill",
+    "group": "BichonProvince",
+    "file": "BichonProvince/BorderVillage/17",
+    "gotoMessage": "Return to Cloud at 101:411",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 18,
+    "name": "To Bichon",
+    "group": "BichonProvince",
+    "file": "BichonProvince/BorderVillage/18",
+    "gotoMessage": "Speak to Peter in BichonWall at 328:258",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 19,
+    "name": "Meet the Archer Instructor",
+    "group": "BichonProvince",
+    "file": "BichonProvince/BorderVillage/19",
+    "gotoMessage": "Speak with the Captain at 320:477",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 20,
+    "name": "Test for Focus Skill",
+    "group": "BichonProvince",
+    "file": "BichonProvince/BorderVillage/20",
+    "gotoMessage": "Return to the Captain at 320:477",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 21,
+    "name": "To Bichon",
+    "group": "BichonProvince",
+    "file": "BichonProvince/BorderVillage/21",
+    "gotoMessage": "Speak to Peter in BichonWall at 328:258",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 22,
+    "name": "Forest Yeti\u0027s Threat",
+    "group": "BichonProvince",
+    "file": "BichonProvince/BichonWall/1",
+    "gotoMessage": "Return to MirGuide Peter in BichonWall",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 23,
+    "name": "!Attack Oma",
+    "group": "BichonProvince",
+    "file": "BichonProvince/BichonWall/2",
+    "gotoMessage": "",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 24,
+    "name": "Help Blacksmith Jang",
+    "group": "BichonProvince",
+    "file": "BichonProvince/BichonWall/3",
+    "gotoMessage": "Speak to Blacksmith Jang in WoomyonWoods",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 25,
+    "name": "Hunt CannibalPlants",
+    "group": "WoomyonWoods",
+    "file": "WoomyonWoods/Wilderness/1",
+    "gotoMessage": "Return to MirGuide Peter in BichonWall",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 26,
+    "name": "Ingredients for the Antidote",
+    "group": "BichonProvince",
+    "file": "BichonProvince/BichonWall/4",
+    "gotoMessage": "Return to MirGuide Peter in BichonWall",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 27,
+    "name": "Errands",
+    "group": "BichonProvince",
+    "file": "BichonProvince/BichonWall/5",
+    "gotoMessage": "Speak with MongchonScout at the Tavern 290:293",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 28,
+    "name": "Find the Web",
+    "group": "BichonProvince",
+    "file": "BichonProvince/BichonWall/6",
+    "gotoMessage": "Return to Samuel at 324:291",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 29,
+    "name": "Deliver Repair Oil",
+    "group": "BichonProvince",
+    "file": "BichonProvince/BichonWall/7",
+    "gotoMessage": "Travel to SerpentValley and Deliver to Bradly at 517:492 ",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 30,
+    "name": "Lost Ring",
+    "group": "SerpentValley",
+    "file": "SerpentValley/Village/1",
+    "gotoMessage": "Return to Blacksmith Bradly in SerpentValley",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 31,
+    "name": "Deliver the Ring",
+    "group": "SerpentValley",
+    "file": "SerpentValley/Village/2",
+    "gotoMessage": "Deliver the JadeRing to Melissa in SerpentValley",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 32,
+    "name": "Messenger",
+    "group": "SerpentValley",
+    "file": "SerpentValley/Village/3",
+    "gotoMessage": "Deliver BluePill to Blacksmith Bradly",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 33,
+    "name": "Cure the Insomnia",
+    "group": "SerpentValley",
+    "file": "SerpentValley/Village/4",
+    "gotoMessage": "Return to Robert at 505:479",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 34,
+    "name": "Secret Recipe Delivery",
+    "group": "SerpentValley",
+    "file": "SerpentValley/Village/5",
+    "gotoMessage": "Deliver the Recipe to CraftsLady in BichonWall",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 35,
+    "name": "SerpentValley",
+    "group": "BichonProvince",
+    "file": "SerpentValley/Village/6",
+    "gotoMessage": "Travel to SerpentValley and Speak to the InnKeeper",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 36,
+    "name": "Ingredients for Snake Wine",
+    "group": "SerpentValley",
+    "file": "SerpentValley/Village/7",
+    "gotoMessage": "Return to InnKeeper at 517:466",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 37,
+    "name": "Wine Delivery",
+    "group": "SerpentValley",
+    "file": "SerpentValley/Village/8",
+    "gotoMessage": "Return to MongchonScout with the Wine.",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 38,
+    "name": "Find Ebony Fruit",
+    "group": "SerpentValley",
+    "file": "SerpentValley/Village/9",
+    "gotoMessage": "Return to InnKeeper at 517:466",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 39,
+    "name": "Greetings to the Old Man",
+    "group": "SerpentValley",
+    "file": "SerpentValley/Village/10",
+    "gotoMessage": "Travel to WoomyonWoods and Visit Melissas Grandfather",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 40,
+    "name": "Clean Up",
+    "group": "WoomyonWoods",
+    "file": "WoomyonWoods/Wilderness/2",
+    "gotoMessage": "Return back to MasterShok at 312:73",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 41,
+    "name": "Grandads Request",
+    "group": "WoomyonWoods",
+    "file": "WoomyonWoods/Wilderness/3",
+    "gotoMessage": "Travel to BichonWall and Speak with Sarah 313:271",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 42,
+    "name": "Way to Mongchon",
+    "group": "BichonProvince",
+    "file": "SerpentValley/Village/16",
+    "gotoMessage": "Return to Bruce in Mongchon\u0027s Blacksmith",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 43,
+    "name": "Help Needed",
+    "group": "BichonProvince",
+    "file": "SerpentValley/Village/11",
+    "gotoMessage": "Speak to Robert in SerpentValley",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 44,
+    "name": "Help Sandford",
+    "group": "SerpentValley",
+    "file": "SerpentValley/Village/12",
+    "gotoMessage": "Travel to PrajnaIsland Speak to Sandford. Boat leaves fom BorderVillage",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 45,
+    "name": "Red Snake\u0027s Teeth",
+    "group": "PrajnaIsland",
+    "file": "PrajnaIsland/PIVillage/1",
+    "gotoMessage": "Hunt RedSnakes and Return to Robert in SerpentValley",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 46,
+    "name": "Skeleton Bones",
+    "group": "BichonProvince",
+    "file": "BichonProvince/BichonWall/9",
+    "gotoMessage": "Return to MirGuide Peter in BichonWall",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 47,
+    "name": "Sister\u0027s Ring",
+    "group": "BichonProvince",
+    "file": "BichonProvince/BichonWall/10",
+    "gotoMessage": "Return to Diana in BichonWall 306:276",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 48,
+    "name": "Deliver Supplies to the Border",
+    "group": "BichonProvince",
+    "file": "BichonProvince/BorderVillage/22",
+    "gotoMessage": "Deliver the Relics to Ruben in BorderVillage",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 49,
+    "name": "Dangerous Skeleton",
+    "group": "BichonProvince",
+    "file": "BichonProvince/BichonWall/11",
+    "gotoMessage": "Return to Jason in BichonWall 296:220",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 50,
+    "name": "Cook Book Delivery",
+    "group": "BichonProvince",
+    "file": "WoomyonWoods/Castle-GI/Town/1",
+    "gotoMessage": "Deliver the CookBook to Jim in CastleGi-Ryoong ",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 51,
+    "name": "CraftLady\u0027s CanniTea",
+    "group": "BichonProvince",
+    "file": "BichonProvince/BichonWall/12",
+    "gotoMessage": "Speak with CraftsLady in BichWall ",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 52,
+    "name": "Ingredients for CanniTea",
+    "group": "BichonProvince",
+    "file": "BichonProvince/BichonWall/13",
+    "gotoMessage": "Return to the CraftsLady in BichonWall",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 53,
+    "name": "Deliver CanniTea",
+    "group": "BichonProvince",
+    "file": "BichonProvince/BichonWall/14",
+    "gotoMessage": "Deliver CanniTea to MirGuide",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 54,
+    "name": "Zombies in the Mines",
+    "group": "BichonProvince",
+    "file": "BichonProvince/BichonWall/15",
+    "gotoMessage": "Return to Blacksmith Bill in BichonWall",
+    "killMessage": "Kill Zombies in BichonDeadMines",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 55,
+    "name": "Restocking Supplies",
+    "group": "BichonProvince",
+    "file": "BichonProvince/BichonWall/16",
+    "gotoMessage": "Return to CraftsLady in BichonWall",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 56,
+    "name": "Bat Wings",
+    "group": "BichonProvince",
+    "file": "BichonProvince/BichonWall/17",
+    "gotoMessage": "Return to Butcher Sarah in BichonWall",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 57,
+    "name": "Collect Information",
+    "group": "BichonProvince",
+    "file": "BichonProvince/1",
+    "gotoMessage": "Take CaveReport to Kyle at the South East Gate.",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 58,
+    "name": "Danger in the Cave",
+    "group": "BichonProvince",
+    "file": "BichonProvince/BichonWall/18",
+    "gotoMessage": "Return BoneElites head to Kyle in BichonWall",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 59,
+    "name": "Rare Ore",
+    "group": "BichonProvince",
+    "file": "BichonProvince/BichonWall/19",
+    "gotoMessage": "Return to Blacksmith Bill in BichonWall",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 60,
+    "name": "Help the Farmers",
+    "group": "BichonProvince",
+    "file": "BichonProvince/BichonWall/20",
+    "gotoMessage": "Return to the Examiner in BichonWall",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 61,
+    "name": "Part Time Job",
+    "group": "BichonProvince",
+    "file": "WoomyonWoods/Castle-GI/Town/2",
+    "gotoMessage": "Travel to WoomyonWoods and speak to MasterShok",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 62,
+    "name": "Exterminate",
+    "group": "WoomyonWoods",
+    "file": "WoomyonWoods/Castle-GI/Town/3",
+    "gotoMessage": "Return to MasterShok in WoomyonWoods",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 63,
+    "name": "Finding a Friend\u0027s Remains",
+    "group": "BichonProvince",
+    "file": "BichonProvince/DeadMine/1",
+    "gotoMessage": "Find Vincents Friend in BichonDeadMines",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 64,
+    "name": "Return the Necklace",
+    "group": "BichonProvince",
+    "file": "BichonProvince/BichonWall/21",
+    "gotoMessage": "Return the Necklace to Blacksmith Vincent in BichonWall",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 65,
+    "name": "Revenge on Zombies",
+    "group": "BichonProvince",
+    "file": "BichonProvince/DeadMine/2",
+    "gotoMessage": "Return to Eddie in BichonWall at 298:317",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 66,
+    "name": "The Best Healthy Food",
+    "group": "WoomyonWoods",
+    "file": "WoomyonWoods/Wilderness/InsectCave/1",
+    "gotoMessage": "Return to MasterShok in WoomyonWoods",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 67,
+    "name": "Medicine Research",
+    "group": "WoomyonWoods",
+    "file": "WoomyonWoods/Wilderness/InsectCave/2",
+    "gotoMessage": "Return the Blood back to Helen in WoomyonWoods",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 68,
+    "name": "Finding a Lost Item",
+    "group": "WoomyonWoods",
+    "file": "WoomyonWoods/Wilderness/InsectCave/3",
+    "gotoMessage": "Return the Blood back to Helen in WoomyonWoods",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 69,
+    "name": "Find my Friend",
+    "group": "WoomyonWoods",
+    "file": "WoomyonWoods/Wilderness/InsectCave/4",
+    "gotoMessage": "Search for Helens friend Soho in InsectCave",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 70,
+    "name": "Poisoned Friend",
+    "group": "InsectCave",
+    "file": "WoomyonWoods/Wilderness/InsectCave/5",
+    "gotoMessage": "Find and return Soho Backpack",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 71,
+    "name": "Lost Item",
+    "group": "InsectCave",
+    "file": "WoomyonWoods/Wilderness/InsectCave/6",
+    "gotoMessage": "Return the Lost Items to Soho",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 72,
+    "name": "News from a Friend",
+    "group": "InsectCave",
+    "file": "WoomyonWoods/TaoistVillage/1 ",
+    "gotoMessage": "Return to Helen in WoomyonWoods",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 73,
+    "name": "Research Report",
+    "group": "WoomyonWoods",
+    "file": "SerpentValley/Village/13",
+    "gotoMessage": "Deliver MobBlood to Dr.Kim in SerpentValley",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 74,
+    "name": "Free the Souls from Zombies",
+    "group": "SerpentValley",
+    "file": "SerpentValley/Serpent Mines/1",
+    "gotoMessage": "Return to the VulnerableSon",
+    "killMessage": " At SerpentDeadMine Entrance.",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 75,
+    "name": "Wipe Out",
+    "group": "SerpentValley",
+    "file": "SerpentValley/Serpent Mines/2",
+    "gotoMessage": "Return to Chandler in SerpentValley",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 76,
+    "name": "Bloody Sword",
+    "group": "SerpentValley",
+    "file": "SerpentValley/Serpent Mines/3",
+    "gotoMessage": "Return to Blacksmith Bradly in SerpentValley",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 77,
+    "name": "Call from the Dead",
+    "group": "SerpentValley",
+    "file": "SerpentValley/Village/14",
+    "gotoMessage": "",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 78,
+    "name": "Hidden Box",
+    "group": "MongchonProvince",
+    "file": "SerpentValley/Serpent Mines/4",
+    "gotoMessage": "",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 79,
+    "name": "Darkness from the Mines",
+    "group": "SerpentValley",
+    "file": "SerpentValley/Serpent Mines/5",
+    "gotoMessage": "Search for the Darkness within the SerpentDeadMines",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 80,
+    "name": "Secret of the Skull",
+    "group": "SerpentDeadMine",
+    "file": "SerpentValley/Serpent Mines/6",
+    "gotoMessage": "Return the HiddenScroll to Dr.Kim",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 81,
+    "name": "Dark Shadow",
+    "group": "SerpentValley",
+    "file": "SerpentValley/Serpent Mines/7",
+    "gotoMessage": "Return to Dr.Kim in SerpentValley",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 82,
+    "name": "White Serpent",
+    "group": "SerpentValley",
+    "file": "SerpentValley/Serpent Mines/8",
+    "gotoMessage": "Return the Collector in SerpentValley",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 83,
+    "name": "Material for Clothing",
+    "group": "SerpentValley",
+    "file": "SerpentValley/Village/15",
+    "gotoMessage": "Travel to TaoVillage and speak to Sam at 206:319",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 84,
+    "name": "Missing Materials",
+    "group": "TaoVillage",
+    "file": "WoomyonWoods/TaoistVillage/Tao Village/2",
+    "gotoMessage": "Return to Sam in TaoVillage with the Materials",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 85,
+    "name": "Save the Cursed Souls",
+    "group": "TaoVillage",
+    "file": "WoomyonWoods/TaoistVillage/Tao Village/3",
+    "gotoMessage": "Return to MasterMK in TaoVillage",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 86,
+    "name": "Uniform Order Status",
+    "group": "TaoVillage",
+    "file": "WoomyonWoods/TaoistVillage/Tao Village/4",
+    "gotoMessage": "Travel to BichonWall Drapery Shop and speak with Ann",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 87,
+    "name": "Locate the Carriage",
+    "group": "BichonProvince",
+    "file": "WoomyonWoods/TaoistVillage/Tao Village/5",
+    "gotoMessage": "Search for the Missing Carriage on the way to TaoVillage",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 88,
+    "name": "Zombies Attack on Carriage",
+    "group": "TaoVillage",
+    "file": "WoomyonWoods/TaoistVillage/Tao Village/6",
+    "gotoMessage": "Return to LeadTrainer at 227:269 ",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 89,
+    "name": "Zombies Hunt",
+    "group": "TaoVillage",
+    "file": "WoomyonWoods/TaoistVillage/Tao Village/7",
+    "gotoMessage": "Return to LeadTrainer in TaoVillage 227:269",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 90,
+    "name": "Gathering Material",
+    "group": "TaoVillage",
+    "file": "WoomyonWoods/TaoistVillage/Tao Village/8",
+    "gotoMessage": "Return to Jerald to TaoVillage 234:301",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 91,
+    "name": "Help the Lumberer",
+    "group": "TaoVillage",
+    "file": "WoomyonWoods/TaoistVillage/Tao Village/9",
+    "gotoMessage": "Return the LumberAxe to Sigmund in TaoVillage 166:339",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 92,
+    "name": "Deep into the Woods",
+    "group": "TaoVillage",
+    "file": "WoomyonWoods/TaoistVillage/Tao Village/10",
+    "gotoMessage": "Return to Jerry in TaoVillage",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 93,
+    "name": "Runaway Student",
+    "group": "TaoVillage",
+    "file": "WoomyonWoods/TaoistVillage/Tao Village/11",
+    "gotoMessage": "Search for the missing Student in TreePath",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 94,
+    "name": "Bad News",
+    "group": "TaoVillage",
+    "file": "WoomyonWoods/TaoistVillage/Tao Village/12",
+    "gotoMessage": "Return the TraineeRing to Hubert in TaoVillage 194:297",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 95,
+    "name": "Letters to Parents",
+    "group": "TaoVillage",
+    "file": "WoomyonWoods/TaoistVillage/Tao Village/13",
+    "gotoMessage": "Deliver SkysLetter to Sir.Mogu in BichonWall Tavern",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 96,
+    "name": "Cooking Beef Rib Stew",
+    "group": "BichonProvince",
+    "file": "BichonProvince/BichonWall/22",
+    "gotoMessage": "Deliver BeefRib to Butcher Han in WoomyonWoods",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 97,
+    "name": "Danger (WoomyonWoods)",
+    "group": "WoomyonWoods",
+    "file": "WoomyonWoods/Castle-GI/Town/4",
+    "gotoMessage": "Travel to WoomyonWoods and Warn SubjugationLead.",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 98,
+    "name": "Monster Hunt in Wooma",
+    "group": "WoomyonWoods",
+    "file": "WoomyonWoods/Castle-GI/Town/5",
+    "gotoMessage": "Return to SubjugationLead in WoomyonWoods",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 99,
+    "name": "Boss Mob Hunt",
+    "group": "WoomyonWoods",
+    "file": "WoomyonWoods/Castle-GI/Town/6",
+    "gotoMessage": "Return to SubjugationLead in WoomyonWoods",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 100,
+    "name": "Deadly Attack",
+    "group": "WoomyonWoods",
+    "file": "WoomyonWoods/Castle-GI/Town/7",
+    "gotoMessage": "Return to SubjagationManager in BichonWall with an update.",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 101,
+    "name": "Boss Mob of Woomyon",
+    "group": "WoomyonWoods",
+    "file": "WoomyonWoods/Castle-GI/Town/8",
+    "gotoMessage": "Return to MasterShok 312:73",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 102,
+    "name": "Trip to Mongchon",
+    "group": "BichonProvince",
+    "file": "BichonProvince/BichonWall/23",
+    "gotoMessage": "Travel to MongchonWall via SerpentValley and Speak with Edwin",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 103,
+    "name": "Abnormal Creatures",
+    "group": "MongchonProvince",
+    "file": "MongchonProvince/Bug Cave/1",
+    "gotoMessage": "Return to Daniel in MongchonWall",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 104,
+    "name": "Lost Sword",
+    "group": "MongchonProvince",
+    "file": "MongchonProvince/Bug Cave/2",
+    "gotoMessage": "Return to Charleys lost sword.",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 105,
+    "name": "Lost Soul",
+    "group": "DeathValley",
+    "file": "MongchonProvince/Bug Cave/3",
+    "gotoMessage": "",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 106,
+    "name": "Lost Soul\u0027s Remains",
+    "group": "DeathValley",
+    "file": "MongchonProvince/Bug Cave/4",
+    "gotoMessage": "Return to the LostSoul on S_1FofDungeon 202:204",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 107,
+    "name": "Last Words",
+    "group": "DeathValley",
+    "file": "MongchonProvince/Bug Cave/5",
+    "gotoMessage": "Return Necklace to Rachel in MongchonWall",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 108,
+    "name": "Antique Book",
+    "group": "MongchonProvince",
+    "file": "MongchonProvince/SabukWall/1",
+    "gotoMessage": "Return the Book back to Collector in MongchonWall",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 109,
+    "name": "Find More Antique Books",
+    "group": "MongchonProvince",
+    "file": "MongchonProvince/SabukWall/2",
+    "gotoMessage": "Return the Books back to Collector in MongchonWall",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 110,
+    "name": "Meet with Mr.Wang",
+    "group": "MongchonProvince",
+    "file": "MongchonProvince/SabukWall/3",
+    "gotoMessage": "Travel East to SabukWall and Speak with Mr.Wang",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 111,
+    "name": "Secret Path",
+    "group": "MongchonProvince",
+    "file": "MongchonProvince/SabukWall/4",
+    "gotoMessage": "Return to Mr.Wang once found all the pillars",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 112,
+    "name": "Saftey of Secret Path",
+    "group": "MongchonProvince",
+    "file": "MongchonProvince/SabukWall/5",
+    "gotoMessage": "",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 113,
+    "name": "Insomnia",
+    "group": "MongchonProvince",
+    "file": "MongchonProvince/StoneTomb/1",
+    "gotoMessage": "Return to Jessica in MongchonWall",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 114,
+    "name": "Threats to Mongchon",
+    "group": "MongchonProvince",
+    "file": "MongchonProvince/StoneTomb/2",
+    "gotoMessage": "Return to MongchonDelegate in MongchonWall",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 115,
+    "name": "Eliminate WhiteBoar",
+    "group": "MongchonProvince",
+    "file": "MongchonProvince/StoneTomb/3",
+    "gotoMessage": "Return to MongchonDelegate in MongchonWall",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 116,
+    "name": "Report to the Manager",
+    "group": "MongchonProvince",
+    "file": "MongchonProvince/MudWall/1",
+    "gotoMessage": "Speak to SubjugationManager in BichonWall",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 117,
+    "name": "Check Supply Path",
+    "group": "BichonProvince",
+    "file": "BichonProvince/BichonWall/24",
+    "gotoMessage": "Speak with CaveGuide.",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 118,
+    "name": "Zombies in MineralMine",
+    "group": "TaoVillage",
+    "file": "WoomyonWoods/TaoistVillage/WW Mines/1",
+    "gotoMessage": "Return to CaveGuide in TaoVillage once the threat has been reduced.",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 119,
+    "name": "Message to BichonExaminer",
+    "group": "TaoVillage",
+    "file": "WoomyonWoods/TaoistVillage/Tao Village/14",
+    "gotoMessage": "Travel to BichonWall and talk to BichonExaminer 341:258",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 120,
+    "name": "CorpsFlower",
+    "group": "BichonProvince",
+    "file": "BichonProvince/BichonWall/25",
+    "gotoMessage": "Return to Samuel in BichonWall after you retrieve all CorpsFlowers",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 121,
+    "name": "Save Prajna",
+    "group": "PrajnaIsland",
+    "file": "PrajnaIsland\\PIVillage/2",
+    "gotoMessage": "Return to the Inspector in PrajnaIsland",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 122,
+    "name": "Skeleton Hunt 1",
+    "group": "PrajnaIsland",
+    "file": "PrajnaIsland/PranjaStoneCave/1",
+    "gotoMessage": "Return to MirGuide Edward in PrajnaIsland",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 123,
+    "name": "Skeleton Hunt 2",
+    "group": "PrajnaIsland",
+    "file": "PrajnaIsland/PranjaStoneCave/2",
+    "gotoMessage": "Return to MirGuide Edward in PrajnaIsland",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 124,
+    "name": "Skull Collector",
+    "group": "PrajnaIsland",
+    "file": "PrajnaIsland/PranjaStoneCave/3",
+    "gotoMessage": "Return to the Collector once retrieved all the Skulls",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 125,
+    "name": "Visit the VillageChief",
+    "group": "PrajnaIsland",
+    "file": "PrajnaIsland/PIVillage/3",
+    "gotoMessage": "Travel up the Stairs and speak with the VillageChief",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 126,
+    "name": "The VillageChief\u0027s Request",
+    "group": "PrajnaIsland",
+    "file": "PrajnaIsland/PIVillage/4",
+    "gotoMessage": "Travel to TaoVillage and speak with the LeadTrainer",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 127,
+    "name": "Stolen Book",
+    "group": "TaoVillage",
+    "file": "WoomyonWoods/TaoistVillage/Tao Village/15",
+    "gotoMessage": "Return to LeadTrainer in TaoVillage",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 128,
+    "name": "Returning a Book",
+    "group": "TaoVillage",
+    "file": "WoomyonWoods/TaoistVillage/Tao Village/16",
+    "gotoMessage": "Return the Book to VillageChief in PrajnaIsland",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 129,
+    "name": "New Poison",
+    "group": "TaoVillage",
+    "file": "WoomyonWoods/TaoistVillage/TreePath/1",
+    "gotoMessage": "Return to Janey in TaoVillage 179:296",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 130,
+    "name": "Wanted!",
+    "group": "TaoVillage",
+    "file": "WoomyonWoods/TaoistVillage/TreePath/2",
+    "gotoMessage": "Return to the Investigator in TaoVillage",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 131,
+    "name": "Ancient Mobs",
+    "group": "PrajnaIsland",
+    "file": "PrajnaIsland/PranjaTemple/1",
+    "gotoMessage": "Return to the Inspector in PrajnaIsland",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 132,
+    "name": "Mobs from Prajna",
+    "group": "PrajnaIsland",
+    "file": "PrajnaIsland/PranjaTemple/2",
+    "gotoMessage": "Return to the VillageChief in PrajnaIsland",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 133,
+    "name": "Guards from Prajna",
+    "group": "PrajnaIsland",
+    "file": "PrajnaIsland/PranjaTemple/3",
+    "gotoMessage": "Return to the VillageChief in PrajnaIsland",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 134,
+    "name": "Ingredient from Prajna",
+    "group": "PrajnaIsland",
+    "file": "PrajnaIsland/PIVillage/5",
+    "gotoMessage": "Deliver the Algae to MongchonWall CraftsLady",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 135,
+    "name": "Find Passage to Ruins",
+    "group": "MongchonProvince",
+    "file": "MongchonProvince/StoneTomb/4",
+    "gotoMessage": "Return to MongchonDelegate in MongchonWall",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 136,
+    "name": "Shipping Relics",
+    "group": "MongchonProvince",
+    "file": "MongchonProvince/StoneTomb/5",
+    "gotoMessage": "Return to the Collector in MongchonWall",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 137,
+    "name": "Rare Medicine",
+    "group": "MongchonProvince",
+    "file": "MongchonProvince/StoneTomb/6",
+    "gotoMessage": "Return to Kevin in MongchonWall at 346:334",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 138,
+    "name": "Force Recruit",
+    "group": "WasteLands",
+    "file": "WasteLand/Red Cave/1",
+    "gotoMessage": "Return to the Excavenger in WasteLand 265:238",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 139,
+    "name": "Dangerous as ever",
+    "group": "WasteLands",
+    "file": "WasteLand/Red Cave/2",
+    "gotoMessage": "Return to the Excavenger in WasteLand 265:238",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 140,
+    "name": "Chestnut Request",
+    "group": "BichonProvince",
+    "file": "BichonProvince/BichonWall/Board/1",
+    "gotoMessage": "Return to BichonWall Board.",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 141,
+    "name": "Gathering of Bones",
+    "group": "BichonProvince",
+    "file": "BichonProvince/BichonWall/Board/2",
+    "gotoMessage": "Return to BichonWall Board.",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 142,
+    "name": "Boar Tooth",
+    "group": "MongchonProvince",
+    "file": "MongchonProvince/MudWall/Board/1",
+    "gotoMessage": "Return to MudWall Board.",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 143,
+    "name": "Holy Sword Quest",
+    "group": "HolySword Quest",
+    "file": "HolySword/1",
+    "gotoMessage": "Return to the Apprentice",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 144,
+    "name": "Holy Sword Quest",
+    "group": "HolySword Quest",
+    "file": "HolySword/2",
+    "gotoMessage": "Return to Perry in TaoVillage",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 145,
+    "name": "Holy Sword Quest",
+    "group": "HolySword Quest",
+    "file": "HolySword/3",
+    "gotoMessage": "",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 146,
+    "name": "Holy Sword Quest",
+    "group": "HolySword Quest",
+    "file": "HolySword/4",
+    "gotoMessage": "Return to Big Taoist",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 147,
+    "name": "Holy Sword Quest",
+    "group": "HolySword Quest",
+    "file": "HolySword/5",
+    "gotoMessage": "Return to Big Taoist",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 148,
+    "name": "Holy Sword Quest",
+    "group": "HolySword Quest",
+    "file": "HolySword/6",
+    "gotoMessage": "Return to Big Taoist  for further information.",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 149,
+    "name": "Holy Sword Quest",
+    "group": "HolySword Quest",
+    "file": "HolySword/7",
+    "gotoMessage": "Return to Big Taoist",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 150,
+    "name": "Holy Sword Quest",
+    "group": "HolySword Quest",
+    "file": "HolySword/8",
+    "gotoMessage": "Return to Big Taoist",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 151,
+    "name": "Holy Sword Quest",
+    "group": "HolySword Quest",
+    "file": "HolySword/9",
+    "gotoMessage": "Return to Big Taoist",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 152,
+    "name": "AncientOmaCavern",
+    "group": "OmaCavern",
+    "file": "BichonProvince/OmaCavern/1",
+    "gotoMessage": "",
+    "killMessage": "",
+    "itemMessage": "Search for the Ancient Scyther.",
+    "flagMessage": ""
+  },
+  {
+    "index": 153,
+    "name": "AncientOmaCavern",
+    "group": "OmaCavern",
+    "file": "BichonProvince/OmaCavern/2",
+    "gotoMessage": "Return to the stone.",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": ""
+  },
+  {
+    "index": 154,
+    "name": "Emperors Problem",
+    "group": "BichonProvince",
+    "file": "999",
+    "gotoMessage": "",
+    "killMessage": "",
+    "itemMessage": "",
+    "flagMessage": "Increase the Emperors Morale."
+  }
+]

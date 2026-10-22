@@ -1,0 +1,19 @@
+<Project>
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <PlatformTarget>x64</PlatformTarget>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <NativeDependenciesDir Condition="'$(NativeDependenciesDir)' == ''">$(MSBuildThisFileDirectory)..\Build\Client\Release</NativeDependenciesDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)..\Client\Localization\*.json" Link="Localization\%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="$(MSBuildThisFileDirectory)Fixtures\*.json" Link="Fixtures\%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="$(MSBuildThisFileDirectory)..\Tools\Localization\Data\ItemNames.zh-CN.json" Link="Fixtures\ItemNames.zh-CN.json" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="$(NativeDependenciesDir)\msvcr100.dll" Link="msvcr100.dll" CopyToOutputDirectory="PreserveNewest" Condition="Exists('$(NativeDependenciesDir)\msvcr100.dll')" />
+    <None Include="$(NativeDependenciesDir)\msvcp100.dll" Link="msvcp100.dll" CopyToOutputDirectory="PreserveNewest" Condition="Exists('$(NativeDependenciesDir)\msvcp100.dll')" />
+    <None Include="$(NativeDependenciesDir)\d3dx9_43.dll" Link="d3dx9_43.dll" CopyToOutputDirectory="PreserveNewest" Condition="Exists('$(NativeDependenciesDir)\d3dx9_43.dll')" />
+    <None Include="$(NativeDependenciesDir)\D3DCompiler_43.dll" Link="D3DCompiler_43.dll" CopyToOutputDirectory="PreserveNewest" Condition="Exists('$(NativeDependenciesDir)\D3DCompiler_43.dll')" />
+  </ItemGroup>
+</Project>

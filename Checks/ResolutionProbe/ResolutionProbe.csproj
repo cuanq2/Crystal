@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <Compile Include="..\..\Client\Resolution\DisplayResolutions.cs" Link="DisplayResolutions.cs" />
+    <Compile Include="..\..\Client\Resolution\eSupportedResolution.cs" Link="eSupportedResolution.cs" />
+  </ItemGroup>
+</Project>
